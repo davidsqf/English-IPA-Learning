@@ -1,3 +1,26 @@
+# v1.2 word playback, comparisons and QR verification
+
+Date: 2026-10-18, Asia/Singapore. Branch: `work/word-audio-flat-comparisons`. Earlier reports below describe earlier releases and are preserved as historical evidence.
+
+## Current checks
+
+- `npm test`: 13 tests pass, including seven new word-speech tests for explicit British voice selection, preference for local voices, asynchronous voice discovery, late callback cancellation, absent British voices, absent speech API, navigation, errors/retry and load timeout. Normal completion must not call `cancel()`: doing so caused WebKit to emit a spurious canceled error after the end event; the implementation and regression check address that actual finding. Existing corpus, recording integrity and comparison checks still pass.
+- `npm run build`: all 37 unchanged bundled human MP3 files pass integrity and complete primary-symbol coverage, all example recording mappings are validated, and TypeScript/Vite pass. The additional word readings use the device/browser speech API, not newly distributed audio or an external app dependency.
+- Both **WebKit 26.6 / iPhone 15 profile** and **installed Chrome / Pixel 7 profile** inspect all **264 speaker controls**. All 70 recorded occurrences reference the matching actual transcript. All 194 other occurrences dispatch exactly the example word, never IPA, with an available `en-GB` voice and rate 1. These complete dispatch-mapping checks instrument the speech call; they are separate from the following native playback checks.
+- Both engines produce native speech **start and end events** for **cake, rain and name**, using host macOS's local Daniel (`en-GB`) voice, without speech errors. Recorded primary playback and the three-word comparison also complete. Real playback can interrupt speech and vice versa without overlap. Navigation cancels playback; a simulated US-only voice list produces the intended missing-British-voice message and clears the active control, and restoring a British voice allows retry. No uncaught page errors are reported.
+- All **11 recommended choices remain directly visible as buttons**. Each selects its correct two/three panels and one pressed choice. Native custom selectors still produce two distinct-symbol panels.
+- Comparison surfaces and the QR disclosure pass **320, 390, 412, 768 and 1440 CSS-pixel widths in both themes in both engines** (20 layout combinations overall). No horizontal overflow, hidden preset buttons, clipped QR panels or undersized word controls; speaker buttons are at least 44×44. Phone and desktop screenshots were inspected. The QR disclosure is keyboard-operable.
+- A computed text-contrast check of all three views in light/dark mode passes its applicable thresholds in Chrome; screenshots were also inspected. This is not a complete accessibility audit.
+- `public/website-qr.png` (328px, four-module quiet zone, M correction) and both engines’ rendered QR screenshots independently decode with **ZXing-C++ 3.1.1** to exactly `https://davidsqf.github.io/English-IPA-Learning/`. The SVG is shown with a white background even in dark mode and a PNG download is available.
+
+Browser QA scripts, logs, source-acquisition experiments and screenshots remain ignored in `.local/` and `output/playwright/`. Tests use actual engines on macOS with emulated phone viewports/touch input; **physical phones and their installed voices have not been tested**. Voice availability, synthesis quality and some pronunciations vary by device/browser. No independent expert phonetics review is claimed. All 44 primary human reference recordings remain available regardless of device voice installation.
+
+## Publication
+
+Local verification completed; deployment and live-host verification are recorded after publishing this task commit.
+
+---
+
 # v1.1 enhancement verification
 
 Date: 2026-10-18. Branch: `work/comparisons-six-examples`. The earlier release report is preserved below as historical evidence; its 0.8× speed checks describe the previous version, not the current product.

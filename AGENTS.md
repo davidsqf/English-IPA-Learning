@@ -29,7 +29,8 @@ Inspect the actual repository root, current branch, working-tree status, and rec
 - Preserve research seeds as historical drafts. The owner accepted the runtime corpus for release; source checks and technical playback tests must not be described as independent human phonetics review.
 - Bundle only assets with documented reuse permission and recorded quality checks. The owner accepted the first release and explicitly authorized GitHub publication; preserve actual review facts without claiming independent expert review. A playable URL is not a reuse licence. Record per-file attribution and modifications in `THIRD_PARTY.md` and the audio manifest before distribution.
 - Author original explanations, short example sentences, and diagrams. Link to publisher references; do not bulk-copy dictionary entries or audio. Do not scrape competitor datasets as a shortcut.
-- Use real Unicode IPA, accessible controls, no autoplay, and a single active audio player. Never use spelling-to-speech for isolated IPA symbols as the authoritative model.
+- Use real Unicode IPA, accessible controls, no autoplay, and one active playback controller for recordings and word speech. Every example word has its own voice button. Preserve bundled human recordings as the symbol/comparison reference; other ordinary words may use clearly identified device speech with an explicitly available `en-GB` voice. Never silently substitute another accent or use spelling-to-speech for isolated IPA symbols as the authoritative model. Handle missing/failed device voices with a truthful message and the existing dictionary link.
+- Show all eleven recommended comparison choices as wrapping buttons at every screen width; do not replace them with a dropdown. Keep the custom two-symbol native selectors. The website QR must encode the exact public URL and retain its white quiet zone in both themes.
 
 ## Implementation and completion
 

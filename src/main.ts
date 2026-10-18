@@ -30,8 +30,14 @@ function listen(symbol: SymbolEntry, id: string) {
   const recording = samples.get(symbol.sampleId);
   return recording ? `<button class="listen" id="${id}" data-play="${recording.id}" aria-pressed="false">${soundIcon}<span>听${recording.type === 'phrase' ? '短语' : '例词'} · <span lang="en">${esc(recording.transcript)}</span></span></button>` : '';
 }
+function wordVoice(sampleId: string | null, word: string, index: number) {
+  const recording = sampleId ? samples.get(sampleId) : undefined;
+  const label = recording ? (recording.type === 'phrase' ? `播放短语 ${recording.transcript}，包含 ${word}` : `播放 ${word} 的英式录音`) : `播放 ${word} 的英式合成语音`;
+  const action = recording ? `data-play="${recording.id}"` : `data-speech="${esc(word)}"`;
+  return `<button class="listen word-voice" id="word-play-${index}" ${action} aria-label="${esc(label)}" title="${esc(label)}" aria-pressed="false">${soundIcon}</button>`;
+}
 function shell(content: string) {
-  return `<div class="layout"><aside class="sidebar"><a class="brand" href="#symbols" aria-label="IPA 入门首页"><span class="brand-mark">ɪ</span><span>IPA<span class="brand-sub">音标入门</span></span></a><nav aria-label="主导航">${([['symbols', '音标探索', '01'], ['compare', '相似音对比', '02']] as const).map(([id, label, num]) => `<button class="nav-link ${page === id ? 'active' : ''}" data-nav="${id}" ${page === id ? 'aria-current="page"' : ''}><span class="nav-num">${num}</span>${label}${page === id ? '<span class="nav-dot"></span>' : ''}</button>`).join('')}</nav><div class="sidebar-bottom"><button class="source-link" data-nav="sources">来源与说明 ↗</button></div></aside><div class="workspace"><header class="topbar"><span>英语发音 <span class="breadcrumb">/</span> ${page === 'symbols' ? '音标探索' : page === 'compare' ? '相似音对比' : '来源与说明'}</span><div class="topbar-actions"><span class="accent-tag"><span></span>英式参考发音</span><button id="theme-toggle" class="theme-toggle" data-theme-toggle aria-label="切换深色模式" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 14a8 8 0 0 1-10-10A8 8 0 1 0 20 14Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></button></div></header><main id="main" tabindex="-1">${content}</main><footer class="footer"><span>IPA 音标入门</span><button data-nav="sources">录音来源 ↗</button></footer></div></div><div class="audio-status" id="audio-status" role="status" aria-live="polite"></div>`;
+  return `<div class="layout"><aside class="sidebar"><a class="brand" href="#symbols" aria-label="IPA 入门首页"><span class="brand-mark">ɪ</span><span>IPA<span class="brand-sub">音标入门</span></span></a><nav aria-label="主导航">${([['symbols', '音标探索', '01'], ['compare', '相似音对比', '02']] as const).map(([id, label, num]) => `<button class="nav-link ${page === id ? 'active' : ''}" data-nav="${id}" ${page === id ? 'aria-current="page"' : ''}><span class="nav-num">${num}</span>${label}${page === id ? '<span class="nav-dot"></span>' : ''}</button>`).join('')}</nav><div class="sidebar-bottom"><button class="source-link" data-nav="sources">来源与说明 ↗</button></div></aside><div class="workspace"><header class="topbar"><span>英语发音 <span class="breadcrumb">/</span> ${page === 'symbols' ? '音标探索' : page === 'compare' ? '相似音对比' : '来源与说明'}</span><div class="topbar-actions"><span class="accent-tag"><span></span>英式参考发音</span><button id="theme-toggle" class="theme-toggle" data-theme-toggle aria-label="切换深色模式" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 14a8 8 0 0 1-10-10A8 8 0 1 0 20 14Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></button></div></header><main id="main" tabindex="-1">${content}</main><footer class="footer"><span>IPA 音标入门</span><div class="footer-actions"><details class="website-qr"><summary>手机打开</summary><div class="qr-panel"><img src="${import.meta.env.BASE_URL}website-qr.svg" width="205" height="205" alt="网站二维码：IPA 音标入门" /><a href="https://davidsqf.github.io/English-IPA-Learning/">打开网站 ↗</a><a href="${import.meta.env.BASE_URL}website-qr.png" download="IPA-website-QR.png">保存二维码 ↓</a></div></details><button data-nav="sources">录音来源 ↗</button></div></footer></div></div><div class="audio-status" id="audio-status" role="status" aria-live="polite"></div>`;
 }
 function explorer() {
   const symbol = getSymbol(selected);
@@ -40,8 +46,8 @@ function explorer() {
     <section class="selected-sound" aria-label="当前音标">
       <div class="selected-symbol"><span class="tiny-label">${groups.find(g => g.id === symbol.group)?.label}</span><div class="big-ipa" lang="en">/${symbol.ipa}/</div></div>
       <div class="selected-description"><p class="articulation">${esc(symbol.cue)}</p>
-        <div class="examples-heading"><h2>例词</h2>${listen(symbol, 'selected-play')}</div>
-        <ul class="example-words" aria-label="六个例词">${symbol.examples.map(example => `<li class="example-word"><div><a href="${esc(example.referenceUrl)}" target="_blank" rel="noreferrer"><span lang="en">${esc(example.word)}</span> <span aria-hidden="true">↗</span><span class="sr-only">词典发音（新窗口）</span></a><span class="example-gloss">${esc(example.gloss)}</span></div><span class="word-ipa" lang="en">/${markedIpa(example.ipa, symbol.ipa)}/</span></li>`).join('')}</ul>
+        <div class="examples-heading"><h2>例词</h2></div>
+        <ul class="example-words" aria-label="六个例词">${symbol.examples.map((example, index) => `<li class="example-word"><div class="example-content"><a href="${esc(example.referenceUrl)}" target="_blank" rel="noreferrer"><span lang="en">${esc(example.word)}</span> <span aria-hidden="true">↗</span><span class="sr-only">词典发音（新窗口）</span></a><span class="example-gloss">${esc(example.gloss)}</span><span class="word-ipa" lang="en">/${markedIpa(example.ipa, symbol.ipa)}/</span></div>${wordVoice(example.sampleId, example.word, index)}</li>`).join('')}</ul>
         ${sourceLinks(symbol.cueSourceIds)}
       </div>
     </section>
@@ -62,14 +68,14 @@ function comparison() {
   const ids = comparisonMode === 'custom' ? chosen.flatMap(s => s.cueSourceIds) : current.cueSourceIds;
   return `<h1 id="view-title" class="compact-title" tabindex="-1">相似音对比</h1>
     <div class="comparison-modes" aria-label="对比方式"><button id="mode-preset" data-mode="preset" aria-pressed="${comparisonMode === 'preset'}">推荐组合</button><button id="mode-custom" data-mode="custom" aria-pressed="${comparisonMode === 'custom'}">自选两个音标</button></div>
-    ${comparisonMode === 'preset' ? `<label class="preset-select">选择组合<select id="comparison-select">${comparisons.map(c => `<option value="${c.id}" ${preset === c.id ? 'selected' : ''}>${c.symbolIds.map(id => `/${getSymbol(id).ipa}/`).join(' ↔ ')}</option>`).join('')}</select></label>` : `<div class="custom-selectors">${customSelect(0)}${customSelect(1)}</div>`}
+    ${comparisonMode === 'preset' ? `<div class="comparison-presets" role="group" aria-label="推荐组合">${comparisons.map(c => `<button id="preset-${c.id}" data-preset="${c.id}" aria-pressed="${preset === c.id}">${c.symbolIds.map(id => `<span lang="en">/${getSymbol(id).ipa}/</span>`).join('<span class="comparison-arrow" aria-hidden="true">↔</span>')}</button>`).join('')}</div>` : `<div class="custom-selectors">${customSelect(0)}${customSelect(1)}</div>`}
     <div class="comparison-toolbar"><button class="primary" id="play-comparison" aria-pressed="false">${soundIcon}依次播放${chosen.length === 3 ? '三个' : '两个'}例词</button></div>
     <div class="sound-pair ${chosen.length === 3 ? 'triple' : ''}" data-comparison-size="${chosen.length}">${chosen.map(soundPanel).join('')}</div>
     ${comparisonMode === 'preset' ? `<div class="tip"><h2>${esc(current.title)}</h2><p>${esc(current.cue)}</p></div>` : ''}
     ${sourceLinks(ids)}`;
 }
 function sources() {
-  return `<h1 id="view-title" class="compact-title" tabindex="-1">来源与说明</h1><section class="prose"><h2>发音提示</h2><p>中文提示依据下列资料整理，采用英式学习词典注音；口音及词典写法可能有变体。每个音标下可查看对应依据。</p><ul>${Object.values(pronunciationSources).map(source => `<li><a href="${esc(source.url)}" target="_blank" rel="noreferrer">${esc(source.title)} ↗</a></li>`).join('')}</ul><h2>例词与录音</h2><p>每个音标有六个例词，点击词语可查词典发音。页面播放按钮使用已收录的真人词语或短语录音，均按原速播放。蓝色标出目标音。</p><details><summary>录音来源与署名（${audio.assets.length} 项）</summary><ul>${audio.assets.map(a => `<li><a href="${esc(a.sourcePageUrl)}" target="_blank" rel="noreferrer"><span lang="en">${esc(a.transcript)}</span> ↗</a> · ${esc(a.creator)} · <a href="${esc(a.licenseUrl)}" target="_blank" rel="noreferrer">${esc(a.licenseId)}</a></li>`).join('')}</ul><p>保留原 MP3，或由 Ogg 转为 MP3；未裁剪、合成或调整音高。录音作者不为本站背书。</p></details></section>`;
+  return `<h1 id="view-title" class="compact-title" tabindex="-1">来源与说明</h1><section class="prose"><h2>发音提示</h2><p>中文提示依据下列资料整理，采用英式学习词典注音；口音及词典写法可能有变体。每个音标下可查看对应依据。</p><ul>${Object.values(pronunciationSources).map(source => `<li><a href="${esc(source.url)}" target="_blank" rel="noreferrer">${esc(source.title)} ↗</a></li>`).join('')}</ul><h2>例词与录音</h2><p>每个例词旁均可播放发音。主示例使用真人录音；其余词语使用设备的英式合成语音，音色取决于设备。合成语音是词语朗读参考，可能与传统词典注音有变体；设备需提供英语（英国）语音，部分语音可能需联网。点击词语可听词典发音。</p><details><summary>录音来源与署名（${audio.assets.length} 项）</summary><ul>${audio.assets.map(a => `<li><a href="${esc(a.sourcePageUrl)}" target="_blank" rel="noreferrer"><span lang="en">${esc(a.transcript)}</span> ↗</a> · ${esc(a.creator)} · <a href="${esc(a.licenseUrl)}" target="_blank" rel="noreferrer">${esc(a.licenseId)}</a></li>`).join('')}</ul><p>保留原 MP3，或由 Ogg 转为 MP3；未裁剪、合成或调整音高。录音作者不为本站背书。</p></details></section>`;
 }
 function render(focus = false) {
   const focused = (document.activeElement as HTMLElement)?.id;
@@ -92,6 +98,7 @@ function bind() {
   app.querySelector('.brand')?.addEventListener('click', event => { event.preventDefault(); page = 'symbols'; render(true); });
   app.querySelectorAll<HTMLButtonElement>('[data-nav]').forEach(button => button.onclick = () => { page = button.dataset.nav as typeof page; render(true); });
   app.querySelectorAll<HTMLButtonElement>('[data-play]').forEach(button => button.onclick = () => { void player.play(button.dataset.play!, button); });
+  app.querySelectorAll<HTMLButtonElement>('[data-speech]').forEach(button => button.onclick = () => { player.speakWord(button.dataset.speech!, button); });
   app.querySelectorAll<HTMLButtonElement>('[data-filter]').forEach(button => button.onclick = () => { filter = button.dataset.filter!; render(); });
   const search = app.querySelector<HTMLInputElement>('#search');
   let composing = false;
@@ -107,7 +114,7 @@ function bind() {
   });
   app.querySelectorAll<HTMLButtonElement>('[data-open-symbol]').forEach(button => button.onclick = () => openSymbol(button.dataset.openSymbol!));
   app.querySelectorAll<HTMLButtonElement>('[data-mode]').forEach(button => button.onclick = () => { comparisonMode = button.dataset.mode as typeof comparisonMode; render(); });
-  app.querySelector<HTMLSelectElement>('#comparison-select')?.addEventListener('change', event => { preset = (event.target as HTMLSelectElement).value; render(); });
+  app.querySelectorAll<HTMLButtonElement>('[data-preset]').forEach(button => button.onclick = () => { preset = button.dataset.preset!; render(); });
   app.querySelectorAll<HTMLSelectElement>('[data-custom]').forEach(select => select.onchange = () => {
     const index = Number(select.dataset.custom); const next = [...customPair]; next[index] = select.value;
     if (validCustomPair(next[0], next[1])) customPair = next;

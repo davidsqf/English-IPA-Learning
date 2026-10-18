@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "accentModel": "en-GB-dictionary-nonrhotic-v1",
   "status": "released",
   "symbols": [
@@ -18,37 +18,43 @@
           "word": "sheep",
           "ipa": "ʃiːp",
           "gloss": "绵羊",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sheep"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sheep",
+          "sampleId": "shtooka-a-sheep"
         },
         {
           "word": "see",
           "ipa": "siː",
           "gloss": "看见",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/see"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/see",
+          "sampleId": null
         },
         {
           "word": "tea",
           "ipa": "tiː",
           "gloss": "茶",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/tea"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/tea",
+          "sampleId": "shtooka-tea"
         },
         {
           "word": "green",
           "ipa": "ɡriːn",
           "gloss": "绿色的",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/green"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/green",
+          "sampleId": "shtooka-green"
         },
         {
           "word": "key",
           "ipa": "kiː",
           "gloss": "钥匙",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/key"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/key",
+          "sampleId": "shtooka-key"
         },
         {
           "word": "three",
           "ipa": "θriː",
           "gloss": "三",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/three"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/three",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -76,37 +82,43 @@
           "word": "ship",
           "ipa": "ʃɪp",
           "gloss": "船",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ship"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ship",
+          "sampleId": "shtooka-a-ship"
         },
         {
           "word": "sit",
           "ipa": "sɪt",
           "gloss": "坐",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sit"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sit",
+          "sampleId": null
         },
         {
           "word": "fish",
           "ipa": "fɪʃ",
           "gloss": "鱼",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/fish"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/fish",
+          "sampleId": "shtooka-fish"
         },
         {
           "word": "milk",
           "ipa": "mɪlk",
           "gloss": "牛奶",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/milk"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/milk",
+          "sampleId": null
         },
         {
           "word": "big",
           "ipa": "bɪɡ",
           "gloss": "大的",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/big"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/big",
+          "sampleId": null
         },
         {
           "word": "six",
           "ipa": "sɪks",
           "gloss": "六",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/six"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/six",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -134,37 +146,43 @@
           "word": "bed",
           "ipa": "bed",
           "gloss": "床",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bed"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bed",
+          "sampleId": "shtooka-bed"
         },
         {
           "word": "pen",
           "ipa": "pen",
           "gloss": "钢笔",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/pen"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/pen",
+          "sampleId": null
         },
         {
           "word": "red",
           "ipa": "red",
           "gloss": "红色的",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/red"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/red",
+          "sampleId": "shtooka-red"
         },
         {
           "word": "ten",
           "ipa": "ten",
           "gloss": "十",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ten"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ten",
+          "sampleId": null
         },
         {
           "word": "head",
           "ipa": "hed",
           "gloss": "头",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/head"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/head",
+          "sampleId": null
         },
         {
           "word": "egg",
           "ipa": "eɡ",
           "gloss": "鸡蛋",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/egg"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/egg",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -192,37 +210,43 @@
           "word": "cat",
           "ipa": "kæt",
           "gloss": "猫",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cat"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cat",
+          "sampleId": "shtooka-a-cat"
         },
         {
           "word": "bag",
           "ipa": "bæɡ",
           "gloss": "包",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bag"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bag",
+          "sampleId": null
         },
         {
           "word": "hat",
           "ipa": "hæt",
           "gloss": "帽子",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/hat"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/hat",
+          "sampleId": "shtooka-hat"
         },
         {
           "word": "map",
           "ipa": "mæp",
           "gloss": "地图",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/map"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/map",
+          "sampleId": null
         },
         {
           "word": "hand",
           "ipa": "hænd",
           "gloss": "手",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/hand"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/hand",
+          "sampleId": null
         },
         {
           "word": "apple",
           "ipa": "ˈæpəl",
           "gloss": "苹果",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/apple"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/apple",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -250,37 +274,43 @@
           "word": "car",
           "ipa": "kɑː",
           "gloss": "汽车",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/car"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/car",
+          "sampleId": "shtooka-a-car"
         },
         {
           "word": "park",
           "ipa": "pɑːk",
           "gloss": "公园",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/park"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/park",
+          "sampleId": null
         },
         {
           "word": "star",
           "ipa": "stɑː",
           "gloss": "星星",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/star"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/star",
+          "sampleId": null
         },
         {
           "word": "heart",
           "ipa": "hɑːt",
           "gloss": "心脏",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/heart"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/heart",
+          "sampleId": null
         },
         {
           "word": "farm",
           "ipa": "fɑːm",
           "gloss": "农场",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/farm"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/farm",
+          "sampleId": null
         },
         {
           "word": "calm",
           "ipa": "kɑːm",
           "gloss": "平静的",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/calm"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/calm",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -308,37 +338,43 @@
           "word": "hot",
           "ipa": "hɒt",
           "gloss": "热的",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/hot"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/hot",
+          "sampleId": "shtooka-hot"
         },
         {
           "word": "dog",
           "ipa": "dɒɡ",
           "gloss": "狗",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/dog"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/dog",
+          "sampleId": "shtooka-dog"
         },
         {
           "word": "box",
           "ipa": "bɒks",
           "gloss": "盒子",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/box"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/box",
+          "sampleId": null
         },
         {
           "word": "clock",
           "ipa": "klɒk",
           "gloss": "钟",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/clock"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/clock",
+          "sampleId": null
         },
         {
           "word": "sock",
           "ipa": "sɒk",
           "gloss": "袜子",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sock"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sock",
+          "sampleId": null
         },
         {
           "word": "watch",
           "ipa": "wɒtʃ",
           "gloss": "手表",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/watch"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/watch",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -366,37 +402,43 @@
           "word": "door",
           "ipa": "dɔː",
           "gloss": "门",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/door"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/door",
+          "sampleId": "shtooka-door"
         },
         {
           "word": "four",
           "ipa": "fɔː",
           "gloss": "四",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/four"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/four",
+          "sampleId": null
         },
         {
           "word": "ball",
           "ipa": "bɔːl",
           "gloss": "球",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ball"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ball",
+          "sampleId": null
         },
         {
           "word": "walk",
           "ipa": "wɔːk",
           "gloss": "步行",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/walk"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/walk",
+          "sampleId": null
         },
         {
           "word": "talk",
           "ipa": "tɔːk",
           "gloss": "说话",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/talk"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/talk",
+          "sampleId": null
         },
         {
           "word": "saw",
           "ipa": "sɔː",
           "gloss": "看见的过去式",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/saw"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/saw",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -424,37 +466,43 @@
           "word": "book",
           "ipa": "bʊk",
           "gloss": "书",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/book"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/book",
+          "sampleId": "shtooka-book"
         },
         {
           "word": "good",
           "ipa": "ɡʊd",
           "gloss": "好的",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/good"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/good",
+          "sampleId": null
         },
         {
           "word": "foot",
           "ipa": "fʊt",
           "gloss": "脚",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/foot"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/foot",
+          "sampleId": null
         },
         {
           "word": "look",
           "ipa": "lʊk",
           "gloss": "看",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/look"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/look",
+          "sampleId": null
         },
         {
           "word": "cook",
           "ipa": "kʊk",
           "gloss": "做饭",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cook"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cook",
+          "sampleId": null
         },
         {
           "word": "put",
           "ipa": "pʊt",
           "gloss": "放",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/put"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/put",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -482,37 +530,43 @@
           "word": "food",
           "ipa": "fuːd",
           "gloss": "食物",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/food"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/food",
+          "sampleId": "shtooka-food"
         },
         {
           "word": "moon",
           "ipa": "muːn",
           "gloss": "月亮",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/moon"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/moon",
+          "sampleId": "shtooka-moon"
         },
         {
           "word": "blue",
           "ipa": "bluː",
           "gloss": "蓝色的",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/blue"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/blue",
+          "sampleId": null
         },
         {
           "word": "school",
           "ipa": "skuːl",
           "gloss": "学校",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/school"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/school",
+          "sampleId": null
         },
         {
           "word": "shoe",
           "ipa": "ʃuː",
           "gloss": "鞋",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/shoe"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/shoe",
+          "sampleId": null
         },
         {
           "word": "two",
           "ipa": "tuː",
           "gloss": "二",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/two"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/two",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -540,37 +594,43 @@
           "word": "cup",
           "ipa": "kʌp",
           "gloss": "杯子",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cup"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cup",
+          "sampleId": "shtooka-a-cup"
         },
         {
           "word": "sun",
           "ipa": "sʌn",
           "gloss": "太阳",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sun"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sun",
+          "sampleId": "shtooka-sun"
         },
         {
           "word": "bus",
           "ipa": "bʌs",
           "gloss": "公共汽车",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bus"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bus",
+          "sampleId": null
         },
         {
           "word": "run",
           "ipa": "rʌn",
           "gloss": "跑",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/run"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/run",
+          "sampleId": null
         },
         {
           "word": "love",
           "ipa": "lʌv",
           "gloss": "爱",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/love"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/love",
+          "sampleId": null
         },
         {
           "word": "duck",
           "ipa": "dʌk",
           "gloss": "鸭子",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/duck"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/duck",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -598,37 +658,43 @@
           "word": "bird",
           "ipa": "bɜːd",
           "gloss": "鸟",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bird"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bird",
+          "sampleId": "shtooka-a-bird"
         },
         {
           "word": "girl",
           "ipa": "ɡɜːl",
           "gloss": "女孩",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/girl"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/girl",
+          "sampleId": null
         },
         {
           "word": "nurse",
           "ipa": "nɜːs",
           "gloss": "护士",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/nurse"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/nurse",
+          "sampleId": null
         },
         {
           "word": "word",
           "ipa": "wɜːd",
           "gloss": "单词",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/word"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/word",
+          "sampleId": null
         },
         {
           "word": "work",
           "ipa": "wɜːk",
           "gloss": "工作",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/work"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/work",
+          "sampleId": null
         },
         {
           "word": "turn",
           "ipa": "tɜːn",
           "gloss": "转动",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/turn"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/turn",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -656,37 +722,43 @@
           "word": "another",
           "ipa": "əˈnʌðə",
           "gloss": "另一个",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/another"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/another",
+          "sampleId": "shtooka-another"
         },
         {
           "word": "about",
           "ipa": "əˈbaʊt",
           "gloss": "关于",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/about"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/about",
+          "sampleId": null
         },
         {
           "word": "ago",
           "ipa": "əˈɡəʊ",
           "gloss": "以前",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ago"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ago",
+          "sampleId": null
         },
         {
           "word": "sofa",
           "ipa": "ˈsəʊfə",
           "gloss": "沙发",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sofa"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sofa",
+          "sampleId": null
         },
         {
           "word": "banana",
           "ipa": "bəˈnɑːnə",
           "gloss": "香蕉",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/banana"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/banana",
+          "sampleId": null
         },
         {
           "word": "teacher",
           "ipa": "ˈtiːtʃə",
           "gloss": "老师",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/teacher"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/teacher",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -715,37 +787,43 @@
           "word": "plane",
           "ipa": "pleɪn",
           "gloss": "飞机",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/plane"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/plane",
+          "sampleId": "shtooka-a-plane"
         },
         {
           "word": "day",
           "ipa": "deɪ",
           "gloss": "一天",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/day"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/day",
+          "sampleId": null
         },
         {
           "word": "name",
           "ipa": "neɪm",
           "gloss": "名字",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/name"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/name",
+          "sampleId": null
         },
         {
           "word": "rain",
           "ipa": "reɪn",
           "gloss": "雨",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/rain"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/rain",
+          "sampleId": null
         },
         {
           "word": "cake",
           "ipa": "keɪk",
           "gloss": "蛋糕",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cake"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cake",
+          "sampleId": null
         },
         {
           "word": "train",
           "ipa": "treɪn",
           "gloss": "火车",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/train"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/train",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -772,37 +850,43 @@
           "word": "bike",
           "ipa": "baɪk",
           "gloss": "自行车",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bike"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bike",
+          "sampleId": "shtooka-a-bike"
         },
         {
           "word": "my",
           "ipa": "maɪ",
           "gloss": "我的",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/my"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/my",
+          "sampleId": null
         },
         {
           "word": "five",
           "ipa": "faɪv",
           "gloss": "五",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/five"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/five",
+          "sampleId": null
         },
         {
           "word": "time",
           "ipa": "taɪm",
           "gloss": "时间",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/time"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/time",
+          "sampleId": null
         },
         {
           "word": "light",
           "ipa": "laɪt",
           "gloss": "光",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/light"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/light",
+          "sampleId": null
         },
         {
           "word": "eye",
           "ipa": "aɪ",
           "gloss": "眼睛",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/eye"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/eye",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -829,37 +913,43 @@
           "word": "noise",
           "ipa": "nɔɪz",
           "gloss": "噪声",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/noise"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/noise",
+          "sampleId": "shtooka-noise"
         },
         {
           "word": "boy",
           "ipa": "bɔɪ",
           "gloss": "男孩",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/boy"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/boy",
+          "sampleId": null
         },
         {
           "word": "toy",
           "ipa": "tɔɪ",
           "gloss": "玩具",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/toy"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/toy",
+          "sampleId": null
         },
         {
           "word": "coin",
           "ipa": "kɔɪn",
           "gloss": "硬币",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/coin"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/coin",
+          "sampleId": null
         },
         {
           "word": "voice",
           "ipa": "vɔɪs",
           "gloss": "声音",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/voice"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/voice",
+          "sampleId": null
         },
         {
           "word": "choice",
           "ipa": "tʃɔɪs",
           "gloss": "选择",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/choice"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/choice",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -886,37 +976,43 @@
           "word": "nose",
           "ipa": "nəʊz",
           "gloss": "鼻子",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/nose"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/nose",
+          "sampleId": "shtooka-nose"
         },
         {
           "word": "go",
           "ipa": "ɡəʊ",
           "gloss": "去",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/go"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/go",
+          "sampleId": null
         },
         {
           "word": "home",
           "ipa": "həʊm",
           "gloss": "家",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/home"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/home",
+          "sampleId": null
         },
         {
           "word": "boat",
           "ipa": "bəʊt",
           "gloss": "船",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/boat"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/boat",
+          "sampleId": null
         },
         {
           "word": "coat",
           "ipa": "kəʊt",
           "gloss": "外套",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/coat"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/coat",
+          "sampleId": null
         },
         {
           "word": "snow",
           "ipa": "snəʊ",
           "gloss": "雪",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/snow"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/snow",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -943,37 +1039,43 @@
           "word": "cow",
           "ipa": "kaʊ",
           "gloss": "奶牛",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cow"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cow",
+          "sampleId": "shtooka-a-cow"
         },
         {
           "word": "now",
           "ipa": "naʊ",
           "gloss": "现在",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/now"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/now",
+          "sampleId": null
         },
         {
           "word": "house",
           "ipa": "haʊs",
           "gloss": "房子",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/house"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/house",
+          "sampleId": null
         },
         {
           "word": "mouth",
           "ipa": "maʊθ",
           "gloss": "嘴",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/mouth"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/mouth",
+          "sampleId": null
         },
         {
           "word": "brown",
           "ipa": "braʊn",
           "gloss": "棕色的",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/brown"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/brown",
+          "sampleId": null
         },
         {
           "word": "cloud",
           "ipa": "klaʊd",
           "gloss": "云",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cloud"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cloud",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -1000,37 +1102,43 @@
           "word": "year",
           "ipa": "jɪə",
           "gloss": "年",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/year"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/year",
+          "sampleId": "shtooka-a-year"
         },
         {
           "word": "near",
           "ipa": "nɪə",
           "gloss": "近的",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/near"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/near",
+          "sampleId": null
         },
         {
           "word": "hear",
           "ipa": "hɪə",
           "gloss": "听见",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/hear"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/hear",
+          "sampleId": null
         },
         {
           "word": "ear",
           "ipa": "ɪə",
           "gloss": "耳朵",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ear"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ear",
+          "sampleId": null
         },
         {
           "word": "fear",
           "ipa": "fɪə",
           "gloss": "害怕",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/fear"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/fear",
+          "sampleId": null
         },
         {
           "word": "clear",
           "ipa": "klɪə",
           "gloss": "清楚的",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/clear"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/clear",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -1057,37 +1165,43 @@
           "word": "chair",
           "ipa": "tʃeə",
           "gloss": "椅子",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/chair"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/chair",
+          "sampleId": "shtooka-chair"
         },
         {
           "word": "hair",
           "ipa": "heə",
           "gloss": "头发",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/hair"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/hair",
+          "sampleId": null
         },
         {
           "word": "bear",
           "ipa": "beə",
           "gloss": "熊",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bear"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bear",
+          "sampleId": null
         },
         {
           "word": "care",
           "ipa": "keə",
           "gloss": "关心",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/care"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/care",
+          "sampleId": null
         },
         {
           "word": "fair",
           "ipa": "feə",
           "gloss": "公平的",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/fair"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/fair",
+          "sampleId": null
         },
         {
           "word": "pair",
           "ipa": "peə",
           "gloss": "一对",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/pair"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/pair",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -1114,37 +1228,43 @@
           "word": "during",
           "ipa": "ˈdjʊərɪŋ",
           "gloss": "在……期间",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/during"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/during",
+          "sampleId": "taxrebate-during"
         },
         {
           "word": "pure",
           "ipa": "pjʊə",
           "gloss": "纯的",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/pure"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/pure",
+          "sampleId": null
         },
         {
           "word": "cure",
           "ipa": "kjʊə",
           "gloss": "治愈",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cure"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cure",
+          "sampleId": null
         },
         {
           "word": "secure",
           "ipa": "sɪˈkjʊə",
           "gloss": "安全的",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/secure"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/secure",
+          "sampleId": null
         },
         {
           "word": "curious",
           "ipa": "ˈkjʊəriəs",
           "gloss": "好奇的",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/curious"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/curious",
+          "sampleId": null
         },
         {
           "word": "tourist",
           "ipa": "ˈtʊərɪst",
           "gloss": "游客",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/tourist"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/tourist",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -1171,37 +1291,43 @@
           "word": "ship",
           "ipa": "ʃɪp",
           "gloss": "船",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ship"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ship",
+          "sampleId": "shtooka-a-ship"
         },
         {
           "word": "pen",
           "ipa": "pen",
           "gloss": "钢笔",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/pen"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/pen",
+          "sampleId": null
         },
         {
           "word": "pig",
           "ipa": "pɪɡ",
           "gloss": "猪",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/pig"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/pig",
+          "sampleId": null
         },
         {
           "word": "park",
           "ipa": "pɑːk",
           "gloss": "公园",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/park"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/park",
+          "sampleId": null
         },
         {
           "word": "cup",
           "ipa": "kʌp",
           "gloss": "杯子",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cup"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cup",
+          "sampleId": "shtooka-a-cup"
         },
         {
           "word": "apple",
           "ipa": "ˈæpəl",
           "gloss": "苹果",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/apple"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/apple",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -1228,37 +1354,43 @@
           "word": "bed",
           "ipa": "bed",
           "gloss": "床",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bed"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bed",
+          "sampleId": "shtooka-bed"
         },
         {
           "word": "bag",
           "ipa": "bæɡ",
           "gloss": "包",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bag"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bag",
+          "sampleId": null
         },
         {
           "word": "bus",
           "ipa": "bʌs",
           "gloss": "公共汽车",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bus"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bus",
+          "sampleId": null
         },
         {
           "word": "book",
           "ipa": "bʊk",
           "gloss": "书",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/book"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/book",
+          "sampleId": "shtooka-book"
         },
         {
           "word": "blue",
           "ipa": "bluː",
           "gloss": "蓝色的",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/blue"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/blue",
+          "sampleId": null
         },
         {
           "word": "baby",
           "ipa": "ˈbeɪbi",
           "gloss": "婴儿",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/baby"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/baby",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -1285,37 +1417,43 @@
           "word": "tea",
           "ipa": "tiː",
           "gloss": "茶",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/tea"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/tea",
+          "sampleId": "shtooka-tea"
         },
         {
           "word": "ten",
           "ipa": "ten",
           "gloss": "十",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ten"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ten",
+          "sampleId": null
         },
         {
           "word": "time",
           "ipa": "taɪm",
           "gloss": "时间",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/time"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/time",
+          "sampleId": null
         },
         {
           "word": "toy",
           "ipa": "tɔɪ",
           "gloss": "玩具",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/toy"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/toy",
+          "sampleId": null
         },
         {
           "word": "cat",
           "ipa": "kæt",
           "gloss": "猫",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cat"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cat",
+          "sampleId": "shtooka-a-cat"
         },
         {
           "word": "hat",
           "ipa": "hæt",
           "gloss": "帽子",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/hat"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/hat",
+          "sampleId": "shtooka-hat"
         }
       ],
       "cueSourceIds": [
@@ -1342,37 +1480,43 @@
           "word": "dog",
           "ipa": "dɒɡ",
           "gloss": "狗",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/dog"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/dog",
+          "sampleId": "shtooka-dog"
         },
         {
           "word": "day",
           "ipa": "deɪ",
           "gloss": "一天",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/day"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/day",
+          "sampleId": null
         },
         {
           "word": "door",
           "ipa": "dɔː",
           "gloss": "门",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/door"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/door",
+          "sampleId": "shtooka-door"
         },
         {
           "word": "duck",
           "ipa": "dʌk",
           "gloss": "鸭子",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/duck"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/duck",
+          "sampleId": null
         },
         {
           "word": "bed",
           "ipa": "bed",
           "gloss": "床",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bed"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bed",
+          "sampleId": "shtooka-bed"
         },
         {
           "word": "red",
           "ipa": "red",
           "gloss": "红色的",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/red"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/red",
+          "sampleId": "shtooka-red"
         }
       ],
       "cueSourceIds": [
@@ -1399,37 +1543,43 @@
           "word": "key",
           "ipa": "kiː",
           "gloss": "钥匙",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/key"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/key",
+          "sampleId": "shtooka-key"
         },
         {
           "word": "cat",
           "ipa": "kæt",
           "gloss": "猫",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cat"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cat",
+          "sampleId": "shtooka-a-cat"
         },
         {
           "word": "car",
           "ipa": "kɑː",
           "gloss": "汽车",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/car"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/car",
+          "sampleId": "shtooka-a-car"
         },
         {
           "word": "coat",
           "ipa": "kəʊt",
           "gloss": "外套",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/coat"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/coat",
+          "sampleId": null
         },
         {
           "word": "book",
           "ipa": "bʊk",
           "gloss": "书",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/book"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/book",
+          "sampleId": "shtooka-book"
         },
         {
           "word": "cook",
           "ipa": "kʊk",
           "gloss": "做饭",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cook"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cook",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -1456,37 +1606,43 @@
           "word": "green",
           "ipa": "ɡriːn",
           "gloss": "绿色的",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/green"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/green",
+          "sampleId": "shtooka-green"
         },
         {
           "word": "go",
           "ipa": "ɡəʊ",
           "gloss": "去",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/go"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/go",
+          "sampleId": null
         },
         {
           "word": "girl",
           "ipa": "ɡɜːl",
           "gloss": "女孩",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/girl"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/girl",
+          "sampleId": null
         },
         {
           "word": "good",
           "ipa": "ɡʊd",
           "gloss": "好的",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/good"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/good",
+          "sampleId": null
         },
         {
           "word": "bag",
           "ipa": "bæɡ",
           "gloss": "包",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bag"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bag",
+          "sampleId": null
         },
         {
           "word": "egg",
           "ipa": "eɡ",
           "gloss": "鸡蛋",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/egg"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/egg",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -1513,37 +1669,43 @@
           "word": "fish",
           "ipa": "fɪʃ",
           "gloss": "鱼",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/fish"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/fish",
+          "sampleId": "shtooka-fish"
         },
         {
           "word": "food",
           "ipa": "fuːd",
           "gloss": "食物",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/food"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/food",
+          "sampleId": "shtooka-food"
         },
         {
           "word": "foot",
           "ipa": "fʊt",
           "gloss": "脚",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/foot"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/foot",
+          "sampleId": null
         },
         {
           "word": "five",
           "ipa": "faɪv",
           "gloss": "五",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/five"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/five",
+          "sampleId": null
         },
         {
           "word": "four",
           "ipa": "fɔː",
           "gloss": "四",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/four"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/four",
+          "sampleId": null
         },
         {
           "word": "leaf",
           "ipa": "liːf",
           "gloss": "叶子",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/leaf"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/leaf",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -1570,37 +1732,43 @@
           "word": "television",
           "ipa": "ˈtelɪvɪʒən",
           "gloss": "电视",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/television"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/television",
+          "sampleId": "shtooka-television"
         },
         {
           "word": "van",
           "ipa": "væn",
           "gloss": "面包车",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/van"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/van",
+          "sampleId": null
         },
         {
           "word": "very",
           "ipa": "ˈveri",
           "gloss": "非常",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/very"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/very",
+          "sampleId": null
         },
         {
           "word": "voice",
           "ipa": "vɔɪs",
           "gloss": "声音",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/voice"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/voice",
+          "sampleId": null
         },
         {
           "word": "five",
           "ipa": "faɪv",
           "gloss": "五",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/five"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/five",
+          "sampleId": null
         },
         {
           "word": "love",
           "ipa": "lʌv",
           "gloss": "爱",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/love"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/love",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -1627,37 +1795,43 @@
           "word": "tooth",
           "ipa": "tuːθ",
           "gloss": "牙齿",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/tooth"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/tooth",
+          "sampleId": "shtooka-tooth"
         },
         {
           "word": "thin",
           "ipa": "θɪn",
           "gloss": "瘦的",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/thin"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/thin",
+          "sampleId": null
         },
         {
           "word": "think",
           "ipa": "θɪŋk",
           "gloss": "想",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/think"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/think",
+          "sampleId": null
         },
         {
           "word": "three",
           "ipa": "θriː",
           "gloss": "三",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/three"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/three",
+          "sampleId": null
         },
         {
           "word": "thank",
           "ipa": "θæŋk",
           "gloss": "感谢",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/thank"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/thank",
+          "sampleId": null
         },
         {
           "word": "bath",
           "ipa": "bɑːθ",
           "gloss": "洗澡",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bath"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bath",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -1684,37 +1858,43 @@
           "word": "there",
           "ipa": "ðeə",
           "gloss": "那里",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/there"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/there",
+          "sampleId": "shtooka-there"
         },
         {
           "word": "this",
           "ipa": "ðɪs",
           "gloss": "这个",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/this"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/this",
+          "sampleId": null
         },
         {
           "word": "that",
           "ipa": "ðæt",
           "gloss": "那个",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/that"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/that",
+          "sampleId": null
         },
         {
           "word": "these",
           "ipa": "ðiːz",
           "gloss": "这些",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/these"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/these",
+          "sampleId": null
         },
         {
           "word": "mother",
           "ipa": "ˈmʌðə",
           "gloss": "母亲",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/mother"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/mother",
+          "sampleId": null
         },
         {
           "word": "brother",
           "ipa": "ˈbrʌðə",
           "gloss": "兄弟",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/brother"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/brother",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -1741,37 +1921,43 @@
           "word": "sun",
           "ipa": "sʌn",
           "gloss": "太阳",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sun"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sun",
+          "sampleId": "shtooka-sun"
         },
         {
           "word": "see",
           "ipa": "siː",
           "gloss": "看见",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/see"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/see",
+          "sampleId": null
         },
         {
           "word": "sit",
           "ipa": "sɪt",
           "gloss": "坐",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sit"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sit",
+          "sampleId": null
         },
         {
           "word": "six",
           "ipa": "sɪks",
           "gloss": "六",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/six"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/six",
+          "sampleId": null
         },
         {
           "word": "bus",
           "ipa": "bʌs",
           "gloss": "公共汽车",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bus"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bus",
+          "sampleId": null
         },
         {
           "word": "rice",
           "ipa": "raɪs",
           "gloss": "米饭",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/rice"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/rice",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -1798,37 +1984,43 @@
           "word": "nose",
           "ipa": "nəʊz",
           "gloss": "鼻子",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/nose"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/nose",
+          "sampleId": "shtooka-nose"
         },
         {
           "word": "zoo",
           "ipa": "zuː",
           "gloss": "动物园",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/zoo"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/zoo",
+          "sampleId": null
         },
         {
           "word": "zero",
           "ipa": "ˈzɪərəʊ",
           "gloss": "零",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/zero"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/zero",
+          "sampleId": null
         },
         {
           "word": "zip",
           "ipa": "zɪp",
           "gloss": "拉链",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/zip"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/zip",
+          "sampleId": null
         },
         {
           "word": "rose",
           "ipa": "rəʊz",
           "gloss": "玫瑰",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/rose"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/rose",
+          "sampleId": null
         },
         {
           "word": "cheese",
           "ipa": "tʃiːz",
           "gloss": "奶酪",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cheese"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cheese",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -1855,37 +2047,43 @@
           "word": "sheep",
           "ipa": "ʃiːp",
           "gloss": "绵羊",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sheep"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sheep",
+          "sampleId": "shtooka-a-sheep"
         },
         {
           "word": "ship",
           "ipa": "ʃɪp",
           "gloss": "船",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ship"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ship",
+          "sampleId": "shtooka-a-ship"
         },
         {
           "word": "shoe",
           "ipa": "ʃuː",
           "gloss": "鞋",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/shoe"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/shoe",
+          "sampleId": null
         },
         {
           "word": "shop",
           "ipa": "ʃɒp",
           "gloss": "商店",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/shop"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/shop",
+          "sampleId": null
         },
         {
           "word": "fish",
           "ipa": "fɪʃ",
           "gloss": "鱼",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/fish"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/fish",
+          "sampleId": "shtooka-fish"
         },
         {
           "word": "wash",
           "ipa": "wɒʃ",
           "gloss": "洗",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/wash"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/wash",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -1912,37 +2110,43 @@
           "word": "television",
           "ipa": "ˈtelɪvɪʒən",
           "gloss": "电视",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/television"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/television",
+          "sampleId": "shtooka-television"
         },
         {
           "word": "vision",
           "ipa": "ˈvɪʒən",
           "gloss": "视力",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/vision"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/vision",
+          "sampleId": null
         },
         {
           "word": "measure",
           "ipa": "ˈmeʒə",
           "gloss": "测量",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/measure"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/measure",
+          "sampleId": null
         },
         {
           "word": "pleasure",
           "ipa": "ˈpleʒə",
           "gloss": "愉快",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/pleasure"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/pleasure",
+          "sampleId": null
         },
         {
           "word": "usual",
           "ipa": "ˈjuːʒuəl",
           "gloss": "通常的",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/usual"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/usual",
+          "sampleId": null
         },
         {
           "word": "decision",
           "ipa": "dɪˈsɪʒən",
           "gloss": "决定",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/decision"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/decision",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -1969,37 +2173,43 @@
           "word": "hat",
           "ipa": "hæt",
           "gloss": "帽子",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/hat"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/hat",
+          "sampleId": "shtooka-hat"
         },
         {
           "word": "hot",
           "ipa": "hɒt",
           "gloss": "热的",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/hot"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/hot",
+          "sampleId": "shtooka-hot"
         },
         {
           "word": "hand",
           "ipa": "hænd",
           "gloss": "手",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/hand"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/hand",
+          "sampleId": null
         },
         {
           "word": "head",
           "ipa": "hed",
           "gloss": "头",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/head"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/head",
+          "sampleId": null
         },
         {
           "word": "home",
           "ipa": "həʊm",
           "gloss": "家",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/home"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/home",
+          "sampleId": null
         },
         {
           "word": "house",
           "ipa": "haʊs",
           "gloss": "房子",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/house"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/house",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -2026,37 +2236,43 @@
           "word": "chair",
           "ipa": "tʃeə",
           "gloss": "椅子",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/chair"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/chair",
+          "sampleId": "shtooka-chair"
         },
         {
           "word": "cheese",
           "ipa": "tʃiːz",
           "gloss": "奶酪",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cheese"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cheese",
+          "sampleId": null
         },
         {
           "word": "child",
           "ipa": "tʃaɪld",
           "gloss": "孩子",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/child"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/child",
+          "sampleId": null
         },
         {
           "word": "chicken",
           "ipa": "ˈtʃɪkɪn",
           "gloss": "鸡",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/chicken"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/chicken",
+          "sampleId": null
         },
         {
           "word": "watch",
           "ipa": "wɒtʃ",
           "gloss": "手表",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/watch"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/watch",
+          "sampleId": null
         },
         {
           "word": "teacher",
           "ipa": "ˈtiːtʃə",
           "gloss": "老师",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/teacher"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/teacher",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -2083,37 +2299,43 @@
           "word": "jam",
           "ipa": "dʒæm",
           "gloss": "果酱",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/jam"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/jam",
+          "sampleId": "shtooka-jam"
         },
         {
           "word": "job",
           "ipa": "dʒɒb",
           "gloss": "工作",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/job"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/job",
+          "sampleId": null
         },
         {
           "word": "juice",
           "ipa": "dʒuːs",
           "gloss": "果汁",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/juice"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/juice",
+          "sampleId": null
         },
         {
           "word": "jump",
           "ipa": "dʒʌmp",
           "gloss": "跳",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/jump"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/jump",
+          "sampleId": null
         },
         {
           "word": "jacket",
           "ipa": "ˈdʒækɪt",
           "gloss": "夹克",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/jacket"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/jacket",
+          "sampleId": null
         },
         {
           "word": "orange",
           "ipa": "ˈɒrɪndʒ",
           "gloss": "橙子",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/orange"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/orange",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -2140,37 +2362,43 @@
           "word": "moon",
           "ipa": "muːn",
           "gloss": "月亮",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/moon"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/moon",
+          "sampleId": "shtooka-moon"
         },
         {
           "word": "man",
           "ipa": "mæn",
           "gloss": "男人",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/man"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/man",
+          "sampleId": null
         },
         {
           "word": "map",
           "ipa": "mæp",
           "gloss": "地图",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/map"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/map",
+          "sampleId": null
         },
         {
           "word": "milk",
           "ipa": "mɪlk",
           "gloss": "牛奶",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/milk"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/milk",
+          "sampleId": null
         },
         {
           "word": "name",
           "ipa": "neɪm",
           "gloss": "名字",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/name"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/name",
+          "sampleId": null
         },
         {
           "word": "home",
           "ipa": "həʊm",
           "gloss": "家",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/home"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/home",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -2197,37 +2425,43 @@
           "word": "nose",
           "ipa": "nəʊz",
           "gloss": "鼻子",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/nose"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/nose",
+          "sampleId": "shtooka-nose"
         },
         {
           "word": "name",
           "ipa": "neɪm",
           "gloss": "名字",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/name"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/name",
+          "sampleId": null
         },
         {
           "word": "nurse",
           "ipa": "nɜːs",
           "gloss": "护士",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/nurse"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/nurse",
+          "sampleId": null
         },
         {
           "word": "nine",
           "ipa": "naɪn",
           "gloss": "九",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/nine"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/nine",
+          "sampleId": null
         },
         {
           "word": "sun",
           "ipa": "sʌn",
           "gloss": "太阳",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sun"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sun",
+          "sampleId": "shtooka-sun"
         },
         {
           "word": "pen",
           "ipa": "pen",
           "gloss": "钢笔",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/pen"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/pen",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -2254,37 +2488,43 @@
           "word": "building",
           "ipa": "ˈbɪldɪŋ",
           "gloss": "建筑",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/building"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/building",
+          "sampleId": "shtooka-building"
         },
         {
           "word": "sing",
           "ipa": "sɪŋ",
           "gloss": "唱歌",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sing"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sing",
+          "sampleId": null
         },
         {
           "word": "song",
           "ipa": "sɒŋ",
           "gloss": "歌曲",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/song"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/song",
+          "sampleId": null
         },
         {
           "word": "long",
           "ipa": "lɒŋ",
           "gloss": "长的",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/long"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/long",
+          "sampleId": null
         },
         {
           "word": "ring",
           "ipa": "rɪŋ",
           "gloss": "戒指",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ring"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ring",
+          "sampleId": null
         },
         {
           "word": "king",
           "ipa": "kɪŋ",
           "gloss": "国王",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/king"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/king",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -2311,37 +2551,43 @@
           "word": "leg",
           "ipa": "leɡ",
           "gloss": "腿",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/leg"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/leg",
+          "sampleId": "shtooka-leg"
         },
         {
           "word": "light",
           "ipa": "laɪt",
           "gloss": "光",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/light"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/light",
+          "sampleId": null
         },
         {
           "word": "love",
           "ipa": "lʌv",
           "gloss": "爱",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/love"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/love",
+          "sampleId": null
         },
         {
           "word": "leaf",
           "ipa": "liːf",
           "gloss": "叶子",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/leaf"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/leaf",
+          "sampleId": null
         },
         {
           "word": "look",
           "ipa": "lʊk",
           "gloss": "看",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/look"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/look",
+          "sampleId": null
         },
         {
           "word": "milk",
           "ipa": "mɪlk",
           "gloss": "牛奶",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/milk"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/milk",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -2369,37 +2615,43 @@
           "word": "red",
           "ipa": "red",
           "gloss": "红色的",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/red"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/red",
+          "sampleId": "shtooka-red"
         },
         {
           "word": "rain",
           "ipa": "reɪn",
           "gloss": "雨",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/rain"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/rain",
+          "sampleId": null
         },
         {
           "word": "rice",
           "ipa": "raɪs",
           "gloss": "米饭",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/rice"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/rice",
+          "sampleId": null
         },
         {
           "word": "run",
           "ipa": "rʌn",
           "gloss": "跑",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/run"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/run",
+          "sampleId": null
         },
         {
           "word": "rose",
           "ipa": "rəʊz",
           "gloss": "玫瑰",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/rose"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/rose",
+          "sampleId": null
         },
         {
           "word": "green",
           "ipa": "ɡriːn",
           "gloss": "绿色的",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/green"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/green",
+          "sampleId": "shtooka-green"
         }
       ],
       "cueSourceIds": [
@@ -2427,37 +2679,43 @@
           "word": "yes",
           "ipa": "jes",
           "gloss": "是的",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/yes"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/yes",
+          "sampleId": "shtooka-yes"
         },
         {
           "word": "year",
           "ipa": "jɪə",
           "gloss": "年",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/year"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/year",
+          "sampleId": "shtooka-a-year"
         },
         {
           "word": "yellow",
           "ipa": "ˈjeləʊ",
           "gloss": "黄色的",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/yellow"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/yellow",
+          "sampleId": null
         },
         {
           "word": "young",
           "ipa": "jʌŋ",
           "gloss": "年轻的",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/young"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/young",
+          "sampleId": null
         },
         {
           "word": "use",
           "ipa": "juːz",
           "gloss": "使用",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/use"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/use",
+          "sampleId": null
         },
         {
           "word": "you",
           "ipa": "juː",
           "gloss": "你",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/you"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/you",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [
@@ -2484,37 +2742,43 @@
           "word": "window",
           "ipa": "ˈwɪndəʊ",
           "gloss": "窗户",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/window"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/window",
+          "sampleId": "shtooka-window"
         },
         {
           "word": "we",
           "ipa": "wiː",
           "gloss": "我们",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/we"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/we",
+          "sampleId": null
         },
         {
           "word": "wet",
           "ipa": "wet",
           "gloss": "湿的",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/wet"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/wet",
+          "sampleId": null
         },
         {
           "word": "water",
           "ipa": "ˈwɔːtə",
           "gloss": "水",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/water"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/water",
+          "sampleId": null
         },
         {
           "word": "work",
           "ipa": "wɜːk",
           "gloss": "工作",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/work"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/work",
+          "sampleId": null
         },
         {
           "word": "white",
           "ipa": "waɪt",
           "gloss": "白色的",
-          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/white"
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/white",
+          "sampleId": null
         }
       ],
       "cueSourceIds": [

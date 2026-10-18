@@ -43,6 +43,13 @@ test('all 44 symbols expose six distinct matching examples and traceable pronunc
     assert.equal(symbol.examples[0].ipa, symbol.wordIpa);
     for (const example of symbol.examples) {
       assert.ok(example.ipa.includes(symbol.ipa), `${symbol.ipa}: ${example.word}`);
+      if (example.sampleId) {
+        const recording = samples.get(example.sampleId)!;
+        assert.ok(recording?.transcript.split(' ').includes(example.word), example.word);
+      } else {
+        assert.equal(example.sampleId, null);
+        assert.match(example.word, /^[a-z]+$/); // Speech input must be a word, never an IPA symbol.
+      }
       assert.ok(example.gloss && example.referenceUrl.startsWith('https://dictionary.cambridge.org/pronunciation/english/'));
     }
     assert.ok(symbol.cueSourceIds.length > 0);

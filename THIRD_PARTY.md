@@ -6,7 +6,7 @@ All 37 files below are distributed in `public/audio/` and in the built website. 
 
 Association Shtooka / Judith Franck recordings are licensed [CC BY 3.0 US](https://creativecommons.org/licenses/by/3.0/us/); file descriptions identify Judith Franck as a London speaker. TaxRebate’s “during” (description spells the name TexRebate) is licensed [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The converted “during” recording is distributed under that same licence. No endorsement is implied.
 
-Existing Wikimedia MP3 derivatives were copied unchanged. Original Ogg files were converted to MP3 using ffmpeg/libmp3lame quality 2 for compatibility. No trimming, synthesis, time stretching or pitch changes were applied to the distributed files. The optional 0.8× playback is an in-browser learner control.
+Existing Wikimedia MP3 derivatives were copied unchanged. Original Ogg files were converted to MP3 using ffmpeg/libmp3lame quality 2 for compatibility. No trimming, synthesis, time stretching or pitch changes were applied to the distributed files. Playback is at natural speed.
 
 | Shipped file | Recording and source | Author | Licence | Changes |
 | --- | --- | --- | --- | --- |
@@ -61,3 +61,9 @@ Exact direct and transitive versions are in package-lock.json. Dependencies are 
 ## References and original work
 
 No dictionary audio, chart graphics, videos or fonts from Oxford, Cambridge, BBC, British Council or the IPA Association are copied into this website. Reference links do not imply endorsement. Original Chinese cues and code have no project-wide licence selected by the owner. Third-party recordings retain the licences above.
+
+## Device word speech and QR
+
+Additional example words can be read by the user's browser/OS `SpeechSynthesis` service with an explicitly available British English voice. These are synthesized readings, labelled separately from the 37 human recordings above. Voices are supplied by the device/browser, are not bundled or redistributed, and can require an installed language pack or network access. The app submits only the selected existing example word; it does not record the learner.
+
+`public/website-qr.svg` and `public/website-qr.png` encode the public website address. They were generated with ReportLab's QR implementation and Pillow (authoring tools, neither included as a website dependency). The authoring script is `scripts/generate-qr.py`; these assets contain no third-party visual artwork.

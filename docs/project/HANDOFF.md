@@ -10,9 +10,9 @@ The owner accepted this version and explicitly requested full audio coverage, re
 
 ## Release implementation
 
-Vite 8 + vanilla TypeScript, semantic HTML/CSS and static JSON. Node 24 recommended, minimum 22.12. All 44 symbols have contextual examples from 37 bundled human recordings, shared where appropriate. All audio ships in `public/audio/` and `dist/`; no middleware or runtime source fetch is needed. MP3 supports broad browser compatibility. The build verifies file integrity and complete coverage before bundling.
+Vite 8 + vanilla TypeScript, semantic HTML/CSS and static JSON. Node 24 recommended, minimum 22.12. All 44 symbols have contextual examples from 37 bundled human recordings, shared where appropriate. All 37 human recordings ship in `public/audio/` and `dist/`; no middleware or runtime recording-source fetch is needed. Additional example-word reading uses the device/browser speech service, whose voice availability and network requirements vary. MP3 supports broad browser compatibility. The build verifies file integrity and complete coverage before bundling.
 
-The explorer has group filters, IPA/English/Chinese search and highlighted targets. Eleven comparison presets support individual and ordered sequential playback, including the genuine three-symbol `/e æ aɪ/` group. Custom mode lets a learner choose any two distinct symbols with native selects. One shared Audio instance stops on replacement/navigation and recovers from loading failures; normal speed is the only playback speed. Each selected symbol shows six word/IPA/gloss examples and dictionary links, while each tile retains one preview word. All Chinese cues and preset tips have `cueSourceIds` linked to named references; the editorial rationale is in `docs/research/pronunciation-cue-review.md`. The sources view includes per-file attribution and licence links.
+The explorer has group filters, IPA/English/Chinese search and highlighted targets. Eleven comparison presets support individual and ordered sequential playback, including the genuine three-symbol `/e æ aɪ/` group. Custom mode lets a learner choose any two distinct symbols with native selects. One shared playback controller coordinates a single Audio instance with device word speech, stops both on replacement/navigation and recovers from loading failures; normal speed is the only playback speed. Each selected symbol shows six word/IPA/gloss examples, individual speaker buttons and dictionary links, while each tile retains one preview word. Seventy example occurrences reuse the existing human recordings with accurate word/phrase labels; 194 use explicitly available British (`en-GB`) synthesized word speech. Prefer a local British voice; never silently fall back to a different accent. Missing voices produce a truthful message with a dictionary route. Speech is supplementary word reading, never an isolated IPA reference. Button labels/titles, status and the sources view identify synthesis. Eleven preset choices are wrapping buttons at every width; only the custom selectors use dropdowns. All Chinese cues and preset tips have `cueSourceIds` linked to named references; the editorial rationale is in `docs/research/pronunciation-cue-review.md`. The sources view includes per-file attribution and licence links. Footer “手机打开” shows a static, independently decoded QR for the public URL and a PNG download; retain its four-module white quiet zone and exact destination.
 
 Mobile layouts use readable controls, touch targets, safe-area spacing and 16px search to avoid focus zoom on iOS. Chinese composition events are preserved. Both Safari/WebKit and Android/Chrome profiles are checked; do not claim physical-device testing without doing it.
 
@@ -40,19 +40,22 @@ The Mac launcher `Start IPA.command` selects a suitable installed Node runtime a
 | `src/library.ts` | Corpus access, six-word search, comparison lookup and custom-pair validation |
 | `content/comparisons.json` | Ordered two/three-symbol presets and sourced contrast tips |
 | `content/pronunciation-sources.json` | References backing Chinese articulation guidance |
-| `src/audio.ts` | Single audio player, ordered sequences, interruption and error states |
+| `src/audio.ts` | Shared recording/speech controller, sequences, cancellation and recovery |
+| `src/speech.ts` | Strict British device-voice selection; local voice preference |
+| `public/website-qr.svg`, `public/website-qr.png` | Scannable website QR and printable/downloadable image |
+| `scripts/generate-qr.py` | Optional QR authoring with ReportLab/Pillow, not runtime dependencies |
 | `src/theme.ts` | System and persisted theme preference |
 | `src/style.css` | Light/dark palette, responsive layout and accessible focus |
 | `content/audio.json` | Exact sources, licences, transformations and checksums |
 | `public/audio/` | All 37 distributed recordings |
 | `scripts/verify-audio.mjs` | Complete coverage and shipped-file integrity gate |
-| `tests/library.test.ts` | Inventory, mapping, comparison and search invariants |
+| `tests/library.test.ts`, `tests/audio.test.ts` | Corpus, mappings, comparison/search and speech lifecycle invariants |
 | `.github/workflows/pages.yml` | Test/build CI and Pages deployment |
 | `docs/project/verification.md` | Actual release verification evidence and limits |
 
 ## Git and publication
 
-Enhancement branch `work/comparisons-six-examples` was integrated to `main` by fast-forward. Feature commit `18f5bf2` was pushed and deployed successfully. Both WebKit/iPhone and Chrome/Android profiles verified all 44 public six-word selections, three-way playback order, custom comparisons, source links and natural speed without failed requests or page errors. Read Git for the latest documentation commit and the verification report for detailed evidence. The release workflow publishes pushes to main; pull requests run tests/build without deployment. Do not force push or change the public audience without authorization.
+Current task branch: `work/word-audio-flat-comparisons`, intended integration: fast-forward into `main`, then push to the existing authorized Pages site. Local checks: 13 tests, integrity/type/build gates, all 264 word controls, 11 flat choices, 20 layout/theme combinations, native British speech, recorded playback, cancellation/retry, and independently decoded QR. WebKit/iPhone and Chrome/Android profiles both pass; these are macOS-hosted browser profiles using the host voice, not physical mobile tests. Deployment/live-host verification follows integration; consult the current verification report and Git for the actual published commit. Previous enhancement `18f5bf2` was successfully published. Read Git for the latest documentation commit and the verification report for detailed evidence. The release workflow publishes pushes to main; pull requests run tests/build without deployment. Do not force push or change the public audience without authorization.
 
 Public URL: https://davidsqf.github.io/English-IPA-Learning/
 Repository: https://github.com/davidsqf/English-IPA-Learning

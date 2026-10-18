@@ -16,7 +16,7 @@
 .primary:disabled{cursor:default;background:var(--disabled);color:var(--disabled-ink);border-color:var(--input-border);transform:none}
 
 .mobile-pair-selector{display:none}.comparison-toolbar{margin-bottom:25px;padding-top:0}
-@media(max-width:760px){.pair-selector{display:none}.mobile-pair-selector{display:flex;align-items:center;justify-content:space-between;gap:15px;margin:21px 0;color:var(--muted);font-size:12px}.mobile-pair-selector select{min-height:44px;min-width:165px;font:18px Georgia,serif;padding:8px 12px;border:1px solid var(--control-border);border-radius:4px;background:var(--paper);color:var(--ink)}.comparison-toolbar{margin-bottom:20px;padding-bottom:20px;flex-direction:row;flex-wrap:wrap;gap:12px}.comparison-toolbar .primary{width:auto}}
+@media(max-width:760px){.mobile-pair-selector{display:flex;align-items:center;justify-content:space-between;gap:15px;margin:21px 0;color:var(--muted);font-size:12px}.mobile-pair-selector select{min-height:44px;min-width:165px;font:18px Georgia,serif;padding:8px 12px;border:1px solid var(--control-border);border-radius:4px;background:var(--paper);color:var(--ink)}.comparison-toolbar{margin-bottom:20px;padding-bottom:20px;flex-direction:row;flex-wrap:wrap;gap:12px}.comparison-toolbar .primary{width:auto}}
 
 .sidebar nav{margin-top:44px}.compact-title{font-size:22px;letter-spacing:0;margin:0 0 25px;font-weight:550}.articulation{font-size:14px}.sound-cue{font-size:13px}.recording-note{font-size:11px}.footer{font-size:10px}.result-count:empty{margin:0}.result-count{margin-bottom:0}select:focus-visible{outline:3px solid var(--blue);outline-offset:4px}
 @media(max-width:760px){.sidebar nav{margin-top:18px}.compact-title{font-size:20px;margin-bottom:21px}.pair-selector{margin-top:0}.mobile-pair-selector{margin-top:0}.sound-cue{font-size:12px}}
@@ -45,3 +45,24 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .footer button{min-height:44px}.example-word a{min-width:44px}.example-word a>span[lang]{font:inherit;color:inherit}
 /* Keep native pickers, while giving their closed control a reliable iOS hit area. */
 .preset-select select,.symbol-select select{-webkit-appearance:none;appearance:none;height:48px;line-height:normal;background-image:linear-gradient(45deg,transparent 50%,var(--muted) 50%),linear-gradient(135deg,var(--muted) 50%,transparent 50%);background-position:calc(100% - 18px) 50%,calc(100% - 12px) 50%;background-size:6px 6px;background-repeat:no-repeat}
+
+/* Show every recommended comparison at every screen width. */
+.comparison-presets{display:flex;flex-wrap:wrap;gap:9px;margin:0 0 24px}
+.comparison-presets button{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:48px;padding:10px 15px;border:1px solid var(--control-border);border-radius:5px;background:var(--paper);color:var(--ink);font:20px Georgia,"Times New Roman",serif}
+.comparison-presets button:hover{background:var(--control-hover)}
+.comparison-presets button[aria-pressed=true]{color:var(--blue);border-color:var(--blue);background:var(--pair-active);box-shadow:inset 0 0 0 1px var(--blue)}
+.comparison-arrow{color:var(--muted);font:15px sans-serif}
+.example-word{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.example-word>.example-content{display:block;min-width:0}
+.example-word .example-gloss{display:block}
+.word-voice{width:44px;height:44px;min-width:44px;padding:11px;justify-content:center;align-self:center}
+.word-voice svg{width:20px;height:20px;flex-shrink:0}
+.footer-actions{display:flex;align-items:center;gap:24px}
+.website-qr{position:relative}
+.website-qr summary{min-height:44px;display:flex;align-items:center;cursor:pointer;color:var(--footer-link);font-size:12px;list-style:none}
+.website-qr summary::-webkit-details-marker{display:none}
+.qr-panel{position:absolute;bottom:calc(100% + 12px);right:0;z-index:4;background:var(--paper);border:1px solid var(--control-border);border-radius:8px;padding:16px;box-shadow:0 5px 25px #0002;width:239px;display:flex;flex-direction:column;align-items:stretch}
+.qr-panel img{display:block;max-width:100%;height:auto;background:white;border-radius:3px}
+.qr-panel a{display:flex;align-items:center;justify-content:center;min-height:44px;font-size:12px;color:var(--blue)}
+@media(max-width:1400px){.example-words{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){.example-words{grid-template-columns:1fr;gap:0}.example-word>.example-content{display:grid;grid-template-columns:auto 1fr;align-items:baseline;gap:0 10px}.example-word .word-ipa{grid-column:1/-1}.example-word{padding:8px 0}.example-word .example-gloss{display:inline}.comparison-presets{gap:8px}.comparison-presets button{font-size:19px;padding:10px 12px}.comparison-presets .comparison-arrow{font-size:13px}.qr-panel{right:-76px}.footer-actions{gap:18px}}
