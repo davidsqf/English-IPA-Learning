@@ -98,13 +98,3 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 /* Keep the official player above its 200px minimum in narrow comparison columns. */
 .selected-description{min-width:0}
 @media(min-width:761px) and (max-width:1100px){.sound-pair,.sound-pair.triple{grid-template-columns:1fr}.sound-panel+.sound-panel{border-left:0;border-top:1px solid var(--line)}}
-
-/* Real, unretouched frontal photographs; the full frame remains linked. */
-.mouth-photo{margin:20px 0 0;padding-top:16px;border-top:1px solid var(--line);min-width:0}
-.mouth-photo h2{font-size:14px;font-weight:550;margin:0 0 12px}
-.mouth-photo-window{display:block;position:relative;aspect-ratio:3/2;width:100%;max-width:420px;overflow:hidden;border-radius:3px;background:#252525}
-.mouth-photo-window img{position:absolute;width:320%;height:auto;max-width:none;left:-110%;top:-160%}
-.mouth-photo figcaption{font-size:12px;line-height:1.8;color:var(--muted);margin-top:8px}
-.mouth-photo-source{font-size:12px;color:var(--muted)}.mouth-photo-source summary{display:inline-flex;align-items:center;min-height:44px;cursor:pointer;color:var(--blue)}
-.mouth-photo-source summary:before{content:'＋';margin-right:6px}.mouth-photo-source[open] summary:before{content:'−'}
-.mouth-photo-source p{font-size:12px;line-height:1.8;overflow-wrap:anywhere;margin:0 0 8px}.mouth-photo-source a{display:inline-block;min-height:44px;max-width:100%;overflow-wrap:anywhere}

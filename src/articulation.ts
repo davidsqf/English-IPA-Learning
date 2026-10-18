@@ -1,7 +1,6 @@
 import data from '../content/articulation.json' with { type: 'json' };
 import { loadYouTube, createTeachingPlayer } from './teaching-player.ts';
 import type { TeachingPlayer } from './teaching-player.ts';
-import { mouthPhotoView } from './mouth-photos.ts';
 
 export const articulations = data.entries;
 export const articulationSources = data.sources;
@@ -28,7 +27,7 @@ export function lessonBody(entry: Articulation, index: number, uid: string): str
 }
 export function articulationView(id: string, uid: string): string {
   const entry = getArticulation(id);
-  return `${mouthPhotoView(id, uid)}<figure class="articulation-figure" data-articulation="${esc(id)}" data-uid="${uid}" data-lesson-state="idle">
+  return `<figure class="articulation-figure" data-articulation="${esc(id)}" data-uid="${uid}" data-lesson-state="idle">
     <div class="articulation-heading"><h2 id="${uid}-title">真人发音讲解</h2></div>
     ${entry.lessons.length > 1 ? `<div class="lesson-modes" aria-label="视频内容">${entry.lessons.map((lesson,index)=>`<button data-lesson-mode="${index}" aria-pressed="${index === 0}" aria-controls="${uid}-content">${esc(lesson.label)}</button>`).join('')}</div>` : ''}
     <div id="${uid}-content" data-lesson-content>${lessonBody(entry,0,uid)}</div></figure>`;

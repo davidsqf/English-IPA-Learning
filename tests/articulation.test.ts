@@ -33,7 +33,7 @@ test('critical places and traditional vowel variants resolve to the correct publ
 test('views load no remote player before activation and expose the correct creator/range/replay links',()=>{
   for(const a of articulations){
     const html=articulationView(a.symbolId,'test');assert.match(html,/真人发音讲解/);assert.match(html,/data-load/);assert.match(html,/YouTube · 需联网/);
-    assert.doesNotMatch(html,/<iframe|<video|<script|<img[^>]+src="https?:|MRI|超声|NaN|undefined/);
+    assert.doesNotMatch(html,/<iframe|<video|<img|<script|MRI|超声|NaN|undefined/);
     assert.equal((html.match(/data-lesson-mode=/g)??[]).length,a.lessons.length>1?2:0);
     for(let i=0;i<a.lessons.length;i++){
       const body=lessonBody(a,i,'test'),l=a.lessons[i],s=data.sources[l.sourceId as keyof typeof data.sources];
