@@ -20,7 +20,11 @@ QA scripts/screenshots and private source-inspection files are ignored in `.loca
 
 ## Publication
 
-Local implementation and checks complete; deployment and final live verification follow the feature commit.
+Feature commit `9d4cd319ef4945355f58a8a6e608e32242571b6d` was fast-forwarded into main and pushed. [GitHub workflow 39104165853](https://github.com/davidsqf/English-IPA-Learning/actions/runs/39104165853) passed clean installation, all 20 tests, both data/integrity gates, type checking, build and Pages deployment.
+
+On the live [website](https://davidsqf.github.io/English-IPA-Learning/), **both Chrome/Pixel and WebKit/iPhone profiles** verify all 44 front/side figures, all 120 manually selected phases and their source disclosures, six word buttons per symbol, all eleven two/three-symbol comparison mappings and unique SVG identifiers. Each also completes native animations for /aɪ ŋ l r/, human recorded playback, British device speech for cake and the QR disclosure. Both report **zero uncaught page errors, zero console errors and zero failed requests**.
+
+The live JavaScript `index-DxuX-zJF.js` and stylesheet `index-Y4l4fCgt.css` return HTTP 200 and exactly match the SHA-256 of the locally verified build. Thus the delivered drawing data and motion implementation are identical to those used in the complete 44-animation local checks. No private source PDFs, audit galleries or QA scripts appear in the distributed build. Final documentation updates only record the verification; they do not alter the app or media. Read Git for the latest documentation commit.
 
 ---
 
