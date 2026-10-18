@@ -1,0 +1,36 @@
+# Agent instructions for IPA dir
+
+These rules apply to this entire repository. “IPA dir” is the root containing this file. The owner is the sole maintainer; different ChatGPT Work and Codex sessions share responsibility through files and Git, not assumed chat memory.
+
+## Read at the beginning of every session
+
+Read this file, `docs/workflow/git-workflow.md`, `docs/project/HANDOFF.md`, and `docs/project/decisions.md`. Before content or UI work, read the relevant research and `content/README.md`.
+
+Inspect the actual repository root, current branch, working-tree status, and recent commits. State what task you are carrying out. Preserve existing work and follow higher-priority user instructions.
+
+## Git and ownership
+
+- Use short-lived `work/<topic>` branches from clean `main`; integrate completed local tasks with fast-forward merges when possible. The initial research bootstrap is the sole setup exception and may be committed directly to `main`.
+- Only one writing session may use a checkout at a time. Check and acquire the ignored `.agent-session.lock/` directory as described in the workflow. Use separate worktrees if the owner authorizes simultaneous work.
+- Never switch branches, merge, or clean up while unrelated changes are present. Do not stage, commit, stash, reset, or discard another session's work.
+- Review the diff and stage explicit paths. Make focused local commits for completed authorized work, using the configured Git identity. Never invent an identity or change global Git settings.
+- Never rewrite shared history, force-push, delete work, or publish without authorization. A request to build locally does not authorize a GitHub push or deployment. Do not create a remote until its target is supplied or verified with the owner.
+- Maintain the handoff in the same task commit. Report the branch, commit, checks, and remaining work. Never claim a check passed unless it ran.
+
+## Product and content
+
+- Confirmed scope: English IPA, Chinese-speaking beginners, British English first. Use original Simplified Chinese explanations and English examples. Learner age is unknown; keep the initial tone neutral and age-flexible.
+- Preserve accent, transcription convention, source, review status, and audio type in content data. `/r/` as a dictionary convention is not the IPA trill `[r]`. Do not mix generic cardinal-vowel demonstrations with accent-specific English targets without labels.
+- “44 sounds” is a traditional teaching inventory, not the size of the international alphabet or a universal English sound count. Do not add `/tr dr ts dz/` as four independent core English phonemes just to reach “48”.
+- Treat seed content as editorial drafts. Source-checked text is still not a human pronunciation review. Do not silently promote drafts into a verified lesson corpus.
+- Bundle only assets with documented reuse permission and completed quality review. A playable URL is not a reuse licence. Record per-file attribution and modifications in `THIRD_PARTY.md` and the audio manifest before distribution.
+- Author original explanations, short example sentences, and diagrams. Link to publisher references; do not bulk-copy dictionary entries or audio. Do not scrape competitor datasets as a shortcut.
+- Use real Unicode IPA, accessible controls, no autoplay, and a single active audio player. Never use spelling-to-speech for isolated IPA symbols as the authoritative model.
+
+## Implementation and completion
+
+- Begin with a small, local, static application. No account, analytics, cloud service, or paid API is required for the MVP. Introduce dependencies only when they serve a clear need; commit the chosen lockfile and runtime requirements when code exists.
+- Keep private recordings, secrets, dependencies, and generated build output out of Git. Do not edit the parent's synced project files or create another nested repository inside this one.
+- Verify changes proportionally. Documentation work needs link/data/diff checks; application work needs relevant build and behavior checks, including actual audio playback when audio changes.
+- Preserve uncertainty in research. Distinguish inspected page features, publisher descriptions, design recommendations, and untested behavior.
+- Apply the end-of-session procedure in the workflow, update the handoff, and release only your own session lock. If interrupted, leave enough state for the next agent to resume safely.

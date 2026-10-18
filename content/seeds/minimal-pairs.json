@@ -1,0 +1,415 @@
+{
+  "schemaVersion": 1,
+  "accentModel": "en-GB-dictionary-nonrhotic-v1",
+  "publicationStatus": "draft-not-for-unreviewed-release",
+  "pairs": [
+    {
+      "id": "kit-fleece",
+      "phonemeIds": [
+        "vowel-kit",
+        "vowel-fleece"
+      ],
+      "suggestedStage": 1,
+      "kind": "minimal-pair",
+      "options": [
+        {
+          "word": "ship",
+          "ipa": "ʃɪp",
+          "glossZhHans": "船",
+          "cefr": null,
+          "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ship",
+          "textCheck": "pending",
+          "audioId": null
+        },
+        {
+          "word": "sheep",
+          "ipa": "ʃiːp",
+          "glossZhHans": "绵羊",
+          "cefr": null,
+          "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sheep",
+          "textCheck": "pending",
+          "audioId": null
+        }
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "audioReview": "pending",
+      "assessmentReady": false,
+      "note": "Preview word meanings; obtain matched reviewed audio. Candidate transcriptions are not individual dictionary-entry checks."
+    },
+    {
+      "id": "sit-seat",
+      "phonemeIds": [
+        "vowel-kit",
+        "vowel-fleece"
+      ],
+      "suggestedStage": 1,
+      "kind": "minimal-pair",
+      "options": [
+        {
+          "word": "sit",
+          "ipa": "sɪt",
+          "glossZhHans": "坐",
+          "cefr": null,
+          "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sit",
+          "textCheck": "pending",
+          "audioId": null
+        },
+        {
+          "word": "seat",
+          "ipa": "siːt",
+          "glossZhHans": "座位",
+          "cefr": null,
+          "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/seat",
+          "textCheck": "pending",
+          "audioId": null
+        }
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "audioReview": "pending",
+      "assessmentReady": false,
+      "note": "Preview word meanings; obtain matched reviewed audio. Candidate transcriptions are not individual dictionary-entry checks."
+    },
+    {
+      "id": "foot-goose",
+      "phonemeIds": [
+        "vowel-foot",
+        "vowel-goose"
+      ],
+      "suggestedStage": 2,
+      "kind": "minimal-pair",
+      "options": [
+        {
+          "word": "full",
+          "ipa": "fʊl",
+          "glossZhHans": "满的",
+          "cefr": null,
+          "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/full",
+          "textCheck": "pending",
+          "audioId": null
+        },
+        {
+          "word": "fool",
+          "ipa": "fuːl",
+          "glossZhHans": "傻瓜",
+          "cefr": null,
+          "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/fool",
+          "textCheck": "pending",
+          "audioId": null
+        }
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "audioReview": "pending",
+      "assessmentReady": false,
+      "note": "Preview word meanings; obtain matched reviewed audio. Candidate transcriptions are not individual dictionary-entry checks."
+    },
+    {
+      "id": "dress-trap",
+      "phonemeIds": [
+        "vowel-dress",
+        "vowel-trap"
+      ],
+      "suggestedStage": 2,
+      "kind": "minimal-pair",
+      "options": [
+        {
+          "word": "bed",
+          "ipa": "bed",
+          "glossZhHans": "床",
+          "cefr": null,
+          "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bed",
+          "textCheck": "pending",
+          "audioId": null
+        },
+        {
+          "word": "bad",
+          "ipa": "bæd",
+          "glossZhHans": "坏的",
+          "cefr": null,
+          "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bad",
+          "textCheck": "pending",
+          "audioId": null
+        }
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "audioReview": "pending",
+      "assessmentReady": false,
+      "note": "Preview word meanings; obtain matched reviewed audio. Candidate transcriptions are not individual dictionary-entry checks."
+    },
+    {
+      "id": "trap-strut",
+      "phonemeIds": [
+        "vowel-trap",
+        "vowel-strut"
+      ],
+      "suggestedStage": 2,
+      "kind": "minimal-pair",
+      "options": [
+        {
+          "word": "cap",
+          "ipa": "kæp",
+          "glossZhHans": "帽子",
+          "cefr": null,
+          "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cap",
+          "textCheck": "pending",
+          "audioId": null
+        },
+        {
+          "word": "cup",
+          "ipa": "kʌp",
+          "glossZhHans": "杯子",
+          "cefr": null,
+          "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cup",
+          "textCheck": "pending",
+          "audioId": null
+        }
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "audioReview": "pending",
+      "assessmentReady": false,
+      "note": "Preview word meanings; obtain matched reviewed audio. Candidate transcriptions are not individual dictionary-entry checks."
+    },
+    {
+      "id": "lot-goat",
+      "phonemeIds": [
+        "vowel-lot",
+        "vowel-goat"
+      ],
+      "suggestedStage": 6,
+      "kind": "minimal-pair",
+      "options": [
+        {
+          "word": "not",
+          "ipa": "nɒt",
+          "glossZhHans": "不",
+          "cefr": null,
+          "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/not",
+          "textCheck": "pending",
+          "audioId": null
+        },
+        {
+          "word": "note",
+          "ipa": "nəʊt",
+          "glossZhHans": "便条",
+          "cefr": null,
+          "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/note",
+          "textCheck": "pending",
+          "audioId": null
+        }
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "audioReview": "pending",
+      "assessmentReady": false,
+      "note": "Preview word meanings; obtain matched reviewed audio. Candidate transcriptions are not individual dictionary-entry checks."
+    },
+    {
+      "id": "p-b",
+      "phonemeIds": [
+        "consonant-p",
+        "consonant-b"
+      ],
+      "suggestedStage": 3,
+      "kind": "minimal-pair",
+      "options": [
+        {
+          "word": "pat",
+          "ipa": "pæt",
+          "glossZhHans": "轻拍",
+          "cefr": null,
+          "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/pat",
+          "textCheck": "pending",
+          "audioId": null
+        },
+        {
+          "word": "bat",
+          "ipa": "bæt",
+          "glossZhHans": "球棒",
+          "cefr": null,
+          "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bat",
+          "textCheck": "pending",
+          "audioId": null
+        }
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "audioReview": "pending",
+      "assessmentReady": false,
+      "note": "Preview word meanings; obtain matched reviewed audio. Candidate transcriptions are not individual dictionary-entry checks."
+    },
+    {
+      "id": "f-v",
+      "phonemeIds": [
+        "consonant-f",
+        "consonant-v"
+      ],
+      "suggestedStage": 3,
+      "kind": "minimal-pair",
+      "options": [
+        {
+          "word": "fan",
+          "ipa": "fæn",
+          "glossZhHans": "风扇",
+          "cefr": null,
+          "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/fan",
+          "textCheck": "pending",
+          "audioId": null
+        },
+        {
+          "word": "van",
+          "ipa": "væn",
+          "glossZhHans": "厢式货车",
+          "cefr": null,
+          "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/van",
+          "textCheck": "pending",
+          "audioId": null
+        }
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "audioReview": "pending",
+      "assessmentReady": false,
+      "note": "Preview word meanings; obtain matched reviewed audio. Candidate transcriptions are not individual dictionary-entry checks."
+    },
+    {
+      "id": "s-sh",
+      "phonemeIds": [
+        "consonant-s",
+        "consonant-sh"
+      ],
+      "suggestedStage": 4,
+      "kind": "minimal-pair",
+      "options": [
+        {
+          "word": "sip",
+          "ipa": "sɪp",
+          "glossZhHans": "小口喝",
+          "cefr": null,
+          "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sip",
+          "textCheck": "pending",
+          "audioId": null
+        },
+        {
+          "word": "ship",
+          "ipa": "ʃɪp",
+          "glossZhHans": "船",
+          "cefr": null,
+          "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ship",
+          "textCheck": "pending",
+          "audioId": null
+        }
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "audioReview": "pending",
+      "assessmentReady": false,
+      "note": "Preview word meanings; obtain matched reviewed audio. Candidate transcriptions are not individual dictionary-entry checks."
+    },
+    {
+      "id": "l-r",
+      "phonemeIds": [
+        "consonant-l",
+        "consonant-r"
+      ],
+      "suggestedStage": 4,
+      "kind": "minimal-pair",
+      "options": [
+        {
+          "word": "light",
+          "ipa": "laɪt",
+          "glossZhHans": "光",
+          "cefr": null,
+          "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/light",
+          "textCheck": "pending",
+          "audioId": null
+        },
+        {
+          "word": "right",
+          "ipa": "raɪt",
+          "glossZhHans": "右边",
+          "cefr": null,
+          "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/right",
+          "textCheck": "pending",
+          "audioId": null
+        }
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "audioReview": "pending",
+      "assessmentReady": false,
+      "note": "Preview word meanings; obtain matched reviewed audio. Candidate transcriptions are not individual dictionary-entry checks."
+    },
+    {
+      "id": "v-w",
+      "phonemeIds": [
+        "consonant-v",
+        "consonant-w"
+      ],
+      "suggestedStage": 4,
+      "kind": "minimal-pair",
+      "options": [
+        {
+          "word": "vet",
+          "ipa": "vet",
+          "glossZhHans": "兽医",
+          "cefr": null,
+          "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/vet",
+          "textCheck": "pending",
+          "audioId": null
+        },
+        {
+          "word": "wet",
+          "ipa": "wet",
+          "glossZhHans": "湿的",
+          "cefr": null,
+          "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/wet",
+          "textCheck": "pending",
+          "audioId": null
+        }
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "audioReview": "pending",
+      "assessmentReady": false,
+      "note": "Preview word meanings; obtain matched reviewed audio. Candidate transcriptions are not individual dictionary-entry checks."
+    },
+    {
+      "id": "n-ng",
+      "phonemeIds": [
+        "consonant-n",
+        "consonant-ng"
+      ],
+      "suggestedStage": 4,
+      "kind": "minimal-pair",
+      "options": [
+        {
+          "word": "thin",
+          "ipa": "θɪn",
+          "glossZhHans": "薄的",
+          "cefr": null,
+          "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/thin",
+          "textCheck": "pending",
+          "audioId": null
+        },
+        {
+          "word": "thing",
+          "ipa": "θɪŋ",
+          "glossZhHans": "东西",
+          "cefr": null,
+          "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/thing",
+          "textCheck": "pending",
+          "audioId": null
+        }
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "audioReview": "pending",
+      "assessmentReady": false,
+      "note": "Preview word meanings; obtain matched reviewed audio. Candidate transcriptions are not individual dictionary-entry checks."
+    }
+  ]
+}

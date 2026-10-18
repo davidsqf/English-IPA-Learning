@@ -1,0 +1,30 @@
+# Local agent coordination and private working material
+.agent-session.lock/
+.local/
+private-recordings/
+
+# Credentials; templates are allowed
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies and generated output
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+*.log
+*.tsbuildinfo
+__pycache__/
+*.pyc
+.venv/
+
+# OS/editor state
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo

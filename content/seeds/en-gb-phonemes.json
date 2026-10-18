@@ -1,0 +1,1106 @@
+{
+  "schemaVersion": 1,
+  "researchDate": "2026-10-18",
+  "accentModel": "en-GB-dictionary-nonrhotic-v1",
+  "publicationStatus": "draft-not-for-unreviewed-release",
+  "phonemes": [
+    {
+      "id": "vowel-fleece",
+      "ipa": "iː",
+      "group": "monophthong",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 1,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "sheep",
+        "ipa": "ʃiːp",
+        "glossZhHans": "绵羊",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sheep",
+        "checkedSourceIds": [
+          "S10"
+        ],
+        "textCheck": "source-checked",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "vowel-kit",
+      "ipa": "ɪ",
+      "group": "monophthong",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 1,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "ship",
+        "ipa": "ʃɪp",
+        "glossZhHans": "船",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ship",
+        "checkedSourceIds": [],
+        "textCheck": "pending",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "vowel-dress",
+      "ipa": "e",
+      "group": "monophthong",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 2,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "bed",
+        "ipa": "bed",
+        "glossZhHans": "床",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bed",
+        "checkedSourceIds": [],
+        "textCheck": "pending",
+        "audioId": null
+      },
+      "isolatedAudioId": null,
+      "note": "Dictionary /e/ convention; do not automatically substitute a cardinal [e] demonstration."
+    },
+    {
+      "id": "vowel-trap",
+      "ipa": "æ",
+      "group": "monophthong",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 2,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "cat",
+        "ipa": "kæt",
+        "glossZhHans": "猫",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cat",
+        "checkedSourceIds": [
+          "S11"
+        ],
+        "textCheck": "source-checked",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "vowel-palm",
+      "ipa": "ɑː",
+      "group": "monophthong",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 5,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "car",
+        "ipa": "kɑː",
+        "glossZhHans": "汽车",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/car",
+        "checkedSourceIds": [],
+        "textCheck": "pending",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "vowel-lot",
+      "ipa": "ɒ",
+      "group": "monophthong",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 2,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "hot",
+        "ipa": "hɒt",
+        "glossZhHans": "热的",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/hot",
+        "checkedSourceIds": [],
+        "textCheck": "pending",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "vowel-thought",
+      "ipa": "ɔː",
+      "group": "monophthong",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 5,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "door",
+        "ipa": "dɔː",
+        "glossZhHans": "门",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/door",
+        "checkedSourceIds": [],
+        "textCheck": "pending",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "vowel-foot",
+      "ipa": "ʊ",
+      "group": "monophthong",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 2,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "book",
+        "ipa": "bʊk",
+        "glossZhHans": "书",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/book",
+        "checkedSourceIds": [],
+        "textCheck": "pending",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "vowel-goose",
+      "ipa": "uː",
+      "group": "monophthong",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 2,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "food",
+        "ipa": "fuːd",
+        "glossZhHans": "食物",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/food",
+        "checkedSourceIds": [],
+        "textCheck": "pending",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "vowel-strut",
+      "ipa": "ʌ",
+      "group": "monophthong",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 2,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "cup",
+        "ipa": "kʌp",
+        "glossZhHans": "杯子",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cup",
+        "checkedSourceIds": [],
+        "textCheck": "pending",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "vowel-nurse",
+      "ipa": "ɜː",
+      "group": "monophthong",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 5,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "bird",
+        "ipa": "bɜːd",
+        "glossZhHans": "鸟",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bird",
+        "checkedSourceIds": [],
+        "textCheck": "pending",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "vowel-schwa",
+      "ipa": "ə",
+      "group": "monophthong",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 5,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "about",
+        "ipa": "əˈbaʊt",
+        "glossZhHans": "关于",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/about",
+        "checkedSourceIds": [],
+        "textCheck": "pending",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "vowel-face",
+      "ipa": "eɪ",
+      "group": "diphthong",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 6,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "day",
+        "ipa": "deɪ",
+        "glossZhHans": "一天",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/day",
+        "checkedSourceIds": [],
+        "textCheck": "pending",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "vowel-price",
+      "ipa": "aɪ",
+      "group": "diphthong",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 6,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "my",
+        "ipa": "maɪ",
+        "glossZhHans": "我的",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/my",
+        "checkedSourceIds": [
+          "S11"
+        ],
+        "textCheck": "source-checked",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "vowel-choice",
+      "ipa": "ɔɪ",
+      "group": "diphthong",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 6,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "boy",
+        "ipa": "bɔɪ",
+        "glossZhHans": "男孩",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/boy",
+        "checkedSourceIds": [
+          "S11"
+        ],
+        "textCheck": "source-checked",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "vowel-goat",
+      "ipa": "əʊ",
+      "group": "diphthong",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 6,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "go",
+        "ipa": "ɡəʊ",
+        "glossZhHans": "去",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/go",
+        "checkedSourceIds": [
+          "S11"
+        ],
+        "textCheck": "source-checked",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "vowel-mouth",
+      "ipa": "aʊ",
+      "group": "diphthong",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 6,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "now",
+        "ipa": "naʊ",
+        "glossZhHans": "现在",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/now",
+        "checkedSourceIds": [
+          "S11"
+        ],
+        "textCheck": "source-checked",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "vowel-near",
+      "ipa": "ɪə",
+      "group": "diphthong",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 6,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "ear",
+        "ipa": "ɪə",
+        "glossZhHans": "耳朵",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ear",
+        "checkedSourceIds": [],
+        "textCheck": "pending",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "vowel-square",
+      "ipa": "eə",
+      "group": "diphthong",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 6,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "chair",
+        "ipa": "tʃeə",
+        "glossZhHans": "椅子",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/chair",
+        "checkedSourceIds": [],
+        "textCheck": "pending",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "vowel-cure",
+      "ipa": "ʊə",
+      "group": "diphthong",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 6,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "pure",
+        "ipa": "pjʊə",
+        "glossZhHans": "纯的",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/pure",
+        "checkedSourceIds": [],
+        "textCheck": "pending",
+        "audioId": null
+      },
+      "isolatedAudioId": null,
+      "note": "Traditional reference entry; pronunciation varies. Check the selected word, speaker, and accepted variants before assessment."
+    },
+    {
+      "id": "consonant-p",
+      "ipa": "p",
+      "group": "consonant",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 3,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "pen",
+        "ipa": "pen",
+        "glossZhHans": "笔",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/pen",
+        "checkedSourceIds": [
+          "S11"
+        ],
+        "textCheck": "source-checked",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "consonant-b",
+      "ipa": "b",
+      "group": "consonant",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 3,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "bag",
+        "ipa": "bæɡ",
+        "glossZhHans": "包",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bag",
+        "checkedSourceIds": [],
+        "textCheck": "pending",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "consonant-t",
+      "ipa": "t",
+      "group": "consonant",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 3,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "tea",
+        "ipa": "tiː",
+        "glossZhHans": "茶",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/tea",
+        "checkedSourceIds": [
+          "S11"
+        ],
+        "textCheck": "source-checked",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "consonant-d",
+      "ipa": "d",
+      "group": "consonant",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 3,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "dog",
+        "ipa": "dɒɡ",
+        "glossZhHans": "狗",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/dog",
+        "checkedSourceIds": [],
+        "textCheck": "pending",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "consonant-k",
+      "ipa": "k",
+      "group": "consonant",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 3,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "key",
+        "ipa": "kiː",
+        "glossZhHans": "钥匙",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/key",
+        "checkedSourceIds": [],
+        "textCheck": "pending",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "consonant-g",
+      "ipa": "ɡ",
+      "group": "consonant",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 3,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "green",
+        "ipa": "ɡriːn",
+        "glossZhHans": "绿色的",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/green",
+        "checkedSourceIds": [],
+        "textCheck": "pending",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "consonant-f",
+      "ipa": "f",
+      "group": "consonant",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 3,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "fish",
+        "ipa": "fɪʃ",
+        "glossZhHans": "鱼",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/fish",
+        "checkedSourceIds": [],
+        "textCheck": "pending",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "consonant-v",
+      "ipa": "v",
+      "group": "consonant",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 3,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "van",
+        "ipa": "væn",
+        "glossZhHans": "厢式货车",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/van",
+        "checkedSourceIds": [
+          "S11"
+        ],
+        "textCheck": "source-checked",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "consonant-theta",
+      "ipa": "θ",
+      "group": "consonant",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 4,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "think",
+        "ipa": "θɪŋk",
+        "glossZhHans": "思考",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/think",
+        "checkedSourceIds": [],
+        "textCheck": "pending",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "consonant-eth",
+      "ipa": "ð",
+      "group": "consonant",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 4,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "this",
+        "ipa": "ðɪs",
+        "glossZhHans": "这个",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/this",
+        "checkedSourceIds": [
+          "S11"
+        ],
+        "textCheck": "source-checked",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "consonant-s",
+      "ipa": "s",
+      "group": "consonant",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 3,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "sun",
+        "ipa": "sʌn",
+        "glossZhHans": "太阳",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sun",
+        "checkedSourceIds": [],
+        "textCheck": "pending",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "consonant-z",
+      "ipa": "z",
+      "group": "consonant",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 3,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "zoo",
+        "ipa": "zuː",
+        "glossZhHans": "动物园",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/zoo",
+        "checkedSourceIds": [
+          "S11"
+        ],
+        "textCheck": "source-checked",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "consonant-sh",
+      "ipa": "ʃ",
+      "group": "consonant",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 4,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "shoe",
+        "ipa": "ʃuː",
+        "glossZhHans": "鞋",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/shoe",
+        "checkedSourceIds": [
+          "S11"
+        ],
+        "textCheck": "source-checked",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "consonant-zh",
+      "ipa": "ʒ",
+      "group": "consonant",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 4,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "vision",
+        "ipa": "ˈvɪʒən",
+        "glossZhHans": "视力",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/vision",
+        "checkedSourceIds": [],
+        "textCheck": "pending",
+        "audioId": null
+      },
+      "isolatedAudioId": null,
+      "note": "Less basic word example. Transcription with schwa differs from the syllabic-consonant variant in S11; entry review pending."
+    },
+    {
+      "id": "consonant-h",
+      "ipa": "h",
+      "group": "consonant",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 4,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "hat",
+        "ipa": "hæt",
+        "glossZhHans": "帽子",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/hat",
+        "checkedSourceIds": [
+          "S11"
+        ],
+        "textCheck": "source-checked",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "consonant-ch",
+      "ipa": "tʃ",
+      "group": "consonant",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 4,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "chair",
+        "ipa": "tʃeə",
+        "glossZhHans": "椅子",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/chair",
+        "checkedSourceIds": [],
+        "textCheck": "pending",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "consonant-jh",
+      "ipa": "dʒ",
+      "group": "consonant",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 4,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "jam",
+        "ipa": "dʒæm",
+        "glossZhHans": "果酱",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/jam",
+        "checkedSourceIds": [
+          "S11"
+        ],
+        "textCheck": "source-checked",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "consonant-m",
+      "ipa": "m",
+      "group": "consonant",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 4,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "moon",
+        "ipa": "muːn",
+        "glossZhHans": "月亮",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/moon",
+        "checkedSourceIds": [],
+        "textCheck": "pending",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "consonant-n",
+      "ipa": "n",
+      "group": "consonant",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 4,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "nose",
+        "ipa": "nəʊz",
+        "glossZhHans": "鼻子",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/nose",
+        "checkedSourceIds": [],
+        "textCheck": "pending",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "consonant-ng",
+      "ipa": "ŋ",
+      "group": "consonant",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 4,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "sing",
+        "ipa": "sɪŋ",
+        "glossZhHans": "唱歌",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sing",
+        "checkedSourceIds": [
+          "S11"
+        ],
+        "textCheck": "source-checked",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "consonant-l",
+      "ipa": "l",
+      "group": "consonant",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 4,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "leg",
+        "ipa": "leɡ",
+        "glossZhHans": "腿",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/leg",
+        "checkedSourceIds": [
+          "S11"
+        ],
+        "textCheck": "source-checked",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "consonant-r",
+      "ipa": "r",
+      "group": "consonant",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 4,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "red",
+        "ipa": "red",
+        "glossZhHans": "红色的",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/red",
+        "checkedSourceIds": [
+          "S11"
+        ],
+        "textCheck": "source-checked",
+        "audioId": null
+      },
+      "isolatedAudioId": null,
+      "note": "Broad dictionary /r/; expected English approximant rather than the IPA trill [r]."
+    },
+    {
+      "id": "consonant-y",
+      "ipa": "j",
+      "group": "consonant",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 4,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "yes",
+        "ipa": "jes",
+        "glossZhHans": "是的",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/yes",
+        "checkedSourceIds": [
+          "S11"
+        ],
+        "textCheck": "source-checked",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    },
+    {
+      "id": "consonant-w",
+      "ipa": "w",
+      "group": "consonant",
+      "accentModel": "en-GB-dictionary-nonrhotic-v1",
+      "suggestedStage": 4,
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "editorialStatus": "draft",
+      "phoneticsReview": "pending",
+      "exampleWord": {
+        "text": "wet",
+        "ipa": "wet",
+        "glossZhHans": "湿的",
+        "cefr": null,
+        "suggestedReferenceUrl": "https://dictionary.cambridge.org/pronunciation/english/wet",
+        "checkedSourceIds": [
+          "S11"
+        ],
+        "textCheck": "source-checked",
+        "audioId": null
+      },
+      "isolatedAudioId": null
+    }
+  ]
+}
