@@ -17,7 +17,15 @@ Both engines also pass selection disposal, simulated background pause, deliberat
 
 Existing-feature regression in both engines: all **264 word controls** resolve to the correct human recording (70 occurrences) or strict `en-GB` word speech (194); three real synthesized words (*cake, rain, name*) each emit native start/end with British Daniel and no error, a human recording and the triple sequence complete, all eleven flat presets/custom selectors work, and the QR disclosure fits the viewport. Ten comparison width/theme cases per engine (320/390/412/768/1440 × light/dark) pass. Chinese IME composition, exact IPA/extra-word search, keyboard custom mode and persisted theme also pass. The final explorer checks additionally cover MRI, ultrasound and affricate views across 320/390/844/1024/1440 in both themes, preserving the desktop symbol-column alignment.
 
-Publication is pending; the live deployment/asset audit will be recorded after it runs.
+## Published release audit
+
+Feature commit **`19a5d6778478aa42c4597ec3f1f9c588c329f42a`** was fast-forwarded to `main`, pushed to the existing authorized repository and deployed successfully by [GitHub workflow 39107190630](https://github.com/davidsqf/English-IPA-Learning/actions/runs/39107190630). The initial transfer returned HTTP 400; retrying the same fast-forward push with per-command HTTP/1.1 and a 50 MiB request buffer succeeded without rewriting history or changing global configuration.
+
+On the [public website](https://davidsqf.github.io/English-IPA-Learning/), both Chrome/Pixel and WebKit/iPhone profiles exercise **all 44 real videos**: correct original video/poster mapping, visible decoded frames, native time advancement, seeking and native `ended`, all 44 original source disclosures, six word controls per symbol, all eleven flat comparison mappings, video/video and video/word interruption and eight comparison width/theme cases per engine. Both report zero uncaught application exceptions. Chrome reports no failed media requests; WebKit reports four expected client-side `cancelled` range requests while sources are disposed/replaced, with all 44 playback cases nevertheless successful. These are not server/media failures and are retained distinctly in the raw QA results rather than described as zero cancellation diagnostics.
+
+A separate HTTP audit fetches **92 published assets**: all 44 complete MP4s, all 44 original PNG/JPEG posters, both QR assets and compiled JavaScript/CSS. Every response succeeds and its SHA-256 exactly matches the final local manifest/build; public HTML references the matching compiled filenames. No third-party media service is required for playback. This proves the public media are the checked original files, with no missing clip or stale original-animation bundle. The later release-audit documentation update does not change the app or assets.
+
+The requested replacement is complete: all 44 entries use real published MRI/ultrasound video and original posters, in explorer and comparisons, with the fabricated anatomy/animation removed and actual source/rights/variation labels visible. Preserve non-commercial/no-adaptation terms and the documented distinction between technical/source checks and independent expert phonetic review.
 
 ---
 
