@@ -19,7 +19,17 @@ Seven candidate frames per source word were visually inspected, followed by all 
 - Both engines pass **14 width/theme combinations** (320/390/412/768/844/1024/1440 × light/dark), covering the explorer, triple comparison and custom pair, with no horizontal overflow or clipped mouth viewport. Phone screenshots and the complete selected-photo galleries were visually inspected. All images stay local and no external requests/frames occur before lesson activation.
 - Existing-feature regression passes in both engines: **264 word controls** (70 recorded occurrences / 194 strict British device-speech requests), all eleven flat choices/custom pairs, responsive QR, actual host British Daniel speech for *cake/rain/name*, a human recording and the triple recording sequence. Thirteen real video integration checks pass per engine: load-on-click, keyboard mode switching, bounded replay, word/video interruption, exclusive three-panel playback, background pause, navigation/pagehide cleanup, SDK failure/retry and pending-load cancellation. Existing video/word controllers are unchanged by this task.
 
-These are macOS-hosted browser profiles, not physical phones or independent expert phonetics review. The local photo assets work without YouTube; teaching videos retain their internet/provider/advertising limitations. Publication verification follows after deployment.
+These are macOS-hosted browser profiles, not physical phones or independent expert phonetics review. The local photo assets work without YouTube; teaching videos retain their internet/provider/advertising limitations. Public verification is recorded below.
+
+## Public release audit
+
+Feature commit **`c1922529e05968e481b612f017a1a824ab2c4284`** was fast-forwarded to `main`, pushed to the authorized repository and deployed by successful [workflow 39124461424](https://github.com/davidsqf/English-IPA-Learning/actions/runs/39124461424).
+
+On the public website, Chrome/Pixel and WebKit/iPhone each decode **all 44 final photographs** with correct dimensions, alt/word mapping, word/time/licence source disclosures and working full-frame image links. All eleven comparison mappings/custom pair, 14 photo layout/theme sets per engine, zero pre-activation external requests, all 264 word controls, real British speech/human recording/triple sequence, QR and 13 teacher-video lifecycle/recovery checks pass again. No uncaught application exceptions were reported.
+
+A separate HTTP audit retrieves **85 public assets**: all 44 photographs, all 37 recordings, both QR files and the compiled JavaScript/CSS. Every request succeeds and every SHA-256 matches the final local manifest/build; the public HTML references the matching bundle names. This establishes that the tested real photos, rather than placeholders or stale files, are delivered. The final documentation/agent-rule clarification changes no application file or image.
+
+The full requested state is verified: a real frontal mouth picture for every symbol alongside its retained YouTube teaching segment, with credible source/permission and no ultrasound or generated anatomy. The recorded word-photo context and limits of frontal stills remain explicit.
 
 ---
 
