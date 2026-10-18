@@ -17,7 +17,11 @@ Browser QA scripts, logs, source-acquisition experiments and screenshots remain 
 
 ## Publication
 
-Local verification completed; deployment and live-host verification are recorded after publishing this task commit.
+Feature commit `2c5a40b021931a2eac0a9389108059ff674e4a30` was fast-forwarded into `main` and pushed. [Workflow 39099826503](https://github.com/davidsqf/English-IPA-Learning/actions/runs/39099826503) passed clean installation, all 13 tests, integrity/type/build checks and Pages deployment.
+
+On the public [website](https://davidsqf.github.io/English-IPA-Learning/), both WebKit/iPhone and Chrome/Android browser profiles pass the same 264 word-button dispatch/mapping checks, all eleven flat choices, custom panels, triple recorded sequence, ten layout/theme cases per engine, QR disclosure, native Daniel speech start/end for cake/rain/name, and recorded primary playback. Both report zero uncaught page errors and no native speech errors. The public SVG/PNG both return HTTP 200 and exactly match local SHA-256; ZXing independently decodes the public PNG to the correct URL. Recordings remain unchanged from the earlier checked release.
+
+Final documentation updates record these completed checks without changing the app or media. Read Git for the current documentation commit.
 
 ---
 
