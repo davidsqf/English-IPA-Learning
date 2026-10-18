@@ -48,7 +48,7 @@ The Mac launcher `Start IPA.command` selects a suitable installed Node runtime a
 
 ## Git and publication
 
-Release branch: `work/release-audio-dark-mode`; integration target `main` via fast-forward after checks. Read Git for actual current state. The release workflow publishes pushes to main; pull requests run tests/build without deployment. Do not force push or change the public audience without authorization.
+Release branch: `work/release-audio-dark-mode`, integrated into `main` by fast-forward. Release commit `b5c055d` was pushed and successfully deployed. All 37 hosted audio checksums and representative live browser behavior were verified; see the verification report. Final documentation is integrated with the same branch protocol. Read Git for the current commit. The release workflow publishes pushes to main; pull requests run tests/build without deployment. Do not force push or change the public audience without authorization.
 
 Public URL: https://davidsqf.github.io/English-IPA-Learning/
 Repository: https://github.com/davidsqf/English-IPA-Learning
