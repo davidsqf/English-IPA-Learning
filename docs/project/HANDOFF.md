@@ -8,6 +8,16 @@ A concise British English IPA explorer for Chinese-speaking beginners: learn eac
 
 The owner accepted this version and explicitly requested full audio coverage, removal of WIP labels, dark mode, thorough testing, a push to `English-IPA-Learning`, and public hosting. This supersedes the original local-only restriction. The destination was verified as the owner's empty public repository `davidsqf/English-IPA-Learning`; GitHub Pages is the selected host.
 
+## Articulation visuals (v1.3)
+
+Current task: `work/articulation-visuals`, intended integration: fast-forward into `main` and publish to the existing authorized Pages site after verification. The owner requested a picture or animation of mouth shape, tongue and movement for **every symbol**, with credible references.
+
+All 44 symbols now have original SVG lip/front and tongue/side illustrations, in both the explorer and two/three-symbol comparisons. `content/articulation.json` holds 35 original schematic poses and 120 explicit phases, with per-entry lip/tongue/movement cues, source IDs, source-page notes and variants. The side view faces right. Nasals show an open nasal route with oral closure, /l/ shows lateral airflow, /h/ has a glottal focus, and /r/ depicts approximant [ɹ]. Diphthongs have a directional tongue arrow plus continuous interpolation. The figures show relative teaching positions, not traced publisher images, measured MRI, clinical precision or identical anatomy across British speakers.
+
+Visuals are initially still, have finite play/pause and numbered phases, and switch to manual static steps for reduced motion. Dispose motion when switching/navigating and when the page becomes hidden; restore bindings after bfcache restoration. References appear under **图示依据**. The source review and all 44 mappings are in `docs/research/articulation-visuals.md`. These graphics need no network, new runtime dependency or third-party media embedding. Existing audio is unchanged and not represented as time-aligned with the schematic motion.
+
+Current verification: 20 unit/content tests, the recording integrity gate, the new 44-visual coverage gate and TypeScript/Vite build pass. All 120 phases and all 44 full animations were exercised in both WebKit/iPhone and Chrome/Android profiles; manual source links, finite motion/pause, reduced motion, comparison mapping and responsive layouts were checked. Source-based visual review is distinct from an independent expert phonetics assessment. Publication/live checks follow integration; see the current verification report for exact evidence and limits.
+
 ## Release implementation
 
 Vite 8 + vanilla TypeScript, semantic HTML/CSS and static JSON. Node 24 recommended, minimum 22.12. All 44 symbols have contextual examples from 37 bundled human recordings, shared where appropriate. All 37 human recordings ship in `public/audio/` and `dist/`; no middleware or runtime recording-source fetch is needed. Additional example-word reading uses the device/browser speech service, whose voice availability and network requirements vary. MP3 supports broad browser compatibility. The build verifies file integrity and complete coverage before bundling.
@@ -40,6 +50,9 @@ The Mac launcher `Start IPA.command` selects a suitable installed Node runtime a
 | `src/library.ts` | Corpus access, six-word search, comparison lookup and custom-pair validation |
 | `content/comparisons.json` | Ordered two/three-symbol presets and sourced contrast tips |
 | `content/pronunciation-sources.json` | References backing Chinese articulation guidance |
+| `src/articulation.ts` | Original SVG front/side diagrams, movement, manual phases and cleanup |
+| `content/articulation.json` | All 44 sourced articulation entries and 120 phases |
+| `scripts/verify-articulation.mjs`, `tests/articulation.test.ts` | Complete visual/source coverage and physiology/geometry invariants |
 | `src/audio.ts` | Shared recording/speech controller, sequences, cancellation and recovery |
 | `src/speech.ts` | Strict British device-voice selection; local voice preference |
 | `public/website-qr.svg`, `public/website-qr.png` | Scannable website QR and printable/downloadable image |
@@ -55,7 +68,7 @@ The Mac launcher `Start IPA.command` selects a suitable installed Node runtime a
 
 ## Git and publication
 
-Completed task branch: `work/word-audio-flat-comparisons`, integrated into `main` by fast-forward. Feature commit `2c5a40b` was pushed and deployed successfully through workflow `39099826503`. Local checks: 13 tests, integrity/type/build gates, all 264 word controls, 11 flat choices, 20 layout/theme combinations, native British speech, recorded playback, cancellation/retry, and independently decoded QR. WebKit/iPhone and Chrome/Android profiles both pass; these are macOS-hosted browser profiles using the host voice, not physical mobile tests. Both engines also passed all 264 word controls, eleven choices, recorded/synthesized native playback and responsive QR on the public site; both public QR files match the local hashes and the PNG independently decodes to the exact public URL. Consult the verification report and Git for the latest documentation commit. The task is complete; no required feature work remains. Device voice availability and synthesis variants are the documented limitation. Read Git for the latest documentation commit and the verification report for detailed evidence. The release workflow publishes pushes to main; pull requests run tests/build without deployment. Do not force push or change the public audience without authorization.
+Previous completed task branch: `work/word-audio-flat-comparisons`, integrated into `main` by fast-forward. Feature commit `2c5a40b` was pushed and deployed successfully through workflow `39099826503`. Local checks: 13 tests, integrity/type/build gates, all 264 word controls, 11 flat choices, 20 layout/theme combinations, native British speech, recorded playback, cancellation/retry, and independently decoded QR. WebKit/iPhone and Chrome/Android profiles both pass; these are macOS-hosted browser profiles using the host voice, not physical mobile tests. Both engines also passed all 264 word controls, eleven choices, recorded/synthesized native playback and responsive QR on the public site; both public QR files match the local hashes and the PNG independently decodes to the exact public URL. Consult the verification report and Git for the latest documentation commit. That earlier word/QR task is complete; the current articulation work is described above. Device voice availability and synthesis variants are the documented limitation. Read Git for the latest documentation commit and the verification report for detailed evidence. The release workflow publishes pushes to main; pull requests run tests/build without deployment. Do not force push or change the public audience without authorization.
 
 Public URL: https://davidsqf.github.io/English-IPA-Learning/
 Repository: https://github.com/davidsqf/English-IPA-Learning

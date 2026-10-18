@@ -1,3 +1,29 @@
+# v1.3 articulation visual verification
+
+Date: 2026-10-18, Asia/Singapore. Task branch: `work/articulation-visuals`. Earlier reports below are historical; their feature counts and limitations describe their respective versions.
+
+## Objective coverage
+
+The owner requested a picture or animation showing mouth shape, tongue and movement for **each symbol**, with credible sources. The existing inventory has 44 symbols. Runtime data supplies exactly 44 entries and 120 explicit phases; each is rendered as original frontal lip and sagittal tongue illustrations in the explorer and comparison panels, with an initially meaningful still, a finite animation and numbered manual phases. Every figure exposes its own source links and notes. The source review/matrix maps all 44 entries to Cambridge phonetics references and, where appropriate, Glasgow Seeing Speech and contemporary British-variation guidance.
+
+## Evidence
+
+- `npm test`: **20 passing tests**, including seven articulation tests. They require exact 44-symbol coverage, valid source IDs/cues/phases, real finite coordinates, distinct vowel height/frontness/rounding, eight correct diphthong endpoint families, oral articulation versus voicing contrasts, nasal/lateral/glottal airflow distinctions, affricate release into friction and English approximant [ɹ]. Existing audio, example, comparison, search and speech lifecycle checks still pass.
+- `npm run build`: original 37-recording SHA-256/coverage gate plus the new **44-articulation** integrity/source gate, TypeScript and Vite pass. All graphics are local inline SVG, with no new runtime dependency or externally loaded image/video. Original source PDFs and QA galleries remain ignored and are not part of the distributed site.
+- In both **WebKit 26.6 / iPhone 15 profile** and **installed Chrome / Pixel 7 profile**, all **44 selected symbols** render two labelled SVG views, six existing voice buttons and at least two actual source links. All **120 manual phases** render finite SVG paths and exactly one selected step. No SVG syntax errors or uncaught errors remain. Early SVG path-number separators were fixed before these passing checks; a private gallery favicon 404 was also corrected and is not an app defect.
+- Every one of the **44 full animations completes in each engine** (88 complete plays), with multiple distinct sampled path/lip geometries and the correct final phase. Both engines resolve every marker ID, map all eleven presets to the correct two/three diagrams, and cancel motion when document visibility is simulated as hidden. Pause, manual steps, selection/navigation cancellation, and reduced-motion static stepping also pass. This is actual browser execution, not just a data assertion.
+- Explorer diagrams, accessible SVG names, source disclosures and control sizes pass at **320, 390, 412, 768, 1024 and 1440 CSS pixels**, in both themes, in both engines, using two representative complex entries (24 cases per engine). Comparison diagrams pass twelve width/theme cases per engine, including triple and custom panels. No horizontal overflow; tested articulation controls meet 44×44 CSS pixels.
+- All 44 default articulation diagrams were rendered in contact sheets and visually inspected. Additional phone/desktop screenshots check /ɪ/, /k/, /l/, /ŋ/, /aɪ/ and the three-vowel comparison. Source anatomy, British RP vowel and diphthong diagrams were inspected from the publisher PDF, not inferred from filenames. SVG tongue text initially measured **4.26:1** against its dark-mode tongue fill; the corrected text colour measures **5.61:1**. The diphthong movement label was moved clear of the tongue/jaw outline after screenshot review. Motion is pedagogical and not measured or synchronized to the recordings.
+- The complete existing 264 word-control mapping/dispatch check, eleven flat choices, QR disclosure, real recorded playback and native British word speech were rerun in Chrome after adding the figures. No regression or uncaught errors were reported. Safari also completes native British word speech and human recorded playback, cancels an active animation when reduced motion is enabled, and restores the figure after a simulated persisted pageshow. Final tongue-label contrast is 6.01:1 in light mode and 5.61:1 in dark mode.
+
+QA scripts/screenshots and private source-inspection files are ignored in `.local/` and `output/playwright/`. Browser profiles use macOS engines and host voices; this is **not physical phone testing, a clinical model, an independent expert phonetics review or a beginner usability study**. Figures are original schematic illustrations, not reproduced publisher/university media. British variation and source boundaries remain explicit, including modern /uː/, traditional centring diphthongs, [ɹ], and clear/dark /l/.
+
+## Publication
+
+Local implementation and checks complete; deployment and final live verification follow the feature commit.
+
+---
+
 # v1.2 word playback, comparisons and QR verification
 
 Date: 2026-10-18, Asia/Singapore. Branch: `work/word-audio-flat-comparisons`. Earlier reports below describe earlier releases and are preserved as historical evidence.

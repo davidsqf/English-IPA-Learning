@@ -50,6 +50,27 @@
       "publisher": "Pronunciation Studio, London, Joseph Hudson",
       "supports": "Same-syllable movement and contemporary centring-diphthong changes; /ʊə/ variation.",
       "accessedAt": "2026-10-18"
+    },
+    "roach-articulators": {
+      "title": "Cambridge · Roach 发音器官与英式元音",
+      "url": "https://assets.cambridge.org/97805217/17403/excerpt/9780521717403_excerpt.pdf",
+      "publisher": "Cambridge University Press, Peter Roach, English Phonetics and Phonology, 4th edition",
+      "supports": "§§2.1–2.3, pp. 8–14: articulator anatomy, velum, lips, tongue height/frontness, English short vowels. Original figures consulted, not reproduced.",
+      "accessedAt": "2026-10-18"
+    },
+    "seeing-speech": {
+      "title": "Glasgow · Seeing Speech 发音影像",
+      "url": "https://www.seeingspeech.ac.uk/ipa-charts/",
+      "publisher": "University of Glasgow; Lawson, Stuart-Smith, Scobbie and Nakai (2018)",
+      "supports": "IPA place/manner and live articulator visualization using MRI, ultrasound and animation. Generic IPA demonstrations, not a one-to-one British dictionary model. English /r/ maps to approximant [ɹ]. Links only; no video/image copied.",
+      "accessedAt": "2026-10-18"
+    },
+    "phonetics-overview": {
+      "title": "Cambridge · 辅音部位、塞擦音与边音",
+      "url": "https://www.cambridge.org/gb/files/1413/8018/5069/PhoneticsOverview.pdf",
+      "publisher": "Cambridge University Press, Phonetics Overview (Introducing Phonology companion)",
+      "supports": "§2 consonant place/manner, affricates and lateral airflow. General articulation only: its American vowel examples are not the British vowel model.",
+      "accessedAt": "2026-10-18"
     }
   }
 }

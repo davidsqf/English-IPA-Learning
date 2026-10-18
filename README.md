@@ -10,6 +10,7 @@ Explore a symbol, listen to its example, and compare similar sounds. All recordi
 
 - 44 traditional British English reference symbols: 12 monophthongs, 8 diphthongs and 24 consonants.
 - Source-linked Chinese pronunciation guidance and six example words per symbol, each with a voice button and highlighted target sounds. Tiles keep a single preview word.
+- Original lip/front-view and tongue/side-view diagrams for every symbol, with sourced movement phases, replay/pause and manual steps. Reduced motion uses static steps.
 - 37 bundled human recordings covering all 44 entries; examples shared by several symbols are intentional.
 - Eleven directly visible recommended comparison choices, including the three-symbol `/e æ aɪ/` group, plus manual comparison of any two distinct symbols. Individual and sequential playback use normal speed.
 - Light and dark themes, system preference detection and a remembered theme choice.
@@ -36,7 +37,7 @@ npm run build
 npm run preview
 ```
 
-The build verifies every audio file against its recorded SHA-256 and fails if any symbol lacks a recording. Preview normally runs at `http://127.0.0.1:4173/`. The generated `dist/` directory is a complete static website, including audio. Serve it over HTTP. Relative URLs support GitHub project Pages and other subdirectories.
+The build verifies every audio file against its recorded SHA-256 and requires complete recordings and sourced mouth/tongue visuals for all 44 symbols. Preview normally runs at `http://127.0.0.1:4173/`. The generated `dist/` directory is a complete static website, including audio. Serve it over HTTP. Relative URLs support GitHub project Pages and other subdirectories.
 
 `npm run samples` verifies the already bundled recordings; it does not download anything.
 
@@ -52,6 +53,8 @@ The [Test and publish workflow](.github/workflows/pages.yml) tests and builds ch
 | `content/symbol-library.json` | Symbols, Chinese cues, examples and sound mappings |
 | `content/comparisons.json` | Two- and three-symbol presets with source-linked tips |
 | `content/pronunciation-sources.json` | Named references for the Chinese pronunciation guidance |
+| `content/articulation.json` | Original mouth/tongue poses, phases, cues and per-symbol source notes |
+| `src/articulation.ts` | Inline SVG diagrams and finite/reduced-motion interaction |
 | `content/audio.json` | Per-file sources, authors, licences, transformations and checksums |
 | `public/audio/` | All 37 shipped MP3 recordings |
 | `tests/` | Inventory, search, comparison and audio integrity checks |
@@ -71,3 +74,9 @@ The owner accepted this release; no independent expert phonetics review is claim
 Every one of the six examples has a speaker button. Existing human recordings remain the symbol and comparison reference; other words use the device's British English synthesized voice. Enable an English (United Kingdom) voice in the device's speech settings if prompted. Voice availability and pronunciation vary by device; dictionary links remain available. No non-British voice is silently substituted.
 
 All eleven recommended comparisons appear directly as buttons, including on phones. The footer **手机打开** shows the website QR and a PNG download. Printable assets: `public/website-qr.svg` and `public/website-qr.png`. To regenerate after changing the public address, run `scripts/generate-qr.py` using Python with ReportLab and Pillow, then independently decode the result to verify its exact URL.
+
+## Mouth and tongue visuals
+
+Each symbol has a **口形与舌位** figure in the explorer and in comparisons. It shows the lips from the front and the tongue from the side, with airflow and voicing cues. Use **播放动作** to replay, **暂停** to stop, or the numbered steps to inspect a phase. With reduced motion enabled, **下一步** changes the still without animating. Blue dotted arrows show diphthong tongue movement; the other dashed arrows show airflow.
+
+Every figure has a **图示依据** disclosure with references including Cambridge phonetics publications and the University of Glasgow's Seeing Speech. These are original teaching schematics of relative articulation, not copied diagrams or MRI measurements; real British speakers vary. The source review and all 44 symbol mappings are in [articulation research](docs/research/articulation-visuals.md). All visuals are local inline SVG; they work without network access or additional media downloads.

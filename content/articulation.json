@@ -1,0 +1,2306 @@
+{
+  "schemaVersion": 1,
+  "accentModel": "en-GB-dictionary-nonrhotic-v1",
+  "authorship": "Original SVG teaching schematics based on cited articulation facts; no source illustrations or measurement coordinates copied.",
+  "review": "Source-based editorial and technical checks; no independent clinical/phonetics expert review claimed.",
+  "poses": {
+    "neutral": {
+      "tongue": [
+        123,
+        161,
+        170,
+        146,
+        241,
+        155
+      ],
+      "lips": [
+        39,
+        17
+      ],
+      "lipShape": "neutral"
+    },
+    "fleece": {
+      "tongue": [
+        124,
+        155,
+        198,
+        104,
+        241,
+        148
+      ],
+      "lips": [
+        51,
+        9
+      ],
+      "lipShape": "spread"
+    },
+    "kit": {
+      "tongue": [
+        125,
+        155,
+        185,
+        119,
+        241,
+        151
+      ],
+      "lips": [
+        46,
+        13
+      ],
+      "lipShape": "spread"
+    },
+    "dress": {
+      "tongue": [
+        125,
+        164,
+        195,
+        138,
+        241,
+        159
+      ],
+      "lips": [
+        47,
+        20
+      ],
+      "lipShape": "spread"
+    },
+    "trap": {
+      "tongue": [
+        125,
+        178,
+        192,
+        163,
+        241,
+        174
+      ],
+      "lips": [
+        47,
+        29
+      ],
+      "lipShape": "spread"
+    },
+    "palm": {
+      "tongue": [
+        120,
+        174,
+        144,
+        168,
+        241,
+        177
+      ],
+      "lips": [
+        42,
+        31
+      ],
+      "lipShape": "neutral"
+    },
+    "lot": {
+      "tongue": [
+        121,
+        170,
+        144,
+        155,
+        241,
+        173
+      ],
+      "lips": [
+        31,
+        28
+      ],
+      "lipShape": "rounded"
+    },
+    "thought": {
+      "tongue": [
+        121,
+        146,
+        145,
+        129,
+        241,
+        162
+      ],
+      "lips": [
+        27,
+        22
+      ],
+      "lipShape": "rounded"
+    },
+    "foot": {
+      "tongue": [
+        120,
+        139,
+        150,
+        119,
+        241,
+        153
+      ],
+      "lips": [
+        25,
+        17
+      ],
+      "lipShape": "rounded"
+    },
+    "goose": {
+      "tongue": [
+        123,
+        131,
+        163,
+        104,
+        241,
+        149
+      ],
+      "lips": [
+        20,
+        15
+      ],
+      "lipShape": "rounded"
+    },
+    "strut": {
+      "tongue": [
+        123,
+        173,
+        168,
+        161,
+        241,
+        173
+      ],
+      "lips": [
+        42,
+        26
+      ],
+      "lipShape": "neutral"
+    },
+    "nurse": {
+      "tongue": [
+        123,
+        159,
+        170,
+        144,
+        241,
+        158
+      ],
+      "lips": [
+        39,
+        17
+      ],
+      "lipShape": "neutral"
+    },
+    "schwa": {
+      "tongue": [
+        123,
+        162,
+        172,
+        148,
+        241,
+        158
+      ],
+      "lips": [
+        38,
+        17
+      ],
+      "lipShape": "neutral"
+    },
+    "open-a": {
+      "tongue": [
+        123,
+        179,
+        176,
+        170,
+        241,
+        178
+      ],
+      "lips": [
+        46,
+        30
+      ],
+      "lipShape": "neutral"
+    },
+    "bilabial-closed": {
+      "tongue": [
+        123,
+        161,
+        170,
+        146,
+        241,
+        155
+      ],
+      "lips": [
+        43,
+        0
+      ],
+      "lipShape": "closed"
+    },
+    "labiodental": {
+      "tongue": [
+        123,
+        161,
+        170,
+        146,
+        241,
+        155
+      ],
+      "lips": [
+        43,
+        5
+      ],
+      "lipShape": "labiodental"
+    },
+    "dental": {
+      "tongue": [
+        123,
+        157,
+        194,
+        141,
+        252,
+        131
+      ],
+      "lips": [
+        41,
+        14
+      ],
+      "lipShape": "dental"
+    },
+    "alveolar-closed": {
+      "tongue": [
+        123,
+        161,
+        188,
+        141,
+        231,
+        103
+      ],
+      "lips": [
+        41,
+        16
+      ],
+      "lipShape": "neutral"
+    },
+    "alveolar-friction": {
+      "tongue": [
+        123,
+        157,
+        206,
+        114,
+        240,
+        135
+      ],
+      "lips": [
+        45,
+        11
+      ],
+      "lipShape": "spread"
+    },
+    "postalveolar-closed": {
+      "tongue": [
+        123,
+        157,
+        199,
+        115,
+        219,
+        98
+      ],
+      "lips": [
+        33,
+        17
+      ],
+      "lipShape": "rounded"
+    },
+    "postalveolar-friction": {
+      "tongue": [
+        123,
+        154,
+        204,
+        111,
+        233,
+        139
+      ],
+      "lips": [
+        32,
+        17
+      ],
+      "lipShape": "rounded"
+    },
+    "velar-closed": {
+      "tongue": [
+        120,
+        102,
+        159,
+        139,
+        241,
+        158
+      ],
+      "lips": [
+        39,
+        19
+      ],
+      "lipShape": "neutral"
+    },
+    "velar-nasal": {
+      "tongue": [
+        133,
+        99,
+        165,
+        142,
+        241,
+        158
+      ],
+      "lips": [
+        39,
+        19
+      ],
+      "lipShape": "neutral"
+    },
+    "lateral": {
+      "tongue": [
+        123,
+        164,
+        185,
+        150,
+        231,
+        103
+      ],
+      "lips": [
+        43,
+        18
+      ],
+      "lipShape": "neutral"
+    },
+    "approximant-r": {
+      "tongue": [
+        123,
+        157,
+        188,
+        139,
+        220,
+        120
+      ],
+      "lips": [
+        34,
+        15
+      ],
+      "lipShape": "rounded"
+    },
+    "palatal-glide": {
+      "tongue": [
+        124,
+        144,
+        199,
+        102,
+        241,
+        149
+      ],
+      "lips": [
+        46,
+        10
+      ],
+      "lipShape": "spread"
+    },
+    "labial-velar-glide": {
+      "tongue": [
+        120,
+        129,
+        145,
+        103,
+        241,
+        149
+      ],
+      "lips": [
+        20,
+        14
+      ],
+      "lipShape": "rounded"
+    },
+    "mid-vowel-face": {
+      "tongue": [
+        125.0,
+        159.5,
+        190.0,
+        128.5,
+        241.0,
+        155.0
+      ],
+      "lips": [
+        46.5,
+        16.5
+      ],
+      "lipShape": "spread"
+    },
+    "mid-vowel-price": {
+      "tongue": [
+        124.0,
+        167.0,
+        180.5,
+        144.5,
+        241.0,
+        164.5
+      ],
+      "lips": [
+        46.0,
+        21.5
+      ],
+      "lipShape": "neutral"
+    },
+    "mid-vowel-choice": {
+      "tongue": [
+        123.0,
+        150.5,
+        165.0,
+        124.0,
+        241.0,
+        156.5
+      ],
+      "lips": [
+        36.5,
+        17.5
+      ],
+      "lipShape": "spread"
+    },
+    "mid-vowel-goat": {
+      "tongue": [
+        121.5,
+        150.5,
+        161.0,
+        133.5,
+        241.0,
+        155.5
+      ],
+      "lips": [
+        31.5,
+        17.0
+      ],
+      "lipShape": "neutral"
+    },
+    "mid-vowel-mouth": {
+      "tongue": [
+        121.5,
+        159.0,
+        163.0,
+        144.5,
+        241.0,
+        165.5
+      ],
+      "lips": [
+        35.5,
+        23.5
+      ],
+      "lipShape": "neutral"
+    },
+    "mid-vowel-near": {
+      "tongue": [
+        124.0,
+        158.5,
+        178.5,
+        133.5,
+        241.0,
+        154.5
+      ],
+      "lips": [
+        42.0,
+        15.0
+      ],
+      "lipShape": "spread"
+    },
+    "mid-vowel-square": {
+      "tongue": [
+        124.0,
+        163.0,
+        183.5,
+        143.0,
+        241.0,
+        158.5
+      ],
+      "lips": [
+        42.5,
+        18.5
+      ],
+      "lipShape": "spread"
+    },
+    "mid-vowel-cure": {
+      "tongue": [
+        121.5,
+        150.5,
+        161.0,
+        133.5,
+        241.0,
+        155.5
+      ],
+      "lips": [
+        31.5,
+        17.0
+      ],
+      "lipShape": "rounded"
+    }
+  },
+  "entries": [
+    {
+      "symbolId": "vowel-fleece",
+      "ipa": "iː",
+      "kind": "vowel",
+      "place": "前高",
+      "lipCue": "嘴角稍展开，开口较小。",
+      "tongueCue": "舌前部抬高，靠近上腭但不接触。",
+      "movementCue": "摆好位置后保持音色；不是持续来回移动舌头。",
+      "variantNote": "",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english"
+      ],
+      "sourceNotes": "Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels.",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "准备",
+          "poseId": "neutral",
+          "airflow": "none",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "保持",
+          "poseId": "fleece",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "vowel-kit",
+      "ipa": "ɪ",
+      "kind": "vowel",
+      "place": "近前、近高",
+      "lipCue": "双唇较放松，稍展开。",
+      "tongueCue": "舌位比 /iː/ 略低、略靠中央。",
+      "movementCue": "摆好位置后保持音色；不是持续来回移动舌头。",
+      "variantNote": "",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english"
+      ],
+      "sourceNotes": "Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels.",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "准备",
+          "poseId": "neutral",
+          "airflow": "none",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "保持",
+          "poseId": "kit",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "vowel-dress",
+      "ipa": "e",
+      "kind": "vowel",
+      "place": "前中",
+      "lipCue": "双唇稍展开，开口适中。",
+      "tongueCue": "舌前部抬到中等高度。",
+      "movementCue": "摆好位置后保持音色；不是持续来回移动舌头。",
+      "variantNote": "",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english"
+      ],
+      "sourceNotes": "Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels.",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "准备",
+          "poseId": "neutral",
+          "airflow": "none",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "保持",
+          "poseId": "dress",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "vowel-trap",
+      "ipa": "æ",
+      "kind": "vowel",
+      "place": "前低",
+      "lipCue": "嘴张得比 /e/ 更开。",
+      "tongueCue": "舌前部降低；不要读成 /e/。",
+      "movementCue": "摆好位置后保持音色；不是持续来回移动舌头。",
+      "variantNote": "",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english"
+      ],
+      "sourceNotes": "Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels.",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "准备",
+          "poseId": "neutral",
+          "airflow": "none",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "保持",
+          "poseId": "trap",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "vowel-palm",
+      "ipa": "ɑː",
+      "kind": "vowel",
+      "place": "后低",
+      "lipCue": "嘴张开，双唇不收圆。",
+      "tongueCue": "舌位较低、较靠后。",
+      "movementCue": "摆好位置后保持音色；不是持续来回移动舌头。",
+      "variantNote": "",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english"
+      ],
+      "sourceNotes": "Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels.",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "准备",
+          "poseId": "neutral",
+          "airflow": "none",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "保持",
+          "poseId": "palm",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "vowel-lot",
+      "ipa": "ɒ",
+      "kind": "vowel",
+      "place": "后低",
+      "lipCue": "嘴张开，双唇略圆。",
+      "tongueCue": "舌位偏后、偏低。",
+      "movementCue": "摆好位置后保持音色；不是持续来回移动舌头。",
+      "variantNote": "",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english"
+      ],
+      "sourceNotes": "Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels.",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "准备",
+          "poseId": "neutral",
+          "airflow": "none",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "保持",
+          "poseId": "lot",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "vowel-thought",
+      "ipa": "ɔː",
+      "kind": "vowel",
+      "place": "后中",
+      "lipCue": "双唇收圆，开口小于 /ɒ/。",
+      "tongueCue": "舌后部抬高一些。",
+      "movementCue": "摆好位置后保持音色；不是持续来回移动舌头。",
+      "variantNote": "",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english"
+      ],
+      "sourceNotes": "Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels.",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "准备",
+          "poseId": "neutral",
+          "airflow": "none",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "保持",
+          "poseId": "thought",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "vowel-foot",
+      "ipa": "ʊ",
+      "kind": "vowel",
+      "place": "近后、近高",
+      "lipCue": "双唇轻轻收圆，较放松。",
+      "tongueCue": "舌位近后、近高；不要只把 /uː/ 缩短。",
+      "movementCue": "摆好位置后保持音色；不是持续来回移动舌头。",
+      "variantNote": "",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english"
+      ],
+      "sourceNotes": "Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels.",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "准备",
+          "poseId": "neutral",
+          "airflow": "none",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "保持",
+          "poseId": "foot",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "vowel-goose",
+      "ipa": "uː",
+      "kind": "vowel",
+      "place": "高",
+      "lipCue": "双唇收圆，开口较小。",
+      "tongueCue": "舌位高；现代英音常比传统后元音更靠前。",
+      "movementCue": "摆好位置后保持音色；不是持续来回移动舌头。",
+      "variantNote": "图示为相对舌位；/uː/ 的前后位置随英国口音变化。",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english",
+        "ps-monophthongs"
+      ],
+      "sourceNotes": "Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels.",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "准备",
+          "poseId": "neutral",
+          "airflow": "none",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "保持",
+          "poseId": "goose",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "vowel-strut",
+      "ipa": "ʌ",
+      "kind": "vowel",
+      "place": "中央偏低",
+      "lipCue": "双唇自然，嘴张开。",
+      "tongueCue": "舌位居中、偏低。",
+      "movementCue": "摆好位置后保持音色；不是持续来回移动舌头。",
+      "variantNote": "",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english"
+      ],
+      "sourceNotes": "Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels.",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "准备",
+          "poseId": "neutral",
+          "airflow": "none",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "保持",
+          "poseId": "strut",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "vowel-nurse",
+      "ipa": "ɜː",
+      "kind": "vowel",
+      "place": "中央中",
+      "lipCue": "双唇自然，不收圆。",
+      "tongueCue": "舌位在中央，保持较稳定。",
+      "movementCue": "保持中央舌位，通常较长；不要额外卷舌。",
+      "variantNote": "",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english"
+      ],
+      "sourceNotes": "Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels.",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "准备",
+          "poseId": "neutral",
+          "airflow": "none",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "保持",
+          "poseId": "nurse",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "vowel-schwa",
+      "ipa": "ə",
+      "kind": "vowel",
+      "place": "中央中",
+      "lipCue": "嘴部放松，开口自然。",
+      "tongueCue": "舌位居中、放松，常在非重读音节。",
+      "movementCue": "短促、放松地轻读，不必刻意扩大口形。",
+      "variantNote": "",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english"
+      ],
+      "sourceNotes": "Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels.",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "准备",
+          "poseId": "neutral",
+          "airflow": "none",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "保持",
+          "poseId": "schwa",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "vowel-face",
+      "ipa": "eɪ",
+      "kind": "diphthong",
+      "place": "滑动",
+      "lipCue": "双唇由稍展开变为较小开口。",
+      "tongueCue": "舌前部从中位向较高的位置移动。",
+      "movementCue": "/e/ 附近起音，滑向 /ɪ/。",
+      "variantNote": "",
+      "sourceIds": [
+        "cambridge-english",
+        "ps-diphthongs"
+      ],
+      "sourceNotes": "Barber et al., diphthong movement/one syllable and RP glide figure, pp. 5–6, 9; Hudson, corresponding diphthong section and centring-vowel variants.",
+      "initialPhase": 0,
+      "phases": [
+        {
+          "label": "起音",
+          "poseId": "dress",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "滑动",
+          "poseId": "mid-vowel-face",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "滑向",
+          "poseId": "kit",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "vowel-price",
+      "ipa": "aɪ",
+      "kind": "diphthong",
+      "place": "滑动",
+      "lipCue": "开口由大变小，双唇不收圆。",
+      "tongueCue": "舌位从较低的位置向前上方移动。",
+      "movementCue": "较开的位置起音，滑向 /ɪ/。",
+      "variantNote": "",
+      "sourceIds": [
+        "cambridge-english",
+        "ps-diphthongs"
+      ],
+      "sourceNotes": "Barber et al., diphthong movement/one syllable and RP glide figure, pp. 5–6, 9; Hudson, corresponding diphthong section and centring-vowel variants.",
+      "initialPhase": 0,
+      "phases": [
+        {
+          "label": "起音",
+          "poseId": "open-a",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "滑动",
+          "poseId": "mid-vowel-price",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "滑向",
+          "poseId": "kit",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "vowel-choice",
+      "ipa": "ɔɪ",
+      "kind": "diphthong",
+      "place": "滑动",
+      "lipCue": "从圆唇逐渐转为较展开。",
+      "tongueCue": "舌位由后部向前上方移动。",
+      "movementCue": "/ɔ/ 附近起音，滑向 /ɪ/。",
+      "variantNote": "",
+      "sourceIds": [
+        "cambridge-english",
+        "ps-diphthongs"
+      ],
+      "sourceNotes": "Barber et al., diphthong movement/one syllable and RP glide figure, pp. 5–6, 9; Hudson, corresponding diphthong section and centring-vowel variants.",
+      "initialPhase": 0,
+      "phases": [
+        {
+          "label": "起音",
+          "poseId": "thought",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "滑动",
+          "poseId": "mid-vowel-choice",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "滑向",
+          "poseId": "kit",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "vowel-goat",
+      "ipa": "əʊ",
+      "kind": "diphthong",
+      "place": "滑动",
+      "lipCue": "双唇由自然逐渐收圆。",
+      "tongueCue": "舌位由中央向较后、较高的位置移动。",
+      "movementCue": "中央位置起音，滑向 /ʊ/。",
+      "variantNote": "",
+      "sourceIds": [
+        "cambridge-english",
+        "ps-diphthongs"
+      ],
+      "sourceNotes": "Barber et al., diphthong movement/one syllable and RP glide figure, pp. 5–6, 9; Hudson, corresponding diphthong section and centring-vowel variants.",
+      "initialPhase": 0,
+      "phases": [
+        {
+          "label": "起音",
+          "poseId": "schwa",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "滑动",
+          "poseId": "mid-vowel-goat",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "滑向",
+          "poseId": "foot",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "vowel-mouth",
+      "ipa": "aʊ",
+      "kind": "diphthong",
+      "place": "滑动",
+      "lipCue": "嘴从张开逐渐收小、收圆。",
+      "tongueCue": "舌位由低处向较后、较高的位置移动。",
+      "movementCue": "较开的位置起音，滑向 /ʊ/。",
+      "variantNote": "",
+      "sourceIds": [
+        "cambridge-english",
+        "ps-diphthongs"
+      ],
+      "sourceNotes": "Barber et al., diphthong movement/one syllable and RP glide figure, pp. 5–6, 9; Hudson, corresponding diphthong section and centring-vowel variants.",
+      "initialPhase": 0,
+      "phases": [
+        {
+          "label": "起音",
+          "poseId": "open-a",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "滑动",
+          "poseId": "mid-vowel-mouth",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "滑向",
+          "poseId": "foot",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "vowel-near",
+      "ipa": "ɪə",
+      "kind": "diphthong",
+      "place": "滑动",
+      "lipCue": "双唇由稍展开转为自然。",
+      "tongueCue": "舌位由前部向中央放松。",
+      "movementCue": "传统写法：/ɪ/ 附近滑向 /ə/。",
+      "variantNote": "展示传统双元音；现代英国口音可用单元音或其他读法。",
+      "sourceIds": [
+        "cambridge-english",
+        "ps-diphthongs"
+      ],
+      "sourceNotes": "Barber et al., diphthong movement/one syllable and RP glide figure, pp. 5–6, 9; Hudson, corresponding diphthong section and centring-vowel variants.",
+      "initialPhase": 0,
+      "phases": [
+        {
+          "label": "起音",
+          "poseId": "kit",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "滑动",
+          "poseId": "mid-vowel-near",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "滑向",
+          "poseId": "schwa",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "vowel-square",
+      "ipa": "eə",
+      "kind": "diphthong",
+      "place": "滑动",
+      "lipCue": "开口适中，双唇逐渐放松。",
+      "tongueCue": "舌位从前中部向中央移动。",
+      "movementCue": "传统写法：/e/ 附近滑向 /ə/。",
+      "variantNote": "展示传统双元音；现代英国口音可用单元音或其他读法。",
+      "sourceIds": [
+        "cambridge-english",
+        "ps-diphthongs"
+      ],
+      "sourceNotes": "Barber et al., diphthong movement/one syllable and RP glide figure, pp. 5–6, 9; Hudson, corresponding diphthong section and centring-vowel variants.",
+      "initialPhase": 0,
+      "phases": [
+        {
+          "label": "起音",
+          "poseId": "dress",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "滑动",
+          "poseId": "mid-vowel-square",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "滑向",
+          "poseId": "schwa",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "vowel-cure",
+      "ipa": "ʊə",
+      "kind": "diphthong",
+      "place": "滑动",
+      "lipCue": "双唇从收圆逐渐放松。",
+      "tongueCue": "舌位从近后部向中央移动。",
+      "movementCue": "传统写法：/ʊ/ 附近滑向 /ə/。",
+      "variantNote": "展示传统双元音；现代英国口音可用单元音或其他读法。",
+      "sourceIds": [
+        "cambridge-english",
+        "ps-diphthongs"
+      ],
+      "sourceNotes": "Barber et al., diphthong movement/one syllable and RP glide figure, pp. 5–6, 9; Hudson, corresponding diphthong section and centring-vowel variants.",
+      "initialPhase": 0,
+      "phases": [
+        {
+          "label": "起音",
+          "poseId": "foot",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "滑动",
+          "poseId": "mid-vowel-cure",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "滑向",
+          "poseId": "schwa",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "consonant-p",
+      "ipa": "p",
+      "kind": "stop",
+      "place": "双唇",
+      "lipCue": "双唇先闭合，再打开。",
+      "tongueCue": "舌头不负责闭塞，位置随相邻元音变化。",
+      "movementCue": "先阻住，再释放；不要在后面加一个元音。",
+      "variantNote": "",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english",
+        "seeing-speech"
+      ],
+      "sourceNotes": "Roach §2.1 articulators, pp. 8–10; Barber et al., stops and voicing, pp. 2, 6–7; Seeing Speech plosive row at matching place. Voicing here is schematic; actual voicing/aspiration depends on context.",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "准备",
+          "poseId": "neutral",
+          "airflow": "none",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "闭塞",
+          "poseId": "bilabial-closed",
+          "airflow": "none",
+          "contact": "bilabial",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "释放",
+          "poseId": "neutral",
+          "airflow": "burst",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "consonant-b",
+      "ipa": "b",
+      "kind": "stop",
+      "place": "双唇",
+      "lipCue": "双唇先闭合，再打开。",
+      "tongueCue": "舌头不负责闭塞，位置随相邻元音变化。",
+      "movementCue": "先阻住，再释放；不要在后面加一个元音。",
+      "variantNote": "",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english",
+        "seeing-speech"
+      ],
+      "sourceNotes": "Roach §2.1 articulators, pp. 8–10; Barber et al., stops and voicing, pp. 2, 6–7; Seeing Speech plosive row at matching place. Voicing here is schematic; actual voicing/aspiration depends on context.",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "准备",
+          "poseId": "neutral",
+          "airflow": "none",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "闭塞",
+          "poseId": "bilabial-closed",
+          "airflow": "none",
+          "contact": "bilabial",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "释放",
+          "poseId": "neutral",
+          "airflow": "burst",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "consonant-t",
+      "ipa": "t",
+      "kind": "stop",
+      "place": "齿龈",
+      "lipCue": "双唇自然分开。",
+      "tongueCue": "舌尖接触上齿龈，短暂堵住气流。",
+      "movementCue": "先阻住，再释放；不要在后面加一个元音。",
+      "variantNote": "",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english",
+        "seeing-speech"
+      ],
+      "sourceNotes": "Roach §2.1 articulators, pp. 8–10; Barber et al., stops and voicing, pp. 2, 6–7; Seeing Speech plosive row at matching place. Voicing here is schematic; actual voicing/aspiration depends on context.",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "准备",
+          "poseId": "neutral",
+          "airflow": "none",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "闭塞",
+          "poseId": "alveolar-closed",
+          "airflow": "none",
+          "contact": "alveolar",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "释放",
+          "poseId": "neutral",
+          "airflow": "burst",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "consonant-d",
+      "ipa": "d",
+      "kind": "stop",
+      "place": "齿龈",
+      "lipCue": "双唇自然分开。",
+      "tongueCue": "舌尖接触上齿龈，短暂堵住气流。",
+      "movementCue": "先阻住，再释放；不要在后面加一个元音。",
+      "variantNote": "",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english",
+        "seeing-speech"
+      ],
+      "sourceNotes": "Roach §2.1 articulators, pp. 8–10; Barber et al., stops and voicing, pp. 2, 6–7; Seeing Speech plosive row at matching place. Voicing here is schematic; actual voicing/aspiration depends on context.",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "准备",
+          "poseId": "neutral",
+          "airflow": "none",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "闭塞",
+          "poseId": "alveolar-closed",
+          "airflow": "none",
+          "contact": "alveolar",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "释放",
+          "poseId": "neutral",
+          "airflow": "burst",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "consonant-k",
+      "ipa": "k",
+      "kind": "stop",
+      "place": "软腭",
+      "lipCue": "双唇自然分开。",
+      "tongueCue": "舌后部抬起，接触软腭形成闭塞。",
+      "movementCue": "先阻住，再释放；不要在后面加一个元音。",
+      "variantNote": "",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english",
+        "seeing-speech"
+      ],
+      "sourceNotes": "Roach §2.1 articulators, pp. 8–10; Barber et al., stops and voicing, pp. 2, 6–7; Seeing Speech plosive row at matching place. Voicing here is schematic; actual voicing/aspiration depends on context.",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "准备",
+          "poseId": "neutral",
+          "airflow": "none",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "闭塞",
+          "poseId": "velar-closed",
+          "airflow": "none",
+          "contact": "velar",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "释放",
+          "poseId": "neutral",
+          "airflow": "burst",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "consonant-g",
+      "ipa": "ɡ",
+      "kind": "stop",
+      "place": "软腭",
+      "lipCue": "双唇自然分开。",
+      "tongueCue": "舌后部抬起，接触软腭形成闭塞。",
+      "movementCue": "先阻住，再释放；不要在后面加一个元音。",
+      "variantNote": "",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english",
+        "seeing-speech"
+      ],
+      "sourceNotes": "Roach §2.1 articulators, pp. 8–10; Barber et al., stops and voicing, pp. 2, 6–7; Seeing Speech plosive row at matching place. Voicing here is schematic; actual voicing/aspiration depends on context.",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "准备",
+          "poseId": "neutral",
+          "airflow": "none",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "闭塞",
+          "poseId": "velar-closed",
+          "airflow": "none",
+          "contact": "velar",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "释放",
+          "poseId": "neutral",
+          "airflow": "burst",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "consonant-f",
+      "ipa": "f",
+      "kind": "fricative",
+      "place": "唇齿",
+      "lipCue": "上齿轻靠下唇，留出窄缝。",
+      "tongueCue": "舌头不负责此处摩擦，位置随元音变化。",
+      "movementCue": "留缝并持续送气；口腔不完全堵住。",
+      "variantNote": "",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english",
+        "seeing-speech"
+      ],
+      "sourceNotes": "Roach §2.1 dental/labiodental/alveolar anatomy, pp. 9–10; Barber et al., English fricatives, pp. 6–7; Seeing Speech corresponding place and fricative row.",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "准备",
+          "poseId": "neutral",
+          "airflow": "none",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "留缝",
+          "poseId": "labiodental",
+          "airflow": "friction",
+          "contact": "labiodental",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "送气",
+          "poseId": "labiodental",
+          "airflow": "friction",
+          "contact": "labiodental",
+          "voiced": false,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "consonant-v",
+      "ipa": "v",
+      "kind": "fricative",
+      "place": "唇齿",
+      "lipCue": "上齿轻靠下唇，留出窄缝。",
+      "tongueCue": "舌头不负责此处摩擦，位置随元音变化。",
+      "movementCue": "留缝并持续送气；口腔不完全堵住。",
+      "variantNote": "",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english",
+        "seeing-speech"
+      ],
+      "sourceNotes": "Roach §2.1 dental/labiodental/alveolar anatomy, pp. 9–10; Barber et al., English fricatives, pp. 6–7; Seeing Speech corresponding place and fricative row.",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "准备",
+          "poseId": "neutral",
+          "airflow": "none",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "留缝",
+          "poseId": "labiodental",
+          "airflow": "friction",
+          "contact": "labiodental",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "送气",
+          "poseId": "labiodental",
+          "airflow": "friction",
+          "contact": "labiodental",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "consonant-theta",
+      "ipa": "θ",
+      "kind": "fricative",
+      "place": "齿间／上齿",
+      "lipCue": "双唇放松，舌尖可在齿间略露。",
+      "tongueCue": "舌尖轻靠上齿，让气流从缝隙通过。",
+      "movementCue": "留缝并持续送气；口腔不完全堵住。",
+      "variantNote": "",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english",
+        "seeing-speech"
+      ],
+      "sourceNotes": "Roach §2.1 dental/labiodental/alveolar anatomy, pp. 9–10; Barber et al., English fricatives, pp. 6–7; Seeing Speech corresponding place and fricative row.",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "准备",
+          "poseId": "neutral",
+          "airflow": "none",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "留缝",
+          "poseId": "dental",
+          "airflow": "friction",
+          "contact": "dental",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "送气",
+          "poseId": "dental",
+          "airflow": "friction",
+          "contact": "dental",
+          "voiced": false,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "consonant-eth",
+      "ipa": "ð",
+      "kind": "fricative",
+      "place": "齿间／上齿",
+      "lipCue": "双唇放松，舌尖可在齿间略露。",
+      "tongueCue": "舌尖轻靠上齿，让气流从缝隙通过。",
+      "movementCue": "留缝并持续送气；口腔不完全堵住。",
+      "variantNote": "",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english",
+        "seeing-speech"
+      ],
+      "sourceNotes": "Roach §2.1 dental/labiodental/alveolar anatomy, pp. 9–10; Barber et al., English fricatives, pp. 6–7; Seeing Speech corresponding place and fricative row.",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "准备",
+          "poseId": "neutral",
+          "airflow": "none",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "留缝",
+          "poseId": "dental",
+          "airflow": "friction",
+          "contact": "dental",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "送气",
+          "poseId": "dental",
+          "airflow": "friction",
+          "contact": "dental",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "consonant-s",
+      "ipa": "s",
+      "kind": "fricative",
+      "place": "齿龈",
+      "lipCue": "双唇自然或稍展开。",
+      "tongueCue": "舌前部靠近齿龈，中间留窄通道。",
+      "movementCue": "留缝并持续送气；口腔不完全堵住。",
+      "variantNote": "",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english",
+        "seeing-speech"
+      ],
+      "sourceNotes": "Roach §2.1 dental/labiodental/alveolar anatomy, pp. 9–10; Barber et al., English fricatives, pp. 6–7; Seeing Speech corresponding place and fricative row.",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "准备",
+          "poseId": "neutral",
+          "airflow": "none",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "留缝",
+          "poseId": "alveolar-friction",
+          "airflow": "friction",
+          "contact": "alveolar",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "送气",
+          "poseId": "alveolar-friction",
+          "airflow": "friction",
+          "contact": "alveolar",
+          "voiced": false,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "consonant-z",
+      "ipa": "z",
+      "kind": "fricative",
+      "place": "齿龈",
+      "lipCue": "双唇自然或稍展开。",
+      "tongueCue": "舌前部靠近齿龈，中间留窄通道。",
+      "movementCue": "留缝并持续送气；口腔不完全堵住。",
+      "variantNote": "",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english",
+        "seeing-speech"
+      ],
+      "sourceNotes": "Roach §2.1 dental/labiodental/alveolar anatomy, pp. 9–10; Barber et al., English fricatives, pp. 6–7; Seeing Speech corresponding place and fricative row.",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "准备",
+          "poseId": "neutral",
+          "airflow": "none",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "留缝",
+          "poseId": "alveolar-friction",
+          "airflow": "friction",
+          "contact": "alveolar",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "送气",
+          "poseId": "alveolar-friction",
+          "airflow": "friction",
+          "contact": "alveolar",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "consonant-sh",
+      "ipa": "ʃ",
+      "kind": "fricative",
+      "place": "齿龈后",
+      "lipCue": "双唇可轻微收圆。",
+      "tongueCue": "舌前部靠近齿龈后方，留缝让气流通过。",
+      "movementCue": "留缝并持续送气；口腔不完全堵住。",
+      "variantNote": "",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english",
+        "seeing-speech"
+      ],
+      "sourceNotes": "Roach §2.1 dental/labiodental/alveolar anatomy, pp. 9–10; Barber et al., English fricatives, pp. 6–7; Seeing Speech corresponding place and fricative row.",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "准备",
+          "poseId": "neutral",
+          "airflow": "none",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "留缝",
+          "poseId": "postalveolar-friction",
+          "airflow": "friction",
+          "contact": "postalveolar",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "送气",
+          "poseId": "postalveolar-friction",
+          "airflow": "friction",
+          "contact": "postalveolar",
+          "voiced": false,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "consonant-zh",
+      "ipa": "ʒ",
+      "kind": "fricative",
+      "place": "齿龈后",
+      "lipCue": "双唇可轻微收圆。",
+      "tongueCue": "舌前部靠近齿龈后方，留缝让气流通过。",
+      "movementCue": "留缝并持续送气；口腔不完全堵住。",
+      "variantNote": "",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english",
+        "seeing-speech"
+      ],
+      "sourceNotes": "Roach §2.1 dental/labiodental/alveolar anatomy, pp. 9–10; Barber et al., English fricatives, pp. 6–7; Seeing Speech corresponding place and fricative row.",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "准备",
+          "poseId": "neutral",
+          "airflow": "none",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "留缝",
+          "poseId": "postalveolar-friction",
+          "airflow": "friction",
+          "contact": "postalveolar",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "送气",
+          "poseId": "postalveolar-friction",
+          "airflow": "friction",
+          "contact": "postalveolar",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "consonant-h",
+      "ipa": "h",
+      "kind": "fricative",
+      "place": "声门",
+      "lipCue": "口形随下一个元音变化；图示 hat 中的开口。",
+      "tongueCue": "不在口腔内制造额外闭塞或舌后摩擦。",
+      "movementCue": "气流经过声门；舌、唇配合后面的元音。",
+      "variantNote": "口形随元音改变；这不是所有 /h/ 的固定口形。",
+      "sourceIds": [
+        "cambridge-english",
+        "seeing-speech"
+      ],
+      "sourceNotes": "Barber et al., /h/ friction at the glottis and unobstructed oral passage, p. 7; Seeing Speech glottal fricative [h].",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "准备",
+          "poseId": "neutral",
+          "airflow": "none",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "送气",
+          "poseId": "trap",
+          "airflow": "oral",
+          "contact": "glottal",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "保持",
+          "poseId": "trap",
+          "airflow": "oral",
+          "contact": "glottal",
+          "voiced": false,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "consonant-ch",
+      "ipa": "tʃ",
+      "kind": "affricate",
+      "place": "齿龈后",
+      "lipCue": "双唇可稍收圆。",
+      "tongueCue": "舌前部先接触齿龈后方，再稍离开留缝。",
+      "movementCue": "一次连贯动作：闭塞 → 摩擦释放。",
+      "variantNote": "",
+      "sourceIds": [
+        "cambridge-english",
+        "phonetics-overview"
+      ],
+      "sourceNotes": "Barber et al., affricated stop release, p. 7; Cambridge Phonetics Overview §2.2 affricates, pp. 10–11.",
+      "initialPhase": 0,
+      "phases": [
+        {
+          "label": "闭塞",
+          "poseId": "postalveolar-closed",
+          "airflow": "none",
+          "contact": "postalveolar",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "留缝",
+          "poseId": "postalveolar-friction",
+          "airflow": "friction",
+          "contact": "postalveolar",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "摩擦释放",
+          "poseId": "neutral",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "consonant-jh",
+      "ipa": "dʒ",
+      "kind": "affricate",
+      "place": "齿龈后",
+      "lipCue": "双唇可稍收圆。",
+      "tongueCue": "舌前部先接触齿龈后方，再稍离开留缝。",
+      "movementCue": "一次连贯动作：闭塞 → 摩擦释放。",
+      "variantNote": "",
+      "sourceIds": [
+        "cambridge-english",
+        "phonetics-overview"
+      ],
+      "sourceNotes": "Barber et al., affricated stop release, p. 7; Cambridge Phonetics Overview §2.2 affricates, pp. 10–11.",
+      "initialPhase": 0,
+      "phases": [
+        {
+          "label": "闭塞",
+          "poseId": "postalveolar-closed",
+          "airflow": "none",
+          "contact": "postalveolar",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "留缝",
+          "poseId": "postalveolar-friction",
+          "airflow": "friction",
+          "contact": "postalveolar",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "摩擦释放",
+          "poseId": "neutral",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "consonant-m",
+      "ipa": "m",
+      "kind": "nasal",
+      "place": "双唇",
+      "lipCue": "双唇闭合，嘴部不放气。",
+      "tongueCue": "舌位随相邻元音变化，双唇负责堵住口腔。",
+      "movementCue": "保持口腔闭塞，软腭下降，让气流走鼻腔。",
+      "variantNote": "",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english",
+        "seeing-speech"
+      ],
+      "sourceNotes": "Roach §2.1 velum and nasal passage, pp. 9–10; Barber et al., nasal oral closures matching /b d ɡ/ and open nasal passage, p. 7; Seeing Speech nasal row.",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "口腔闭塞",
+          "poseId": "bilabial-closed",
+          "airflow": "none",
+          "contact": "bilabial",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "鼻腔送气",
+          "poseId": "bilabial-closed",
+          "airflow": "nasal",
+          "contact": "bilabial",
+          "voiced": true,
+          "velum": "lowered"
+        },
+        {
+          "label": "保持鼻音",
+          "poseId": "bilabial-closed",
+          "airflow": "nasal",
+          "contact": "bilabial",
+          "voiced": true,
+          "velum": "lowered"
+        }
+      ]
+    },
+    {
+      "symbolId": "consonant-n",
+      "ipa": "n",
+      "kind": "nasal",
+      "place": "齿龈",
+      "lipCue": "双唇可以自然分开。",
+      "tongueCue": "舌尖接触上齿龈，堵住口腔通道。",
+      "movementCue": "保持口腔闭塞，软腭下降，让气流走鼻腔。",
+      "variantNote": "",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english",
+        "seeing-speech"
+      ],
+      "sourceNotes": "Roach §2.1 velum and nasal passage, pp. 9–10; Barber et al., nasal oral closures matching /b d ɡ/ and open nasal passage, p. 7; Seeing Speech nasal row.",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "口腔闭塞",
+          "poseId": "alveolar-closed",
+          "airflow": "none",
+          "contact": "alveolar",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "鼻腔送气",
+          "poseId": "alveolar-closed",
+          "airflow": "nasal",
+          "contact": "alveolar",
+          "voiced": true,
+          "velum": "lowered"
+        },
+        {
+          "label": "保持鼻音",
+          "poseId": "alveolar-closed",
+          "airflow": "nasal",
+          "contact": "alveolar",
+          "voiced": true,
+          "velum": "lowered"
+        }
+      ]
+    },
+    {
+      "symbolId": "consonant-ng",
+      "ipa": "ŋ",
+      "kind": "nasal",
+      "place": "软腭",
+      "lipCue": "双唇自然分开。",
+      "tongueCue": "舌后部接触软腭，堵住口腔通道。",
+      "movementCue": "保持口腔闭塞，软腭下降，让气流走鼻腔。",
+      "variantNote": "",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english",
+        "seeing-speech"
+      ],
+      "sourceNotes": "Roach §2.1 velum and nasal passage, pp. 9–10; Barber et al., nasal oral closures matching /b d ɡ/ and open nasal passage, p. 7; Seeing Speech nasal row.",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "口腔闭塞",
+          "poseId": "velar-closed",
+          "airflow": "none",
+          "contact": "velar",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "鼻腔送气",
+          "poseId": "velar-nasal",
+          "airflow": "nasal",
+          "contact": "velar",
+          "voiced": true,
+          "velum": "lowered"
+        },
+        {
+          "label": "保持鼻音",
+          "poseId": "velar-nasal",
+          "airflow": "nasal",
+          "contact": "velar",
+          "voiced": true,
+          "velum": "lowered"
+        }
+      ]
+    },
+    {
+      "symbolId": "consonant-l",
+      "ipa": "l",
+      "kind": "lateral",
+      "place": "齿龈",
+      "lipCue": "双唇自然分开。",
+      "tongueCue": "舌尖接触上齿龈，舌头两侧留出通道。",
+      "movementCue": "中间接触，气流从舌的一侧或两侧通过。",
+      "variantNote": "展示词首清晰 [l]；词尾的暗 [ɫ] 舌后部可更高。",
+      "sourceIds": [
+        "cambridge-english",
+        "phonetics-overview",
+        "seeing-speech"
+      ],
+      "sourceNotes": "Barber et al., lateral airflow on one/both sides, p. 7; Cambridge Phonetics Overview, laterals, p. 11; Seeing Speech lateral approximant [l].",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "准备",
+          "poseId": "neutral",
+          "airflow": "none",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "舌尖接触",
+          "poseId": "lateral",
+          "airflow": "none",
+          "contact": "alveolar",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "两侧送气",
+          "poseId": "lateral",
+          "airflow": "lateral",
+          "contact": "alveolar",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "consonant-r",
+      "ipa": "r",
+      "kind": "approximant",
+      "place": "齿龈后附近",
+      "lipCue": "双唇可以略圆，不必用力噘嘴。",
+      "tongueCue": "舌尖或舌前部抬起，但不接触上腭。",
+      "movementCue": "靠近而不堵住；不要弹舌或做颤音。",
+      "variantNote": "词典 /r/ 这里指近音 [ɹ]；舌形有不同实现，图示只示一种。",
+      "sourceIds": [
+        "cambridge-english",
+        "seeing-speech"
+      ],
+      "sourceNotes": "Barber et al., RP approximant r without contact, p. 7; Seeing Speech approximant [ɹ], not trill [r].",
+      "initialPhase": 1,
+      "phases": [
+        {
+          "label": "准备",
+          "poseId": "neutral",
+          "airflow": "none",
+          "contact": "none",
+          "voiced": false,
+          "velum": "raised"
+        },
+        {
+          "label": "靠近上腭",
+          "poseId": "approximant-r",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "保持空隙",
+          "poseId": "approximant-r",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "consonant-y",
+      "ipa": "j",
+      "kind": "glide",
+      "place": "硬腭",
+      "lipCue": "嘴角稍展开，不收圆。",
+      "tongueCue": "舌前部抬高、靠近硬腭，但不接触。",
+      "movementCue": "从高舌位平滑进入下一个元音。",
+      "variantNote": "末帧借用 yes 中的 /e/ 示意；实际终点随下个元音变化。",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english"
+      ],
+      "sourceNotes": "Roach §2.1 palatal /j/, p. 9; Barber et al., semivowels/glides, pp. 5–6, 8.",
+      "initialPhase": 0,
+      "phases": [
+        {
+          "label": "起音",
+          "poseId": "palatal-glide",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "滑动",
+          "poseId": "palatal-glide",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "进入元音",
+          "poseId": "dress",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    },
+    {
+      "symbolId": "consonant-w",
+      "ipa": "w",
+      "kind": "glide",
+      "place": "双唇＋软腭附近",
+      "lipCue": "先收圆双唇，再逐渐放松。",
+      "tongueCue": "舌后部抬高，随后滑向下一个元音。",
+      "movementCue": "圆唇、高舌位起音，再平滑进入元音。",
+      "variantNote": "末帧借用 window 中的 /ɪ/ 示意；实际终点随下个元音变化。",
+      "sourceIds": [
+        "roach-articulators",
+        "cambridge-english"
+      ],
+      "sourceNotes": "Roach §2.1 palatal /j/, p. 9; Barber et al., semivowels/glides, pp. 5–6, 8.",
+      "initialPhase": 0,
+      "phases": [
+        {
+          "label": "起音",
+          "poseId": "labial-velar-glide",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "滑动",
+          "poseId": "labial-velar-glide",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        },
+        {
+          "label": "进入元音",
+          "poseId": "kit",
+          "airflow": "oral",
+          "contact": "none",
+          "voiced": true,
+          "velum": "raised"
+        }
+      ]
+    }
+  ]
+}

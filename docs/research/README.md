@@ -26,3 +26,5 @@ The design is a recommendation based on source research, not a validated claim a
 ## Current pronunciation guidance review
 
 See [the source-based cue review](pronunciation-cue-review.md) for the current Chinese guidance, per-symbol source mapping, six-word examples, and the three-way `/e æ aɪ/` comparison.
+
+- [Mouth and tongue visuals: source review and all 44 mappings](articulation-visuals.md) — original schematic design, articulation details, variants and rights boundaries.

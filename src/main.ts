@@ -2,6 +2,7 @@ import './style.css';
 import { syncTheme, toggleTheme } from './theme.ts';
 import audio from '../content/audio.json';
 import { LocalPlayer } from './audio.ts';
+import { articulationView, bindArticulations } from './articulation.ts';
 import { symbols, groups, samples, comparisons, filterSymbols, getSymbol, getComparison, comparisonSymbols, validCustomPair, pronunciationSources } from './library.ts';
 import type { SymbolEntry, SourceId } from './library.ts';
 
@@ -15,6 +16,7 @@ let comparisonMode: 'preset' | 'custom' = 'preset';
 let customPair = ['vowel-kit', 'vowel-fleece'];
 let filter = 'all';
 let query = '';
+let disposeArticulations: (() => void) | undefined;
 const esc = (s: string) => s.replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]!));
 function markedIpa(transcription: string, target: string) {
   const at = transcription.indexOf(target);
@@ -46,6 +48,7 @@ function explorer() {
     <section class="selected-sound" aria-label="当前音标">
       <div class="selected-symbol"><span class="tiny-label">${groups.find(g => g.id === symbol.group)?.label}</span><div class="big-ipa" lang="en">/${symbol.ipa}/</div></div>
       <div class="selected-description"><p class="articulation">${esc(symbol.cue)}</p>
+        ${articulationView(symbol.id, 'explorer-art')}
         <div class="examples-heading"><h2>例词</h2></div>
         <ul class="example-words" aria-label="六个例词">${symbol.examples.map((example, index) => `<li class="example-word"><div class="example-content"><a href="${esc(example.referenceUrl)}" target="_blank" rel="noreferrer"><span lang="en">${esc(example.word)}</span> <span aria-hidden="true">↗</span><span class="sr-only">词典发音（新窗口）</span></a><span class="example-gloss">${esc(example.gloss)}</span><span class="word-ipa" lang="en">/${markedIpa(example.ipa, symbol.ipa)}/</span></div>${wordVoice(example.sampleId, example.word, index)}</li>`).join('')}</ul>
         ${sourceLinks(symbol.cueSourceIds)}
@@ -55,7 +58,7 @@ function explorer() {
     <div class="sound-grid" aria-label="选择音标">${shown.map(s => `<button class="sound-tile ${s.id === selected ? 'selected' : ''}" id="tile-${s.id}" data-symbol="${s.id}" aria-pressed="${s.id === selected}"><span class="tile-ipa" lang="en">${s.ipa}</span><small lang="en">${s.word}</small></button>`).join('')}</div><p class="result-count" role="status">${shown.length ? '' : '没有找到匹配的音标或例词。'}</p>`;
 }
 function soundPanel(symbol: SymbolEntry, index: number) {
-  return `<section class="sound-panel" aria-label="比较音标 /${symbol.ipa}/"><div class="sound-top"><span class="tiny-label">${symbol.group === 'consonant' ? '辅音' : '元音'}</span><button class="symbol-link" data-open-symbol="${symbol.id}" aria-label="查看 /${symbol.ipa}/ 的六个例词">查看例词 ↗</button></div><div class="big-ipa" lang="en">/${symbol.ipa}/</div><div class="detail-word"><span class="word" lang="en">${symbol.word}</span><span>${symbol.gloss}</span><span class="word-ipa" lang="en">/${markedIpa(symbol.wordIpa, symbol.ipa)}/</span></div>${listen(symbol, `compare-play-${index}`)}<p class="sound-cue">${esc(symbol.cue)}</p></section>`;
+  return `<section class="sound-panel" aria-label="比较音标 /${symbol.ipa}/"><div class="sound-top"><span class="tiny-label">${symbol.group === 'consonant' ? '辅音' : '元音'}</span><button class="symbol-link" data-open-symbol="${symbol.id}" aria-label="查看 /${symbol.ipa}/ 的六个例词">查看例词 ↗</button></div><div class="big-ipa" lang="en">/${symbol.ipa}/</div><div class="detail-word"><span class="word" lang="en">${symbol.word}</span><span>${symbol.gloss}</span><span class="word-ipa" lang="en">/${markedIpa(symbol.wordIpa, symbol.ipa)}/</span></div>${listen(symbol, `compare-play-${index}`)}${articulationView(symbol.id, `compare-art-${index}`)}<p class="sound-cue">${esc(symbol.cue)}</p></section>`;
 }
 function customSelect(index: number) {
   const other = customPair[1 - index];
@@ -75,14 +78,16 @@ function comparison() {
     ${sourceLinks(ids)}`;
 }
 function sources() {
-  return `<h1 id="view-title" class="compact-title" tabindex="-1">来源与说明</h1><section class="prose"><h2>发音提示</h2><p>中文提示依据下列资料整理，采用英式学习词典注音；口音及词典写法可能有变体。每个音标下可查看对应依据。</p><ul>${Object.values(pronunciationSources).map(source => `<li><a href="${esc(source.url)}" target="_blank" rel="noreferrer">${esc(source.title)} ↗</a></li>`).join('')}</ul><h2>例词与录音</h2><p>每个例词旁均可播放发音。主示例使用真人录音；其余词语使用设备的英式合成语音，音色取决于设备。合成语音是词语朗读参考，可能与传统词典注音有变体；设备需提供英语（英国）语音，部分语音可能需联网。点击词语可听词典发音。</p><details><summary>录音来源与署名（${audio.assets.length} 项）</summary><ul>${audio.assets.map(a => `<li><a href="${esc(a.sourcePageUrl)}" target="_blank" rel="noreferrer"><span lang="en">${esc(a.transcript)}</span> ↗</a> · ${esc(a.creator)} · <a href="${esc(a.licenseUrl)}" target="_blank" rel="noreferrer">${esc(a.licenseId)}</a></li>`).join('')}</ul><p>保留原 MP3，或由 Ogg 转为 MP3；未裁剪、合成或调整音高。录音作者不为本站背书。</p></details></section>`;
+  return `<h1 id="view-title" class="compact-title" tabindex="-1">来源与说明</h1><section class="prose"><h2>口形与舌位图</h2><p>44 个音标均配有原创发音示意和可逐步查看的动作。图示依据 Cambridge 语音学资料、Glasgow Seeing Speech 等来源整理，显示相对舌位与气流，不是医学影像或唯一的英国口音实现。每幅图下可查看对应依据。</p><h2>发音提示</h2><p>中文提示依据下列资料整理，采用英式学习词典注音；口音及词典写法可能有变体。每个音标下可查看对应依据。</p><ul>${Object.values(pronunciationSources).map(source => `<li><a href="${esc(source.url)}" target="_blank" rel="noreferrer">${esc(source.title)} ↗</a></li>`).join('')}</ul><h2>例词与录音</h2><p>每个例词旁均可播放发音。主示例使用真人录音；其余词语使用设备的英式合成语音，音色取决于设备。合成语音是词语朗读参考，可能与传统词典注音有变体；设备需提供英语（英国）语音，部分语音可能需联网。点击词语可听词典发音。</p><details><summary>录音来源与署名（${audio.assets.length} 项）</summary><ul>${audio.assets.map(a => `<li><a href="${esc(a.sourcePageUrl)}" target="_blank" rel="noreferrer"><span lang="en">${esc(a.transcript)}</span> ↗</a> · ${esc(a.creator)} · <a href="${esc(a.licenseUrl)}" target="_blank" rel="noreferrer">${esc(a.licenseId)}</a></li>`).join('')}</ul><p>保留原 MP3，或由 Ogg 转为 MP3；未裁剪、合成或调整音高。录音作者不为本站背书。</p></details></section>`;
 }
 function render(focus = false) {
   const focused = (document.activeElement as HTMLElement)?.id;
   const caret = document.activeElement instanceof HTMLInputElement ? document.activeElement.selectionStart : null;
   player.stop();
+  disposeArticulations?.();
   app.innerHTML = shell(page === 'symbols' ? explorer() : page === 'compare' ? comparison() : sources());
   bind();
+  disposeArticulations = bindArticulations(app);
   if (focus) { document.querySelector<HTMLElement>('#view-title')?.focus(); window.scrollTo({ top: 0, behavior: 'instant' }); }
   else if (focused) {
     const element = document.getElementById(focused); element?.focus();
@@ -128,5 +133,6 @@ player.onStatus = message => {
   clearTimeout(statusTimer); element.textContent = message; element.classList.add('visible');
   if (message.startsWith('播放完毕')) statusTimer = setTimeout(() => element.classList.remove('visible'), 3500);
 };
-window.addEventListener('pagehide', () => player.stop());
+window.addEventListener('pagehide', () => { player.stop(); disposeArticulations?.(); });
+window.addEventListener('pageshow', event => { if (event.persisted) render(); });
 render();
