@@ -2,61 +2,55 @@
 
 Updated 2026-10-18, Asia/Singapore. Read `AGENTS.md` and the Git workflow first.
 
-## Current scope — owner-confirmed
+## Confirmed scope
 
-The website's primary job is **learning the pronunciation of each symbol and comparing similar symbols**. The owner explicitly excluded quiz and review features during implementation. Do not reintroduce assessments, grades, practice schedules, progress tracking, or learning records unless requested later. Earlier research proposals involving those features are historical exploration, not the current spec. The owner also requested a clean, concise interface: no slogans or introductory paragraphs. Preserve the compact functional titles and short pronunciation guidance.
+A concise British English IPA explorer for Chinese-speaking beginners: learn each symbol through contextual pronunciation and compare similar sounds. No quizzes, review schedules, scores, accounts, learning records, microphone or analytics. Preserve functional labels and short cues; do not restore marketing introductions.
 
-Audience remains Chinese-speaking beginners, English IPA, British English first. The accent model remains a non-rhotic British learner-dictionary convention; the app does not claim every British accent is identical.
+The owner accepted this version and explicitly requested full audio coverage, removal of WIP labels, dark mode, thorough testing, a push to `English-IPA-Learning`, and public hosting. This supersedes the original local-only restriction. The destination was verified as the owner's empty public repository `davidsqf/English-IPA-Learning`; GitHub Pages is the selected host.
 
-## Implemented version
+## Release implementation
 
-The app uses Vite 8, vanilla TypeScript, semantic HTML/CSS, and static JSON. Node 22.12+ is required; Node 24 is recommended and recorded in `.nvmrc`. The host's default Node was 18, so verification used the existing bundled Node 24 runtime. The Mac launcher detects a suitable runtime, including that installed bundle, without changing global settings.
+Vite 8 + vanilla TypeScript, semantic HTML/CSS and static JSON. Node 24 recommended, minimum 22.12. All 44 symbols have contextual examples from 37 bundled human recordings, shared where appropriate. All audio ships in `public/audio/` and `dist/`; no middleware or runtime source fetch is needed. MP3 supports broad browser compatibility. The build verifies file integrity and complete coverage before bundling.
 
-- Default view: 44-symbol explorer with group filters, Unicode/English/Chinese search, a selected-symbol explanation, highlighted target in the transcription, and contextual playback where available.
-- Comparison view: ten curated contrast groups, two sound panels, individual playback and sequential playback, plus Chinese guidance about what differs.
-- Source view: word-versus-phrase explanation, per-file attribution, review status, reference links, and local setup help.
-- Natural-speed default and pitch-preserving 0.8× playback; one shared Audio instance; playback stops on navigation or replacement.
-- No quiz, review feature, localStorage use, account, microphone, telemetry, cloud API, or synthesized speech.
+The explorer has group filters, IPA/English/Chinese search and highlighted targets. Ten comparison groups support individual and sequential playback. One shared Audio instance stops on replacement/navigation, supports original speed and pitch-preserving 0.8× playback, and recovers from loading failures. The sources view includes per-file attribution and licence links.
 
-## Run locally
+Dark mode follows the system until a preference is selected with the top-right toggle. `localStorage` holds only that theme choice. Storage failure falls back to a working in-memory preference. A head script avoids a light flash for dark-mode visitors.
 
-Double-click `Start IPA.command` in Finder, or with supported Node:
+The traditional British dictionary model is non-rhotic, with normal dictionary `/r/` notation for the English approximant. `/ʊə/` uses *during* and explains modern variation. Do not present contextual recordings as isolated phonemes or claim all British accents use identical realizations. The owner accepted release; independent human expert phonetics review has not been performed or claimed. Original seed drafts remain preserved historical research.
+
+## Run and verify
 
 ```sh
 npm ci
-npm run samples
 npm run dev
+npm test
+npm run build
+npm run preview
 ```
 
-The normal dev address is `http://127.0.0.1:5173/`. For the built app, run `npm run build` then `npm run preview`; normal address `http://127.0.0.1:4173/`. Stop previous servers before reusing their ports; strict-port behavior avoids silently opening a different address.
-
-## Audio and content boundaries
-
-`content/symbol-library.json` contains 44 draft display entries. Forty-three have mappings to contextual candidates; `/ʊə/` has no suitable candidate and explains its traditional/variable status. All 36 distinct source recordings from Association Shtooka / Judith Franck are now downloaded locally and passed checksum, decoding, and browser playback checks; some examples serve several sounds. These technical checks do not constitute pronunciation approval.
-
-`content/local-preview-audio.json` records exact source pages and download URLs, licence, original-source SHA-1, acquired-file SHA-256 when available, format, changes, and review states. Media are original Ogg or Wikimedia-supplied MP3 derivatives. No local stretching, trimming, or synthesis was used. All human pronunciation reviews remain pending; no draft flags have been silently promoted.
-
-Candidate files live in ignored `.local/audio/`, never `public/` or `dist/`. Vite dev/preview middleware serves only allowlisted files and returns an actual-availability list. The UI marks missing files; it never presents a dead player as verified audio. Both views work without network access once local samples are prepared. External source links require internet.
-
-Wikimedia original-file requests encountered HTTP 429; advertised MP3 streaming derivatives were discovered via its `videoinfo` API. Acquisition was slowed to respect rate limits and resumed from verified existing files. Keep source formats and checksum records accurate if more samples are added. `npm run samples` is resumable; do not repeatedly hammer a rate-limited source.
-
-A copied build or generic static host intentionally has no candidate audio. Publication requires an approved corpus, reviewed teaching mappings, and a deliberate release change. There is no remote, deployment, or project-wide source licence yet.
+The Mac launcher `Start IPA.command` selects a suitable installed Node runtime and opens the site. No audio download is needed. `npm run samples` verifies shipped recordings; it does not fetch them. Local setup needs internet for initial dependencies, then the local site runs offline. Serve generated files over HTTP.
 
 ## Key files
 
 | File | Responsibility |
 | --- | --- |
-| `src/main.ts` | Explorer, comparison, source views, and UI events |
-| `src/library.ts` | Corpus access, search/filtering, comparison definitions |
+| `src/main.ts` | Explorer, comparison, source views and UI events |
+| `src/library.ts` | Corpus access, search/filtering and comparison definitions |
 | `src/audio.ts` | Single audio player, interruption, speed and error states |
-| `src/style.css` | Responsive layout, focus styles, reduced motion |
-| `vite.config.ts` | Local-only media allowlist and actual availability endpoint |
-| `scripts/download-samples.mjs` | Candidate download with integrity verification |
-| `tests/library.test.ts` | Inventory, mapping, transcription-target and review-state invariants |
-| `docs/project/verification.md` | Actual checks and remaining limits |
+| `src/theme.ts` | System and persisted theme preference |
+| `src/style.css` | Light/dark palette, responsive layout and accessible focus |
+| `content/audio.json` | Exact sources, licences, transformations and checksums |
+| `public/audio/` | All 37 distributed recordings |
+| `scripts/verify-audio.mjs` | Complete coverage and shipped-file integrity gate |
+| `tests/library.test.ts` | Inventory, mapping, comparison and search invariants |
+| `.github/workflows/pages.yml` | Test/build CI and Pages deployment |
+| `docs/project/verification.md` | Actual release verification evidence and limits |
 
-## Git and continuation
+## Git and publication
 
-Implementation branch: `work/first-listening-lesson` (created before the owner narrowed the scope). Intended integration target: `main`, by fast-forward after checks. Read Git for the actual current branch and commit. Preserve research and original seed files. Use the checkout lock and explicit-path staging protocol.
+Release branch: `work/release-audio-dark-mode`; integration target `main` via fast-forward after checks. Read Git for actual current state. The release workflow publishes pushes to main; pull requests run tests/build without deployment. Do not force push or change the public audience without authorization.
 
-Next priorities are content quality, not additional features: complete expert review of the Chinese articulation cues and selected recordings; consider adding genuinely isolated British sound demonstrations where rights and quality permit; supply an appropriate `/ʊə/` reference or keep its limitation explicit; test with actual beginners. Do not label contextual audio as isolated sounds or imply technical decode/playback checks establish pronunciation accuracy.
+Public URL: https://davidsqf.github.io/English-IPA-Learning/
+Repository: https://github.com/davidsqf/English-IPA-Learning
+
+Consult the verification report for actual publication evidence. No project-wide source-code licence was selected; preserve each audio file's CC BY or CC BY-SA terms. Keep private recordings, `.local/`, dependencies, generated output and credentials out of Git.

@@ -67,7 +67,7 @@ The final message identifies the delivered result, branch and short commit hash,
 
 ## 5. Later: first GitHub push
 
-The owner has expressed an intention to push later, not an instruction to publish now. When authorized, verify the exact GitHub owner/repository and chosen visibility. Prefer a genuinely empty remote for the first push. Check its refs and existing `origin` first. Never overwrite an existing remote or unrelated history.
+The owner explicitly authorized pushing this release to `davidsqf/English-IPA-Learning` and publishing a public website (2026-10-18). The empty public repository and authenticated owner were verified before release. For another destination or a later unrequested publication, verify the exact GitHub owner/repository and chosen visibility. Prefer a genuinely empty remote for the first push. Check its refs and existing `origin` first. Never overwrite an existing remote or unrelated history.
 
 For an empty, verified repository, set `origin` to the owner's supplied URL and push `main` with upstream tracking. Do not put real credentials in commands, docs, or remote URLs. If the remote was initialized with a README or other files, fetch and reconcile deliberately; do not force-push or automatically merge unrelated histories.
 

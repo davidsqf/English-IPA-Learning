@@ -1,37 +1,32 @@
-# Verification — 2026-10-18
+# Release verification
 
-Environment: macOS, Node 24.19.0, Vite 8.3.4, TypeScript 5.9.3. Browser verification used an isolated Chrome session through Playwright against the built local preview.
+Date: 2026-10-18, Asia/Singapore. Runtime: Node 24.19.0; browser: installed Google Chrome driven by Playwright CLI. Tests exercise the built static website, not only the development server.
 
-## Automated checks
+## Automated checks completed
 
-- `npm run build`: type check and production build passed.
-- `npm test`: three tests passed, covering the 44-entry inventory, audio references and review-state invariants, and exact-versus-exploratory IPA search.
-- All 36 acquired candidate files match their recorded SHA-256 checksums: six Ogg originals and thirty Wikimedia-supplied MP3 transcodes. Full-file ffmpeg decoding succeeded during acquisition.
-- `npm run samples` rechecked/skipped all 36 existing files without network acquisition. Download retry/spacing code passed syntax checks; rate-limited live acquisition was completed separately and source states are recorded in the manifest.
-- Mac launcher shell syntax passed. The host's default Node 18 is unsupported; the launcher selects the existing bundled Node 24 when necessary. No global runtime configuration was changed.
-- Candidate media are absent from `public/` and `dist/`; local media and browser artifacts are ignored by Git.
-- Removed introductory copy, quiz/review code, and progress-storage code are absent from runtime files.
+- `npm test`: four tests pass. Coverage includes 44 unique symbols and group boundaries (12/8/24); every symbol's target transcription and recording reference; shipped-file SHA-256; all ten comparisons' two distinct playable entries; exact/unwrapped IPA, colon aliases, English/Chinese search and empty results.
+- `npm run build`: audio coverage/integrity gate, TypeScript and Vite build pass. All 37 MP3 files are included in `dist/audio/`.
+- Missing-file and corruption probes both fail the audio gate as intended; originals restored afterward and the full build rerun successfully.
+- All 37 complete MP3 files decode with ffmpeg without errors.
+- `git diff --check`: passes before release commit.
 
-## Browser behavior
+## Browser behavior completed
 
-- Selected all 44 entries and checked the selected symbol and highlighted target segment.
-- All 43 contextual mappings have available playback controls; all 36 distinct recordings played to their actual ended event. `/ʊə/` shows an explicit unavailable state.
-- Group filters returned 12/8/24/44 items. Search worked with slashed exact IPA, ASCII length alias, English, Chinese, and a no-results case. Repeated example words across several symbols are intentional.
-- Natural speed and 0.8× playback completed. Sequential comparison played exactly two clips; replacement playback left only one active control.
-- All ten contrast selectors rendered two sound panels and their guidance. Opening a symbol from a comparison preserved the correct selected entry.
-- Source credits disclosed all 36 file links; setup details and return navigation worked.
-- Keyboard Enter selected a symbol and started playback; visible focus was inspected.
-- Blocking all non-local requests did not affect local playback, and the complete playback pass made zero external requests.
-- Aborted audio requests produced a clear recoverable error with no stuck playing control. An empty availability response produced source links and unavailable states instead of dead play buttons.
-- Mobile selection changed and restored its contrast pair. The sequential playback action fits within the initial 390×844 viewport. No horizontal overflow was found at 390 or 320 pixels; a narrower desktop-equivalent layout was also checked with reduced motion.
-- The complete final symbol/playback pass reported no uncaught page errors.
+- Individual playback checks exercise all 44 symbols (22 on the local preview, 22 on a plain static server under `/English-IPA-Learning/`); actual media playback reaches `ended`, with correct highlighted targets and no missing-audio controls.
+- All ten sequential comparisons play both recordings to completion (20 ended events). The mobile comparison selector works for all ten choices; “查看音标” returns to the selected sound.
+- One Audio instance is created. 0.8× playback uses `preservesPitch = true`. Replacement, selection changes and navigation cancel current playback. Simulated network failure clears active controls and the next retry plays normally.
+- Four group filters and five representative search cases pass through normal UI interactions.
+- Both themes and all three views checked at 320, 390, 768 and 1440 pixel widths: 24 combinations, no horizontal overflow. Screenshots reviewed for desktop explorer and mobile explorer/comparison.
+- Theme toggling works by keyboard and persists across reload. Fresh visitors follow system dark/light changes. A browser context with blocked storage still loads and toggles normally.
+- A computed text-contrast check covers visible direct text in all three views in both themes. One light-mode selected category count initially measured 4.39:1; it now inherits the selected foreground colour and all checked text passes the relevant 4.5:1 or 3:1 threshold. This check does not constitute a complete accessibility audit.
+- No trial marks, missing-download prompts or removed promotional headings appear in any view. The normal UI test reports no uncaught browser errors or external runtime requests. Deliberately aborted audio requests are confined to the recovery test.
 
-## Visual checks
+Browser evidence and QA scripts are retained in ignored `.local/` and `output/playwright/`. Public-host checks are recorded after deployment. Do not infer expert review from technical checks.
 
-Inspected symbol explorer and comparison screens on desktop and mobile, including selected symbols, highlighted transcriptions, playback states, keyboard focus, and unavailable/error states. Removed slogans and long introductions are absent. Mobile uses a compact contrast selector with audio controls above the paired panels. No clipping, overlapping controls, or horizontal overflow was found in the inspected states.
+## Publication checks
 
-Local screenshots are under ignored `output/playwright/`, including `final-desktop.png`, `final-full.png`, `final-mobile.png`, `final-comparison.png`, and `final-comparison-mobile.png`. They are verification artifacts, not website dependencies.
+GitHub authentication and the target `davidsqf/English-IPA-Learning` were verified; it was an empty public repository before the first push. GitHub Pages was enabled with the `workflow` build type and public audience. The release workflow runs clean installation, tests, audio verification, type checking, build and artifact deployment. Final workflow and live-site status must be verified after the push.
 
-## Limits
+## Scope of evidence
 
-These checks establish technical behavior, not pronunciation validity. No competent human phonetics review, real-beginner study, full accessibility conformance audit, Safari/Firefox playback audit, or isolated-sound corpus validation was performed. Recordings remain clearly labelled local candidates; Chinese articulation cues and transcriptions remain drafts. The website is not deployed and has no GitHub remote.
+Recorded speech is contextual word/phrase audio, not isolated phonemes. Source metadata and conventional British dictionary mappings were checked, including the additional UK *during* recording for traditional `/ʊə/`. No independent expert phonetics review, real beginner study, physical mobile-device test or Safari/Firefox session is claimed. Responsive and browser-storage cases use separate Chrome contexts. Original seed drafts are historical research and are not the runtime release status.

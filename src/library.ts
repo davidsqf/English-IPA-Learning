@@ -1,5 +1,5 @@
 import data from '../content/symbol-library.json' with { type: 'json' };
-import audio from '../content/local-preview-audio.json' with { type: 'json' };
+import audio from '../content/audio.json' with { type: 'json' };
 export const symbols = data.symbols;
 export type SymbolEntry = typeof symbols[number];
 export const samples = new Map(audio.assets.map(a => [a.id, a]));

@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#f6f5f0" />
     <meta name="description" content="面向中文使用者的英式英语音标入门：探索 44 个参考音标，通过例词学习发音，对比相近的声音。" />
+    <script>
+      try { const saved = localStorage.getItem('ipa-theme'); document.documentElement.dataset.theme = saved === 'light' || saved === 'dark' ? saved : matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; } catch { document.documentElement.dataset.theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; }
+    </script>
     <title>IPA 音标入门</title>
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="%BASE_URL%favicon.svg" />
   </head>
   <body>
     <a class="skip-link" href="#main">跳到学习内容</a>

@@ -1,12 +1,11 @@
 {
-  "schemaVersion": 1,
-  "usage": "Unreviewed candidates for local preview only. Never bundled in public/ or dist/.",
+  "schemaVersion": 2,
+  "usage": "Bundled contextual British English word/phrase recordings. Per-file licence and source provenance follow. Owner-authorized release; no claim of independent expert review.",
   "assets": [
     {
       "id": "shtooka-a-sheep",
       "originalFilename": "En-uk-a_sheep.ogg",
-      "localFilename": "shtooka-a-sheep.ogg",
-      "previewPath": "/local-samples/shtooka-a-sheep.ogg",
+      "localFilename": "shtooka-a-sheep.mp3",
       "transcript": "a sheep",
       "type": "phrase",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-a_sheep.ogg",
@@ -15,22 +14,27 @@
       "licenseId": "CC-BY-3.0-US",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
       "sourceSha1": "ce870eec51ce2bd91b4243d86df435e79a78ec0f",
-      "sha256": "b761a03067de9ec706c0c0a4388ffd45221f131e4ddedceeee6afb3c2c72a630",
+      "sha256": "5f3b9a6bfd30b40df75c7720d72edc9ae877544458080530482d9bf00985720f",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
-      "modifications": [],
+      "modifications": [
+        "Converted original Ogg to MP3 with ffmpeg libmp3lame quality 2 for browser compatibility; no trimming, synthesis or pitch changes."
+      ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Source checksum matched; full file decoded with ffmpeg. Human review pending."
+      "acquiredSha256": "b761a03067de9ec706c0c0a4388ffd45221f131e4ddedceeee6afb3c2c72a630",
+      "acquiredFilename": "shtooka-a-sheep.ogg",
+      "path": "audio/shtooka-a-sheep.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-a-ship",
       "originalFilename": "En-uk-a_ship.ogg",
-      "localFilename": "shtooka-a-ship.ogg",
-      "previewPath": "/local-samples/shtooka-a-ship.ogg",
+      "localFilename": "shtooka-a-ship.mp3",
       "transcript": "a ship",
       "type": "phrase",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-a_ship.ogg",
@@ -39,22 +43,27 @@
       "licenseId": "CC-BY-3.0-US",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
       "sourceSha1": "c117fc133d4db53593ad45e17b4c30b28021f2b2",
-      "sha256": "f2d0c00545b0e9cf4338f90f0a0c4852fb29dd76e43737686ea47d292a7575c7",
+      "sha256": "7c38df4527759194b94c26a01cca6a4e984433c9e2f96caf36ee36e5f59a0bba",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
-      "modifications": [],
+      "modifications": [
+        "Converted original Ogg to MP3 with ffmpeg libmp3lame quality 2 for browser compatibility; no trimming, synthesis or pitch changes."
+      ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Source checksum matched; full file decoded with ffmpeg. Human review pending."
+      "acquiredSha256": "f2d0c00545b0e9cf4338f90f0a0c4852fb29dd76e43737686ea47d292a7575c7",
+      "acquiredFilename": "shtooka-a-ship.ogg",
+      "path": "audio/shtooka-a-ship.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-bed",
       "originalFilename": "En-uk-bed.ogg",
-      "localFilename": "shtooka-bed.ogg",
-      "previewPath": "/local-samples/shtooka-bed.ogg",
+      "localFilename": "shtooka-bed.mp3",
       "transcript": "bed",
       "type": "word",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-bed.ogg",
@@ -63,22 +72,27 @@
       "licenseId": "CC-BY-3.0-US",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
       "sourceSha1": "de67dfad62ecaf8c25049d576dda8346b10ca062",
-      "sha256": "8a7aae00b10abab6e62067545394f33fae5b0448803285efc4e7edb6f8241b7b",
+      "sha256": "4bc03655207fe4e651b20a670f0523b9217e62e103848a1a941ca2eeccf4a1f3",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
-      "modifications": [],
+      "modifications": [
+        "Converted original Ogg to MP3 with ffmpeg libmp3lame quality 2 for browser compatibility; no trimming, synthesis or pitch changes."
+      ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Source checksum matched; full file decoded with ffmpeg. Human review pending."
+      "acquiredSha256": "8a7aae00b10abab6e62067545394f33fae5b0448803285efc4e7edb6f8241b7b",
+      "acquiredFilename": "shtooka-bed.ogg",
+      "path": "audio/shtooka-bed.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-a-cat",
       "originalFilename": "En-uk-a_cat.ogg",
-      "localFilename": "shtooka-a-cat.ogg",
-      "previewPath": "/local-samples/shtooka-a-cat.ogg",
+      "localFilename": "shtooka-a-cat.mp3",
       "transcript": "a cat",
       "type": "phrase",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-a_cat.ogg",
@@ -87,22 +101,27 @@
       "licenseId": "CC-BY-3.0-US",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
       "sourceSha1": "54ee44669172b1bf4c9a83602e771cb1b76674fe",
-      "sha256": "164e5490fcc0dbd17ceabcfc04335e9a6b6ca83bede11fe60aeb5a3dca8e5611",
+      "sha256": "e2dc99fa6a0a0297191ff8ed234549864b3d1f4e12d3ffec96fb9e946d763ae3",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
-      "modifications": [],
+      "modifications": [
+        "Converted original Ogg to MP3 with ffmpeg libmp3lame quality 2 for browser compatibility; no trimming, synthesis or pitch changes."
+      ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Source checksum matched; full file decoded with ffmpeg. Human review pending."
+      "acquiredSha256": "164e5490fcc0dbd17ceabcfc04335e9a6b6ca83bede11fe60aeb5a3dca8e5611",
+      "acquiredFilename": "shtooka-a-cat.ogg",
+      "path": "audio/shtooka-a-cat.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-a-car",
       "originalFilename": "En-uk-a_car.ogg",
-      "localFilename": "shtooka-a-car.ogg",
-      "previewPath": "/local-samples/shtooka-a-car.ogg",
+      "localFilename": "shtooka-a-car.mp3",
       "transcript": "a car",
       "type": "phrase",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-a_car.ogg",
@@ -111,22 +130,27 @@
       "licenseId": "CC-BY-3.0-US",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
       "sourceSha1": "9540765d54f6c0ddfe055be7261a8e4eec3c36a3",
-      "sha256": "ec6c319a88ca84f47b403046ca3f38a104bc8ab6f8d5f5cbbaa15a5228381f32",
+      "sha256": "67ca7face7afcf81e364173eb9a8c7e99a83256c22d4f4e31f6f59cfab2f3580",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
-      "modifications": [],
+      "modifications": [
+        "Converted original Ogg to MP3 with ffmpeg libmp3lame quality 2 for browser compatibility; no trimming, synthesis or pitch changes."
+      ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Source checksum matched; full file decoded with ffmpeg. Human review pending."
+      "acquiredSha256": "ec6c319a88ca84f47b403046ca3f38a104bc8ab6f8d5f5cbbaa15a5228381f32",
+      "acquiredFilename": "shtooka-a-car.ogg",
+      "path": "audio/shtooka-a-car.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-hot",
       "originalFilename": "En-uk-hot.ogg",
-      "localFilename": "shtooka-hot.ogg",
-      "previewPath": "/local-samples/shtooka-hot.ogg",
+      "localFilename": "shtooka-hot.mp3",
       "transcript": "hot",
       "type": "word",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-hot.ogg",
@@ -135,22 +159,27 @@
       "licenseId": "CC-BY-3.0-US",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
       "sourceSha1": "1a73717e7957050f663e9efe7c25daf4554e6dd7",
-      "sha256": "f03c57cf1cf831d958e1705ff68a666ede73301b5d714403dedfc4828d0f3959",
+      "sha256": "5c2d32621fa6cd194caa245dcf2daa411aaa89252f93cf313e4048ba4997ae55",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
-      "modifications": [],
+      "modifications": [
+        "Converted original Ogg to MP3 with ffmpeg libmp3lame quality 2 for browser compatibility; no trimming, synthesis or pitch changes."
+      ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Source checksum matched; full file decoded with ffmpeg. Human review pending."
+      "acquiredSha256": "f03c57cf1cf831d958e1705ff68a666ede73301b5d714403dedfc4828d0f3959",
+      "acquiredFilename": "shtooka-hot.ogg",
+      "path": "audio/shtooka-hot.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-door",
       "originalFilename": "En-uk-door.ogg",
       "localFilename": "shtooka-door.mp3",
-      "previewPath": "/local-samples/shtooka-door.mp3",
       "transcript": "door",
       "type": "word",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-door.ogg",
@@ -162,21 +191,24 @@
       "sha256": "af331085098031ffdf954e7d378770d0fdb00635cbae1f18e72dc3960ebbd283",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
       "modifications": [
         "MP3 transcode supplied by Wikimedia; no local audio processing."
       ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Advertised Wikimedia MP3 derivative downloaded and decoded with ffmpeg; human listening/phonetic review pending."
+      "acquiredSha256": "af331085098031ffdf954e7d378770d0fdb00635cbae1f18e72dc3960ebbd283",
+      "acquiredFilename": "shtooka-door.mp3",
+      "path": "audio/shtooka-door.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-book",
       "originalFilename": "En-uk-book.ogg",
       "localFilename": "shtooka-book.mp3",
-      "previewPath": "/local-samples/shtooka-book.mp3",
       "transcript": "book",
       "type": "word",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-book.ogg",
@@ -188,21 +220,24 @@
       "sha256": "a796474c386aa5ba596f204b456c70fdae13451f7d5fae8a5c6079a7b7902dd1",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
       "modifications": [
         "MP3 transcode supplied by Wikimedia; no local audio processing."
       ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Advertised Wikimedia MP3 derivative downloaded and decoded with ffmpeg; human listening/phonetic review pending."
+      "acquiredSha256": "a796474c386aa5ba596f204b456c70fdae13451f7d5fae8a5c6079a7b7902dd1",
+      "acquiredFilename": "shtooka-book.mp3",
+      "path": "audio/shtooka-book.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-food",
       "originalFilename": "En-uk-food.ogg",
       "localFilename": "shtooka-food.mp3",
-      "previewPath": "/local-samples/shtooka-food.mp3",
       "transcript": "food",
       "type": "word",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-food.ogg",
@@ -214,21 +249,24 @@
       "sha256": "595b85ffd53068632ed6377006b8e1cdf35f3d76c5a09525f0aec0ce7a5542cb",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
       "modifications": [
         "MP3 transcode supplied by Wikimedia; no local audio processing."
       ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Advertised Wikimedia MP3 derivative downloaded and decoded with ffmpeg; human listening/phonetic review pending."
+      "acquiredSha256": "595b85ffd53068632ed6377006b8e1cdf35f3d76c5a09525f0aec0ce7a5542cb",
+      "acquiredFilename": "shtooka-food.mp3",
+      "path": "audio/shtooka-food.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-a-cup",
       "originalFilename": "En-uk-a_cup.ogg",
       "localFilename": "shtooka-a-cup.mp3",
-      "previewPath": "/local-samples/shtooka-a-cup.mp3",
       "transcript": "a cup",
       "type": "phrase",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-a_cup.ogg",
@@ -240,21 +278,24 @@
       "sha256": "c16a9e429e1cbd67febb15d535b11e40801410bf83f6249fb0685a373a48d1c6",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
       "modifications": [
         "MP3 transcode supplied by Wikimedia; no local audio processing."
       ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Advertised Wikimedia MP3 derivative downloaded and decoded with ffmpeg; human listening/phonetic review pending."
+      "acquiredSha256": "c16a9e429e1cbd67febb15d535b11e40801410bf83f6249fb0685a373a48d1c6",
+      "acquiredFilename": "shtooka-a-cup.mp3",
+      "path": "audio/shtooka-a-cup.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-a-bird",
       "originalFilename": "En-uk-a_bird.ogg",
       "localFilename": "shtooka-a-bird.mp3",
-      "previewPath": "/local-samples/shtooka-a-bird.mp3",
       "transcript": "a bird",
       "type": "phrase",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-a_bird.ogg",
@@ -266,21 +307,24 @@
       "sha256": "9ae67ddbed790f355d61a6c56825e49bf2d1cce315c0ef501e8f798d846adb42",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
       "modifications": [
         "MP3 transcode supplied by Wikimedia; no local audio processing."
       ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Advertised Wikimedia MP3 derivative downloaded and decoded with ffmpeg; human listening/phonetic review pending."
+      "acquiredSha256": "9ae67ddbed790f355d61a6c56825e49bf2d1cce315c0ef501e8f798d846adb42",
+      "acquiredFilename": "shtooka-a-bird.mp3",
+      "path": "audio/shtooka-a-bird.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-another",
       "originalFilename": "En-uk-another.ogg",
       "localFilename": "shtooka-another.mp3",
-      "previewPath": "/local-samples/shtooka-another.mp3",
       "transcript": "another",
       "type": "word",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-another.ogg",
@@ -292,21 +336,24 @@
       "sha256": "99f45d3f8ebdec9de846c3fbcef899a3e3749bd2de54cb01294911561c55f034",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
       "modifications": [
         "MP3 transcode supplied by Wikimedia; no local audio processing."
       ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Advertised Wikimedia MP3 derivative downloaded and decoded with ffmpeg; human listening/phonetic review pending."
+      "acquiredSha256": "99f45d3f8ebdec9de846c3fbcef899a3e3749bd2de54cb01294911561c55f034",
+      "acquiredFilename": "shtooka-another.mp3",
+      "path": "audio/shtooka-another.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-a-plane",
       "originalFilename": "En-uk-a_plane.ogg",
       "localFilename": "shtooka-a-plane.mp3",
-      "previewPath": "/local-samples/shtooka-a-plane.mp3",
       "transcript": "a plane",
       "type": "phrase",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-a_plane.ogg",
@@ -318,21 +365,24 @@
       "sha256": "8fc555ed0835a1519b2358456ef228191a2b1d1b6ca80d97507ea8a7d852ded1",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
       "modifications": [
         "MP3 transcode supplied by Wikimedia; no local audio processing."
       ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Advertised Wikimedia MP3 derivative downloaded and decoded with ffmpeg; human listening/phonetic review pending."
+      "acquiredSha256": "8fc555ed0835a1519b2358456ef228191a2b1d1b6ca80d97507ea8a7d852ded1",
+      "acquiredFilename": "shtooka-a-plane.mp3",
+      "path": "audio/shtooka-a-plane.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-a-bike",
       "originalFilename": "En-uk-a_bike.ogg",
       "localFilename": "shtooka-a-bike.mp3",
-      "previewPath": "/local-samples/shtooka-a-bike.mp3",
       "transcript": "a bike",
       "type": "phrase",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-a_bike.ogg",
@@ -344,21 +394,24 @@
       "sha256": "8a473cf05f4d4b763ed13fa71876a492f620ba48eec5ec1349b0c646e40b19a7",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
       "modifications": [
         "MP3 transcode supplied by Wikimedia; no local audio processing."
       ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Advertised Wikimedia MP3 derivative downloaded and decoded with ffmpeg; human listening/phonetic review pending."
+      "acquiredSha256": "8a473cf05f4d4b763ed13fa71876a492f620ba48eec5ec1349b0c646e40b19a7",
+      "acquiredFilename": "shtooka-a-bike.mp3",
+      "path": "audio/shtooka-a-bike.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-noise",
       "originalFilename": "En-uk-noise.ogg",
       "localFilename": "shtooka-noise.mp3",
-      "previewPath": "/local-samples/shtooka-noise.mp3",
       "transcript": "noise",
       "type": "word",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-noise.ogg",
@@ -370,21 +423,24 @@
       "sha256": "74b79eb372195668c16b029b648523cb7db69adbed3f7d18e53e90ce404e1a57",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
       "modifications": [
         "MP3 transcode supplied by Wikimedia; no local audio processing."
       ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Advertised Wikimedia MP3 derivative downloaded and decoded with ffmpeg; human listening/phonetic review pending."
+      "acquiredSha256": "74b79eb372195668c16b029b648523cb7db69adbed3f7d18e53e90ce404e1a57",
+      "acquiredFilename": "shtooka-noise.mp3",
+      "path": "audio/shtooka-noise.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-nose",
       "originalFilename": "En-uk-nose.ogg",
       "localFilename": "shtooka-nose.mp3",
-      "previewPath": "/local-samples/shtooka-nose.mp3",
       "transcript": "nose",
       "type": "word",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-nose.ogg",
@@ -396,21 +452,24 @@
       "sha256": "7478dd954d3a1a230fa97ff454ebd5ab33d12966cb7e6b36658cc7180b9a3e65",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
       "modifications": [
         "MP3 transcode supplied by Wikimedia; no local audio processing."
       ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Advertised Wikimedia MP3 derivative downloaded and decoded with ffmpeg; human listening/phonetic review pending."
+      "acquiredSha256": "7478dd954d3a1a230fa97ff454ebd5ab33d12966cb7e6b36658cc7180b9a3e65",
+      "acquiredFilename": "shtooka-nose.mp3",
+      "path": "audio/shtooka-nose.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-a-cow",
       "originalFilename": "En-uk-a_cow.ogg",
       "localFilename": "shtooka-a-cow.mp3",
-      "previewPath": "/local-samples/shtooka-a-cow.mp3",
       "transcript": "a cow",
       "type": "phrase",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-a_cow.ogg",
@@ -422,21 +481,24 @@
       "sha256": "ebedd46f14a054fb2333d4c90818db184dd45456a3ccf375d4a2c763a9406d72",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
       "modifications": [
         "MP3 transcode supplied by Wikimedia; no local audio processing."
       ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Advertised Wikimedia MP3 derivative downloaded and decoded with ffmpeg; human listening/phonetic review pending."
+      "acquiredSha256": "ebedd46f14a054fb2333d4c90818db184dd45456a3ccf375d4a2c763a9406d72",
+      "acquiredFilename": "shtooka-a-cow.mp3",
+      "path": "audio/shtooka-a-cow.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-a-year",
       "originalFilename": "En-uk-a_year.ogg",
       "localFilename": "shtooka-a-year.mp3",
-      "previewPath": "/local-samples/shtooka-a-year.mp3",
       "transcript": "a year",
       "type": "phrase",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-a_year.ogg",
@@ -448,21 +510,24 @@
       "sha256": "a387997a6ed4e8367a1719a9ebacd98d557fa9073763701241718708b02e77f9",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
       "modifications": [
         "MP3 transcode supplied by Wikimedia; no local audio processing."
       ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Advertised Wikimedia MP3 derivative downloaded and decoded with ffmpeg; human listening/phonetic review pending."
+      "acquiredSha256": "a387997a6ed4e8367a1719a9ebacd98d557fa9073763701241718708b02e77f9",
+      "acquiredFilename": "shtooka-a-year.mp3",
+      "path": "audio/shtooka-a-year.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-chair",
       "originalFilename": "En-uk-chair.ogg",
       "localFilename": "shtooka-chair.mp3",
-      "previewPath": "/local-samples/shtooka-chair.mp3",
       "transcript": "chair",
       "type": "word",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-chair.ogg",
@@ -474,21 +539,24 @@
       "sha256": "fcf5807d8cb62f5c37b0a26da2fb4b4b233f2aa7fec052df4abc56887b987a32",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
       "modifications": [
         "MP3 transcode supplied by Wikimedia; no local audio processing."
       ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Advertised Wikimedia MP3 derivative downloaded and decoded with ffmpeg; human listening/phonetic review pending."
+      "acquiredSha256": "fcf5807d8cb62f5c37b0a26da2fb4b4b233f2aa7fec052df4abc56887b987a32",
+      "acquiredFilename": "shtooka-chair.mp3",
+      "path": "audio/shtooka-chair.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-tea",
       "originalFilename": "En-uk-tea.ogg",
       "localFilename": "shtooka-tea.mp3",
-      "previewPath": "/local-samples/shtooka-tea.mp3",
       "transcript": "tea",
       "type": "word",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-tea.ogg",
@@ -500,21 +568,24 @@
       "sha256": "d8f2b59de9599fb8e21c5e2581a2fa386ff8670727b9aee0a2b5772fe052f0d1",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
       "modifications": [
         "MP3 transcode supplied by Wikimedia; no local audio processing."
       ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Advertised Wikimedia MP3 derivative downloaded and decoded with ffmpeg; human listening/phonetic review pending."
+      "acquiredSha256": "d8f2b59de9599fb8e21c5e2581a2fa386ff8670727b9aee0a2b5772fe052f0d1",
+      "acquiredFilename": "shtooka-tea.mp3",
+      "path": "audio/shtooka-tea.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-dog",
       "originalFilename": "En-uk-dog.ogg",
       "localFilename": "shtooka-dog.mp3",
-      "previewPath": "/local-samples/shtooka-dog.mp3",
       "transcript": "dog",
       "type": "word",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-dog.ogg",
@@ -526,21 +597,24 @@
       "sha256": "6b3d8d20016bac5c4abd9ead20b222b16274b2939346e0b2db90ab47714d8e51",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
       "modifications": [
         "MP3 transcode supplied by Wikimedia; no local audio processing."
       ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Advertised Wikimedia MP3 derivative downloaded and decoded with ffmpeg; human listening/phonetic review pending."
+      "acquiredSha256": "6b3d8d20016bac5c4abd9ead20b222b16274b2939346e0b2db90ab47714d8e51",
+      "acquiredFilename": "shtooka-dog.mp3",
+      "path": "audio/shtooka-dog.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-key",
       "originalFilename": "En-uk-key.ogg",
       "localFilename": "shtooka-key.mp3",
-      "previewPath": "/local-samples/shtooka-key.mp3",
       "transcript": "key",
       "type": "word",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-key.ogg",
@@ -552,21 +626,24 @@
       "sha256": "2a32ade234edf2204b54651f091092a54a785c6e4aebdda98f609b956ef9781b",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
       "modifications": [
         "MP3 transcode supplied by Wikimedia; no local audio processing."
       ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Advertised Wikimedia MP3 derivative downloaded and decoded with ffmpeg; human listening/phonetic review pending."
+      "acquiredSha256": "2a32ade234edf2204b54651f091092a54a785c6e4aebdda98f609b956ef9781b",
+      "acquiredFilename": "shtooka-key.mp3",
+      "path": "audio/shtooka-key.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-green",
       "originalFilename": "En-uk-green.ogg",
       "localFilename": "shtooka-green.mp3",
-      "previewPath": "/local-samples/shtooka-green.mp3",
       "transcript": "green",
       "type": "word",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-green.ogg",
@@ -578,21 +655,24 @@
       "sha256": "20c5e7934549c6e1348778e412ec7a20667d49b6d28580e4acbce92ec749c5aa",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
       "modifications": [
         "MP3 transcode supplied by Wikimedia; no local audio processing."
       ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Advertised Wikimedia MP3 derivative downloaded and decoded with ffmpeg; human listening/phonetic review pending."
+      "acquiredSha256": "20c5e7934549c6e1348778e412ec7a20667d49b6d28580e4acbce92ec749c5aa",
+      "acquiredFilename": "shtooka-green.mp3",
+      "path": "audio/shtooka-green.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-fish",
       "originalFilename": "En-uk-fish.ogg",
       "localFilename": "shtooka-fish.mp3",
-      "previewPath": "/local-samples/shtooka-fish.mp3",
       "transcript": "fish",
       "type": "word",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-fish.ogg",
@@ -604,21 +684,24 @@
       "sha256": "d6dc07f186bc06d11faf64c81754a4de5ac7934e6a4816e038384c5ca71084e5",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
       "modifications": [
         "MP3 transcode supplied by Wikimedia; no local audio processing."
       ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Advertised Wikimedia MP3 derivative downloaded and decoded with ffmpeg; human listening/phonetic review pending."
+      "acquiredSha256": "d6dc07f186bc06d11faf64c81754a4de5ac7934e6a4816e038384c5ca71084e5",
+      "acquiredFilename": "shtooka-fish.mp3",
+      "path": "audio/shtooka-fish.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-television",
       "originalFilename": "En-uk-television.ogg",
       "localFilename": "shtooka-television.mp3",
-      "previewPath": "/local-samples/shtooka-television.mp3",
       "transcript": "television",
       "type": "word",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-television.ogg",
@@ -630,21 +713,24 @@
       "sha256": "2471dcf2652fd92a60c31f7bc8d33a7bfddcb7bdd8836b916190f5e8e9fefc24",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
       "modifications": [
         "MP3 transcode supplied by Wikimedia; no local audio processing."
       ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Advertised Wikimedia MP3 derivative downloaded and decoded with ffmpeg; human listening/phonetic review pending."
+      "acquiredSha256": "2471dcf2652fd92a60c31f7bc8d33a7bfddcb7bdd8836b916190f5e8e9fefc24",
+      "acquiredFilename": "shtooka-television.mp3",
+      "path": "audio/shtooka-television.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-tooth",
       "originalFilename": "En-uk-tooth.ogg",
       "localFilename": "shtooka-tooth.mp3",
-      "previewPath": "/local-samples/shtooka-tooth.mp3",
       "transcript": "tooth",
       "type": "word",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-tooth.ogg",
@@ -656,21 +742,24 @@
       "sha256": "5302982757a5fea14550202fe05c34f6d6915ce2dac24d9e97772d414016ec97",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
       "modifications": [
         "MP3 transcode supplied by Wikimedia; no local audio processing."
       ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Advertised Wikimedia MP3 derivative downloaded and decoded with ffmpeg; human listening/phonetic review pending."
+      "acquiredSha256": "5302982757a5fea14550202fe05c34f6d6915ce2dac24d9e97772d414016ec97",
+      "acquiredFilename": "shtooka-tooth.mp3",
+      "path": "audio/shtooka-tooth.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-there",
       "originalFilename": "En-uk-there.ogg",
       "localFilename": "shtooka-there.mp3",
-      "previewPath": "/local-samples/shtooka-there.mp3",
       "transcript": "there",
       "type": "word",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-there.ogg",
@@ -682,21 +771,24 @@
       "sha256": "9211b4a05c3abe534b7203d6abdc5940338010112a948a7418465e2a67bb0c3e",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
       "modifications": [
         "MP3 transcode supplied by Wikimedia; no local audio processing."
       ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Advertised Wikimedia MP3 derivative downloaded and decoded with ffmpeg; human listening/phonetic review pending."
+      "acquiredSha256": "9211b4a05c3abe534b7203d6abdc5940338010112a948a7418465e2a67bb0c3e",
+      "acquiredFilename": "shtooka-there.mp3",
+      "path": "audio/shtooka-there.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-sun",
       "originalFilename": "En-uk-sun.ogg",
       "localFilename": "shtooka-sun.mp3",
-      "previewPath": "/local-samples/shtooka-sun.mp3",
       "transcript": "sun",
       "type": "word",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-sun.ogg",
@@ -708,21 +800,24 @@
       "sha256": "e5dfdcc5656fe4a7a92ccd950a369272af585026de713945afc487506659fa7f",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
       "modifications": [
         "MP3 transcode supplied by Wikimedia; no local audio processing."
       ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Advertised Wikimedia MP3 derivative downloaded and decoded with ffmpeg; human listening/phonetic review pending."
+      "acquiredSha256": "e5dfdcc5656fe4a7a92ccd950a369272af585026de713945afc487506659fa7f",
+      "acquiredFilename": "shtooka-sun.mp3",
+      "path": "audio/shtooka-sun.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-hat",
       "originalFilename": "En-uk-hat.ogg",
       "localFilename": "shtooka-hat.mp3",
-      "previewPath": "/local-samples/shtooka-hat.mp3",
       "transcript": "hat",
       "type": "word",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-hat.ogg",
@@ -734,21 +829,24 @@
       "sha256": "52230e336fcf833b6a78c038d50461719187a12ceb7207f35928e0ca86517ce8",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
       "modifications": [
         "MP3 transcode supplied by Wikimedia; no local audio processing."
       ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Advertised Wikimedia MP3 derivative downloaded and decoded with ffmpeg; human listening/phonetic review pending."
+      "acquiredSha256": "52230e336fcf833b6a78c038d50461719187a12ceb7207f35928e0ca86517ce8",
+      "acquiredFilename": "shtooka-hat.mp3",
+      "path": "audio/shtooka-hat.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-jam",
       "originalFilename": "En-uk-jam.ogg",
       "localFilename": "shtooka-jam.mp3",
-      "previewPath": "/local-samples/shtooka-jam.mp3",
       "transcript": "jam",
       "type": "word",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-jam.ogg",
@@ -760,21 +858,24 @@
       "sha256": "c78c88459be0bb274946646ff4855cd7763a54fbbed4d3c551c6d9e338446869",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
       "modifications": [
         "MP3 transcode supplied by Wikimedia; no local audio processing."
       ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Advertised Wikimedia MP3 derivative downloaded and decoded with ffmpeg; human listening/phonetic review pending."
+      "acquiredSha256": "c78c88459be0bb274946646ff4855cd7763a54fbbed4d3c551c6d9e338446869",
+      "acquiredFilename": "shtooka-jam.mp3",
+      "path": "audio/shtooka-jam.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-moon",
       "originalFilename": "En-uk-moon.ogg",
       "localFilename": "shtooka-moon.mp3",
-      "previewPath": "/local-samples/shtooka-moon.mp3",
       "transcript": "moon",
       "type": "word",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-moon.ogg",
@@ -786,21 +887,24 @@
       "sha256": "40674bebf9c115029e5296c3aabf4cd19bf7a2f9b6507b1906584fc1066ff88a",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
       "modifications": [
         "MP3 transcode supplied by Wikimedia; no local audio processing."
       ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Advertised Wikimedia MP3 derivative downloaded and decoded with ffmpeg; human listening/phonetic review pending."
+      "acquiredSha256": "40674bebf9c115029e5296c3aabf4cd19bf7a2f9b6507b1906584fc1066ff88a",
+      "acquiredFilename": "shtooka-moon.mp3",
+      "path": "audio/shtooka-moon.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-building",
       "originalFilename": "En-uk-building.ogg",
       "localFilename": "shtooka-building.mp3",
-      "previewPath": "/local-samples/shtooka-building.mp3",
       "transcript": "building",
       "type": "word",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-building.ogg",
@@ -812,21 +916,24 @@
       "sha256": "a11d94e6d01f21bcab635e823ce85df6012fcd33110704b452b3acde9d864887",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
       "modifications": [
         "MP3 transcode supplied by Wikimedia; no local audio processing."
       ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Advertised Wikimedia MP3 derivative downloaded and decoded with ffmpeg; human listening/phonetic review pending."
+      "acquiredSha256": "a11d94e6d01f21bcab635e823ce85df6012fcd33110704b452b3acde9d864887",
+      "acquiredFilename": "shtooka-building.mp3",
+      "path": "audio/shtooka-building.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-leg",
       "originalFilename": "En-uk-leg.ogg",
       "localFilename": "shtooka-leg.mp3",
-      "previewPath": "/local-samples/shtooka-leg.mp3",
       "transcript": "leg",
       "type": "word",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-leg.ogg",
@@ -838,21 +945,24 @@
       "sha256": "95d27d4a94cab4b97bf09045c70fb0460d44ff7e153f357d31021a83a2665dc4",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
       "modifications": [
         "MP3 transcode supplied by Wikimedia; no local audio processing."
       ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Advertised Wikimedia MP3 derivative downloaded and decoded with ffmpeg; human listening/phonetic review pending."
+      "acquiredSha256": "95d27d4a94cab4b97bf09045c70fb0460d44ff7e153f357d31021a83a2665dc4",
+      "acquiredFilename": "shtooka-leg.mp3",
+      "path": "audio/shtooka-leg.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-red",
       "originalFilename": "En-uk-red.ogg",
       "localFilename": "shtooka-red.mp3",
-      "previewPath": "/local-samples/shtooka-red.mp3",
       "transcript": "red",
       "type": "word",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-red.ogg",
@@ -864,21 +974,24 @@
       "sha256": "9ff75122f6470d6ffba3f2eebce2a0fda777ed0bf90ea029555189fbcbfec3a9",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
       "modifications": [
         "MP3 transcode supplied by Wikimedia; no local audio processing."
       ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Advertised Wikimedia MP3 derivative downloaded and decoded with ffmpeg; human listening/phonetic review pending."
+      "acquiredSha256": "9ff75122f6470d6ffba3f2eebce2a0fda777ed0bf90ea029555189fbcbfec3a9",
+      "acquiredFilename": "shtooka-red.mp3",
+      "path": "audio/shtooka-red.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-yes",
       "originalFilename": "En-uk-yes.ogg",
       "localFilename": "shtooka-yes.mp3",
-      "previewPath": "/local-samples/shtooka-yes.mp3",
       "transcript": "yes",
       "type": "word",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-yes.ogg",
@@ -890,21 +1003,24 @@
       "sha256": "a26fbb890ec7043a1876806f94351c321697f2aca5b8c664df26f408e0d8f421",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
       "modifications": [
         "MP3 transcode supplied by Wikimedia; no local audio processing."
       ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Advertised Wikimedia MP3 derivative downloaded and decoded with ffmpeg; human listening/phonetic review pending."
+      "acquiredSha256": "a26fbb890ec7043a1876806f94351c321697f2aca5b8c664df26f408e0d8f421",
+      "acquiredFilename": "shtooka-yes.mp3",
+      "path": "audio/shtooka-yes.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     },
     {
       "id": "shtooka-window",
       "originalFilename": "En-uk-window.ogg",
       "localFilename": "shtooka-window.mp3",
-      "previewPath": "/local-samples/shtooka-window.mp3",
       "transcript": "window",
       "type": "word",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-window.ogg",
@@ -916,15 +1032,49 @@
       "sha256": "ebffc33686d999e775fece8c3f5017292133831a77fef85068008131dc857b9b",
       "acquiredAt": "2026-10-18",
       "metadataCheck": "file-description-api-checked",
-      "listeningReview": "pending-human",
-      "phoneticsReview": "pending-human",
-      "approvedForRelease": false,
       "modifications": [
         "MP3 transcode supplied by Wikimedia; no local audio processing."
       ],
       "speaker": "Judith Franck; London per collection/file descriptions",
-      "downloadStatus": "available",
-      "technicalReview": "Advertised Wikimedia MP3 derivative downloaded and decoded with ffmpeg; human listening/phonetic review pending."
+      "acquiredSha256": "ebffc33686d999e775fece8c3f5017292133831a77fef85068008131dc857b9b",
+      "acquiredFilename": "shtooka-window.mp3",
+      "path": "audio/shtooka-window.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
+    },
+    {
+      "id": "taxrebate-during",
+      "originalFilename": "En-uk-during.ogg",
+      "localFilename": "taxrebate-during.mp3",
+      "transcript": "during",
+      "type": "word",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:En-uk-during.ogg",
+      "referenceUrl": "https://en.wiktionary.org/wiki/during#Pronunciation",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/En-uk-during.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "creator": "TaxRebate (description: TexRebate)",
+      "speaker": "TaxRebate; UK English per file description",
+      "licenseId": "CC-BY-SA-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceSha1": "2ba3702b123040fdc7acf8ecd0550f554e4a1b1c",
+      "sha256": "c88add855f70b9a1154e347b6dfb806bfdb1e23d8febd42aef39244311a2e70f",
+      "acquiredAt": "2026-10-18",
+      "metadataCheck": "file-description-api-checked",
+      "modifications": [
+        "Converted original Ogg to MP3 with ffmpeg libmp3lame quality 2 for browser compatibility; no trimming, synthesis or pitch changes."
+      ],
+      "acquiredSha256": "42bfa91e88880ff3b8bbd67a597819a8eaece501bdb93efebb89a7c62cd6d960",
+      "acquiredFilename": "En-uk-during.ogg",
+      "path": "audio/taxrebate-during.mp3",
+      "releaseAuthorization": "Owner accepted this version and requested public release on 2026-10-18.",
+      "review": {
+        "sourceMetadata": "checked",
+        "technical": "checksum and decode checked",
+        "independentHumanPhonetics": "not performed"
+      }
     }
   ]
 }

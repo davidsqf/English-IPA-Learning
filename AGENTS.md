@@ -24,8 +24,8 @@ Inspect the actual repository root, current branch, working-tree status, and rec
 - Confirmed scope: English IPA, Chinese-speaking beginners, British English first. Use original Simplified Chinese explanations and English examples. Learner age is unknown; keep the initial tone neutral and age-flexible.
 - Preserve accent, transcription convention, source, review status, and audio type in content data. `/r/` as a dictionary convention is not the IPA trill `[r]`. Do not mix generic cardinal-vowel demonstrations with accent-specific English targets without labels.
 - “44 sounds” is a traditional teaching inventory, not the size of the international alphabet or a universal English sound count. Do not add `/tr dr ts dz/` as four independent core English phonemes just to reach “48”.
-- Treat seed content as editorial drafts. Source-checked text is still not a human pronunciation review. Do not silently promote drafts into a verified lesson corpus.
-- Bundle only assets with documented reuse permission and completed quality review. A playable URL is not a reuse licence. Record per-file attribution and modifications in `THIRD_PARTY.md` and the audio manifest before distribution.
+- Preserve research seeds as historical drafts. The owner accepted the runtime corpus for release; source checks and technical playback tests must not be described as independent human phonetics review.
+- Bundle only assets with documented reuse permission and recorded quality checks. The owner accepted the first release and explicitly authorized GitHub publication; preserve actual review facts without claiming independent expert review. A playable URL is not a reuse licence. Record per-file attribution and modifications in `THIRD_PARTY.md` and the audio manifest before distribution.
 - Author original explanations, short example sentences, and diagrams. Link to publisher references; do not bulk-copy dictionary entries or audio. Do not scrape competitor datasets as a shortcut.
 - Use real Unicode IPA, accessible controls, no autoplay, and a single active audio player. Never use spelling-to-speech for isolated IPA symbols as the authoritative model.
 

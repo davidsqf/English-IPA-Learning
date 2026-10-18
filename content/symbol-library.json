@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "accentModel": "en-GB-dictionary-nonrhotic-v1",
-  "status": "draft-local-preview",
+  "status": "released",
   "symbols": [
     {
       "id": "vowel-fleece",
@@ -12,8 +12,7 @@
       "gloss": "绵羊",
       "cue": "舌位较高、较靠前；通常发得较长。注意音色，不要只延长时间。",
       "sampleId": "shtooka-a-sheep",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "vowel-kit",
@@ -24,8 +23,7 @@
       "gloss": "船",
       "cue": "嘴部较放松，舌位比 /iː/ 略低。听听两个元音的音色差别。",
       "sampleId": "shtooka-a-ship",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "vowel-dress",
@@ -36,8 +34,7 @@
       "gloss": "床",
       "cue": "嘴自然张开，舌前部抬起。这里的 /e/ 是英式学习词典常用写法。",
       "sampleId": "shtooka-bed",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "vowel-trap",
@@ -48,8 +45,7 @@
       "gloss": "猫",
       "cue": "嘴张得比 /e/ 更开，舌前部较低。不要把它简单读成 /e/。",
       "sampleId": "shtooka-a-cat",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "vowel-palm",
@@ -60,8 +56,7 @@
       "gloss": "汽车",
       "cue": "嘴张开，舌位偏低、偏后。例词按非卷舌的英式词典惯例标注。",
       "sampleId": "shtooka-a-car",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "vowel-lot",
@@ -72,8 +67,7 @@
       "gloss": "热的",
       "cue": "嘴张开，舌位偏后，双唇略圆。它与 /ɔː/ 的区别不只在长短。",
       "sampleId": "shtooka-hot",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "vowel-thought",
@@ -84,8 +78,7 @@
       "gloss": "门",
       "cue": "双唇收圆，舌位偏后。听例词中的元音。",
       "sampleId": "shtooka-door",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "vowel-foot",
@@ -96,8 +89,7 @@
       "gloss": "书",
       "cue": "双唇稍圆，嘴部放松。与 /uː/ 相比，注意音色与舌位。",
       "sampleId": "shtooka-book",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "vowel-goose",
@@ -108,8 +100,7 @@
       "gloss": "食物",
       "cue": "双唇收圆，舌位较高。实际英式读法可更靠前，不必刻意夸张噘嘴。",
       "sampleId": "shtooka-food",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "vowel-strut",
@@ -120,8 +111,7 @@
       "gloss": "杯子",
       "cue": "嘴自然张开，舌位居中偏低；不要套用汉语拼音的读法。",
       "sampleId": "shtooka-a-cup",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "vowel-nurse",
@@ -132,8 +122,7 @@
       "gloss": "鸟",
       "cue": "舌位居中，嘴部自然，通常发得较长。这个词例不发词尾 r。",
       "sampleId": "shtooka-a-bird",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "vowel-schwa",
@@ -144,8 +133,7 @@
       "gloss": "另一个",
       "cue": "常出现在非重读音节，嘴部放松、声音较弱。留意例词开头的元音。",
       "sampleId": "shtooka-another",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "vowel-face",
@@ -156,8 +144,7 @@
       "gloss": "飞机",
       "cue": "从 /e/ 附近起音，向 /ɪ/ 的方向滑动，连成一个音节。",
       "sampleId": "shtooka-a-plane",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "vowel-price",
@@ -168,8 +155,7 @@
       "gloss": "自行车",
       "cue": "从较开的元音起音，向 /ɪ/ 的方向滑动。",
       "sampleId": "shtooka-a-bike",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "vowel-choice",
@@ -180,8 +166,7 @@
       "gloss": "噪声",
       "cue": "从偏后、圆唇的元音起音，向 /ɪ/ 的方向滑动。",
       "sampleId": "shtooka-noise",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "vowel-goat",
@@ -192,8 +177,7 @@
       "gloss": "鼻子",
       "cue": "从中央元音附近起音，向 /ʊ/ 的方向滑动，双唇逐渐收圆。",
       "sampleId": "shtooka-nose",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "vowel-mouth",
@@ -204,8 +188,7 @@
       "gloss": "奶牛",
       "cue": "从较开的元音起音，向 /ʊ/ 的方向滑动。",
       "sampleId": "shtooka-a-cow",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "vowel-near",
@@ -216,8 +199,7 @@
       "gloss": "年",
       "cue": "传统写法表示向中央元音滑动；现代英国口音可能用较长的单元音。",
       "sampleId": "shtooka-a-year",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "vowel-square",
@@ -228,20 +210,18 @@
       "gloss": "椅子",
       "cue": "传统双元音写法；现代英国口音常有不同实现。先认识词典中的符号。",
       "sampleId": "shtooka-chair",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "vowel-cure",
       "ipa": "ʊə",
       "group": "diphthong",
-      "word": "pure",
-      "wordIpa": "pjʊə",
-      "gloss": "纯的",
-      "cue": "传统参考项，许多英国使用者有其他读法。目前没有合适的本地候选录音。",
-      "sampleId": null,
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "word": "during",
+      "wordIpa": "ˈdjʊərɪŋ",
+      "gloss": "在……期间",
+      "cue": "从 /ʊ/ 附近向 /ə/ 滑动。/ʊə/ 是传统英式写法，同类词在现代英国口音中也可能读作 /ɔː/。",
+      "sampleId": "taxrebate-during",
+      "editorialStatus": "released"
     },
     {
       "id": "consonant-p",
@@ -252,8 +232,7 @@
       "gloss": "船",
       "cue": "双唇闭合后释放气流。例词中的目标音在词尾；不要额外加一个元音。",
       "sampleId": "shtooka-a-ship",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "consonant-b",
@@ -264,8 +243,7 @@
       "gloss": "床",
       "cue": "双唇闭合后释放气流，感受声带振动；实际发声随语境变化。",
       "sampleId": "shtooka-bed",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "consonant-t",
@@ -276,8 +254,7 @@
       "gloss": "茶",
       "cue": "舌尖在上齿龈附近短暂阻住气流，再释放。不要在音后加元音。",
       "sampleId": "shtooka-tea",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "consonant-d",
@@ -288,8 +265,7 @@
       "gloss": "狗",
       "cue": "发音部位接近 /t/，但清浊与释放方式不同。",
       "sampleId": "shtooka-dog",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "consonant-k",
@@ -300,8 +276,7 @@
       "gloss": "钥匙",
       "cue": "舌后部靠近软腭，短暂阻住气流后释放。",
       "sampleId": "shtooka-key",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "consonant-g",
@@ -312,8 +287,7 @@
       "gloss": "绿色的",
       "cue": "发音部位接近 /k/，留意声带振动与词中的声音。",
       "sampleId": "shtooka-green",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "consonant-f",
@@ -324,8 +298,7 @@
       "gloss": "鱼",
       "cue": "上齿轻触下唇，让气流从缝隙通过。",
       "sampleId": "shtooka-fish",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "consonant-v",
@@ -336,8 +309,7 @@
       "gloss": "电视",
       "cue": "发音部位接近 /f/，通常伴随声带振动。留意 television 的第一个辅音。",
       "sampleId": "shtooka-television",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "consonant-theta",
@@ -348,8 +320,7 @@
       "gloss": "牙齿",
       "cue": "舌尖轻靠齿间或上齿，让气流通过，不要完全堵住。目标音在 tooth 词尾。",
       "sampleId": "shtooka-tooth",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "consonant-eth",
@@ -360,8 +331,7 @@
       "gloss": "那里",
       "cue": "发音部位接近 /θ/，通常伴随声带振动。不要简单换成 /d/。",
       "sampleId": "shtooka-there",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "consonant-s",
@@ -372,8 +342,7 @@
       "gloss": "太阳",
       "cue": "舌尖靠近齿龈，气流从窄缝通过。",
       "sampleId": "shtooka-sun",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "consonant-z",
@@ -384,8 +353,7 @@
       "gloss": "鼻子",
       "cue": "部位接近 /s/，通常伴随声带振动。目标音在 nose 词尾。",
       "sampleId": "shtooka-nose",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "consonant-sh",
@@ -396,8 +364,7 @@
       "gloss": "绵羊",
       "cue": "舌前部在齿龈后方，双唇可稍圆，让气流通过。",
       "sampleId": "shtooka-a-sheep",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "consonant-zh",
@@ -408,8 +375,7 @@
       "gloss": "电视",
       "cue": "部位接近 /ʃ/，通常伴随声带振动。留意 television 中间的目标音。",
       "sampleId": "shtooka-television",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "consonant-h",
@@ -420,8 +386,7 @@
       "gloss": "帽子",
       "cue": "让气流自然通过声门；不要把舌后部抬起摩擦。",
       "sampleId": "shtooka-hat",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "consonant-ch",
@@ -432,8 +397,7 @@
       "gloss": "椅子",
       "cue": "先短暂阻住气流，再在齿龈后方释放并摩擦；连成一个辅音。",
       "sampleId": "shtooka-chair",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "consonant-jh",
@@ -444,8 +408,7 @@
       "gloss": "果酱",
       "cue": "部位接近 /tʃ/，通常伴随声带振动。它是一个塞擦音。",
       "sampleId": "shtooka-jam",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "consonant-m",
@@ -456,8 +419,7 @@
       "gloss": "月亮",
       "cue": "双唇闭合，气流从鼻腔通过，感受鼻音。",
       "sampleId": "shtooka-moon",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "consonant-n",
@@ -468,8 +430,7 @@
       "gloss": "鼻子",
       "cue": "舌尖接触上齿龈，气流从鼻腔通过。",
       "sampleId": "shtooka-nose",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "consonant-ng",
@@ -480,8 +441,7 @@
       "gloss": "建筑",
       "cue": "舌后部接近软腭，气流从鼻腔通过。留意 building 的词尾。",
       "sampleId": "shtooka-building",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "consonant-l",
@@ -492,8 +452,7 @@
       "gloss": "腿",
       "cue": "舌尖在上齿龈附近接触，气流从舌两侧通过。",
       "sampleId": "shtooka-leg",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "consonant-r",
@@ -504,8 +463,7 @@
       "gloss": "红色的",
       "cue": "这里的 /r/ 是词典惯例，英语通常读作近音 [ɹ]，不是颤音 [r]。",
       "sampleId": "shtooka-red",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "consonant-y",
@@ -516,8 +474,7 @@
       "gloss": "是的",
       "cue": "舌前部抬向硬腭，气流平滑通过；它是辅音，不是字母名称。",
       "sampleId": "shtooka-yes",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     },
     {
       "id": "consonant-w",
@@ -528,8 +485,8 @@
       "gloss": "窗户",
       "cue": "双唇先收圆，舌后部抬起，然后平滑进入下一个元音。",
       "sampleId": "shtooka-window",
-      "editorialStatus": "draft",
-      "phoneticsReview": "pending-human"
+      "editorialStatus": "released"
     }
-  ]
+  ],
+  "releaseAuthorization": "Owner accepted version and requested release, 2026-10-18."
 }

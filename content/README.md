@@ -33,6 +33,10 @@ Each approved audio record should eventually include the actual transcript, spea
 
 References for a minimal pair should cover both word senses and actual model pronunciations. Vary tokens or speakers in later assessment to reduce memorization of one clip. Phrase stimuli such as “a ship” must not be mapped directly to a bare-word `audioId` without a separate phrase record and matching exercise wording.
 
-## First-version display corpus
+## Released runtime corpus
 
-`symbol-library.json` is the draft explorer corpus with original Chinese cues and explicit contextual word/phrase mappings. `local-preview-audio.json` holds the 36 per-file candidate records and technical acquisition state. These are separate from the preserved seeds and are not promoted reviewed lesson content. They support symbol exploration and comparison only; the owner excluded quizzes and review features. Actual media remain ignored local files, with a runtime availability check and no inclusion in distribution builds.
+`symbol-library.json` contains the owner-accepted 44-entry runtime corpus. `audio.json` (schema 2) contains 37 bundled contextual recordings for all 44 symbols, with per-file attribution, licence, original SHA-1, acquired SHA-256, shipped SHA-256, source URL, transformations and actual review facts. The original seed files above remain historical drafts.
+
+All audio is in `public/audio/`, is included in static builds, and requires no separate download. Original Ogg files were converted to MP3 for compatibility; existing Wikimedia MP3 derivatives were copied unchanged. No independent expert phonetics review is claimed. The owner's explicit acceptance and publication authorization supersede the earlier local-only release boundary.
+
+The traditional `/ʊə/` entry uses *during* with British dictionary notation `/ˈdjʊərɪŋ/`; the source is TaxRebate's UK recording on Commons, linked from Wiktionary's pronunciation section. The cue notes contemporary variants. The Celestianpower *poor* candidate was rejected: its Commons file is also the target of the *pore* redirect, so it is unsuitable evidence for a distinct `/ʊə/`.

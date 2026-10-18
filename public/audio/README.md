@@ -1,5 +1,3 @@
-# Future approved audio
+# Bundled British English recordings
 
-No audio is bundled yet. Candidate descriptions are in `content/seeds/audio-candidates.json`; they are not approved lesson assets.
-
-Place only reviewed, redistributable runtime clips here. Use stable ASCII filenames, include local-path and checksum metadata, and update `THIRD_PARTY.md` before committing media. Keep unprocessed originals and private learner recordings outside this public folder. Do not hotlink publisher MP3 files as the app's default audio supply.
+These 37 MP3 files provide contextual examples for all 44 symbols. Per-file author, source, licence, transformations and checksums are recorded in `content/audio.json` and `THIRD_PARTY.md` in the repository. Association Shtooka / Judith Franck recordings are CC BY 3.0 US; TaxRebate’s “during” is CC BY-SA 4.0. Converted recordings retain those licences. No trimming, synthesis or pitch changes were applied.

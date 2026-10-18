@@ -15,6 +15,5 @@ if ! ipa_supported "$ipa_node"; then
 fi
 export PATH="$(dirname "$ipa_node"):$PATH"
 if [ ! -x node_modules/.bin/vite ]; then npm ci; fi
-if ! npm run samples; then echo '部分录音暂未下载成功，仍可使用音标说明。'; fi
 echo '正在打开 IPA 入门。关闭此终端窗口即可停止本地网站。'
 exec npm run dev -- --open

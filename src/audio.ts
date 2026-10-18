@@ -23,24 +23,24 @@ export class LocalPlayer {
   async play(id: string, button: HTMLButtonElement, ended: () => void = () => {}) {
     this.stop();
     const source = samples.get(id);
-    if (!source) { this.onStatus('这个音标暂时没有本地录音。'); return; }
+    if (!source) { this.onStatus('录音未能载入，请刷新页面重试。'); return; }
     const serial = this.serial;
     this.activeButton = button;
     button.dataset.playing = 'true';
     button.setAttribute('aria-pressed', 'true');
     this.onStatus('正在载入录音…');
     try {
-      this.player.src = source.previewPath;
+      this.player.src = new URL(source.path, new URL(import.meta.env.BASE_URL, window.location.href)).href;
       this.player.playbackRate = this.rate;
       this.player.preservesPitch = true;
-      this.player.onplaying = () => { clearTimeout(this.timeout); this.onStatus('正在播放 · 英式例词示例'); };
+      this.player.onplaying = () => { if (serial !== this.serial) return; clearTimeout(this.timeout); this.onStatus('正在播放 · 英式例词示例'); };
       this.player.onended = () => { if (serial !== this.serial) return; this.stop(); this.onStatus('播放完毕，可以重播。'); ended(); };
-      this.player.onerror = () => { if (serial === this.serial) { this.stop(); this.onStatus('本地录音暂不可用，请重试。样本下载方法见「来源与说明」。'); } };
+      this.player.onerror = () => { if (serial === this.serial) { this.stop(); this.onStatus('录音暂不可用，请重试。'); } };
       this.timeout = setTimeout(() => { if (serial === this.serial) { this.stop(); this.onStatus('录音载入超时，请重试。'); } }, 10000);
       await this.player.play();
     } catch {
       if (serial !== this.serial) return;
-      this.stop(); this.onStatus('录音未能播放。请重试，并检查本地样本是否已下载。');
+      this.stop(); this.onStatus('录音未能播放，请重试。');
     }
   }
 }

@@ -1,64 +1,63 @@
-# Third-party material and attribution
+# Third-party notices
 
-## Local preview recordings
+## Bundled speech recordings
 
-The website uses selected word/phrase candidates from **Association Shtooka, Judith Franck**, described by their file pages/collection as a London speaker. Each selected file is offered under [CC BY 3.0 US](https://creativecommons.org/licenses/by/3.0/us/). All human pronunciation and teaching-content reviews remain pending.
+All 37 files below are distributed in `public/audio/` and in the built website. Each recording is a whole word or phrase. The file manifest `content/audio.json` records source and acquired checksums, shipped SHA-256, author, licence and transformations.
 
-Recordings are stored only in ignored `.local/audio/`. No audio, font binaries, chart images, or videos are bundled in `public/`, the Git repository, or `dist/`. Some files are unchanged originals; others are Wikimedia-provided MP3 transcodes. No local sound processing was performed. These are contextual words/phrases, not isolated phoneme recordings.
+Association Shtooka / Judith Franck recordings are licensed [CC BY 3.0 US](https://creativecommons.org/licenses/by/3.0/us/); file descriptions identify Judith Franck as a London speaker. TaxRebate’s “during” (description spells the name TexRebate) is licensed [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The converted “during” recording is distributed under that same licence. No endorsement is implied.
 
-The per-file machine-readable ledger is `content/local-preview-audio.json`, including source and download URLs, source checksums, acquired checksums, file format, modifications, and review status. The app source page displays the same credits.
+Existing Wikimedia MP3 derivatives were copied unchanged. Original Ogg files were converted to MP3 using ffmpeg/libmp3lame quality 2 for compatibility. No trimming, synthesis, time stretching or pitch changes were applied to the distributed files. The optional 0.8× playback is an in-browser learner control.
 
-| Recording | Creator | Licence |
-| --- | --- | --- |
-| [a sheep](https://commons.wikimedia.org/wiki/File:En-uk-a_sheep.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [a ship](https://commons.wikimedia.org/wiki/File:En-uk-a_ship.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [bed](https://commons.wikimedia.org/wiki/File:En-uk-bed.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [a cat](https://commons.wikimedia.org/wiki/File:En-uk-a_cat.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [a car](https://commons.wikimedia.org/wiki/File:En-uk-a_car.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [hot](https://commons.wikimedia.org/wiki/File:En-uk-hot.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [door](https://commons.wikimedia.org/wiki/File:En-uk-door.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [book](https://commons.wikimedia.org/wiki/File:En-uk-book.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [food](https://commons.wikimedia.org/wiki/File:En-uk-food.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [a cup](https://commons.wikimedia.org/wiki/File:En-uk-a_cup.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [a bird](https://commons.wikimedia.org/wiki/File:En-uk-a_bird.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [another](https://commons.wikimedia.org/wiki/File:En-uk-another.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [a plane](https://commons.wikimedia.org/wiki/File:En-uk-a_plane.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [a bike](https://commons.wikimedia.org/wiki/File:En-uk-a_bike.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [noise](https://commons.wikimedia.org/wiki/File:En-uk-noise.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [nose](https://commons.wikimedia.org/wiki/File:En-uk-nose.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [a cow](https://commons.wikimedia.org/wiki/File:En-uk-a_cow.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [a year](https://commons.wikimedia.org/wiki/File:En-uk-a_year.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [chair](https://commons.wikimedia.org/wiki/File:En-uk-chair.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [tea](https://commons.wikimedia.org/wiki/File:En-uk-tea.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [dog](https://commons.wikimedia.org/wiki/File:En-uk-dog.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [key](https://commons.wikimedia.org/wiki/File:En-uk-key.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [green](https://commons.wikimedia.org/wiki/File:En-uk-green.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [fish](https://commons.wikimedia.org/wiki/File:En-uk-fish.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [television](https://commons.wikimedia.org/wiki/File:En-uk-television.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [tooth](https://commons.wikimedia.org/wiki/File:En-uk-tooth.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [there](https://commons.wikimedia.org/wiki/File:En-uk-there.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [sun](https://commons.wikimedia.org/wiki/File:En-uk-sun.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [hat](https://commons.wikimedia.org/wiki/File:En-uk-hat.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [jam](https://commons.wikimedia.org/wiki/File:En-uk-jam.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [moon](https://commons.wikimedia.org/wiki/File:En-uk-moon.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [building](https://commons.wikimedia.org/wiki/File:En-uk-building.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [leg](https://commons.wikimedia.org/wiki/File:En-uk-leg.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [red](https://commons.wikimedia.org/wiki/File:En-uk-red.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [yes](https://commons.wikimedia.org/wiki/File:En-uk-yes.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
-| [window](https://commons.wikimedia.org/wiki/File:En-uk-window.ogg) | Association Shtooka, Judith Franck | CC BY 3.0 US |
+| Shipped file | Recording and source | Author | Licence | Changes |
+| --- | --- | --- | --- | --- |
+| `shtooka-a-sheep.mp3` | [a sheep](https://commons.wikimedia.org/wiki/File:En-uk-a_sheep.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | Converted original Ogg to MP3 with ffmpeg libmp3lame quality 2 for browser compatibility; no trimming, synthesis or pitch changes. |
+| `shtooka-a-ship.mp3` | [a ship](https://commons.wikimedia.org/wiki/File:En-uk-a_ship.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | Converted original Ogg to MP3 with ffmpeg libmp3lame quality 2 for browser compatibility; no trimming, synthesis or pitch changes. |
+| `shtooka-bed.mp3` | [bed](https://commons.wikimedia.org/wiki/File:En-uk-bed.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | Converted original Ogg to MP3 with ffmpeg libmp3lame quality 2 for browser compatibility; no trimming, synthesis or pitch changes. |
+| `shtooka-a-cat.mp3` | [a cat](https://commons.wikimedia.org/wiki/File:En-uk-a_cat.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | Converted original Ogg to MP3 with ffmpeg libmp3lame quality 2 for browser compatibility; no trimming, synthesis or pitch changes. |
+| `shtooka-a-car.mp3` | [a car](https://commons.wikimedia.org/wiki/File:En-uk-a_car.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | Converted original Ogg to MP3 with ffmpeg libmp3lame quality 2 for browser compatibility; no trimming, synthesis or pitch changes. |
+| `shtooka-hot.mp3` | [hot](https://commons.wikimedia.org/wiki/File:En-uk-hot.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | Converted original Ogg to MP3 with ffmpeg libmp3lame quality 2 for browser compatibility; no trimming, synthesis or pitch changes. |
+| `shtooka-door.mp3` | [door](https://commons.wikimedia.org/wiki/File:En-uk-door.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | MP3 transcode supplied by Wikimedia; no local audio processing. |
+| `shtooka-book.mp3` | [book](https://commons.wikimedia.org/wiki/File:En-uk-book.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | MP3 transcode supplied by Wikimedia; no local audio processing. |
+| `shtooka-food.mp3` | [food](https://commons.wikimedia.org/wiki/File:En-uk-food.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | MP3 transcode supplied by Wikimedia; no local audio processing. |
+| `shtooka-a-cup.mp3` | [a cup](https://commons.wikimedia.org/wiki/File:En-uk-a_cup.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | MP3 transcode supplied by Wikimedia; no local audio processing. |
+| `shtooka-a-bird.mp3` | [a bird](https://commons.wikimedia.org/wiki/File:En-uk-a_bird.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | MP3 transcode supplied by Wikimedia; no local audio processing. |
+| `shtooka-another.mp3` | [another](https://commons.wikimedia.org/wiki/File:En-uk-another.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | MP3 transcode supplied by Wikimedia; no local audio processing. |
+| `shtooka-a-plane.mp3` | [a plane](https://commons.wikimedia.org/wiki/File:En-uk-a_plane.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | MP3 transcode supplied by Wikimedia; no local audio processing. |
+| `shtooka-a-bike.mp3` | [a bike](https://commons.wikimedia.org/wiki/File:En-uk-a_bike.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | MP3 transcode supplied by Wikimedia; no local audio processing. |
+| `shtooka-noise.mp3` | [noise](https://commons.wikimedia.org/wiki/File:En-uk-noise.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | MP3 transcode supplied by Wikimedia; no local audio processing. |
+| `shtooka-nose.mp3` | [nose](https://commons.wikimedia.org/wiki/File:En-uk-nose.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | MP3 transcode supplied by Wikimedia; no local audio processing. |
+| `shtooka-a-cow.mp3` | [a cow](https://commons.wikimedia.org/wiki/File:En-uk-a_cow.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | MP3 transcode supplied by Wikimedia; no local audio processing. |
+| `shtooka-a-year.mp3` | [a year](https://commons.wikimedia.org/wiki/File:En-uk-a_year.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | MP3 transcode supplied by Wikimedia; no local audio processing. |
+| `shtooka-chair.mp3` | [chair](https://commons.wikimedia.org/wiki/File:En-uk-chair.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | MP3 transcode supplied by Wikimedia; no local audio processing. |
+| `shtooka-tea.mp3` | [tea](https://commons.wikimedia.org/wiki/File:En-uk-tea.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | MP3 transcode supplied by Wikimedia; no local audio processing. |
+| `shtooka-dog.mp3` | [dog](https://commons.wikimedia.org/wiki/File:En-uk-dog.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | MP3 transcode supplied by Wikimedia; no local audio processing. |
+| `shtooka-key.mp3` | [key](https://commons.wikimedia.org/wiki/File:En-uk-key.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | MP3 transcode supplied by Wikimedia; no local audio processing. |
+| `shtooka-green.mp3` | [green](https://commons.wikimedia.org/wiki/File:En-uk-green.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | MP3 transcode supplied by Wikimedia; no local audio processing. |
+| `shtooka-fish.mp3` | [fish](https://commons.wikimedia.org/wiki/File:En-uk-fish.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | MP3 transcode supplied by Wikimedia; no local audio processing. |
+| `shtooka-television.mp3` | [television](https://commons.wikimedia.org/wiki/File:En-uk-television.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | MP3 transcode supplied by Wikimedia; no local audio processing. |
+| `shtooka-tooth.mp3` | [tooth](https://commons.wikimedia.org/wiki/File:En-uk-tooth.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | MP3 transcode supplied by Wikimedia; no local audio processing. |
+| `shtooka-there.mp3` | [there](https://commons.wikimedia.org/wiki/File:En-uk-there.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | MP3 transcode supplied by Wikimedia; no local audio processing. |
+| `shtooka-sun.mp3` | [sun](https://commons.wikimedia.org/wiki/File:En-uk-sun.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | MP3 transcode supplied by Wikimedia; no local audio processing. |
+| `shtooka-hat.mp3` | [hat](https://commons.wikimedia.org/wiki/File:En-uk-hat.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | MP3 transcode supplied by Wikimedia; no local audio processing. |
+| `shtooka-jam.mp3` | [jam](https://commons.wikimedia.org/wiki/File:En-uk-jam.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | MP3 transcode supplied by Wikimedia; no local audio processing. |
+| `shtooka-moon.mp3` | [moon](https://commons.wikimedia.org/wiki/File:En-uk-moon.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | MP3 transcode supplied by Wikimedia; no local audio processing. |
+| `shtooka-building.mp3` | [building](https://commons.wikimedia.org/wiki/File:En-uk-building.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | MP3 transcode supplied by Wikimedia; no local audio processing. |
+| `shtooka-leg.mp3` | [leg](https://commons.wikimedia.org/wiki/File:En-uk-leg.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | MP3 transcode supplied by Wikimedia; no local audio processing. |
+| `shtooka-red.mp3` | [red](https://commons.wikimedia.org/wiki/File:En-uk-red.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | MP3 transcode supplied by Wikimedia; no local audio processing. |
+| `shtooka-yes.mp3` | [yes](https://commons.wikimedia.org/wiki/File:En-uk-yes.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | MP3 transcode supplied by Wikimedia; no local audio processing. |
+| `shtooka-window.mp3` | [window](https://commons.wikimedia.org/wiki/File:En-uk-window.ogg) | Association Shtooka, Judith Franck | [CC-BY-3.0-US](https://creativecommons.org/licenses/by/3.0/us/deed.en) | MP3 transcode supplied by Wikimedia; no local audio processing. |
+| `taxrebate-during.mp3` | [during](https://commons.wikimedia.org/wiki/File:En-uk-during.ogg) | TaxRebate (description: TexRebate) | [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) | Converted original Ogg to MP3 with ffmpeg libmp3lame quality 2 for browser compatibility; no trimming, synthesis or pitch changes. |
 
 ## Development dependencies
 
-| Package | Installed version | Licence |
+| Dependency | Installed version | Licence |
 | --- | --- | --- |
 | Vite | 8.3.4 | MIT |
 | TypeScript | 5.9.3 | Apache-2.0 |
 | @types/node | 24.19.2 | MIT |
 
-The package lock records exact direct and transitive versions. Installed packages carry their notices in `node_modules`; dependencies and generated build output are ignored. Reassess notices when publishing a distributable package.
+Exact direct and transitive versions are in package-lock.json. Dependencies are build-time tools; node_modules is not distributed. System fonts are used.
 
-## References and future candidates
+## References and original work
 
-The original research links to Cambridge, Oxford, BBC, British Council, the IPA Association, and generic Commons phone recordings. None of those publishers’ collections, chart graphics, videos, or fonts is copied into this site. The two generic vowel candidates in `content/seeds/audio-candidates.json` remain unacquired. System fonts are used.
-
-No project-wide source-code licence has been selected. Any future project licence must preserve individual asset terms. No reference provider endorses this project. Before release, replace or approve the local candidates, retain appropriate credits, and ship the required notices with any distributed media.
+No dictionary audio, chart graphics, videos or fonts from Oxford, Cambridge, BBC, British Council or the IPA Association are copied into this website. Reference links do not imply endorsement. Original Chinese cues and code have no project-wide licence selected by the owner. Third-party recordings retain the licences above.

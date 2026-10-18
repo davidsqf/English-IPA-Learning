@@ -39,3 +39,9 @@ Use 36 specifically sourced Shtooka/Judith Franck recordings as local-only word/
 ## D010 — Concise learning surface (2026-10-18)
 
 **Owner correction:** remove promotional introductory text and unnecessary explanatory copy. The visible main views use short functional titles, symbol/word displays, playback controls, and concise articulation/comparison guidance. Put detailed provenance and setup instructions behind the sources destination and disclosure controls. Do not restore slogans, introductory paragraphs, or decorative onboarding.
+
+## D011 — Accepted release, complete bundled audio and public hosting (2026-10-18)
+
+The owner accepted the current version, requested removal of trial/WIP labels, complete downloaded samples, dark mode, thorough testing, a push to `English-IPA-Learning`, and public hosting. The exact destination `davidsqf/English-IPA-Learning` was verified as an empty public repository. Use GitHub Pages with a tested static build; pushes to main deploy through GitHub Actions. This supersedes D007/D009's earlier local-only restrictions. It does not create a claim of independent professional review.
+
+All 44 entries have contextual recordings, drawn from 37 shipped MP3 files. Thirty-six Shtooka/Judith Franck files retain CC BY 3.0 US; the additional TaxRebate *during* retains CC BY-SA 4.0. Ogg-to-MP3 conversions are recorded. No synthesized speech is used. Browser-local storage is used only for theme preference, superseding the earlier blanket description of no localStorage.
