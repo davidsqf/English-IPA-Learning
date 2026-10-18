@@ -18,13 +18,23 @@ The owner requested a picture or animation showing mouth shape, tongue and movem
 
 QA scripts/screenshots and private source-inspection files are ignored in `.local/` and `output/playwright/`. Browser profiles use macOS engines and host voices; this is **not physical phone testing, a clinical model, an independent expert phonetics review or a beginner usability study**. Figures are original schematic illustrations, not reproduced publisher/university media. British variation and source boundaries remain explicit, including modern /uː/, traditional centring diphthongs, [ɹ], and clear/dark /l/.
 
+## Completion audit
+
+| Requirement | Current evidence |
+| --- | --- |
+| Every existing symbol | Exact 44-ID match between the runtime library and articulation manifest; all 44 rendered on the live site in both engines. |
+| Mouth shape and tongue | Separate labelled frontal-lip and sagittal-tongue SVGs; all 44 default diagrams visually reviewed, and every phase exercised. |
+| Movement | 120 manual phases; all 44 final public animations finish in each engine with changing geometry; pause and reduced-motion stepping pass. |
+| Credible reference | Each entry has named source IDs and specific source notes; the 44-row research matrix records inspected Cambridge/Glasgow references and British-variation boundaries. |
+| Working delivered site | CI/build pass, live bundle hashes match, all comparison mappings and existing playback/QR regressions pass; work preserved in Git and the handoff. |
+
 ## Publication
 
 Feature commit `9d4cd319ef4945355f58a8a6e608e32242571b6d` was fast-forwarded into main and pushed. [GitHub workflow 39104165853](https://github.com/davidsqf/English-IPA-Learning/actions/runs/39104165853) passed clean installation, all 20 tests, both data/integrity gates, type checking, build and Pages deployment.
 
-On the live [website](https://davidsqf.github.io/English-IPA-Learning/), **both Chrome/Pixel and WebKit/iPhone profiles** verify all 44 front/side figures, all 120 manually selected phases and their source disclosures, six word buttons per symbol, all eleven two/three-symbol comparison mappings and unique SVG identifiers. Each also completes native animations for /aɪ ŋ l r/, human recorded playback, British device speech for cake and the QR disclosure. Both report **zero uncaught page errors, zero console errors and zero failed requests**.
+On the live [website](https://davidsqf.github.io/English-IPA-Learning/), **both Chrome/Pixel and WebKit/iPhone profiles** verify all 44 front/side figures, all 120 manually selected phases and their source disclosures, six word buttons per symbol, all eleven two/three-symbol comparison mappings and unique SVG identifiers. Each also completes recorded playback, British device speech for cake and the QR disclosure. A final all-symbol live audit then plays **all 44 animations to completion in each engine** (88 final published plays), with at least two distinct sampled path/lip configurations for every symbol, resolved marker IDs, all eleven comparison mappings and successful background cancellation. Both report **zero uncaught page errors, zero console errors and zero failed requests**.
 
-The live JavaScript `index-DxuX-zJF.js` and stylesheet `index-Y4l4fCgt.css` return HTTP 200 and exactly match the SHA-256 of the locally verified build. Thus the delivered drawing data and motion implementation are identical to those used in the complete 44-animation local checks. No private source PDFs, audit galleries or QA scripts appear in the distributed build. Final documentation updates only record the verification; they do not alter the app or media. Read Git for the latest documentation commit.
+The live JavaScript `index-DxuX-zJF.js` and stylesheet `index-Y4l4fCgt.css` return HTTP 200 and exactly match the SHA-256 of the locally verified build. The live assets match the final checked local build, and the subsequent all-symbol public motion audit directly verifies every animation in the final published version. No private source PDFs, audit galleries or QA scripts appear in the distributed build. Final documentation updates only record the verification; they do not alter the app or media. Read Git for the latest documentation commit.
 
 ---
 
