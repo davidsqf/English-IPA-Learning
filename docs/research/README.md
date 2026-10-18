@@ -2,6 +2,8 @@
 
 Research date: **18 October 2026**, Asia/Singapore. Scope confirmed by the owner: English IPA for Chinese-speaking beginners, British English first.
 
+> Current implementation scope, confirmed later on 2026-10-18: symbol pronunciation and similar-sound comparison only. Earlier quiz, review, and progress proposals below are historical research, not development requirements. See the current project handoff.
+
 ## Recommended reading order
 
 1. [Website study](website-study.md): eight established web resources, plus a mobile companion; observed features and lessons for this project.

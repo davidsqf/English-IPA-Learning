@@ -1,74 +1,62 @@
 # Development handoff
 
-Updated: 2026-10-18, Asia/Singapore. Read `AGENTS.md` first.
+Updated 2026-10-18, Asia/Singapore. Read `AGENTS.md` and the Git workflow first.
 
-## Current state
+## Current scope — owner-confirmed
 
-This repository contains the project workflow, research, eight-site comparison, and draft content. It is the requested preparatory handoff. **There is no website code, package manifest, installed dependency, running server, or bundled third-party media.**
+The website's primary job is **learning the pronunciation of each symbol and comparing similar symbols**. The owner explicitly excluded quiz and review features during implementation. Do not reintroduce assessments, grades, practice schedules, progress tracking, or learning records unless requested later. Earlier research proposals involving those features are historical exploration, not the current spec. The owner also requested a clean, concise interface: no slogans or introductory paragraphs. Preserve the compact functional titles and short pronunciation guidance.
 
-Bootstrap integration target: `main`. Use Git itself for the actual latest commit hash. No GitHub remote exists. Do not initialize another repository, publish, or scaffold over the research files.
+Audience remains Chinese-speaking beginners, English IPA, British English first. The accent model remains a non-rhotic British learner-dictionary convention; the app does not claim every British accent is identical.
 
-Confirmed audience: Chinese-speaking beginners, English IPA, British English first. The phrase “IPA dir” means this repository root. The next local agent must have access to this existing folder; chat memory or a cloud-only workspace does not automatically include local files.
+## Implemented version
 
-## Read next
+The app uses Vite 8, vanilla TypeScript, semantic HTML/CSS, and static JSON. Node 22.12+ is required; Node 24 is recommended and recorded in `.nvmrc`. The host's default Node was 18, so verification used the existing bundled Node 24 runtime. The Mac launcher detects a suitable runtime, including that installed bundle, without changing global settings.
 
-1. `docs/workflow/git-workflow.md` and `docs/project/decisions.md`.
-2. `docs/research/website-study.md` and `docs/research/learning-design.md`.
-3. `docs/research/ipa-content.md`, `audio-and-vocabulary.md`, and `sources.md`.
-4. `content/README.md`, the three JSON seed files, and `THIRD_PARTY.md`.
+- Default view: 44-symbol explorer with group filters, Unicode/English/Chinese search, a selected-symbol explanation, highlighted target in the transcription, and contextual playback where available.
+- Comparison view: ten curated contrast groups, two sound panels, individual playback and sequential playback, plus Chinese guidance about what differs.
+- Source view: word-versus-phrase explanation, per-file attribution, review status, reference links, and local setup help.
+- Natural-speed default and pitch-preserving 0.8× playback; one shared Audio instance; playback stops on navigation or replacement.
+- No quiz, review feature, localStorage use, account, microphone, telemetry, cloud API, or synthesized speech.
 
-## Ready to use versus pending
+## Run locally
 
-| Item | Ready now | Still needed |
-| --- | --- | --- |
-| Git protocol | Branches, session ownership, local commits, recovery, future GitHub flow | Follow it in each session |
-| Product direction | Bilingual British-first learning loop and proposed screens | Validate with real beginners |
-| Website study | Eight inspected or publisher-described web resources; explicit access limits | Interactive/browser and learner testing if deeper competitive validation is wanted |
-| Inventory | 44 identified traditional reference entries and candidate words | Per-entry verification, original articulation cues, human review |
-| Minimal pairs | 12 draft contrasts with proposed transcriptions and glosses | Dictionary/sense checks, learner vocabulary preview, suitable matched recordings |
-| Audio | Four file-specific metadata/licence candidates | Obtain permitted local copies, audition, review model fit and attribution, or source replacements |
+Double-click `Start IPA.command` in Finder, or with supported Node:
 
-All audio IDs in lesson seeds are deliberately null. All human phonetics reviews are pending. Do not invent completed reviews to unblock a release.
+```sh
+npm ci
+npm run samples
+npm run dev
+```
 
-## Suggested implementation sequence
+The normal dev address is `http://127.0.0.1:5173/`. For the built app, run `npm run build` then `npm run preview`; normal address `http://127.0.0.1:4173/`. Stop previous servers before reusing their ports; strict-port behavior avoids silently opening a different address.
 
-### Milestone 1 — One complete listening lesson
+## Audio and content boundaries
 
-1. Acquire the checkout lock and create `work/first-listening-lesson` from clean `main`.
-2. Inspect the available runtime; use a supported Node version and the official [Vite guide](https://vite.dev/guide/) when selecting packages [S26]. A vanilla TypeScript static app is the default. Preserve all existing files; scaffold in a temporary folder and copy only intended application files, or install manually.
-3. Establish `dev`, `build`, and `preview` scripts, record the runtime requirement, and commit a single package-manager lockfile. Prefer npm unless existing project evidence suggests otherwise.
-4. Prepare `/ɪ/` versus `/iː/` with original Chinese explanations, vocabulary preview, replay, and clear feedback. Use placeholder-disabled audio controls until recordings are actually approved; do not call this a completed listening lesson while audio is missing.
-5. Review the matched “a ship / a sheep” candidates as phrase stimuli, or arrange suitable word recordings. If recordings need a human review unavailable to the agent, complete the application flow and provide a concrete review queue; leave the lesson labelled pending rather than misrepresenting it as validated.
-6. Implement one active audio player, replay/error states, and local progress. At this stage a few curated questions are enough; avoid a broad transcription converter.
+`content/symbol-library.json` contains 44 draft display entries. Forty-three have mappings to contextual candidates; `/ʊə/` has no suitable candidate and explains its traditional/variable status. All 36 distinct source recordings from Association Shtooka / Judith Franck are now downloaded locally and passed checksum, decoding, and browser playback checks; some examples serve several sounds. These technical checks do not constitute pronunciation approval.
 
-Acceptance: the learner can enter the lesson, hear distinct reviewed stimuli, choose an answer without an answer leak, see an explanation and transcript afterward, replay both options, and finish. Keyboard operation, narrow-screen layout, no autoplay, and network-disconnected local use work. Missing/failed audio has a clear recoverable state. Content cannot silently use a generic phone as a British word target.
+`content/local-preview-audio.json` records exact source pages and download URLs, licence, original-source SHA-1, acquired-file SHA-256 when available, format, changes, and review states. Media are original Ogg or Wikimedia-supplied MP3 derivatives. No local stretching, trimming, or synthesis was used. All human pronunciation reviews remain pending; no draft flags have been silently promoted.
 
-### Milestone 2 — English reference and first curriculum
+Candidate files live in ignored `.local/audio/`, never `public/` or `dist/`. Vite dev/preview middleware serves only allowlisted files and returns an actual-availability list. The UI marks missing files; it never presents a dead player as verified audio. Both views work without network access once local samples are prepared. External source links require internet.
 
-Add all 44 reference entries with real Unicode and consistent convention labels. Develop lessons in the proposed order. Add reviewed words gradually; keep draft entries visibly distinct. Search by symbol or English word. The traditional variable `/ʊə/` entry and dictionary `/r/` need explicit explanations. Add an optional original mouth diagram only when its anatomy and cue are reviewed.
+Wikimedia original-file requests encountered HTTP 429; advertised MP3 streaming derivatives were discovered via its `videoinfo` API. Acquisition was slowed to respect rate limits and resumed from verified existing files. Keep source formats and checksum records accurate if more samples are added. `npm run samples` is resumable; do not repeatedly hammer a rate-limited source.
 
-Acceptance: every released entry has checked text, review provenance, and either approved audio or an honest explicit unavailable state. All active media credits are complete and accessible in the app.
+A copied build or generic static host intentionally has no candidate audio. Publication requires an approved corpus, reviewed teaching mappings, and a deliberate release change. There is no remote, deployment, or project-wide source licence yet.
 
-### Milestone 3 — Review and resilience
+## Key files
 
-Add a simple versioned local review queue, adjustable starting intervals, export/import, and reset confirmation. Store stimulus/content identities in attempts. Separate practice completion from claims of speaking accuracy. Consider record-and-compare only after basic playback works; use local private storage and deliberate user controls.
+| File | Responsibility |
+| --- | --- |
+| `src/main.ts` | Explorer, comparison, source views, and UI events |
+| `src/library.ts` | Corpus access, search/filtering, comparison definitions |
+| `src/audio.ts` | Single audio player, interruption, speed and error states |
+| `src/style.css` | Responsive layout, focus styles, reduced motion |
+| `vite.config.ts` | Local-only media allowlist and actual availability endpoint |
+| `scripts/download-samples.mjs` | Candidate download with integrity verification |
+| `tests/library.test.ts` | Inventory, mapping, transcription-target and review-state invariants |
+| `docs/project/verification.md` | Actual checks and remaining limits |
 
-Acceptance: progress survives reload, export/import round-trips, old-format handling is explicit, and a content update does not silently misinterpret old attempts. No account, analytics, remote API, or microphone access is necessary for basic use.
+## Git and continuation
 
-### Milestone 4 — Owner-requested GitHub publication
+Implementation branch: `work/first-listening-lesson` (created before the owner narrowed the scope). Intended integration target: `main`, by fast-forward after checks. Read Git for the actual current branch and commit. Preserve research and original seed files. Use the checkout lock and explicit-path staging protocol.
 
-When requested, verify the owner's chosen GitHub repository and visibility. Inspect actual history, tracked files, source-code licence choice, and media notices. Add CI for the application checks that actually exist. Follow the workflow; do not force-push or assume a GitHub Pages deployment is wanted just because the source is on GitHub.
-
-## Verification expectations
-
-Bootstrap checks completed on 2026-10-18: all local file and heading links across 14 Markdown documents resolve; the three JSON files parse; the 44 entries have unique IDs and the intended 12/8/24 grouping; all twelve proposed pairs differ in exactly the specified single phoneme under their draft transcriptions; all 27 source IDs and content references resolve; and all four audio candidates retain explicit pending states. The ignore rules cover local locks, environment files, private recordings, and dependencies. These structural checks do not establish linguistic accuracy or audio quality. Git whitespace and repository-integrity results are reported by the delivering chat after staging/commit. No website build or audio listening test was run in this research-only state.
-
-For application commits, run the build/type checks and meaningful behavior checks: choosing/retrying a question, audio interruptions and failures, progress persistence/export, and keyboard flow. Visually inspect a phone-width and desktop view. Listen to the real selected audio. Write automated tests for state/logic with failure risk; do not write tests that merely mirror documentation or CSS.
-
-## Open choices that do not block scaffolding
-
-Learner age, exact Chinese language preference, preferred visual tone, desired review frequency, and audio supply budget are not confirmed. Defaults: neutral all-age styling, Simplified Chinese, short sessions, and existing permissibly reusable sources if they pass review. No paid service or recording commission has been authorized. The owner can revise these defaults later.
-
-## Suggested next-session request
-
-> Continue in this existing IPA dir. Read AGENTS.md and docs/project/HANDOFF.md, follow the Git workflow, and implement Milestone 1 as a local website. Preserve the research. Keep draft content and pending audio reviews explicit, and report what is playable and what still requires review.
+Next priorities are content quality, not additional features: complete expert review of the Chinese articulation cues and selected recordings; consider adding genuinely isolated British sound demonstrations where rights and quality permit; supply an appropriate `/ʊə/` reference or keep its limitation explicit; test with actual beginners. Do not label contextual audio as isolated sounds or imply technical decode/playback checks establish pronunciation accuracy.

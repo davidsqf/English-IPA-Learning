@@ -27,3 +27,15 @@ Recommended default: Vite with vanilla TypeScript, static JSON content, semantic
 ## D007 — Later publication (2026-10-18)
 
 The owner intends a later GitHub push. No remote, public repository, deployment, or project-wide licence is created in this task. When publication is requested, verify the destination and visibility, reconcile any existing history, and retain per-asset terms.
+
+## D008 — Symbol exploration and comparisons only (2026-10-18)
+
+**Owner correction during implementation:** remove quiz and review features. Focus the product on each symbol's pronunciation and comparisons between similar symbols. The completed UI has an explorer, ten comparison groups, and sources. No assessment, progress storage, or review schedule remains. Earlier proposals for those features are superseded.
+
+## D009 — Contextual local preview audio (2026-10-18)
+
+Use 36 specifically sourced Shtooka/Judith Franck recordings as local-only word/phrase candidates for 43 entries. Keep `/ʊə/` explicitly without a suitable recording. Candidate files remain ignored and excluded from distribution builds; the app and manifest state human phonetic review is pending. An availability endpoint prevents missing files from presenting as working audio. Original Ogg files or the source's MP3 transcodes retain individual attribution and checksum provenance. Rate-limited acquisition is resumable and must respect the provider.
+
+## D010 — Concise learning surface (2026-10-18)
+
+**Owner correction:** remove promotional introductory text and unnecessary explanatory copy. The visible main views use short functional titles, symbol/word displays, playback controls, and concise articulation/comparison guidance. Put detailed provenance and setup instructions behind the sources destination and disclosure controls. Do not restore slogans, introductory paragraphs, or decorative onboarding.

@@ -19,6 +19,8 @@ Inspect the actual repository root, current branch, working-tree status, and rec
 
 ## Product and content
 
+**Current owner-confirmed scope:** symbol pronunciation exploration and similar-sound comparisons. Do not add quizzes, assessment, review schedules, progress tracking, or learning records unless the owner requests them later. Earlier research suggestions for those features are superseded. Keep visible copy concise: functional labels, symbols, playback and short pronunciation guidance. Do not add promotional slogans or explanatory introductions.
+
 - Confirmed scope: English IPA, Chinese-speaking beginners, British English first. Use original Simplified Chinese explanations and English examples. Learner age is unknown; keep the initial tone neutral and age-flexible.
 - Preserve accent, transcription convention, source, review status, and audio type in content data. `/r/` as a dictionary convention is not the IPA trill `[r]`. Do not mix generic cardinal-vowel demonstrations with accent-specific English targets without labels.
 - “44 sounds” is a traditional teaching inventory, not the size of the international alphabet or a universal English sound count. Do not add `/tr dr ts dz/` as four independent core English phonemes just to reach “48”.

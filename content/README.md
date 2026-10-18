@@ -32,3 +32,7 @@ During development, introduce a separate reviewed runtime corpus rather than cha
 Each approved audio record should eventually include the actual transcript, speaker and accent information, phonetic target, licence and attribution, source/revision URL, original and processed checksums, local asset path, changes, and who performed listening/phonetics review with a date. Persist the original stimulus identity in practice attempts so changed recordings do not silently inherit old results.
 
 References for a minimal pair should cover both word senses and actual model pronunciations. Vary tokens or speakers in later assessment to reduce memorization of one clip. Phrase stimuli such as “a ship” must not be mapped directly to a bare-word `audioId` without a separate phrase record and matching exercise wording.
+
+## First-version display corpus
+
+`symbol-library.json` is the draft explorer corpus with original Chinese cues and explicit contextual word/phrase mappings. `local-preview-audio.json` holds the 36 per-file candidate records and technical acquisition state. These are separate from the preserved seeds and are not promoted reviewed lesson content. They support symbol exploration and comparison only; the owner excluded quizzes and review features. Actual media remain ignored local files, with a runtime availability check and no inclusion in distribution builds.

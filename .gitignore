@@ -28,3 +28,7 @@ __pycache__/
 .vscode/
 *.swp
 *.swo
+
+# Local browser verification artifacts
+.playwright-cli/
+output/playwright/

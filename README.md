@@ -1,34 +1,59 @@
-# IPA Learning · 英语音标入门
+# IPA 入门 · 听见每一点不同
 
-**“IPA dir” means this repository root, `ipa-learning/`.** This is a standalone local Git repository for one owner working with LLM agents. It can later be moved or pushed to GitHub as a complete folder, including its hidden `.git` directory.
+A local website for Chinese-speaking beginners to explore British English pronunciation. **“IPA dir” means this repository root, `ipa-learning/`.**
 
-Status: research and development handoff, 18 October 2026. **There is no runnable website yet.** No third-party audio, fonts, or chart images have been downloaded.
+The first version focuses on **learning symbols and comparing similar sounds**. It has no quizzes, review schedules, scores, accounts, or progress tracking.
 
-The owner confirmed **English IPA for Chinese-speaking beginners, British English first**. The first teaching model is a non-rhotic British dictionary convention; it is not a claim that every British accent sounds alike.
+## Open the website
 
-## Start here
+On this Mac, double-click **`Start IPA.command`** in Finder. It selects a supported Node runtime, prepares dependencies if necessary, and opens the local website. Keep its terminal window open while learning; close it to stop the server. If port 5173 is already occupied, stop the previous IPA server first.
 
-1. Agents must read [AGENTS.md](AGENTS.md) and [Git workflow](docs/workflow/git-workflow.md).
-2. Continue from [development handoff](docs/project/HANDOFF.md).
-3. Read the [research index](docs/research/README.md), including the [website comparison](docs/research/website-study.md).
-4. Inspect [starter content and its review rules](content/README.md).
+For a terminal-based start, use Node.js **22.12 or newer** (24 recommended):
 
-## Repository map
+```sh
+npm ci
+npm run samples
+npm run dev
+```
+
+Open the printed local address, normally `http://127.0.0.1:5173/`. Installation and the first recording download require internet access. After setup, the app works with internet disconnected while its local server is running.
+
+The download script skips existing checksum-matching files. A first full download may take several minutes because requests are spaced to respect the public source. If the source rate-limits a download, keep the already downloaded files, wait, and run it again. Missing audio is explicitly marked in the UI; it is never replaced with synthesized speech.
+
+## What is included
+
+- **44 traditional British reference entries**, grouped into vowels, diphthongs, and consonants, with searchable examples and original Chinese pronunciation guidance.
+- **Ten similar-sound comparisons**, including `/ɪ iː/`, `/ʊ uː/`, `/e æ/`, `/θ ð/`, and `/l r/`.
+- Contextual word/phrase playback, one active player, natural and pitch-preserving 0.8× speed, and sequential comparison playback.
+- Responsive layouts, keyboard-accessible controls, source links, and explicit unavailable-audio states.
+
+Recordings are **whole words or phrases, not isolated phoneme demonstrations**. The target sound is highlighted in the word transcription. There are 36 distinct candidate recordings covering 43 entries; the variable traditional `/ʊə/` entry has no suitable candidate and is clearly labelled.
+
+**This is a local trial.** Chinese cues, word transcriptions, and recordings still need expert pronunciation review. Licensing metadata and technical playback checks are not that review.
+
+## Build and check
+
+```sh
+npm test
+npm run build
+npm run preview
+```
+
+The preview address is normally `http://127.0.0.1:4173/`. `dev` and `preview` serve candidate audio from ignored `.local/audio/` using an exact file allowlist. **Candidate audio is excluded from `public/`, `dist/`, and Git.** A generic static server or a copied `dist/` folder will display audio as unavailable. An approved, redistributable audio corpus is needed before deployment.
+
+## Continue with Codex
+
+Read [AGENTS.md](AGENTS.md), the [Git workflow](docs/workflow/git-workflow.md), and the [development handoff](docs/project/HANDOFF.md). Use the existing folder rather than creating another repository. The original [research](docs/research/README.md) and [eight-site study](docs/research/website-study.md) remain available; their earlier quiz/review proposals are superseded by the owner's narrower scope.
 
 | Path | Purpose |
 | --- | --- |
-| `AGENTS.md` | Mandatory agent rules and session protocol |
-| `docs/workflow/` | Local Git, handoff, recovery, and future GitHub protocol |
-| `docs/project/` | Decisions, current state, and ordered development work |
-| `docs/research/` | Teaching design, IPA conventions, audio/vocabulary sourcing, competitor study, sources |
-| `content/seeds/` | 44 sound entries, 12 minimal pairs, and four audio candidates; drafts with explicit review status |
-| `public/audio/` | Future approved audio assets; currently instructions only |
-| `THIRD_PARTY.md` | Asset provenance and distribution status |
+| `src/` | Symbol exploration, comparisons, and the shared audio player |
+| `content/symbol-library.json` | Draft display corpus and contextual sound mappings |
+| `content/local-preview-audio.json` | Per-file credits, licensing, acquisition checks, and pending review |
+| `content/seeds/` | Preserved research-stage drafts |
+| `scripts/download-samples.mjs` | Reproducible local candidate download |
+| `docs/project/` | Current scope, decisions, handoff, and verification |
+| `docs/research/` | Original sourced research and website comparison |
+| `THIRD_PARTY.md` | Asset and dependency notices |
 
-All paths inside the repository are relative so the project remains portable. Keep this repository separate from the parent ChatGPT project's synced `sources/` folder. That folder and the parent's instructions are read-only reference material.
-
-## Working in another session
-
-Give the next local agent access to **this existing folder**, then ask it to read `AGENTS.md` and `docs/project/HANDOFF.md`. A chat transcript alone is not file access. A session without local filesystem access should return a patch or files for a local agent to integrate, rather than claim it changed this repository.
-
-The repository currently has no GitHub remote. Adding a remote and pushing are later steps using the owner's chosen repository. Git history is local version control; an external backup requires a separate copy or a future remote.
+There is no GitHub remote or deployment. Keep this standalone repository separate from the parent Education Team project's synced `sources/` folder. A future session needs explicit filesystem access to this existing directory; a chat transcript alone does not provide file access.
