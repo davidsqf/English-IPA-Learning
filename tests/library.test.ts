@@ -1,4 +1,4 @@
-import { filterSymbols, comparisons, symbols, samples, groups } from '../src/library.ts';
+import { filterSymbols, comparisons, symbols, samples, groups, validCustomPair, comparisonSymbols, pronunciationSources } from '../src/library.ts';
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
@@ -24,19 +24,47 @@ test('every symbol maps to a bundled contextual recording and highlights its tar
     assert.match(recording.sourceSha1, /^[a-f0-9]{40}$/);
   }
 });
-test('each of ten comparisons has two distinct playable targets', () => {
-  assert.equal(comparisons.length, 10);
-  assert.equal(new Set(comparisons.map(c => c.id)).size, 10);
+test('presets include the genuine three-symbol comparison and have complete sources', () => {
+  assert.equal(comparisons.length, 11);
+  assert.equal(new Set(comparisons.map(c => c.id)).size, 11);
+  assert.deepEqual(comparisons.find(c => c.id === 'dress-trap-price')!.symbolIds, ['vowel-dress', 'vowel-trap', 'vowel-price']);
   for (const comparison of comparisons) {
-    assert.notEqual(comparison.left, comparison.right);
-    for (const id of [comparison.left, comparison.right]) assert.ok(samples.has(symbols.find(s => s.id === id)!.sampleId!));
+    assert.ok([2, 3].includes(comparison.symbolIds.length));
+    assert.equal(new Set(comparison.symbolIds).size, comparison.symbolIds.length);
+    for (const symbol of comparisonSymbols(comparison.symbolIds)) assert.ok(samples.has(symbol.sampleId));
+    for (const id of comparison.cueSourceIds) assert.ok(id in pronunciationSources);
   }
+});
+test('all 44 symbols expose six distinct matching examples and traceable pronunciation tips', () => {
+  for (const symbol of symbols) {
+    assert.equal(symbol.examples.length, 6, symbol.id);
+    assert.equal(new Set(symbol.examples.map(e => e.word)).size, 6, symbol.id);
+    assert.equal(symbol.examples[0].word, symbol.word);
+    assert.equal(symbol.examples[0].ipa, symbol.wordIpa);
+    for (const example of symbol.examples) {
+      assert.ok(example.ipa.includes(symbol.ipa), `${symbol.ipa}: ${example.word}`);
+      assert.ok(example.gloss && example.referenceUrl.startsWith('https://dictionary.cambridge.org/pronunciation/english/'));
+    }
+    assert.ok(symbol.cueSourceIds.length > 0);
+    for (const id of symbol.cueSourceIds) assert.ok(id in pronunciationSources);
+  }
+});
+test('custom comparisons accept every distinct ordered pair and reject invalid selections', () => {
+  let pairs = 0;
+  for (const left of symbols) for (const right of symbols) {
+    assert.equal(validCustomPair(left.id, right.id), left.id !== right.id);
+    if (left.id !== right.id) pairs++;
+  }
+  assert.equal(pairs, 1892);
+  assert.equal(validCustomPair('unknown', symbols[0].id), false);
+  assert.throws(() => comparisonSymbols(['unknown']), /Unknown symbol/);
 });
 test('search supports exact IPA, colon aliases, words, Chinese and empty results', () => {
   assert.equal(filterSymbols('all', '/ɪ/').length, 1);
   assert.ok(filterSymbols('all', 'ɪ').length > 1);
   assert.equal(filterSymbols('all', 'i:')[0].ipa, 'iː');
   assert.equal(filterSymbols('all', ' 绵羊 ')[0].word, 'sheep');
+  assert.equal(filterSymbols('all', 'cake')[0].ipa, 'eɪ');
   assert.equal(filterSymbols('consonant', 'SHEEP')[0].ipa, 'ʃ');
   assert.equal(filterSymbols('all', 'unfindable').length, 0);
   assert.equal(filterSymbols('monophthong', '/t/').length, 0);

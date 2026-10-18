@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "accentModel": "en-GB-dictionary-nonrhotic-v1",
   "status": "released",
   "symbols": [
@@ -10,9 +10,56 @@
       "word": "sheep",
       "wordIpa": "ʃiːp",
       "gloss": "绵羊",
-      "cue": "舌位较高、较靠前；通常发得较长。注意音色，不要只延长时间。",
+      "cue": "舌前部抬高，嘴唇不收圆。与 /ɪ/ 相比，注意音色，不只是时长。",
       "sampleId": "shtooka-a-sheep",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "sheep",
+          "ipa": "ʃiːp",
+          "gloss": "绵羊",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sheep"
+        },
+        {
+          "word": "see",
+          "ipa": "siː",
+          "gloss": "看见",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/see"
+        },
+        {
+          "word": "tea",
+          "ipa": "tiː",
+          "gloss": "茶",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/tea"
+        },
+        {
+          "word": "green",
+          "ipa": "ɡriːn",
+          "gloss": "绿色的",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/green"
+        },
+        {
+          "word": "key",
+          "ipa": "kiː",
+          "gloss": "钥匙",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/key"
+        },
+        {
+          "word": "three",
+          "ipa": "θriː",
+          "gloss": "三",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/three"
+        }
+      ],
+      "cueSourceIds": [
+        "ps-vowels",
+        "ps-monophthongs",
+        "oxford-notation"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "vowel-kit",
@@ -21,9 +68,56 @@
       "word": "ship",
       "wordIpa": "ʃɪp",
       "gloss": "船",
-      "cue": "嘴部较放松，舌位比 /iː/ 略低。听听两个元音的音色差别。",
+      "cue": "舌前部比 /iː/ 略低，嘴部较放松，嘴唇不收圆。",
       "sampleId": "shtooka-a-ship",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "ship",
+          "ipa": "ʃɪp",
+          "gloss": "船",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ship"
+        },
+        {
+          "word": "sit",
+          "ipa": "sɪt",
+          "gloss": "坐",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sit"
+        },
+        {
+          "word": "fish",
+          "ipa": "fɪʃ",
+          "gloss": "鱼",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/fish"
+        },
+        {
+          "word": "milk",
+          "ipa": "mɪlk",
+          "gloss": "牛奶",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/milk"
+        },
+        {
+          "word": "big",
+          "ipa": "bɪɡ",
+          "gloss": "大的",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/big"
+        },
+        {
+          "word": "six",
+          "ipa": "sɪks",
+          "gloss": "六",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/six"
+        }
+      ],
+      "cueSourceIds": [
+        "ps-vowels",
+        "ps-monophthongs",
+        "oxford-notation"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "vowel-dress",
@@ -32,9 +126,56 @@
       "word": "bed",
       "wordIpa": "bed",
       "gloss": "床",
-      "cue": "嘴自然张开，舌前部抬起。这里的 /e/ 是英式学习词典常用写法。",
+      "cue": "舌位靠前，嘴唇不收圆；开口比 /æ/ 小。这里采用英式词典的 /e/ 写法。",
       "sampleId": "shtooka-bed",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "bed",
+          "ipa": "bed",
+          "gloss": "床",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bed"
+        },
+        {
+          "word": "pen",
+          "ipa": "pen",
+          "gloss": "钢笔",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/pen"
+        },
+        {
+          "word": "red",
+          "ipa": "red",
+          "gloss": "红色的",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/red"
+        },
+        {
+          "word": "ten",
+          "ipa": "ten",
+          "gloss": "十",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ten"
+        },
+        {
+          "word": "head",
+          "ipa": "hed",
+          "gloss": "头",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/head"
+        },
+        {
+          "word": "egg",
+          "ipa": "eɡ",
+          "gloss": "鸡蛋",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/egg"
+        }
+      ],
+      "cueSourceIds": [
+        "ps-vowels",
+        "ps-monophthongs",
+        "oxford-notation"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "vowel-trap",
@@ -43,9 +184,56 @@
       "word": "cat",
       "wordIpa": "kæt",
       "gloss": "猫",
-      "cue": "嘴张得比 /e/ 更开，舌前部较低。不要把它简单读成 /e/。",
+      "cue": "舌位靠前且较低，嘴张得比 /e/ 更开。不要只把 /e/ 拉长。",
       "sampleId": "shtooka-a-cat",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "cat",
+          "ipa": "kæt",
+          "gloss": "猫",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cat"
+        },
+        {
+          "word": "bag",
+          "ipa": "bæɡ",
+          "gloss": "包",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bag"
+        },
+        {
+          "word": "hat",
+          "ipa": "hæt",
+          "gloss": "帽子",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/hat"
+        },
+        {
+          "word": "map",
+          "ipa": "mæp",
+          "gloss": "地图",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/map"
+        },
+        {
+          "word": "hand",
+          "ipa": "hænd",
+          "gloss": "手",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/hand"
+        },
+        {
+          "word": "apple",
+          "ipa": "ˈæpəl",
+          "gloss": "苹果",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/apple"
+        }
+      ],
+      "cueSourceIds": [
+        "ps-vowels",
+        "ps-monophthongs",
+        "oxford-notation"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "vowel-palm",
@@ -54,9 +242,56 @@
       "word": "car",
       "wordIpa": "kɑː",
       "gloss": "汽车",
-      "cue": "嘴张开，舌位偏低、偏后。例词按非卷舌的英式词典惯例标注。",
+      "cue": "舌位较低、偏后，嘴唇不收圆。英式 car 单独读时不发词尾 r。",
       "sampleId": "shtooka-a-car",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "car",
+          "ipa": "kɑː",
+          "gloss": "汽车",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/car"
+        },
+        {
+          "word": "park",
+          "ipa": "pɑːk",
+          "gloss": "公园",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/park"
+        },
+        {
+          "word": "star",
+          "ipa": "stɑː",
+          "gloss": "星星",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/star"
+        },
+        {
+          "word": "heart",
+          "ipa": "hɑːt",
+          "gloss": "心脏",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/heart"
+        },
+        {
+          "word": "farm",
+          "ipa": "fɑːm",
+          "gloss": "农场",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/farm"
+        },
+        {
+          "word": "calm",
+          "ipa": "kɑːm",
+          "gloss": "平静的",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/calm"
+        }
+      ],
+      "cueSourceIds": [
+        "ps-vowels",
+        "ps-monophthongs",
+        "oxford-notation"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "vowel-lot",
@@ -65,9 +300,56 @@
       "word": "hot",
       "wordIpa": "hɒt",
       "gloss": "热的",
-      "cue": "嘴张开，舌位偏后，双唇略圆。它与 /ɔː/ 的区别不只在长短。",
+      "cue": "舌位低、偏后，嘴唇略圆。它与 /ɔː/ 的差别不只是长短。",
       "sampleId": "shtooka-hot",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "hot",
+          "ipa": "hɒt",
+          "gloss": "热的",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/hot"
+        },
+        {
+          "word": "dog",
+          "ipa": "dɒɡ",
+          "gloss": "狗",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/dog"
+        },
+        {
+          "word": "box",
+          "ipa": "bɒks",
+          "gloss": "盒子",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/box"
+        },
+        {
+          "word": "clock",
+          "ipa": "klɒk",
+          "gloss": "钟",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/clock"
+        },
+        {
+          "word": "sock",
+          "ipa": "sɒk",
+          "gloss": "袜子",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sock"
+        },
+        {
+          "word": "watch",
+          "ipa": "wɒtʃ",
+          "gloss": "手表",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/watch"
+        }
+      ],
+      "cueSourceIds": [
+        "ps-vowels",
+        "ps-monophthongs",
+        "oxford-notation"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "vowel-thought",
@@ -76,9 +358,56 @@
       "word": "door",
       "wordIpa": "dɔː",
       "gloss": "门",
-      "cue": "双唇收圆，舌位偏后。听例词中的元音。",
+      "cue": "舌位偏后，嘴唇收圆，开口通常比 /ɒ/ 小。",
       "sampleId": "shtooka-door",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "door",
+          "ipa": "dɔː",
+          "gloss": "门",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/door"
+        },
+        {
+          "word": "four",
+          "ipa": "fɔː",
+          "gloss": "四",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/four"
+        },
+        {
+          "word": "ball",
+          "ipa": "bɔːl",
+          "gloss": "球",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ball"
+        },
+        {
+          "word": "walk",
+          "ipa": "wɔːk",
+          "gloss": "步行",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/walk"
+        },
+        {
+          "word": "talk",
+          "ipa": "tɔːk",
+          "gloss": "说话",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/talk"
+        },
+        {
+          "word": "saw",
+          "ipa": "sɔː",
+          "gloss": "看见的过去式",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/saw"
+        }
+      ],
+      "cueSourceIds": [
+        "ps-vowels",
+        "ps-monophthongs",
+        "oxford-notation"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "vowel-foot",
@@ -87,9 +416,56 @@
       "word": "book",
       "wordIpa": "bʊk",
       "gloss": "书",
-      "cue": "双唇稍圆，嘴部放松。与 /uː/ 相比，注意音色与舌位。",
+      "cue": "舌位较高、偏后，嘴唇稍圆。与 /uː/ 相比，注意音色变化。",
       "sampleId": "shtooka-book",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "book",
+          "ipa": "bʊk",
+          "gloss": "书",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/book"
+        },
+        {
+          "word": "good",
+          "ipa": "ɡʊd",
+          "gloss": "好的",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/good"
+        },
+        {
+          "word": "foot",
+          "ipa": "fʊt",
+          "gloss": "脚",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/foot"
+        },
+        {
+          "word": "look",
+          "ipa": "lʊk",
+          "gloss": "看",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/look"
+        },
+        {
+          "word": "cook",
+          "ipa": "kʊk",
+          "gloss": "做饭",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cook"
+        },
+        {
+          "word": "put",
+          "ipa": "pʊt",
+          "gloss": "放",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/put"
+        }
+      ],
+      "cueSourceIds": [
+        "ps-vowels",
+        "ps-monophthongs",
+        "oxford-notation"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "vowel-goose",
@@ -98,9 +474,56 @@
       "word": "food",
       "wordIpa": "fuːd",
       "gloss": "食物",
-      "cue": "双唇收圆，舌位较高。实际英式读法可更靠前，不必刻意夸张噘嘴。",
+      "cue": "舌位较高，双唇收圆；现代英式读法的舌位也可能较靠前。",
       "sampleId": "shtooka-food",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "food",
+          "ipa": "fuːd",
+          "gloss": "食物",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/food"
+        },
+        {
+          "word": "moon",
+          "ipa": "muːn",
+          "gloss": "月亮",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/moon"
+        },
+        {
+          "word": "blue",
+          "ipa": "bluː",
+          "gloss": "蓝色的",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/blue"
+        },
+        {
+          "word": "school",
+          "ipa": "skuːl",
+          "gloss": "学校",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/school"
+        },
+        {
+          "word": "shoe",
+          "ipa": "ʃuː",
+          "gloss": "鞋",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/shoe"
+        },
+        {
+          "word": "two",
+          "ipa": "tuː",
+          "gloss": "二",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/two"
+        }
+      ],
+      "cueSourceIds": [
+        "ps-vowels",
+        "ps-monophthongs",
+        "oxford-notation"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "vowel-strut",
@@ -109,9 +532,56 @@
       "word": "cup",
       "wordIpa": "kʌp",
       "gloss": "杯子",
-      "cue": "嘴自然张开，舌位居中偏低；不要套用汉语拼音的读法。",
+      "cue": "舌位居中偏低，嘴唇不收圆，嘴自然张开。",
       "sampleId": "shtooka-a-cup",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "cup",
+          "ipa": "kʌp",
+          "gloss": "杯子",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cup"
+        },
+        {
+          "word": "sun",
+          "ipa": "sʌn",
+          "gloss": "太阳",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sun"
+        },
+        {
+          "word": "bus",
+          "ipa": "bʌs",
+          "gloss": "公共汽车",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bus"
+        },
+        {
+          "word": "run",
+          "ipa": "rʌn",
+          "gloss": "跑",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/run"
+        },
+        {
+          "word": "love",
+          "ipa": "lʌv",
+          "gloss": "爱",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/love"
+        },
+        {
+          "word": "duck",
+          "ipa": "dʌk",
+          "gloss": "鸭子",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/duck"
+        }
+      ],
+      "cueSourceIds": [
+        "ps-vowels",
+        "ps-monophthongs",
+        "oxford-notation"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "vowel-nurse",
@@ -120,9 +590,56 @@
       "word": "bird",
       "wordIpa": "bɜːd",
       "gloss": "鸟",
-      "cue": "舌位居中，嘴部自然，通常发得较长。这个词例不发词尾 r。",
+      "cue": "舌位居中，嘴唇不收圆，声音持续。英式 bird 单独读时不发 r。",
       "sampleId": "shtooka-a-bird",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "bird",
+          "ipa": "bɜːd",
+          "gloss": "鸟",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bird"
+        },
+        {
+          "word": "girl",
+          "ipa": "ɡɜːl",
+          "gloss": "女孩",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/girl"
+        },
+        {
+          "word": "nurse",
+          "ipa": "nɜːs",
+          "gloss": "护士",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/nurse"
+        },
+        {
+          "word": "word",
+          "ipa": "wɜːd",
+          "gloss": "单词",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/word"
+        },
+        {
+          "word": "work",
+          "ipa": "wɜːk",
+          "gloss": "工作",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/work"
+        },
+        {
+          "word": "turn",
+          "ipa": "tɜːn",
+          "gloss": "转动",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/turn"
+        }
+      ],
+      "cueSourceIds": [
+        "ps-vowels",
+        "ps-monophthongs",
+        "oxford-notation"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "vowel-schwa",
@@ -131,9 +648,57 @@
       "word": "another",
       "wordIpa": "əˈnʌðə",
       "gloss": "另一个",
-      "cue": "常出现在非重读音节，嘴部放松、声音较弱。留意例词开头的元音。",
+      "cue": "嘴舌放松，舌位居中；常出现在非重读音节，如 another 的开头。",
       "sampleId": "shtooka-another",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "another",
+          "ipa": "əˈnʌðə",
+          "gloss": "另一个",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/another"
+        },
+        {
+          "word": "about",
+          "ipa": "əˈbaʊt",
+          "gloss": "关于",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/about"
+        },
+        {
+          "word": "ago",
+          "ipa": "əˈɡəʊ",
+          "gloss": "以前",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ago"
+        },
+        {
+          "word": "sofa",
+          "ipa": "ˈsəʊfə",
+          "gloss": "沙发",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sofa"
+        },
+        {
+          "word": "banana",
+          "ipa": "bəˈnɑːnə",
+          "gloss": "香蕉",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/banana"
+        },
+        {
+          "word": "teacher",
+          "ipa": "ˈtiːtʃə",
+          "gloss": "老师",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/teacher"
+        }
+      ],
+      "cueSourceIds": [
+        "ps-vowels",
+        "ps-monophthongs",
+        "oxford-notation",
+        "bc-schwa"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "vowel-face",
@@ -142,9 +707,55 @@
       "word": "plane",
       "wordIpa": "pleɪn",
       "gloss": "飞机",
-      "cue": "从 /e/ 附近起音，向 /ɪ/ 的方向滑动，连成一个音节。",
+      "cue": "从半开的前元音附近起音，向 /ɪ/ 的方向滑动，连成一个音节。",
       "sampleId": "shtooka-a-plane",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "plane",
+          "ipa": "pleɪn",
+          "gloss": "飞机",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/plane"
+        },
+        {
+          "word": "day",
+          "ipa": "deɪ",
+          "gloss": "一天",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/day"
+        },
+        {
+          "word": "name",
+          "ipa": "neɪm",
+          "gloss": "名字",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/name"
+        },
+        {
+          "word": "rain",
+          "ipa": "reɪn",
+          "gloss": "雨",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/rain"
+        },
+        {
+          "word": "cake",
+          "ipa": "keɪk",
+          "gloss": "蛋糕",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cake"
+        },
+        {
+          "word": "train",
+          "ipa": "treɪn",
+          "gloss": "火车",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/train"
+        }
+      ],
+      "cueSourceIds": [
+        "ps-diphthongs",
+        "oxford-notation"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "vowel-price",
@@ -153,9 +764,55 @@
       "word": "bike",
       "wordIpa": "baɪk",
       "gloss": "自行车",
-      "cue": "从较开的元音起音，向 /ɪ/ 的方向滑动。",
+      "cue": "从较开的元音起音，向 /ɪ/ 的方向滑动。它不是把 /æ/ 拉长。",
       "sampleId": "shtooka-a-bike",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "bike",
+          "ipa": "baɪk",
+          "gloss": "自行车",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bike"
+        },
+        {
+          "word": "my",
+          "ipa": "maɪ",
+          "gloss": "我的",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/my"
+        },
+        {
+          "word": "five",
+          "ipa": "faɪv",
+          "gloss": "五",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/five"
+        },
+        {
+          "word": "time",
+          "ipa": "taɪm",
+          "gloss": "时间",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/time"
+        },
+        {
+          "word": "light",
+          "ipa": "laɪt",
+          "gloss": "光",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/light"
+        },
+        {
+          "word": "eye",
+          "ipa": "aɪ",
+          "gloss": "眼睛",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/eye"
+        }
+      ],
+      "cueSourceIds": [
+        "ps-diphthongs",
+        "oxford-notation"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "vowel-choice",
@@ -164,9 +821,55 @@
       "word": "noise",
       "wordIpa": "nɔɪz",
       "gloss": "噪声",
-      "cue": "从偏后、圆唇的元音起音，向 /ɪ/ 的方向滑动。",
+      "cue": "从偏后、圆唇的元音起音，向 /ɪ/ 的方向滑动，双唇逐渐放松。",
       "sampleId": "shtooka-noise",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "noise",
+          "ipa": "nɔɪz",
+          "gloss": "噪声",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/noise"
+        },
+        {
+          "word": "boy",
+          "ipa": "bɔɪ",
+          "gloss": "男孩",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/boy"
+        },
+        {
+          "word": "toy",
+          "ipa": "tɔɪ",
+          "gloss": "玩具",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/toy"
+        },
+        {
+          "word": "coin",
+          "ipa": "kɔɪn",
+          "gloss": "硬币",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/coin"
+        },
+        {
+          "word": "voice",
+          "ipa": "vɔɪs",
+          "gloss": "声音",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/voice"
+        },
+        {
+          "word": "choice",
+          "ipa": "tʃɔɪs",
+          "gloss": "选择",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/choice"
+        }
+      ],
+      "cueSourceIds": [
+        "ps-diphthongs",
+        "oxford-notation"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "vowel-goat",
@@ -177,7 +880,53 @@
       "gloss": "鼻子",
       "cue": "从中央元音附近起音，向 /ʊ/ 的方向滑动，双唇逐渐收圆。",
       "sampleId": "shtooka-nose",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "nose",
+          "ipa": "nəʊz",
+          "gloss": "鼻子",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/nose"
+        },
+        {
+          "word": "go",
+          "ipa": "ɡəʊ",
+          "gloss": "去",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/go"
+        },
+        {
+          "word": "home",
+          "ipa": "həʊm",
+          "gloss": "家",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/home"
+        },
+        {
+          "word": "boat",
+          "ipa": "bəʊt",
+          "gloss": "船",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/boat"
+        },
+        {
+          "word": "coat",
+          "ipa": "kəʊt",
+          "gloss": "外套",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/coat"
+        },
+        {
+          "word": "snow",
+          "ipa": "snəʊ",
+          "gloss": "雪",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/snow"
+        }
+      ],
+      "cueSourceIds": [
+        "ps-diphthongs",
+        "oxford-notation"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "vowel-mouth",
@@ -186,9 +935,55 @@
       "word": "cow",
       "wordIpa": "kaʊ",
       "gloss": "奶牛",
-      "cue": "从较开的元音起音，向 /ʊ/ 的方向滑动。",
+      "cue": "从较开的元音起音，向 /ʊ/ 的方向滑动，双唇逐渐收圆。",
       "sampleId": "shtooka-a-cow",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "cow",
+          "ipa": "kaʊ",
+          "gloss": "奶牛",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cow"
+        },
+        {
+          "word": "now",
+          "ipa": "naʊ",
+          "gloss": "现在",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/now"
+        },
+        {
+          "word": "house",
+          "ipa": "haʊs",
+          "gloss": "房子",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/house"
+        },
+        {
+          "word": "mouth",
+          "ipa": "maʊθ",
+          "gloss": "嘴",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/mouth"
+        },
+        {
+          "word": "brown",
+          "ipa": "braʊn",
+          "gloss": "棕色的",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/brown"
+        },
+        {
+          "word": "cloud",
+          "ipa": "klaʊd",
+          "gloss": "云",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cloud"
+        }
+      ],
+      "cueSourceIds": [
+        "ps-diphthongs",
+        "oxford-notation"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "vowel-near",
@@ -197,9 +992,55 @@
       "word": "year",
       "wordIpa": "jɪə",
       "gloss": "年",
-      "cue": "传统写法表示向中央元音滑动；现代英国口音可能用较长的单元音。",
+      "cue": "传统写法表示从 /ɪ/ 附近向 /ə/ 滑动；现代英国口音也可能读作较长的单元音。",
       "sampleId": "shtooka-a-year",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "year",
+          "ipa": "jɪə",
+          "gloss": "年",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/year"
+        },
+        {
+          "word": "near",
+          "ipa": "nɪə",
+          "gloss": "近的",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/near"
+        },
+        {
+          "word": "hear",
+          "ipa": "hɪə",
+          "gloss": "听见",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/hear"
+        },
+        {
+          "word": "ear",
+          "ipa": "ɪə",
+          "gloss": "耳朵",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ear"
+        },
+        {
+          "word": "fear",
+          "ipa": "fɪə",
+          "gloss": "害怕",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/fear"
+        },
+        {
+          "word": "clear",
+          "ipa": "klɪə",
+          "gloss": "清楚的",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/clear"
+        }
+      ],
+      "cueSourceIds": [
+        "ps-diphthongs",
+        "oxford-notation"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "vowel-square",
@@ -208,9 +1049,55 @@
       "word": "chair",
       "wordIpa": "tʃeə",
       "gloss": "椅子",
-      "cue": "传统双元音写法；现代英国口音常有不同实现。先认识词典中的符号。",
+      "cue": "传统写法表示从 /e/ 附近向 /ə/ 滑动；现代英国口音常读作较长的前元音。",
       "sampleId": "shtooka-chair",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "chair",
+          "ipa": "tʃeə",
+          "gloss": "椅子",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/chair"
+        },
+        {
+          "word": "hair",
+          "ipa": "heə",
+          "gloss": "头发",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/hair"
+        },
+        {
+          "word": "bear",
+          "ipa": "beə",
+          "gloss": "熊",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bear"
+        },
+        {
+          "word": "care",
+          "ipa": "keə",
+          "gloss": "关心",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/care"
+        },
+        {
+          "word": "fair",
+          "ipa": "feə",
+          "gloss": "公平的",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/fair"
+        },
+        {
+          "word": "pair",
+          "ipa": "peə",
+          "gloss": "一对",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/pair"
+        }
+      ],
+      "cueSourceIds": [
+        "ps-diphthongs",
+        "oxford-notation"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "vowel-cure",
@@ -219,9 +1106,55 @@
       "word": "during",
       "wordIpa": "ˈdjʊərɪŋ",
       "gloss": "在……期间",
-      "cue": "从 /ʊ/ 附近向 /ə/ 滑动。/ʊə/ 是传统英式写法，同类词在现代英国口音中也可能读作 /ɔː/。",
+      "cue": "传统写法表示从 /ʊ/ 附近向 /ə/ 滑动。这组词在现代英国口音中也常有 /ɔː/ 等变体。",
       "sampleId": "taxrebate-during",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "during",
+          "ipa": "ˈdjʊərɪŋ",
+          "gloss": "在……期间",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/during"
+        },
+        {
+          "word": "pure",
+          "ipa": "pjʊə",
+          "gloss": "纯的",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/pure"
+        },
+        {
+          "word": "cure",
+          "ipa": "kjʊə",
+          "gloss": "治愈",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cure"
+        },
+        {
+          "word": "secure",
+          "ipa": "sɪˈkjʊə",
+          "gloss": "安全的",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/secure"
+        },
+        {
+          "word": "curious",
+          "ipa": "ˈkjʊəriəs",
+          "gloss": "好奇的",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/curious"
+        },
+        {
+          "word": "tourist",
+          "ipa": "ˈtʊərɪst",
+          "gloss": "游客",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/tourist"
+        }
+      ],
+      "cueSourceIds": [
+        "ps-diphthongs",
+        "oxford-notation"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "consonant-p",
@@ -230,9 +1163,55 @@
       "word": "ship",
       "wordIpa": "ʃɪp",
       "gloss": "船",
-      "cue": "双唇闭合后释放气流。例词中的目标音在词尾；不要额外加一个元音。",
+      "cue": "双唇短暂闭合，阻住气流后释放。它是清辅音；词尾不要额外加元音。",
       "sampleId": "shtooka-a-ship",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "ship",
+          "ipa": "ʃɪp",
+          "gloss": "船",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ship"
+        },
+        {
+          "word": "pen",
+          "ipa": "pen",
+          "gloss": "钢笔",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/pen"
+        },
+        {
+          "word": "pig",
+          "ipa": "pɪɡ",
+          "gloss": "猪",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/pig"
+        },
+        {
+          "word": "park",
+          "ipa": "pɑːk",
+          "gloss": "公园",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/park"
+        },
+        {
+          "word": "cup",
+          "ipa": "kʌp",
+          "gloss": "杯子",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cup"
+        },
+        {
+          "word": "apple",
+          "ipa": "ˈæpəl",
+          "gloss": "苹果",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/apple"
+        }
+      ],
+      "cueSourceIds": [
+        "cambridge-english",
+        "bc-voicing"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "consonant-b",
@@ -241,9 +1220,55 @@
       "word": "bed",
       "wordIpa": "bed",
       "gloss": "床",
-      "cue": "双唇闭合后释放气流，感受声带振动；实际发声随语境变化。",
+      "cue": "双唇短暂闭合后释放气流，通常伴随声带振动；嘴部动作与 /p/ 相近。",
       "sampleId": "shtooka-bed",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "bed",
+          "ipa": "bed",
+          "gloss": "床",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bed"
+        },
+        {
+          "word": "bag",
+          "ipa": "bæɡ",
+          "gloss": "包",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bag"
+        },
+        {
+          "word": "bus",
+          "ipa": "bʌs",
+          "gloss": "公共汽车",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bus"
+        },
+        {
+          "word": "book",
+          "ipa": "bʊk",
+          "gloss": "书",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/book"
+        },
+        {
+          "word": "blue",
+          "ipa": "bluː",
+          "gloss": "蓝色的",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/blue"
+        },
+        {
+          "word": "baby",
+          "ipa": "ˈbeɪbi",
+          "gloss": "婴儿",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/baby"
+        }
+      ],
+      "cueSourceIds": [
+        "cambridge-english",
+        "bc-voicing"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "consonant-t",
@@ -252,9 +1277,55 @@
       "word": "tea",
       "wordIpa": "tiː",
       "gloss": "茶",
-      "cue": "舌尖在上齿龈附近短暂阻住气流，再释放。不要在音后加元音。",
+      "cue": "舌尖或舌端接触上齿龈，短暂阻住气流后释放。它是清辅音。",
       "sampleId": "shtooka-tea",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "tea",
+          "ipa": "tiː",
+          "gloss": "茶",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/tea"
+        },
+        {
+          "word": "ten",
+          "ipa": "ten",
+          "gloss": "十",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ten"
+        },
+        {
+          "word": "time",
+          "ipa": "taɪm",
+          "gloss": "时间",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/time"
+        },
+        {
+          "word": "toy",
+          "ipa": "tɔɪ",
+          "gloss": "玩具",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/toy"
+        },
+        {
+          "word": "cat",
+          "ipa": "kæt",
+          "gloss": "猫",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cat"
+        },
+        {
+          "word": "hat",
+          "ipa": "hæt",
+          "gloss": "帽子",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/hat"
+        }
+      ],
+      "cueSourceIds": [
+        "cambridge-english",
+        "bc-voicing"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "consonant-d",
@@ -263,9 +1334,55 @@
       "word": "dog",
       "wordIpa": "dɒɡ",
       "gloss": "狗",
-      "cue": "发音部位接近 /t/，但清浊与释放方式不同。",
+      "cue": "舌尖或舌端接触上齿龈，短暂阻住气流后释放，通常伴随声带振动。",
       "sampleId": "shtooka-dog",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "dog",
+          "ipa": "dɒɡ",
+          "gloss": "狗",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/dog"
+        },
+        {
+          "word": "day",
+          "ipa": "deɪ",
+          "gloss": "一天",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/day"
+        },
+        {
+          "word": "door",
+          "ipa": "dɔː",
+          "gloss": "门",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/door"
+        },
+        {
+          "word": "duck",
+          "ipa": "dʌk",
+          "gloss": "鸭子",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/duck"
+        },
+        {
+          "word": "bed",
+          "ipa": "bed",
+          "gloss": "床",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bed"
+        },
+        {
+          "word": "red",
+          "ipa": "red",
+          "gloss": "红色的",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/red"
+        }
+      ],
+      "cueSourceIds": [
+        "cambridge-english",
+        "bc-voicing"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "consonant-k",
@@ -274,9 +1391,55 @@
       "word": "key",
       "wordIpa": "kiː",
       "gloss": "钥匙",
-      "cue": "舌后部靠近软腭，短暂阻住气流后释放。",
+      "cue": "舌后部接触软腭，短暂阻住气流后释放。它是清辅音。",
       "sampleId": "shtooka-key",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "key",
+          "ipa": "kiː",
+          "gloss": "钥匙",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/key"
+        },
+        {
+          "word": "cat",
+          "ipa": "kæt",
+          "gloss": "猫",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cat"
+        },
+        {
+          "word": "car",
+          "ipa": "kɑː",
+          "gloss": "汽车",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/car"
+        },
+        {
+          "word": "coat",
+          "ipa": "kəʊt",
+          "gloss": "外套",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/coat"
+        },
+        {
+          "word": "book",
+          "ipa": "bʊk",
+          "gloss": "书",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/book"
+        },
+        {
+          "word": "cook",
+          "ipa": "kʊk",
+          "gloss": "做饭",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cook"
+        }
+      ],
+      "cueSourceIds": [
+        "cambridge-english",
+        "bc-voicing"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "consonant-g",
@@ -285,9 +1448,55 @@
       "word": "green",
       "wordIpa": "ɡriːn",
       "gloss": "绿色的",
-      "cue": "发音部位接近 /k/，留意声带振动与词中的声音。",
+      "cue": "舌后部接触软腭，短暂阻住气流后释放，通常伴随声带振动。",
       "sampleId": "shtooka-green",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "green",
+          "ipa": "ɡriːn",
+          "gloss": "绿色的",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/green"
+        },
+        {
+          "word": "go",
+          "ipa": "ɡəʊ",
+          "gloss": "去",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/go"
+        },
+        {
+          "word": "girl",
+          "ipa": "ɡɜːl",
+          "gloss": "女孩",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/girl"
+        },
+        {
+          "word": "good",
+          "ipa": "ɡʊd",
+          "gloss": "好的",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/good"
+        },
+        {
+          "word": "bag",
+          "ipa": "bæɡ",
+          "gloss": "包",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bag"
+        },
+        {
+          "word": "egg",
+          "ipa": "eɡ",
+          "gloss": "鸡蛋",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/egg"
+        }
+      ],
+      "cueSourceIds": [
+        "cambridge-english",
+        "bc-voicing"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "consonant-f",
@@ -296,9 +1505,55 @@
       "word": "fish",
       "wordIpa": "fɪʃ",
       "gloss": "鱼",
-      "cue": "上齿轻触下唇，让气流从缝隙通过。",
+      "cue": "上齿轻触下唇，让气流从缝隙摩擦通过，不让声带振动。",
       "sampleId": "shtooka-fish",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "fish",
+          "ipa": "fɪʃ",
+          "gloss": "鱼",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/fish"
+        },
+        {
+          "word": "food",
+          "ipa": "fuːd",
+          "gloss": "食物",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/food"
+        },
+        {
+          "word": "foot",
+          "ipa": "fʊt",
+          "gloss": "脚",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/foot"
+        },
+        {
+          "word": "five",
+          "ipa": "faɪv",
+          "gloss": "五",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/five"
+        },
+        {
+          "word": "four",
+          "ipa": "fɔː",
+          "gloss": "四",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/four"
+        },
+        {
+          "word": "leaf",
+          "ipa": "liːf",
+          "gloss": "叶子",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/leaf"
+        }
+      ],
+      "cueSourceIds": [
+        "cambridge-english",
+        "bc-voicing"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "consonant-v",
@@ -307,9 +1562,55 @@
       "word": "television",
       "wordIpa": "ˈtelɪvɪʒən",
       "gloss": "电视",
-      "cue": "发音部位接近 /f/，通常伴随声带振动。留意 television 的第一个辅音。",
+      "cue": "上齿轻触下唇，让气流从缝隙摩擦通过，通常伴随声带振动。",
       "sampleId": "shtooka-television",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "television",
+          "ipa": "ˈtelɪvɪʒən",
+          "gloss": "电视",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/television"
+        },
+        {
+          "word": "van",
+          "ipa": "væn",
+          "gloss": "面包车",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/van"
+        },
+        {
+          "word": "very",
+          "ipa": "ˈveri",
+          "gloss": "非常",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/very"
+        },
+        {
+          "word": "voice",
+          "ipa": "vɔɪs",
+          "gloss": "声音",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/voice"
+        },
+        {
+          "word": "five",
+          "ipa": "faɪv",
+          "gloss": "五",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/five"
+        },
+        {
+          "word": "love",
+          "ipa": "lʌv",
+          "gloss": "爱",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/love"
+        }
+      ],
+      "cueSourceIds": [
+        "cambridge-english",
+        "bc-voicing"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "consonant-theta",
@@ -318,9 +1619,55 @@
       "word": "tooth",
       "wordIpa": "tuːθ",
       "gloss": "牙齿",
-      "cue": "舌尖轻靠齿间或上齿，让气流通过，不要完全堵住。目标音在 tooth 词尾。",
+      "cue": "舌尖轻靠上齿或略伸入齿间，让气流摩擦通过，不完全堵住；它是清辅音。",
       "sampleId": "shtooka-tooth",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "tooth",
+          "ipa": "tuːθ",
+          "gloss": "牙齿",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/tooth"
+        },
+        {
+          "word": "thin",
+          "ipa": "θɪn",
+          "gloss": "瘦的",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/thin"
+        },
+        {
+          "word": "think",
+          "ipa": "θɪŋk",
+          "gloss": "想",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/think"
+        },
+        {
+          "word": "three",
+          "ipa": "θriː",
+          "gloss": "三",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/three"
+        },
+        {
+          "word": "thank",
+          "ipa": "θæŋk",
+          "gloss": "感谢",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/thank"
+        },
+        {
+          "word": "bath",
+          "ipa": "bɑːθ",
+          "gloss": "洗澡",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bath"
+        }
+      ],
+      "cueSourceIds": [
+        "cambridge-english",
+        "bc-voicing"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "consonant-eth",
@@ -329,9 +1676,55 @@
       "word": "there",
       "wordIpa": "ðeə",
       "gloss": "那里",
-      "cue": "发音部位接近 /θ/，通常伴随声带振动。不要简单换成 /d/。",
+      "cue": "舌尖轻靠上齿或略伸入齿间，让气流摩擦通过，通常伴随声带振动。",
       "sampleId": "shtooka-there",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "there",
+          "ipa": "ðeə",
+          "gloss": "那里",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/there"
+        },
+        {
+          "word": "this",
+          "ipa": "ðɪs",
+          "gloss": "这个",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/this"
+        },
+        {
+          "word": "that",
+          "ipa": "ðæt",
+          "gloss": "那个",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/that"
+        },
+        {
+          "word": "these",
+          "ipa": "ðiːz",
+          "gloss": "这些",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/these"
+        },
+        {
+          "word": "mother",
+          "ipa": "ˈmʌðə",
+          "gloss": "母亲",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/mother"
+        },
+        {
+          "word": "brother",
+          "ipa": "ˈbrʌðə",
+          "gloss": "兄弟",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/brother"
+        }
+      ],
+      "cueSourceIds": [
+        "cambridge-english",
+        "bc-voicing"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "consonant-s",
@@ -340,9 +1733,55 @@
       "word": "sun",
       "wordIpa": "sʌn",
       "gloss": "太阳",
-      "cue": "舌尖靠近齿龈，气流从窄缝通过。",
+      "cue": "舌前部靠近上齿龈，气流沿窄缝摩擦通过。它是清辅音。",
       "sampleId": "shtooka-sun",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "sun",
+          "ipa": "sʌn",
+          "gloss": "太阳",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sun"
+        },
+        {
+          "word": "see",
+          "ipa": "siː",
+          "gloss": "看见",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/see"
+        },
+        {
+          "word": "sit",
+          "ipa": "sɪt",
+          "gloss": "坐",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sit"
+        },
+        {
+          "word": "six",
+          "ipa": "sɪks",
+          "gloss": "六",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/six"
+        },
+        {
+          "word": "bus",
+          "ipa": "bʌs",
+          "gloss": "公共汽车",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/bus"
+        },
+        {
+          "word": "rice",
+          "ipa": "raɪs",
+          "gloss": "米饭",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/rice"
+        }
+      ],
+      "cueSourceIds": [
+        "cambridge-english",
+        "bc-voicing"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "consonant-z",
@@ -351,9 +1790,55 @@
       "word": "nose",
       "wordIpa": "nəʊz",
       "gloss": "鼻子",
-      "cue": "部位接近 /s/，通常伴随声带振动。目标音在 nose 词尾。",
+      "cue": "嘴部位置接近 /s/，气流沿窄缝摩擦通过，通常伴随声带振动。",
       "sampleId": "shtooka-nose",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "nose",
+          "ipa": "nəʊz",
+          "gloss": "鼻子",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/nose"
+        },
+        {
+          "word": "zoo",
+          "ipa": "zuː",
+          "gloss": "动物园",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/zoo"
+        },
+        {
+          "word": "zero",
+          "ipa": "ˈzɪərəʊ",
+          "gloss": "零",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/zero"
+        },
+        {
+          "word": "zip",
+          "ipa": "zɪp",
+          "gloss": "拉链",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/zip"
+        },
+        {
+          "word": "rose",
+          "ipa": "rəʊz",
+          "gloss": "玫瑰",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/rose"
+        },
+        {
+          "word": "cheese",
+          "ipa": "tʃiːz",
+          "gloss": "奶酪",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cheese"
+        }
+      ],
+      "cueSourceIds": [
+        "cambridge-english",
+        "bc-voicing"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "consonant-sh",
@@ -362,9 +1847,55 @@
       "word": "sheep",
       "wordIpa": "ʃiːp",
       "gloss": "绵羊",
-      "cue": "舌前部在齿龈后方，双唇可稍圆，让气流通过。",
+      "cue": "舌前部靠近上齿龈后方，让气流摩擦通过；双唇可略收圆。它是清辅音。",
       "sampleId": "shtooka-a-sheep",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "sheep",
+          "ipa": "ʃiːp",
+          "gloss": "绵羊",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sheep"
+        },
+        {
+          "word": "ship",
+          "ipa": "ʃɪp",
+          "gloss": "船",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ship"
+        },
+        {
+          "word": "shoe",
+          "ipa": "ʃuː",
+          "gloss": "鞋",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/shoe"
+        },
+        {
+          "word": "shop",
+          "ipa": "ʃɒp",
+          "gloss": "商店",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/shop"
+        },
+        {
+          "word": "fish",
+          "ipa": "fɪʃ",
+          "gloss": "鱼",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/fish"
+        },
+        {
+          "word": "wash",
+          "ipa": "wɒʃ",
+          "gloss": "洗",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/wash"
+        }
+      ],
+      "cueSourceIds": [
+        "cambridge-english",
+        "bc-voicing"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "consonant-zh",
@@ -373,9 +1904,55 @@
       "word": "television",
       "wordIpa": "ˈtelɪvɪʒən",
       "gloss": "电视",
-      "cue": "部位接近 /ʃ/，通常伴随声带振动。留意 television 中间的目标音。",
+      "cue": "嘴部位置接近 /ʃ/，让气流摩擦通过，通常伴随声带振动。",
       "sampleId": "shtooka-television",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "television",
+          "ipa": "ˈtelɪvɪʒən",
+          "gloss": "电视",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/television"
+        },
+        {
+          "word": "vision",
+          "ipa": "ˈvɪʒən",
+          "gloss": "视力",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/vision"
+        },
+        {
+          "word": "measure",
+          "ipa": "ˈmeʒə",
+          "gloss": "测量",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/measure"
+        },
+        {
+          "word": "pleasure",
+          "ipa": "ˈpleʒə",
+          "gloss": "愉快",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/pleasure"
+        },
+        {
+          "word": "usual",
+          "ipa": "ˈjuːʒuəl",
+          "gloss": "通常的",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/usual"
+        },
+        {
+          "word": "decision",
+          "ipa": "dɪˈsɪʒən",
+          "gloss": "决定",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/decision"
+        }
+      ],
+      "cueSourceIds": [
+        "cambridge-english",
+        "bc-voicing"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "consonant-h",
@@ -384,9 +1961,55 @@
       "word": "hat",
       "wordIpa": "hæt",
       "gloss": "帽子",
-      "cue": "让气流自然通过声门；不要把舌后部抬起摩擦。",
+      "cue": "气流通过声门发出轻微摩擦，口腔随后面的元音调整；不要在舌后部用力摩擦。",
       "sampleId": "shtooka-hat",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "hat",
+          "ipa": "hæt",
+          "gloss": "帽子",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/hat"
+        },
+        {
+          "word": "hot",
+          "ipa": "hɒt",
+          "gloss": "热的",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/hot"
+        },
+        {
+          "word": "hand",
+          "ipa": "hænd",
+          "gloss": "手",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/hand"
+        },
+        {
+          "word": "head",
+          "ipa": "hed",
+          "gloss": "头",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/head"
+        },
+        {
+          "word": "home",
+          "ipa": "həʊm",
+          "gloss": "家",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/home"
+        },
+        {
+          "word": "house",
+          "ipa": "haʊs",
+          "gloss": "房子",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/house"
+        }
+      ],
+      "cueSourceIds": [
+        "cambridge-english",
+        "bc-voicing"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "consonant-ch",
@@ -395,9 +2018,55 @@
       "word": "chair",
       "wordIpa": "tʃeə",
       "gloss": "椅子",
-      "cue": "先短暂阻住气流，再在齿龈后方释放并摩擦；连成一个辅音。",
+      "cue": "先在齿龈后方短暂阻住气流，再释放并摩擦，连成一个清辅音。",
       "sampleId": "shtooka-chair",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "chair",
+          "ipa": "tʃeə",
+          "gloss": "椅子",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/chair"
+        },
+        {
+          "word": "cheese",
+          "ipa": "tʃiːz",
+          "gloss": "奶酪",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/cheese"
+        },
+        {
+          "word": "child",
+          "ipa": "tʃaɪld",
+          "gloss": "孩子",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/child"
+        },
+        {
+          "word": "chicken",
+          "ipa": "ˈtʃɪkɪn",
+          "gloss": "鸡",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/chicken"
+        },
+        {
+          "word": "watch",
+          "ipa": "wɒtʃ",
+          "gloss": "手表",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/watch"
+        },
+        {
+          "word": "teacher",
+          "ipa": "ˈtiːtʃə",
+          "gloss": "老师",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/teacher"
+        }
+      ],
+      "cueSourceIds": [
+        "cambridge-english",
+        "bc-voicing"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "consonant-jh",
@@ -406,9 +2075,55 @@
       "word": "jam",
       "wordIpa": "dʒæm",
       "gloss": "果酱",
-      "cue": "部位接近 /tʃ/，通常伴随声带振动。它是一个塞擦音。",
+      "cue": "先在齿龈后方短暂阻住气流，再释放并摩擦，通常伴随声带振动。",
       "sampleId": "shtooka-jam",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "jam",
+          "ipa": "dʒæm",
+          "gloss": "果酱",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/jam"
+        },
+        {
+          "word": "job",
+          "ipa": "dʒɒb",
+          "gloss": "工作",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/job"
+        },
+        {
+          "word": "juice",
+          "ipa": "dʒuːs",
+          "gloss": "果汁",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/juice"
+        },
+        {
+          "word": "jump",
+          "ipa": "dʒʌmp",
+          "gloss": "跳",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/jump"
+        },
+        {
+          "word": "jacket",
+          "ipa": "ˈdʒækɪt",
+          "gloss": "夹克",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/jacket"
+        },
+        {
+          "word": "orange",
+          "ipa": "ˈɒrɪndʒ",
+          "gloss": "橙子",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/orange"
+        }
+      ],
+      "cueSourceIds": [
+        "cambridge-english",
+        "bc-voicing"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "consonant-m",
@@ -417,9 +2132,55 @@
       "word": "moon",
       "wordIpa": "muːn",
       "gloss": "月亮",
-      "cue": "双唇闭合，气流从鼻腔通过，感受鼻音。",
+      "cue": "双唇闭合，口腔通道被挡住，气流从鼻腔通过。通常伴随声带振动。",
       "sampleId": "shtooka-moon",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "moon",
+          "ipa": "muːn",
+          "gloss": "月亮",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/moon"
+        },
+        {
+          "word": "man",
+          "ipa": "mæn",
+          "gloss": "男人",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/man"
+        },
+        {
+          "word": "map",
+          "ipa": "mæp",
+          "gloss": "地图",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/map"
+        },
+        {
+          "word": "milk",
+          "ipa": "mɪlk",
+          "gloss": "牛奶",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/milk"
+        },
+        {
+          "word": "name",
+          "ipa": "neɪm",
+          "gloss": "名字",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/name"
+        },
+        {
+          "word": "home",
+          "ipa": "həʊm",
+          "gloss": "家",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/home"
+        }
+      ],
+      "cueSourceIds": [
+        "cambridge-english",
+        "bc-voicing"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "consonant-n",
@@ -428,9 +2189,55 @@
       "word": "nose",
       "wordIpa": "nəʊz",
       "gloss": "鼻子",
-      "cue": "舌尖接触上齿龈，气流从鼻腔通过。",
+      "cue": "舌尖接触上齿龈，口腔通道被挡住，气流从鼻腔通过。",
       "sampleId": "shtooka-nose",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "nose",
+          "ipa": "nəʊz",
+          "gloss": "鼻子",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/nose"
+        },
+        {
+          "word": "name",
+          "ipa": "neɪm",
+          "gloss": "名字",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/name"
+        },
+        {
+          "word": "nurse",
+          "ipa": "nɜːs",
+          "gloss": "护士",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/nurse"
+        },
+        {
+          "word": "nine",
+          "ipa": "naɪn",
+          "gloss": "九",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/nine"
+        },
+        {
+          "word": "sun",
+          "ipa": "sʌn",
+          "gloss": "太阳",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sun"
+        },
+        {
+          "word": "pen",
+          "ipa": "pen",
+          "gloss": "钢笔",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/pen"
+        }
+      ],
+      "cueSourceIds": [
+        "cambridge-english",
+        "bc-voicing"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "consonant-ng",
@@ -439,9 +2246,55 @@
       "word": "building",
       "wordIpa": "ˈbɪldɪŋ",
       "gloss": "建筑",
-      "cue": "舌后部接近软腭，气流从鼻腔通过。留意 building 的词尾。",
+      "cue": "舌后部接触软腭，气流从鼻腔通过；不要在 building 词尾额外加 /ɡ/。",
       "sampleId": "shtooka-building",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "building",
+          "ipa": "ˈbɪldɪŋ",
+          "gloss": "建筑",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/building"
+        },
+        {
+          "word": "sing",
+          "ipa": "sɪŋ",
+          "gloss": "唱歌",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/sing"
+        },
+        {
+          "word": "song",
+          "ipa": "sɒŋ",
+          "gloss": "歌曲",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/song"
+        },
+        {
+          "word": "long",
+          "ipa": "lɒŋ",
+          "gloss": "长的",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/long"
+        },
+        {
+          "word": "ring",
+          "ipa": "rɪŋ",
+          "gloss": "戒指",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/ring"
+        },
+        {
+          "word": "king",
+          "ipa": "kɪŋ",
+          "gloss": "国王",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/king"
+        }
+      ],
+      "cueSourceIds": [
+        "cambridge-english",
+        "bc-voicing"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "consonant-l",
@@ -450,9 +2303,56 @@
       "word": "leg",
       "wordIpa": "leɡ",
       "gloss": "腿",
-      "cue": "舌尖在上齿龈附近接触，气流从舌两侧通过。",
+      "cue": "舌尖接触上齿龈附近，气流从舌两侧通过；词尾的音色可能与词首不同。",
       "sampleId": "shtooka-leg",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "leg",
+          "ipa": "leɡ",
+          "gloss": "腿",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/leg"
+        },
+        {
+          "word": "light",
+          "ipa": "laɪt",
+          "gloss": "光",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/light"
+        },
+        {
+          "word": "love",
+          "ipa": "lʌv",
+          "gloss": "爱",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/love"
+        },
+        {
+          "word": "leaf",
+          "ipa": "liːf",
+          "gloss": "叶子",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/leaf"
+        },
+        {
+          "word": "look",
+          "ipa": "lʊk",
+          "gloss": "看",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/look"
+        },
+        {
+          "word": "milk",
+          "ipa": "mɪlk",
+          "gloss": "牛奶",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/milk"
+        }
+      ],
+      "cueSourceIds": [
+        "cambridge-english",
+        "bc-voicing",
+        "oxford-notation"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "consonant-r",
@@ -461,9 +2361,56 @@
       "word": "red",
       "wordIpa": "red",
       "gloss": "红色的",
-      "cue": "这里的 /r/ 是词典惯例，英语通常读作近音 [ɹ]，不是颤音 [r]。",
+      "cue": "舌前部抬起但通常不接触上腭。词典 /r/ 常读近音 [ɹ]，不是舌尖反复拍打的颤音。",
       "sampleId": "shtooka-red",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "red",
+          "ipa": "red",
+          "gloss": "红色的",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/red"
+        },
+        {
+          "word": "rain",
+          "ipa": "reɪn",
+          "gloss": "雨",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/rain"
+        },
+        {
+          "word": "rice",
+          "ipa": "raɪs",
+          "gloss": "米饭",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/rice"
+        },
+        {
+          "word": "run",
+          "ipa": "rʌn",
+          "gloss": "跑",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/run"
+        },
+        {
+          "word": "rose",
+          "ipa": "rəʊz",
+          "gloss": "玫瑰",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/rose"
+        },
+        {
+          "word": "green",
+          "ipa": "ɡriːn",
+          "gloss": "绿色的",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/green"
+        }
+      ],
+      "cueSourceIds": [
+        "cambridge-english",
+        "bc-voicing",
+        "oxford-notation"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "consonant-y",
@@ -472,9 +2419,55 @@
       "word": "yes",
       "wordIpa": "jes",
       "gloss": "是的",
-      "cue": "舌前部抬向硬腭，气流平滑通过；它是辅音，不是字母名称。",
+      "cue": "舌前部靠近硬腭，气流平滑通过，再进入后面的元音；它不是字母名称。",
       "sampleId": "shtooka-yes",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "yes",
+          "ipa": "jes",
+          "gloss": "是的",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/yes"
+        },
+        {
+          "word": "year",
+          "ipa": "jɪə",
+          "gloss": "年",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/year"
+        },
+        {
+          "word": "yellow",
+          "ipa": "ˈjeləʊ",
+          "gloss": "黄色的",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/yellow"
+        },
+        {
+          "word": "young",
+          "ipa": "jʌŋ",
+          "gloss": "年轻的",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/young"
+        },
+        {
+          "word": "use",
+          "ipa": "juːz",
+          "gloss": "使用",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/use"
+        },
+        {
+          "word": "you",
+          "ipa": "juː",
+          "gloss": "你",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/you"
+        }
+      ],
+      "cueSourceIds": [
+        "cambridge-english",
+        "bc-voicing"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     },
     {
       "id": "consonant-w",
@@ -483,9 +2476,55 @@
       "word": "window",
       "wordIpa": "ˈwɪndəʊ",
       "gloss": "窗户",
-      "cue": "双唇先收圆，舌后部抬起，然后平滑进入下一个元音。",
+      "cue": "双唇收圆、舌后部抬起，再平滑进入后面的元音；上齿不接触下唇。",
       "sampleId": "shtooka-window",
-      "editorialStatus": "released"
+      "editorialStatus": "released",
+      "examples": [
+        {
+          "word": "window",
+          "ipa": "ˈwɪndəʊ",
+          "gloss": "窗户",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/window"
+        },
+        {
+          "word": "we",
+          "ipa": "wiː",
+          "gloss": "我们",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/we"
+        },
+        {
+          "word": "wet",
+          "ipa": "wet",
+          "gloss": "湿的",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/wet"
+        },
+        {
+          "word": "water",
+          "ipa": "ˈwɔːtə",
+          "gloss": "水",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/water"
+        },
+        {
+          "word": "work",
+          "ipa": "wɜːk",
+          "gloss": "工作",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/work"
+        },
+        {
+          "word": "white",
+          "ipa": "waɪt",
+          "gloss": "白色的",
+          "referenceUrl": "https://dictionary.cambridge.org/pronunciation/english/white"
+        }
+      ],
+      "cueSourceIds": [
+        "cambridge-english",
+        "bc-voicing"
+      ],
+      "cueReview": {
+        "method": "Original Chinese explanation checked against named articulation/notation references",
+        "date": "2026-10-18"
+      }
     }
   ],
   "releaseAuthorization": "Owner accepted version and requested release, 2026-10-18."

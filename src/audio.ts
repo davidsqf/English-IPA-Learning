@@ -5,7 +5,6 @@ export class LocalPlayer {
   private serial = 0;
   private activeButton: HTMLButtonElement | null = null;
   private timeout: ReturnType<typeof setTimeout> | undefined;
-  rate = 1;
   onStatus: (message: string) => void = () => {};
   stop() {
     this.serial++;
@@ -19,7 +18,10 @@ export class LocalPlayer {
     this.activeButton?.setAttribute('aria-pressed', 'false');
     this.activeButton = null;
   }
-  setRate(rate: number) { this.rate = rate; this.player.playbackRate = rate; }
+  playSequence(ids: string[], button: HTMLButtonElement) {
+    const next = (index: number) => { if (index < ids.length) void this.play(ids[index], button, () => next(index + 1)); };
+    next(0);
+  }
   async play(id: string, button: HTMLButtonElement, ended: () => void = () => {}) {
     this.stop();
     const source = samples.get(id);
@@ -31,7 +33,7 @@ export class LocalPlayer {
     this.onStatus('正在载入录音…');
     try {
       this.player.src = new URL(source.path, new URL(import.meta.env.BASE_URL, window.location.href)).href;
-      this.player.playbackRate = this.rate;
+      this.player.playbackRate = 1;
       this.player.preservesPitch = true;
       this.player.onplaying = () => { if (serial !== this.serial) return; clearTimeout(this.timeout); this.onStatus('正在播放 · 英式例词示例'); };
       this.player.onended = () => { if (serial !== this.serial) return; this.stop(); this.onStatus('播放完毕，可以重播。'); ended(); };

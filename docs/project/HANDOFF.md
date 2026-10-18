@@ -12,7 +12,9 @@ The owner accepted this version and explicitly requested full audio coverage, re
 
 Vite 8 + vanilla TypeScript, semantic HTML/CSS and static JSON. Node 24 recommended, minimum 22.12. All 44 symbols have contextual examples from 37 bundled human recordings, shared where appropriate. All audio ships in `public/audio/` and `dist/`; no middleware or runtime source fetch is needed. MP3 supports broad browser compatibility. The build verifies file integrity and complete coverage before bundling.
 
-The explorer has group filters, IPA/English/Chinese search and highlighted targets. Ten comparison groups support individual and sequential playback. One shared Audio instance stops on replacement/navigation, supports original speed and pitch-preserving 0.8× playback, and recovers from loading failures. The sources view includes per-file attribution and licence links.
+The explorer has group filters, IPA/English/Chinese search and highlighted targets. Eleven comparison presets support individual and ordered sequential playback, including the genuine three-symbol `/e æ aɪ/` group. Custom mode lets a learner choose any two distinct symbols with native selects. One shared Audio instance stops on replacement/navigation and recovers from loading failures; normal speed is the only playback speed. Each selected symbol shows six word/IPA/gloss examples and dictionary links, while each tile retains one preview word. All Chinese cues and preset tips have `cueSourceIds` linked to named references; the editorial rationale is in `docs/research/pronunciation-cue-review.md`. The sources view includes per-file attribution and licence links.
+
+Mobile layouts use readable controls, touch targets, safe-area spacing and 16px search to avoid focus zoom on iOS. Chinese composition events are preserved. Both Safari/WebKit and Android/Chrome profiles are checked; do not claim physical-device testing without doing it.
 
 Dark mode follows the system until a preference is selected with the top-right toggle. `localStorage` holds only that theme choice. Storage failure falls back to a working in-memory preference. A head script avoids a light flash for dark-mode visitors.
 
@@ -35,8 +37,10 @@ The Mac launcher `Start IPA.command` selects a suitable installed Node runtime a
 | File | Responsibility |
 | --- | --- |
 | `src/main.ts` | Explorer, comparison, source views and UI events |
-| `src/library.ts` | Corpus access, search/filtering and comparison definitions |
-| `src/audio.ts` | Single audio player, interruption, speed and error states |
+| `src/library.ts` | Corpus access, six-word search, comparison lookup and custom-pair validation |
+| `content/comparisons.json` | Ordered two/three-symbol presets and sourced contrast tips |
+| `content/pronunciation-sources.json` | References backing Chinese articulation guidance |
+| `src/audio.ts` | Single audio player, ordered sequences, interruption and error states |
 | `src/theme.ts` | System and persisted theme preference |
 | `src/style.css` | Light/dark palette, responsive layout and accessible focus |
 | `content/audio.json` | Exact sources, licences, transformations and checksums |
@@ -48,7 +52,7 @@ The Mac launcher `Start IPA.command` selects a suitable installed Node runtime a
 
 ## Git and publication
 
-Release branch: `work/release-audio-dark-mode`, integrated into `main` by fast-forward. Release commit `b5c055d` was pushed and successfully deployed. All 37 hosted audio checksums and representative live browser behavior were verified; see the verification report. Final documentation is integrated with the same branch protocol. Read Git for the current commit. The release workflow publishes pushes to main; pull requests run tests/build without deployment. Do not force push or change the public audience without authorization.
+Current enhancement branch: `work/comparisons-six-examples`, intended integration to `main` by fast-forward after validation. Previous release `b5c055d` and verification commit `f05531e` were deployed successfully. This enhancement updates the existing public site after checks; use Git for the actual commit and the verification report for current evidence. The release workflow publishes pushes to main; pull requests run tests/build without deployment. Do not force push or change the public audience without authorization.
 
 Public URL: https://davidsqf.github.io/English-IPA-Learning/
 Repository: https://github.com/davidsqf/English-IPA-Learning

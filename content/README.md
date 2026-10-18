@@ -40,3 +40,9 @@ References for a minimal pair should cover both word senses and actual model pro
 All audio is in `public/audio/`, is included in static builds, and requires no separate download. Original Ogg files were converted to MP3 for compatibility; existing Wikimedia MP3 derivatives were copied unchanged. No independent expert phonetics review is claimed. The owner's explicit acceptance and publication authorization supersede the earlier local-only release boundary.
 
 The traditional `/ʊə/` entry uses *during* with British dictionary notation `/ˈdjʊərɪŋ/`; the source is TaxRebate's UK recording on Commons, linked from Wiktionary's pronunciation section. The cue notes contemporary variants. The Celestianpower *poor* candidate was rejected: its Commons file is also the target of the *pore* redirect, so it is unsuitable evidence for a distinct `/ʊə/`.
+
+## Six-example and comparison extension
+
+Runtime symbol schema 2 adds exactly six `examples` with `word`, broad British `ipa`, original `gloss` and dictionary `referenceUrl`. The first example matches the existing `word` preview and bundled primary recording. No local audio is implied by a dictionary lookup link. Search includes all six examples.
+
+`comparisons.json` stores eleven recommended groups as ordered `symbolIds` arrays (two or three entries), with original contrast tips and `cueSourceIds`. Custom comparisons are runtime selections of two distinct symbols. `pronunciation-sources.json` resolves all Chinese cue source IDs; read the corresponding research review for source boundaries and pronunciation variants. The original speed controls have been removed; audio media are unchanged.

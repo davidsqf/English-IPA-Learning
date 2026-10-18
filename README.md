@@ -9,13 +9,13 @@ Explore a symbol, listen to its example, and compare similar sounds. All recordi
 ## Features
 
 - 44 traditional British English reference symbols: 12 monophthongs, 8 diphthongs and 24 consonants.
-- Original Chinese pronunciation guidance, familiar example words and highlighted target sounds.
+- Source-linked Chinese pronunciation guidance and six example words per symbol, with highlighted target sounds. Tiles keep a single preview word.
 - 37 bundled human recordings covering all 44 entries; examples shared by several symbols are intentional.
-- Ten sound comparisons, individual and sequential playback, natural and pitch-preserving 0.8× speed.
+- Eleven recommended comparisons, including the three-symbol `/e æ aɪ/` group, plus manual comparison of any two distinct symbols. Individual and sequential playback use normal speed.
 - Light and dark themes, system preference detection and a remembered theme choice.
-- Search by IPA, English or Chinese; responsive layouts and keyboard-accessible controls.
+- Search by IPA, any of the six English examples or Chinese; touch-friendly layouts, native mobile selectors, Chinese IME support and keyboard-accessible controls.
 
-Recordings demonstrate **whole words or phrases**, rather than isolated phonemes. British accents vary: `/r/` is the usual dictionary notation for the English approximant; traditional `/ʊə/` is illustrated with *during*, and many speakers use alternative realizations. The traditional 44-entry inventory is a teaching convention, not the complete international IPA.
+Each symbol keeps its bundled recording; the six word examples link to dictionary pronunciation references. Recordings demonstrate **whole words or phrases**, rather than isolated phonemes. British accents vary: `/r/` is the usual dictionary notation for the English approximant; traditional `/ʊə/` is illustrated with *during*, and many speakers use alternative realizations. The traditional 44-entry inventory is a teaching convention, not the complete international IPA.
 
 ## Run locally
 
@@ -50,6 +50,8 @@ The [Test and publish workflow](.github/workflows/pages.yml) tests and builds ch
 | --- | --- |
 | `src/` | Interface, search, shared audio player and theme controls |
 | `content/symbol-library.json` | Symbols, Chinese cues, examples and sound mappings |
+| `content/comparisons.json` | Two- and three-symbol presets with source-linked tips |
+| `content/pronunciation-sources.json` | Named references for the Chinese pronunciation guidance |
 | `content/audio.json` | Per-file sources, authors, licences, transformations and checksums |
 | `public/audio/` | All 37 shipped MP3 recordings |
 | `tests/` | Inventory, search, comparison and audio integrity checks |

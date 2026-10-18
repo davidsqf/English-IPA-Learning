@@ -1,3 +1,26 @@
+# v1.1 enhancement verification
+
+Date: 2026-10-18. Branch: `work/comparisons-six-examples`. The earlier release report is preserved below as historical evidence; its 0.8× speed checks describe the previous version, not the current product.
+
+## Current checks
+
+- `npm test`: six passing tests. Coverage includes 44 unique symbols, all 264 examples (six distinct words per symbol), target-containing transcriptions, one-word preview consistency, source-ID resolution, unchanged audio SHA-256, eleven valid presets and the exact three-symbol `/e æ aɪ/` group. Custom-pair validation checks all **1,892 distinct ordered pairs**, rejects duplicate/unknown selections, and search covers additional examples.
+- `npm run build`: complete audio/integrity gate, TypeScript and Vite build pass. No new media or external runtime dependency was added. All playback is fixed at rate 1; speed UI and its state/styles were removed.
+- **iPhone 15 / WebKit 26.6** and **Pixel 7 / installed Chrome** emulation: every one of the 44 tiles has exactly one preview word and opens exactly six word examples with matching highlights and source links. Both engines pass all eleven presets and 86 custom selector changes (43 choices on each side). The opposite selected symbol is disabled using its native HTML option property; all distinct combinations are covered separately by the data-level validation.
+- In both engines, the three-way comparison plays **bed → a cat → a bike** to actual ended events, using one Audio instance at rate 1. A custom `/θ ð/` pair plays both recordings. Replacing the preset or navigating interrupts the remaining sequence. Touch-triggered playback also completes.
+- Both themes checked at widths **320, 360, 390, 412, 844 and 1440** in each engine, including a landscape-sized viewport. Symbol, triple and custom comparison surfaces do not overflow horizontally. Mobile controls use native selects and the search text is 16px. Fifteen visible comparison controls meet at least 44×44 CSS-pixel hit areas; the custom selects measure 48px high in both engines.
+- Visual review found Safari's original closed select was too compact despite `min-height`. Explicit height and custom closed-control appearance fixed this while preserving the native picker. Final mobile and desktop screenshots were inspected.
+- Chinese composition events preserve the original input while composing and correctly commit “绵羊”; additional-word search, exact IPA search, keyboard operation and theme persistence pass in both engines.
+- Normal browser runs report no failed requests or uncaught errors. A computed contrast check covers the three views in both themes in each engine; every checked text element passes its applicable contrast threshold. Results are recorded with QA artifacts.
+
+QA scripts, full results and screenshots remain ignored in `.local/` and `output/playwright/`. This is real WebKit/Chromium execution with phone profiles and touch events, **not a claim of physical iPhone/Android testing**. Chinese guidance was checked against named articulation/notation sources; see [the editorial review](../research/pronunciation-cue-review.md). Source checks do not claim an independent expert evaluation of recorded speech. Existing local audio remains one recorded example per symbol; the six word examples include dictionary pronunciation links.
+
+## Publication
+
+Update the existing GitHub Pages website after the checked feature commit is integrated. Confirm the workflow and public three-way/custom/six-example behavior before completion. No site audience or source-code licence change is part of this update.
+
+---
+
 # Release verification
 
 Date: 2026-10-18, Asia/Singapore. Runtime: Node 24.19.0; browser: installed Google Chrome driven by Playwright CLI. Tests exercise the built static website, not only the development server.

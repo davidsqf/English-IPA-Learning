@@ -22,3 +22,7 @@ Research date: **18 October 2026**, Asia/Singapore. Scope confirmed by the owner
 - Build a local static application first. A reviewed audio supply, rather than application complexity, is the main content dependency.
 
 The design is a recommendation based on source research, not a validated claim about this specific learner population. No learner study, full accessibility audit, live browser interaction test, or acoustic/audio quality review has been performed. Some Cambridge and dynamic pages were readable only through indexed excerpts; these limits are recorded. Research dates are access dates, not claims that older teaching material was newly published in 2026.
+
+## Current pronunciation guidance review
+
+See [the source-based cue review](pronunciation-cue-review.md) for the current Chinese guidance, per-symbol source mapping, six-word examples, and the three-way `/e æ aɪ/` comparison.

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "editorialNote": "Original Chinese summaries checked against the named references. Source-based editorial review is not an independent expert evaluation of the recordings.",
+  "sources": {
+    "cambridge-english": {
+      "title": "Cambridge · 英语语音",
+      "url": "https://assets.cambridge.org/97810092/28626/excerpt/9781009228626_excerpt.pdf#page=6",
+      "publisher": "Cambridge University Press, The English Language",
+      "supports": "English fricatives, stops, sonorants and RP vowel/diphthong articulation.",
+      "accessedAt": "2026-10-18"
+    },
+    "oxford-notation": {
+      "title": "Oxford · 英式词典注音",
+      "url": "https://www.oxfordlearnersdictionaries.com/about/english/pronunciation_english",
+      "publisher": "Oxford University Press",
+      "supports": "British broad notation, non-rhotic r, schwa/stress, variants, traditional centring diphthongs and example words.",
+      "accessedAt": "2026-10-18"
+    },
+    "bc-voicing": {
+      "title": "British Council · 清浊",
+      "url": "https://www.teachingenglish.org.uk/professional-development/teachers/teaching-knowledge-database/t-w/voiced-consonants",
+      "publisher": "British Council",
+      "supports": "Voicing as vocal-fold vibration, consonant contrasts.",
+      "accessedAt": "2026-10-18"
+    },
+    "bc-schwa": {
+      "title": "British Council · 轻读元音",
+      "url": "https://www.teachingenglish.org.uk/professional-development/teachers/teaching-knowledge-database/q-s/schwa",
+      "publisher": "British Council",
+      "supports": "Schwa in unstressed syllables, banana example.",
+      "accessedAt": "2026-10-18"
+    },
+    "ps-vowels": {
+      "title": "Pronunciation Studio · 元音口形",
+      "url": "https://pronunciationstudio.com/english-vowel-sounds/",
+      "publisher": "Pronunciation Studio, London, Joseph Hudson",
+      "supports": "Jaw, tongue and lip dimensions; vowel-quality differences rather than duration alone.",
+      "accessedAt": "2026-10-18"
+    },
+    "ps-monophthongs": {
+      "title": "Pronunciation Studio · 单元音",
+      "url": "https://pronunciationstudio.com/lessons/monophthongs-1-13/",
+      "publisher": "Pronunciation Studio, London, Joseph Hudson",
+      "supports": "British vowel positions and rounding; modern /uː/ fronting. Uses modern symbols differing from our dictionary convention.",
+      "accessedAt": "2026-10-18"
+    },
+    "ps-diphthongs": {
+      "title": "Pronunciation Studio · 双元音与变体",
+      "url": "https://pronunciationstudio.com/pronunciation-guide-diphthong-vowel-sounds/",
+      "publisher": "Pronunciation Studio, London, Joseph Hudson",
+      "supports": "Same-syllable movement and contemporary centring-diphthong changes; /ʊə/ variation.",
+      "accessedAt": "2026-10-18"
+    }
+  }
+}
