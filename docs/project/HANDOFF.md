@@ -52,7 +52,7 @@ The Mac launcher `Start IPA.command` selects a suitable installed Node runtime a
 
 ## Git and publication
 
-Current enhancement branch: `work/comparisons-six-examples`, intended integration to `main` by fast-forward after validation. Previous release `b5c055d` and verification commit `f05531e` were deployed successfully. This enhancement updates the existing public site after checks; use Git for the actual commit and the verification report for current evidence. The release workflow publishes pushes to main; pull requests run tests/build without deployment. Do not force push or change the public audience without authorization.
+Enhancement branch `work/comparisons-six-examples` was integrated to `main` by fast-forward. Feature commit `18f5bf2` was pushed and deployed successfully. Both WebKit/iPhone and Chrome/Android profiles verified all 44 public six-word selections, three-way playback order, custom comparisons, source links and natural speed without failed requests or page errors. Read Git for the latest documentation commit and the verification report for detailed evidence. The release workflow publishes pushes to main; pull requests run tests/build without deployment. Do not force push or change the public audience without authorization.
 
 Public URL: https://davidsqf.github.io/English-IPA-Learning/
 Repository: https://github.com/davidsqf/English-IPA-Learning

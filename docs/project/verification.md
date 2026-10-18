@@ -17,7 +17,9 @@ QA scripts, full results and screenshots remain ignored in `.local/` and `output
 
 ## Publication
 
-Update the existing GitHub Pages website after the checked feature commit is integrated. Confirm the workflow and public three-way/custom/six-example behavior before completion. No site audience or source-code licence change is part of this update.
+Feature commit `18f5bf29f3ec5e58e5ce0f0204805fadd95834e5` was pushed to main. [GitHub workflow 39097005099](https://github.com/davidsqf/English-IPA-Learning/actions/runs/39097005099) passed clean installation, tests, build and Pages deployment.
+
+On the public [website](https://davidsqf.github.io/English-IPA-Learning/), both WebKit/iPhone and Chrome/Android profiles checked all 44 symbol selections for six words and the single preview word. Both confirmed `/e æ aɪ/` plays **bed → a cat → a bike**, custom `/e æ/` plays both words, rate is 1, source links are exposed, and mobile content does not overflow. Both reported zero failed requests and zero uncaught errors. GitHub main matched the local feature commit. Audio files are unchanged from the prior verified release. No site audience or source-code licence was changed. Final documentation updates do not alter the application or media.
 
 ---
 

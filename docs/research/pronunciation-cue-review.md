@@ -23,6 +23,10 @@ The British Council “Labial” page was **not** used as evidence for lip/teeth
 - Keep traditional `/ɪə eə ʊə/` variants explicit; there is no claim that every British speaker produces a diphthong in these words.
 - Keep tips concise; fuller rationale stays behind the source disclosure.
 
+## Specific correction
+
+The former `/v/` instruction referred to the “first consonant” of *television*, which is `/t/`, not `/v/`. The revised cue describes the labiodental voiced articulation directly; the word transcription highlights medial `/v/`. This avoids directing a beginner to the wrong part of the recording.
+
 ## Example-word policy
 
 Every symbol now has six distinct example words (264 symbol–word entries, 177 distinct words), with original short Chinese glosses and broad British transcriptions. The first word preserves the existing one-word tile preview and recorded example. Additional words link to a Cambridge pronunciation lookup; these are reference links, not a claim that Cambridge supplied local audio or endorsed the selection. Monosyllabic familiar words are preferred. Less frequent examples are necessary for `/ʒ/` and traditional `/ʊə/`; they are not advertised as an A1 list.
