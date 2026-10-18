@@ -10,6 +10,7 @@ Explore a symbol, listen to its example, and compare similar sounds. All recordi
 
 - 44 traditional British English reference symbols: 12 monophthongs, 8 diphthongs and 24 consonants.
 - Source-linked Chinese pronunciation guidance and six example words per symbol, each with a voice button and highlighted target sounds. Tiles keep a single preview word.
+- Real front-view mouth photographs for all 44 symbols, from the licensed UCL MaFI British English corpus, with source-word/frame credit and full-photo links.
 - Clear real-teacher videos for all 44 symbols, with British mouth demonstrations, explicit tongue/lip-placement teaching and source credits.
 - 37 bundled human recordings covering all 44 entries; examples shared by several symbols are intentional.
 - Eleven directly visible recommended comparison choices, including the three-symbol `/e æ aɪ/` group, plus manual comparison of any two distinct symbols. Individual and sequential playback use normal speed.
@@ -53,6 +54,7 @@ The [Test and publish workflow](.github/workflows/pages.yml) tests and builds ch
 | `content/symbol-library.json` | Symbols, Chinese cues, examples and sound mappings |
 | `content/comparisons.json` | Two- and three-symbol presets with source-linked tips |
 | `content/pronunciation-sources.json` | Named references for the Chinese pronunciation guidance |
+| `content/mouth-photos.json`, `src/mouth-photos.ts` | Front-view photographs, word/frame provenance, credits and presentation |
 | `content/articulation.json` | Creator teaching videos, British targets, chapter ranges and embedding provenance |
 | `src/articulation.ts`, `src/teaching-player.ts` | Click-to-load teacher modes, bounded replay, playback coordination and official player API |
 | `content/audio.json` | Per-file sources, authors, licences, transformations and checksums |
@@ -82,3 +84,9 @@ Each symbol has **真人发音讲解**. Vowels use Pronunciation with Emma's Bri
 Teaching videos stream through the original creator-enabled player and require internet/YouTube access. No external player is loaded before a click; videos, thumbnails and subtitles are not copied or rehosted. Starting word audio pauses the lesson, and starting a lesson stops other playback. Navigation, mode/selection changes and backgrounding cancel/pause it. If loading fails, retry or use the original creator link. Existing word recordings remain local and independent of video availability.
 
 The [source audit and all-44 mapping](docs/research/articulation-visuals.md) records 68 creator chapter ranges across seven original videos, including traditional British vowel variants. The old MRI/ultrasound assets and invented animations are removed from the current runtime. [THIRD_PARTY.md](THIRD_PARTY.md) records provider permissions and attribution; no project-wide code licence is selected.
+
+## Front-view mouth photographs
+
+Every symbol also shows **正面口形** above its teaching video. The 44 photographs are full-size frames from the UCL MaFI British English B1 recordings, shared under **CC BY 4.0**. The page magnifies the mouth with CSS; click the picture to see the full, unretouched frame. These are real camera images, with no ultrasound, MRI or generated anatomy. Word context and frame time are disclosed in **图片来源**. A still shows visible lip/jaw shape; it does not reveal voicing, hidden tongue positions or a diphthong's full movement. The existing teacher videos and Chinese cues remain the pronunciation guide.
+
+The small local images work independently of YouTube. [Source selection and all-44 mapping](docs/research/front-mouth-photos.md), [attribution](THIRD_PARTY.md) and the manifest record the exact provenance and transformations. `npm run build` verifies every photo's hash and complete symbol coverage.

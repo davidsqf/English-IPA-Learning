@@ -1,3 +1,28 @@
+# v1.6 real frontal mouth photograph verification
+
+Date: 2026-10-18, Asia/Singapore. Task branch: `work/front-mouth-photos`. Reports below describe earlier versions.
+
+## Requirement and source evidence
+
+The owner requests a **real front-camera mouth image for every symbol alongside the existing YouTube segment**, excluding ultrasound. There are **44 unique local JPEGs** mapped to the unchanged 44-symbol British inventory. They are full camera frames from the UCL MaFI British B1 word recordings, with a CSS mouth enlargement and a link to each full photograph. The existing 68 creator teaching ranges remain intact in both exploration and comparisons.
+
+The [source review and all-44 matrix](../research/front-mouth-photos.md), manifest and `THIRD_PARTY.md` record the repository's explicit still-frame teaching permission under CC BY 4.0, named authors, British B1 speaker context and published photo consent. Source-word/member, timestamp/frame index, original-video hash/CRC and distributed JPEG hash/size/dimensions are traceable. No generated mouth, ultrasound/MRI, American corpus or YouTube screenshot is used. Only selected ZIP members were acquired and checked against their archive-directory CRC; the entire archive is not claimed as hash-verified.
+
+Seven candidate frames per source word were visually inspected, followed by all 44 selected crops. Four early consonant frames were moved to clearer active positions during visual review and inspected again. This is a contextual word-photo selection, not a claim that a still can reveal every internal tongue position/voicing distinction, the whole course of a diphthong or an independently certified isolated phoneme. Those limits, exact word context and existing traditional vowel variation remain explicit.
+
+## Local evidence
+
+- **18 tests pass**. Photo tests cover all 44 mappings, British B1 provenance, safe local-image HTML, accessible full-frame links and attribution, in addition to retained teaching/corpus/comparison/search/speech tests.
+- All 44 shipped JPEG hashes also match a separate extraction by explicit source-frame index, verifying the recorded timestamps/frame provenance.
+- Build passes the **44-photo SHA-256/byte/JPEG-dimension gate**, original 37 recording hashes, unchanged all-44/68 creator-video coverage/provenance, TypeScript and Vite. No dependency was added. Source JPEGs retain their actual 1280×720 or 1920×1080 sizes; the crop uses proportional reference coordinates. `git diff --check` passes.
+- Chrome/Pixel 7 and WebKit/iPhone 15 profiles each select **all 44 entries** and decode the correct photograph with matching native dimensions, source-word alt text, full-photo URL and per-image word/time/CC BY credit. All eleven preset groups map to the expected two/three photos; custom /ʃ θ/ selection also passes. Each engine actually opens and closes an intact full-frame image in its own new tab.
+- Both engines pass **14 width/theme combinations** (320/390/412/768/844/1024/1440 × light/dark), covering the explorer, triple comparison and custom pair, with no horizontal overflow or clipped mouth viewport. Phone screenshots and the complete selected-photo galleries were visually inspected. All images stay local and no external requests/frames occur before lesson activation.
+- Existing-feature regression passes in both engines: **264 word controls** (70 recorded occurrences / 194 strict British device-speech requests), all eleven flat choices/custom pairs, responsive QR, actual host British Daniel speech for *cake/rain/name*, a human recording and the triple recording sequence. Thirteen real video integration checks pass per engine: load-on-click, keyboard mode switching, bounded replay, word/video interruption, exclusive three-panel playback, background pause, navigation/pagehide cleanup, SDK failure/retry and pending-load cancellation. Existing video/word controllers are unchanged by this task.
+
+These are macOS-hosted browser profiles, not physical phones or independent expert phonetics review. The local photo assets work without YouTube; teaching videos retain their internet/provider/advertising limitations. Publication verification follows after deployment.
+
+---
+
 # v1.5 beginner British teacher-video verification
 
 Date: 2026-10-18, Asia/Singapore. Task branch: `work/british-teaching-videos`. Earlier reports below describe superseded releases.
