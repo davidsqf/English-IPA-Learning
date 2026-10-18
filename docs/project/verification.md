@@ -1,3 +1,27 @@
+# v1.5 beginner British teacher-video verification
+
+Date: 2026-10-18, Asia/Singapore. Task branch: `work/british-teaching-videos`. Earlier reports below describe superseded releases.
+
+## Requirement and source audit
+
+The owner rejected MRI as too difficult and asked for clearer British English teaching videos showing a real person's mouth movements and explaining tongue placement. All **44 existing symbols** now have real-teacher demonstration and placement coverage: 20 vowels in Pronunciation with Emma's British vowel lesson, and 24 consonants with separate BBC **口形示范** and Billie English **舌位讲解** modes. The manifest contains **68 original chapter ranges across seven videos**. No phoneme, quiz or review workflow was added.
+
+The [source audit](../research/articulation-visuals.md) records the original creator/channel identities, published chapter lists, placement content, traditional vowel variants, /r/ → [ɹ] and source limitations. All seven creator watch pages reported embedding enabled. Original teacher footage for all 68 mapped ranges was inspected in rendered screenshot galleries: Emma's real mouth/face; BBC frontal/side close-ups; Billie's prominent 2024 presenter and two older presenter-inset placement lessons. The latter retain the separate large-mouth BBC mode. This is source/technical inspection, not independent expert phonetics review, full-length listening or a beginner usability study.
+
+Only official creator-enabled YouTube embedding is used, under the provider's embedding terms. No video, soundtrack, thumbnail or subtitle file is downloaded, modified or rehosted. All 88 superseded MRI/ultrasound files are removed from the current build; their historic licence records remain in Git. Videos require internet/YouTube access; bundled word recordings remain independent.
+
+## Local verification
+
+- **16 tests pass**, including exact all-44 demonstration/placement coverage, critical chapter mappings, traditional variants, source identity/permission, click-to-load HTML and existing word/corpus/comparison/search/speech lifecycle tests.
+- `npm run build` passes all **37 human recording hashes**, all-44 / 68-range provenance and coverage, TypeScript and the production build. No runtime dependency was added. `git diff --check` passes.
+- Installed Chrome/Pixel 7 and WebKit/iPhone 15 profiles exercise **all 68 lesson choices each**: the expected creator ID and published start/end, actual decoded frames with nonzero dimensions, advancing native content time and section stopping. Sixty-six chapter boundaries emit the official ended state in both engines. At two whole-file endings (/h/ placement and BBC /j/), the source ends at 717.6 / 4542.501 seconds while the published integer bounds round upward: the native provider flags differ between engines. Targeted checks verify the final decoded frame/time stops and remains frozen rather than advancing beyond the lesson; these are recorded distinctly, not claimed as native `ended` events in WebKit.
+- Both engines exercise all **264 word controls**: 70 correctly mapped human-recording occurrences and 194 explicitly British (`en-GB`) speech requests at normal speed. Actual *cake*, *rain*, *name* speech emits start/end with host British Daniel; a bundled human recording and the three-symbol sequence finish. All eleven flat choices, custom pairs, responsive QR disclosure, Chinese IME, exact IPA/additional-word search, keyboard mode selection and persisted theme pass.
+- Teacher layout checks cover **56 cases per engine**: 320/390/412/768/844/1024/1440 CSS pixels × both themes × two explorer entries/two comparison configurations. No horizontal overflow remains and the video area stays at least 200×200. A Safari aspect-ratio minimum-size overflow was found and fixed with explicit width/min-width constraints; narrow desktop comparison columns now stack. Source disclosures and two-mode controls remain readable. Phone screenshots were visually inspected.
+
+Both engines also pass 13 integration checks: no remote player requests before a click, keyboard mode replacement, selected-range replay, recorded/synthesized word interruption, teacher playback cancelling device speech, simulated background pause, exclusive three-panel playback, comparison-sequence interruption, navigation cleanup, deliberately blocked SDK recovery with independent word playback, cancellation while the SDK is held pending, and pagehide cleanup. No uncaught application exceptions were reported. The public release audit follows after deployment. Desktop-hosted mobile profiles use host voices; they are not physical phone tests. YouTube may display ads, consent prompts, unavailable captions or regional restrictions; provider diagnostics are separate from application exceptions. A truthful retry/original-creator route remains available.
+
+---
+
 # v1.4 published articulation media verification
 
 Date: 2026-10-18, Asia/Singapore. Task branch: `work/published-articulation-media`. Earlier reports below are historical and describe the previous original SVG implementation and earlier features.

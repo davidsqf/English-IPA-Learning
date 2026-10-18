@@ -1,1310 +1,1291 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "sources": {
-    "dynamic-dialects": {
-      "title": "Dynamic Dialects",
-      "creators": "Lawson, E.; Stuart-Smith, J.; Scobbie, J. M.; Nakai, S. (2018)",
-      "institution": "University of Glasgow",
-      "licenseId": "CC-BY-NC-ND-4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
-      "licensePageUrl": "https://www.dynamicdialects.ac.uk/",
-      "restrictions": "Unchanged, non-commercial redistribution with attribution. No AI training, machine learning or automated transformation without written consent."
+    "bbc-sounds": {
+      "videoId": "QxQUapA-2w4",
+      "title": "BOX SET: The complete guide to English Pronunciation 👄 Learn ALL 44 sounds of English in 75 minutes!",
+      "creator": "BBC Learning English",
+      "channelId": "UCHaHD477h-FeBbVh9Sh7syA",
+      "durationSeconds": 4543,
+      "published": "2020-11-01T02:00:06-08:00",
+      "captions": [],
+      "embedAllowed": true,
+      "url": "https://www.youtube.com/watch?v=QxQUapA-2w4",
+      "referenceUrl": "https://www.youtube.com/watch?v=QxQUapA-2w4",
+      "accessed": "2026-10-18",
+      "use": "official-youtube-embed",
+      "permissionUrl": "https://www.youtube.com/t/terms",
+      "rangeBasis": "creator-published chapter timestamps"
     },
-    "seeing-speech": {
-      "title": "Seeing Speech",
-      "creators": "Lawson, E.; Stuart-Smith, J.; Scobbie, J. M.; Nakai, S. (2018)",
-      "institution": "University of Glasgow",
-      "licenseId": "CC-BY-NC-ND-4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
-      "licensePageUrl": "https://www.seeingspeech.ac.uk/",
-      "restrictions": "Unchanged, non-commercial redistribution with attribution. No AI training, machine learning or automated transformation without written consent."
+    "emma-vowels": {
+      "videoId": "jUHuHVysCxs",
+      "title": "How to Pronounce ALL Vowel Sounds in British English (+ Vowel Comparisons)",
+      "creator": "Pronunciation with Emma",
+      "channelId": "UCNfm92h83W2i2ijc5Xwp_IA",
+      "durationSeconds": 2269,
+      "published": "2024-06-07T06:00:53-07:00",
+      "captions": [
+        {
+          "language": "en",
+          "kind": "manual"
+        },
+        {
+          "language": "en",
+          "kind": "asr"
+        }
+      ],
+      "embedAllowed": true,
+      "url": "https://www.youtube.com/watch?v=jUHuHVysCxs",
+      "referenceUrl": "https://pronunciationwithemma.com/phonemic-chart/",
+      "accessed": "2026-10-18",
+      "use": "official-youtube-embed",
+      "permissionUrl": "https://www.youtube.com/t/terms",
+      "rangeBasis": "creator-published chapter timestamps"
     },
-    "star": {
-      "title": "STAR — Non-disordered Speech Database",
-      "creators": "Lawson, E.; Cleland, J.; Stuart-Smith, J. (2023)",
-      "institution": "University of Glasgow",
-      "licenseId": "CC-BY-NC-ND-4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
-      "licensePageUrl": "https://www.seeingspeech.ac.uk/speechstar/",
-      "restrictions": "Unchanged, non-commercial redistribution with attribution. No AI training, machine learning or automated transformation without written consent."
+    "billie-plosives": {
+      "videoId": "uSWIxmNY1nM",
+      "title": "Place of Articulation for PLOSIVES | Consonant Sounds in English - Phonology",
+      "creator": "Billie English",
+      "channelId": "UCD7ttge27UvBGXzTMQr2Zqg",
+      "durationSeconds": 282,
+      "published": "2024-06-21T06:00:07-07:00",
+      "captions": [
+        {
+          "language": "en",
+          "kind": "asr"
+        }
+      ],
+      "embedAllowed": true,
+      "url": "https://www.youtube.com/watch?v=uSWIxmNY1nM",
+      "referenceUrl": "https://billie-english.com/2024/06/21/place-of-articulation-for-plosives-in-english/",
+      "accessed": "2026-10-18",
+      "use": "official-youtube-embed",
+      "permissionUrl": "https://www.youtube.com/t/terms",
+      "rangeBasis": "creator-published chapter timestamps"
+    },
+    "billie-fricatives": {
+      "videoId": "kF4uH0vWmt8",
+      "title": "Place of Articulation for FRICATIVES | Consonants in English Phonology",
+      "creator": "Billie English",
+      "channelId": "UCD7ttge27UvBGXzTMQr2Zqg",
+      "durationSeconds": 718,
+      "published": "2024-07-05T05:07:47-07:00",
+      "captions": [
+        {
+          "language": "en",
+          "kind": "asr"
+        }
+      ],
+      "embedAllowed": true,
+      "url": "https://www.youtube.com/watch?v=kF4uH0vWmt8",
+      "referenceUrl": "https://billie-english.com/2024/07/05/place-of-articulation-for-fricatives-in-english/",
+      "accessed": "2026-10-18",
+      "use": "official-youtube-embed",
+      "permissionUrl": "https://www.youtube.com/t/terms",
+      "rangeBasis": "creator-published chapter timestamps"
+    },
+    "billie-nasals": {
+      "videoId": "cSJhREF63ss",
+      "title": "Place of Articulation for NASALS | Consonants in English Phonology",
+      "creator": "Billie English",
+      "channelId": "UCD7ttge27UvBGXzTMQr2Zqg",
+      "durationSeconds": 402,
+      "published": "2024-07-30T05:00:07-07:00",
+      "captions": [
+        {
+          "language": "en",
+          "kind": "asr"
+        }
+      ],
+      "embedAllowed": true,
+      "url": "https://www.youtube.com/watch?v=cSJhREF63ss",
+      "referenceUrl": "https://billie-english.com/2024/07/30/understanding-the-articulation-of-english-nasal-consonants/",
+      "accessed": "2026-10-18",
+      "use": "official-youtube-embed",
+      "permissionUrl": "https://www.youtube.com/t/terms",
+      "rangeBasis": "creator-published chapter timestamps"
+    },
+    "billie-affricates": {
+      "videoId": "S0tk49Ml1lc",
+      "title": "The 2 Affricate Sounds | tʃ & dʒ | English Pronunciation",
+      "creator": "Billie English",
+      "channelId": "UCD7ttge27UvBGXzTMQr2Zqg",
+      "durationSeconds": 621,
+      "published": "2021-06-17T08:30:26-07:00",
+      "captions": [
+        {
+          "language": "en",
+          "kind": "asr"
+        }
+      ],
+      "embedAllowed": true,
+      "url": "https://www.youtube.com/watch?v=S0tk49Ml1lc",
+      "referenceUrl": "https://billie-english.com/2024/01/22/the-2-affricate-sounds-t%CA%83-d%CA%92/",
+      "accessed": "2026-10-18",
+      "use": "official-youtube-embed",
+      "permissionUrl": "https://www.youtube.com/t/terms",
+      "rangeBasis": "creator-published chapter timestamps"
+    },
+    "billie-approximants": {
+      "videoId": "b7eJdwWyg0E",
+      "title": "Approximant Sounds | r l w & j | Consonants | English Pronunciation",
+      "creator": "Billie English",
+      "channelId": "UCD7ttge27UvBGXzTMQr2Zqg",
+      "durationSeconds": 1180,
+      "published": "2021-07-01T09:30:13-07:00",
+      "captions": [
+        {
+          "language": "en",
+          "kind": "asr"
+        }
+      ],
+      "embedAllowed": true,
+      "url": "https://www.youtube.com/watch?v=b7eJdwWyg0E",
+      "referenceUrl": "https://billie-english.com/2024/01/22/approximant-sounds-r-l-w-j/",
+      "accessed": "2026-10-18",
+      "use": "official-youtube-embed",
+      "permissionUrl": "https://www.youtube.com/t/terms",
+      "rangeBasis": "creator-published chapter timestamps"
     }
   },
   "entries": [
     {
       "symbolId": "vowel-fleece",
       "ipa": "iː",
-      "sourceId": "dynamic-dialects",
-      "word": "fleece",
-      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
-      "label": "fleece · 英格兰南安普敦",
-      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
-      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_FLEECE.mp4",
-      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_FLEECE.png",
-      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_FLEECE&name=fleece",
-      "path": "articulation/dd-southampton-fleece.mp4",
-      "poster": "articulation/dd-southampton-fleece.png",
-      "institution": "University of Glasgow",
-      "modality": "超声实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "584331f7393cfb37986be7121f50d754c5c6a55b5919fbb32e451916d685c79a",
-      "bytes": 742072,
-      "posterSha256": "6aef8d84a4dd5945bbc6e32b17edf26adbd83c3b67790e67243df5a1c48f308e",
-      "posterBytes": 30726,
-      "durationSeconds": 3.482993,
-      "width": 512,
-      "height": 276,
-      "frameRate": "132300/4159",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "emma-vowels",
+          "label": "口形与舌位",
+          "purpose": "demonstration-and-placement",
+          "startSeconds": 160,
+          "endSeconds": 224,
+          "targets": [
+            "iː"
+          ],
+          "placementSummary": "教师用嘴唇、下颌与舌位提示讲解，并给出真人发音。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "vowel-kit",
       "ipa": "ɪ",
-      "sourceId": "dynamic-dialects",
-      "word": "kit",
-      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
-      "label": "kit · 英格兰南安普敦",
-      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
-      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_KIT.mp4",
-      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_KIT.png",
-      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_KIT&name=kit",
-      "path": "articulation/dd-southampton-kit.mp4",
-      "poster": "articulation/dd-southampton-kit.png",
-      "institution": "University of Glasgow",
-      "modality": "超声实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "cd16f4abadf9f57643f553fc319fa39b33cb4f40e41134952e111e92adc761b0",
-      "bytes": 1064588,
-      "posterSha256": "b93bcb00cf191164a18ca5c9410adfb34647d0669082840eb3c37b049dfcb547",
-      "posterBytes": 30402,
-      "durationSeconds": 5.665669,
-      "width": 512,
-      "height": 276,
-      "frameRate": "1242150/41137",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "emma-vowels",
+          "label": "口形与舌位",
+          "purpose": "demonstration-and-placement",
+          "startSeconds": 224,
+          "endSeconds": 282,
+          "targets": [
+            "ɪ"
+          ],
+          "placementSummary": "教师用嘴唇、下颌与舌位提示讲解，并给出真人发音。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "vowel-dress",
       "ipa": "e",
-      "sourceId": "dynamic-dialects",
-      "word": "dress",
-      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
-      "label": "dress · 英格兰南安普敦",
-      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
-      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_DRESS.mp4",
-      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_DRESS.png",
-      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_DRESS&name=dress",
-      "path": "articulation/dd-southampton-dress.mp4",
-      "poster": "articulation/dd-southampton-dress.png",
-      "institution": "University of Glasgow",
-      "modality": "超声实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "858ac9472d11b4d81667cf3e9c3af6755bf1a9785342afaed1a99451a6df1eae",
-      "bytes": 1069797,
-      "posterSha256": "a0b53c88b8fe617baa198e570d3e83d42c9ae56d2969a3e859a2907e6b7d4bc1",
-      "posterBytes": 29808,
-      "durationSeconds": 5.665669,
-      "width": 512,
-      "height": 276,
-      "frameRate": "12110/391",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "emma-vowels",
+          "label": "口形与舌位",
+          "purpose": "demonstration-and-placement",
+          "startSeconds": 557,
+          "endSeconds": 582,
+          "targets": [
+            "e"
+          ],
+          "placementSummary": "教师用嘴唇、下颌与舌位提示讲解，并给出真人发音。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "vowel-trap",
       "ipa": "æ",
-      "sourceId": "dynamic-dialects",
-      "word": "trap",
-      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
-      "label": "trap · 英格兰南安普敦",
-      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
-      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_TRAP.mp4",
-      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_TRAP.png",
-      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_TRAP&name=trap",
-      "path": "articulation/dd-southampton-trap.mp4",
-      "poster": "articulation/dd-southampton-trap.png",
-      "institution": "University of Glasgow",
-      "modality": "超声实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "0d3fd3200853b084cb3259d0d640c8a9b1942755cfb0b99ffceeac9337c0c438",
-      "bytes": 847298,
-      "posterSha256": "3df0cdd82d2557cbe648cc85d9eb8a42d8594acea7abb768f964ca6687157d2e",
-      "posterBytes": 29724,
-      "durationSeconds": 4.318912,
-      "width": 512,
-      "height": 276,
-      "frameRate": "970200/31111",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "emma-vowels",
+          "label": "口形与舌位",
+          "purpose": "demonstration-and-placement",
+          "startSeconds": 712,
+          "endSeconds": 763,
+          "targets": [
+            "æ"
+          ],
+          "placementSummary": "教师用嘴唇、下颌与舌位提示讲解，并给出真人发音。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "vowel-palm",
       "ipa": "ɑː",
-      "sourceId": "dynamic-dialects",
-      "word": "palm",
-      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
-      "label": "palm · 英格兰南安普敦",
-      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
-      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_PALM.mp4",
-      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_PALM.png",
-      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_PALM&name=palm",
-      "path": "articulation/dd-southampton-palm.mp4",
-      "poster": "articulation/dd-southampton-palm.png",
-      "institution": "University of Glasgow",
-      "modality": "超声实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "55659f753888dfaf789dbc6f00f7ee50e6fadf4c76ad5a88a32b2fbe243dd60d",
-      "bytes": 804115,
-      "posterSha256": "0c0d9a710e676aa89309536f100248677ba47108062e8705c8342c049dcb6b26",
-      "posterBytes": 30361,
-      "durationSeconds": 3.622313,
-      "width": 512,
-      "height": 276,
-      "frameRate": "279300/8653",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "emma-vowels",
+          "label": "口形与舌位",
+          "purpose": "demonstration-and-placement",
+          "startSeconds": 829,
+          "endSeconds": 888,
+          "targets": [
+            "ɑː"
+          ],
+          "placementSummary": "教师用嘴唇、下颌与舌位提示讲解，并给出真人发音。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "vowel-lot",
       "ipa": "ɒ",
-      "sourceId": "dynamic-dialects",
-      "word": "lot",
-      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
-      "label": "lot · 英格兰南安普敦",
-      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
-      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_LOT.mp4",
-      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_LOT.png",
-      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_LOT&name=lot",
-      "path": "articulation/dd-southampton-lot.mp4",
-      "poster": "articulation/dd-southampton-lot.png",
-      "institution": "University of Glasgow",
-      "modality": "超声实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "06f447e3eee077c45c4482778a8ee02064195a61265d737332cee764d616394d",
-      "bytes": 1187934,
-      "posterSha256": "cd6238c54029daaf3050f605c6855d43150d8abbc1ae4f75b5c7c30c74cf2000",
-      "posterBytes": 30762,
-      "durationSeconds": 5.712109,
-      "width": 512,
-      "height": 276,
-      "frameRate": "93975/2953",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "emma-vowels",
+          "label": "口形与舌位",
+          "purpose": "demonstration-and-placement",
+          "startSeconds": 888,
+          "endSeconds": 906,
+          "targets": [
+            "ɒ"
+          ],
+          "placementSummary": "教师用嘴唇、下颌与舌位提示讲解，并给出真人发音。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "vowel-thought",
       "ipa": "ɔː",
-      "sourceId": "dynamic-dialects",
-      "word": "thought",
-      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
-      "label": "thought · 英格兰南安普敦",
-      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
-      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_THOUGHT.mp4",
-      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_THOUGHT.png",
-      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_THOUGHT&name=thought",
-      "path": "articulation/dd-southampton-thought.mp4",
-      "poster": "articulation/dd-southampton-thought.png",
-      "institution": "University of Glasgow",
-      "modality": "超声实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "a6b9f048a4144919a2f6e03db9e8b4a2bdd8bb14f84aeba85bd14da74c1ea14e",
-      "bytes": 1372097,
-      "posterSha256": "6803b7d22184c7a1d5b0a460915b662e61c38959fa5b634b7e495e08c0655165",
-      "posterBytes": 29992,
-      "durationSeconds": 7.105306,
-      "width": 512,
-      "height": 276,
-      "frameRate": "223650/7409",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "emma-vowels",
+          "label": "口形与舌位",
+          "purpose": "demonstration-and-placement",
+          "startSeconds": 666,
+          "endSeconds": 712,
+          "targets": [
+            "ɔː"
+          ],
+          "placementSummary": "教师用嘴唇、下颌与舌位提示讲解，并给出真人发音。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "vowel-foot",
       "ipa": "ʊ",
-      "sourceId": "dynamic-dialects",
-      "word": "foot",
-      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
-      "label": "foot · 英格兰南安普敦",
-      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
-      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_FOOT.mp4",
-      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_FOOT.png",
-      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_FOOT&name=foot",
-      "path": "articulation/dd-southampton-foot.mp4",
-      "poster": "articulation/dd-southampton-foot.png",
-      "institution": "University of Glasgow",
-      "modality": "超声实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "a55e0f8ec702c8fa4f8a02c3f8975c28ec96c7e9a8e3a1cb496e209b951d6529",
-      "bytes": 1139182,
-      "posterSha256": "eb27a3755ca0ce029ae8db1e99880708b6d3a1c19164e95564404d0974031bad",
-      "posterBytes": 29818,
-      "durationSeconds": 5.665669,
-      "width": 512,
-      "height": 276,
-      "frameRate": "428750/13767",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "emma-vowels",
+          "label": "口形与舌位",
+          "purpose": "demonstration-and-placement",
+          "startSeconds": 401,
+          "endSeconds": 476,
+          "targets": [
+            "ʊ"
+          ],
+          "placementSummary": "教师用嘴唇、下颌与舌位提示讲解，并给出真人发音。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "vowel-goose",
       "ipa": "uː",
-      "sourceId": "dynamic-dialects",
-      "word": "goose",
-      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
-      "label": "goose · 英格兰南安普敦",
-      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
-      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_GOOSE.mp4",
-      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_GOOSE.png",
-      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_GOOSE&name=goose",
-      "path": "articulation/dd-southampton-goose.mp4",
-      "poster": "articulation/dd-southampton-goose.png",
-      "institution": "University of Glasgow",
-      "modality": "超声实拍",
-      "variantNote": "现代英式 /uː/ 常有舌位前移，实拍保留说话人的实际发音。",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "97b991b0f3f23e972ea5cf84fb6036907a3995780609e613ae7f7a1433dc24f9",
-      "bytes": 1084259,
-      "posterSha256": "911e20f5f8b3549a1f75b7d87f05a3b0ce4ac3e5e83090768c51b3fa3c216b65",
-      "posterBytes": 26853,
-      "durationSeconds": 5.619229,
-      "width": 512,
-      "height": 276,
-      "frameRate": "211925/6822",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "variantNote": "",
+      "lessons": [
+        {
+          "sourceId": "emma-vowels",
+          "label": "口形与舌位",
+          "purpose": "demonstration-and-placement",
+          "startSeconds": 476,
+          "endSeconds": 557,
+          "targets": [
+            "uː"
+          ],
+          "placementSummary": "教师用嘴唇、下颌与舌位提示讲解，并给出真人发音。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "vowel-strut",
       "ipa": "ʌ",
-      "sourceId": "dynamic-dialects",
-      "word": "strut",
-      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
-      "label": "strut · 英格兰南安普敦",
-      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
-      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_STRUT.mp4",
-      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_STRUT.png",
-      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_STRUT&name=strut",
-      "path": "articulation/dd-southampton-strut.mp4",
-      "poster": "articulation/dd-southampton-strut.png",
-      "institution": "University of Glasgow",
-      "modality": "超声实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "e6c9957ef7ec35f331213d87ccaf2785a74be6d125668ed807c3133c742c12ad",
-      "bytes": 1175891,
-      "posterSha256": "6363564153cf7ed6c8c3d299f8c6a1c2dc6608034952fb8a2c03ec67614db582",
-      "posterBytes": 30068,
-      "durationSeconds": 5.851429,
-      "width": 512,
-      "height": 276,
-      "frameRate": "1315650/42407",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "emma-vowels",
+          "label": "口形与舌位",
+          "purpose": "demonstration-and-placement",
+          "startSeconds": 763,
+          "endSeconds": 829,
+          "targets": [
+            "ʌ"
+          ],
+          "placementSummary": "教师用嘴唇、下颌与舌位提示讲解，并给出真人发音。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "vowel-nurse",
       "ipa": "ɜː",
-      "sourceId": "dynamic-dialects",
-      "word": "nurse",
-      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
-      "label": "nurse · 英格兰南安普敦",
-      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
-      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_NURSE.mp4",
-      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_NURSE.png",
-      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_NURSE&name=nurse",
-      "path": "articulation/dd-southampton-nurse.mp4",
-      "poster": "articulation/dd-southampton-nurse.png",
-      "institution": "University of Glasgow",
-      "modality": "超声实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "09a7d74a1fd620e2d992dd6f892c6ad20809e2d6a44bd1a5036a1307e5d6300c",
-      "bytes": 1144875,
-      "posterSha256": "3f346efb3d0a20b255c87a7abcd63f491ebc9f80ff616e1caa1c2629a762fca5",
-      "posterBytes": 31516,
-      "durationSeconds": 5.712109,
-      "width": 512,
-      "height": 276,
-      "frameRate": "414050/13781",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "emma-vowels",
+          "label": "口形与舌位",
+          "purpose": "demonstration-and-placement",
+          "startSeconds": 630,
+          "endSeconds": 666,
+          "targets": [
+            "ɜː"
+          ],
+          "placementSummary": "教师用嘴唇、下颌与舌位提示讲解，并给出真人发音。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "vowel-schwa",
       "ipa": "ə",
-      "sourceId": "dynamic-dialects",
-      "word": "later",
-      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
-      "label": "later · 英格兰南安普敦",
-      "context": "观察 later 词尾的弱读元音；右侧小窗显示嘴唇。",
-      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_LATER.mp4",
-      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_LATER.png",
-      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_LATER&name=later",
-      "path": "articulation/dd-southampton-later.mp4",
-      "poster": "articulation/dd-southampton-later.png",
-      "institution": "University of Glasgow",
-      "modality": "超声实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "63a9e7464ddf919d813429917796dc1720efe64115db6119b586d466832a9457",
-      "bytes": 1409865,
-      "posterSha256": "ba0bcc05dbba59a22811e8b921807a4c90b16f855abbbda9df2eb0084949294d",
-      "posterBytes": 30079,
-      "durationSeconds": 7.058866,
-      "width": 512,
-      "height": 276,
-      "frameRate": "36925/1226",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "emma-vowels",
+          "label": "口形与舌位",
+          "purpose": "demonstration-and-placement",
+          "startSeconds": 582,
+          "endSeconds": 630,
+          "targets": [
+            "ə"
+          ],
+          "placementSummary": "教师用嘴唇、下颌与舌位提示讲解，并给出真人发音。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "vowel-face",
       "ipa": "eɪ",
-      "sourceId": "dynamic-dialects",
-      "word": "face",
-      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
-      "label": "face · 英格兰南安普敦",
-      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
-      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_FACE.mp4",
-      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_FACE.png",
-      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_FACE&name=face",
-      "path": "articulation/dd-southampton-face.mp4",
-      "poster": "articulation/dd-southampton-face.png",
-      "institution": "University of Glasgow",
-      "modality": "超声实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "27c861605d4a7f6e6b45fc2d642876cd667c4fd1d3e71a6373e0b1ec8ff5d315",
-      "bytes": 1089052,
-      "posterSha256": "6ad627ec8405bc0cd3e25d8725f1a9ff47e824d7d5f65e29a749cd4fc13c0775",
-      "posterBytes": 30473,
-      "durationSeconds": 5.479909,
-      "width": 512,
-      "height": 276,
-      "frameRate": "137200/4421",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "emma-vowels",
+          "label": "口形与舌位",
+          "purpose": "demonstration-and-placement",
+          "startSeconds": 930,
+          "endSeconds": 950,
+          "targets": [
+            "eɪ"
+          ],
+          "placementSummary": "教师用嘴唇、下颌与舌位提示讲解，并给出真人发音。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "vowel-price",
       "ipa": "aɪ",
-      "sourceId": "dynamic-dialects",
-      "word": "price",
-      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
-      "label": "price · 英格兰南安普敦",
-      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
-      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_PRICE.mp4",
-      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_PRICE.png",
-      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_PRICE&name=price",
-      "path": "articulation/dd-southampton-price.mp4",
-      "poster": "articulation/dd-southampton-price.png",
-      "institution": "University of Glasgow",
-      "modality": "超声实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "414e72f0973f8ffd39ae89e4a1fad3d24982f7f3138d7208f563f4510e2c6cf1",
-      "bytes": 1062002,
-      "posterSha256": "d5e3530c7c7314cccf4bda1424f4ca4cec8e36756de2623f5b450562d9c4aeca",
-      "posterBytes": 31154,
-      "durationSeconds": 5.29415,
-      "width": 512,
-      "height": 276,
-      "frameRate": "4725/152",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "emma-vowels",
+          "label": "口形与舌位",
+          "purpose": "demonstration-and-placement",
+          "startSeconds": 950,
+          "endSeconds": 967,
+          "targets": [
+            "aɪ"
+          ],
+          "placementSummary": "教师用嘴唇、下颌与舌位提示讲解，并给出真人发音。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "vowel-choice",
       "ipa": "ɔɪ",
-      "sourceId": "dynamic-dialects",
-      "word": "choice",
-      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
-      "label": "choice · 英格兰南安普敦",
-      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
-      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_CHOICE.mp4",
-      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_CHOICE.png",
-      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_CHOICE&name=choice",
-      "path": "articulation/dd-southampton-choice.mp4",
-      "poster": "articulation/dd-southampton-choice.png",
-      "institution": "University of Glasgow",
-      "modality": "超声实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "8f99a5abf65c74d54acfa0802fcc2bf885eeb031291bce56785547f00257e38f",
-      "bytes": 813350,
-      "posterSha256": "bad8ff06ee6e5ed3cd7e9d6fd3d01bb9072968317b26036a0ca92ce6bfef6dd3",
-      "posterBytes": 29402,
-      "durationSeconds": 3.947392,
-      "width": 512,
-      "height": 276,
-      "frameRate": "21875/676",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "emma-vowels",
+          "label": "口形与舌位",
+          "purpose": "demonstration-and-placement",
+          "startSeconds": 967,
+          "endSeconds": 994,
+          "targets": [
+            "ɔɪ"
+          ],
+          "placementSummary": "教师用嘴唇、下颌与舌位提示讲解，并给出真人发音。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "vowel-goat",
       "ipa": "əʊ",
-      "sourceId": "dynamic-dialects",
-      "word": "goat",
-      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
-      "label": "goat · 英格兰南安普敦",
-      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
-      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_GOAT.mp4",
-      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_GOAT.png",
-      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_GOAT&name=goat",
-      "path": "articulation/dd-southampton-goat.mp4",
-      "poster": "articulation/dd-southampton-goat.png",
-      "institution": "University of Glasgow",
-      "modality": "超声实拍",
-      "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "e32192de6f011d1765a4727e669671bc6b3e130736ba389468fd5860cf178a91",
-      "bytes": 1075070,
-      "posterSha256": "1509e186ea361c36ead68d4a6a51b7d649beedc560bdf7d30e577bf3d42dd708",
-      "posterBytes": 29922,
-      "durationSeconds": 5.20127,
-      "width": 512,
-      "height": 276,
-      "frameRate": "396900/12563",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "variantNote": "本段也对照 /oʊ/；本站目标保留英式词典写法 /əʊ/。",
+      "lessons": [
+        {
+          "sourceId": "emma-vowels",
+          "label": "口形与舌位",
+          "purpose": "demonstration-and-placement",
+          "startSeconds": 1020,
+          "endSeconds": 1113,
+          "targets": [
+            "əʊ"
+          ],
+          "placementSummary": "教师用嘴唇、下颌与舌位提示讲解，并给出真人发音。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "vowel-mouth",
       "ipa": "aʊ",
-      "sourceId": "dynamic-dialects",
-      "word": "mouth",
-      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
-      "label": "mouth · 英格兰南安普敦",
-      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
-      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_MOUTH.mp4",
-      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_MOUTH.png",
-      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_MOUTH&name=mouth",
-      "path": "articulation/dd-southampton-mouth.mp4",
-      "poster": "articulation/dd-southampton-mouth.png",
-      "institution": "University of Glasgow",
-      "modality": "超声实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "4eb82d95d5653d44f88d535e58da14518aac0563edc49638868630f3f53aac93",
-      "bytes": 975541,
-      "posterSha256": "1a6f87b34bdd19ac56bc2ae5d5325c5612cba1e28e012af5d4bcd9b1f19972f8",
-      "posterBytes": 32182,
-      "durationSeconds": 4.365351,
-      "width": 512,
-      "height": 276,
-      "frameRate": "488775/15817",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "emma-vowels",
+          "label": "口形与舌位",
+          "purpose": "demonstration-and-placement",
+          "startSeconds": 994,
+          "endSeconds": 1020,
+          "targets": [
+            "aʊ"
+          ],
+          "placementSummary": "教师用嘴唇、下颌与舌位提示讲解，并给出真人发音。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "vowel-near",
       "ipa": "ɪə",
-      "sourceId": "dynamic-dialects",
-      "word": "near",
-      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
-      "label": "near · 英格兰南安普敦",
-      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
-      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_NEAR.mp4",
-      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_NEAR.png",
-      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_NEAR&name=near",
-      "path": "articulation/dd-southampton-near.mp4",
-      "poster": "articulation/dd-southampton-near.png",
-      "institution": "University of Glasgow",
-      "modality": "超声实拍",
-      "variantNote": "本站使用传统词典符号；此实拍是该词的当地口音，可能出现单元音化等现代变体。",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "6ad908aca4905ec021782b0e171fe1b4a1884eb953f8e44bb2b498241b1cb73a",
-      "bytes": 1288178,
-      "posterSha256": "07c11e83fa6749d8e2c33e108debed377fd8980c8b85047fb83d4b3efb25d4a7",
-      "posterBytes": 31723,
-      "durationSeconds": 6.315828,
-      "width": 512,
-      "height": 276,
-      "frameRate": "245/8",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "variantNote": "保留传统英式词典符号；讲解中也说明现代英音变体。",
+      "lessons": [
+        {
+          "sourceId": "emma-vowels",
+          "label": "口形与舌位",
+          "purpose": "demonstration-and-placement",
+          "startSeconds": 1113,
+          "endSeconds": 1133,
+          "targets": [
+            "ɪə"
+          ],
+          "placementSummary": "教师用嘴唇、下颌与舌位提示讲解，并给出真人发音。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "vowel-square",
       "ipa": "eə",
-      "sourceId": "dynamic-dialects",
-      "word": "square",
-      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
-      "label": "square · 英格兰南安普敦",
-      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
-      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_SQUARE.mp4",
-      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_SQUARE.png",
-      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_SQUARE&name=square",
-      "path": "articulation/dd-southampton-square.mp4",
-      "poster": "articulation/dd-southampton-square.png",
-      "institution": "University of Glasgow",
-      "modality": "超声实拍",
-      "variantNote": "本站使用传统词典符号；此实拍是该词的当地口音，可能出现单元音化等现代变体。",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "a204aad35e7074649fc237a0547a07e10f471efe430de7c3fdd7ed849c412784",
-      "bytes": 1002283,
-      "posterSha256": "fa94fcb747d94b72cb3fe9311954081b9ac42c550d05b774a2431095baf73026",
-      "posterBytes": 30353,
-      "durationSeconds": 5.06195,
-      "width": 512,
-      "height": 276,
-      "frameRate": "377300/12189",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "variantNote": "保留传统英式词典符号；讲解中也说明现代英音变体。",
+      "lessons": [
+        {
+          "sourceId": "emma-vowels",
+          "label": "口形与舌位",
+          "purpose": "demonstration-and-placement",
+          "startSeconds": 1133,
+          "endSeconds": 1190,
+          "targets": [
+            "eə"
+          ],
+          "placementSummary": "教师用嘴唇、下颌与舌位提示讲解，并给出真人发音。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "vowel-cure",
       "ipa": "ʊə",
-      "sourceId": "dynamic-dialects",
-      "word": "cure",
-      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
-      "label": "cure · 英格兰南安普敦",
-      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
-      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_CURE.mp4",
-      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_CURE.png",
-      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_CURE&name=cure",
-      "path": "articulation/dd-southampton-cure.mp4",
-      "poster": "articulation/dd-southampton-cure.png",
-      "institution": "University of Glasgow",
-      "modality": "超声实拍",
-      "variantNote": "本站使用传统词典符号；此实拍是该词的当地口音，可能出现单元音化等现代变体。",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "551426e6347071ea8fd2cf282b010f513bd15e2d9e3d6e6c7f1ea628db292533",
-      "bytes": 773800,
-      "posterSha256": "30bd180c75d8a0da5cd1be84b8f235647f34835dfddcda8953ee96ba2f41fd3d",
-      "posterBytes": 31076,
-      "durationSeconds": 3.668753,
-      "width": 512,
-      "height": 276,
-      "frameRate": "845250/26329",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "variantNote": "保留传统英式词典符号；讲解中也说明现代英音变体。",
+      "lessons": [
+        {
+          "sourceId": "emma-vowels",
+          "label": "口形与舌位",
+          "purpose": "demonstration-and-placement",
+          "startSeconds": 1190,
+          "endSeconds": 1268,
+          "targets": [
+            "ʊə"
+          ],
+          "placementSummary": "教师用嘴唇、下颌与舌位提示讲解，并给出真人发音。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "consonant-p",
       "ipa": "p",
-      "sourceId": "seeing-speech",
-      "word": "",
-      "speaker": "Janet Beck",
-      "label": "Janet Beck · 国际音标示范",
-      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
-      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_bilabial_plosive_overdubbed.mp4",
-      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_bilabial_plosive_overdubbed.png",
-      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=112",
-      "path": "articulation/ss-mri2-1.mp4",
-      "poster": "articulation/ss-mri2-1.png",
-      "institution": "University of Strathclyde (MRI 2, 2022)",
-      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "557e92c929c4e9980f4bb51ad021cf974a7ea1eaeccc9bcd519aa0dce971389d",
-      "bytes": 266107,
-      "posterSha256": "3b67843c486ec637ae2a94560534e2e245141013dbf30e2e16f5d230b36a638f",
-      "posterBytes": 74596,
-      "durationSeconds": 8.661333,
-      "width": 320,
-      "height": 320,
-      "frameRate": "10/1",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "bbc-sounds",
+          "label": "口形示范",
+          "purpose": "mouth-demonstration",
+          "startSeconds": 1723,
+          "endSeconds": 1860,
+          "targets": [
+            "p"
+          ],
+          "placementSummary": "BBC 英式英语教师的口形与发音示范。",
+          "rangeBasis": "creator-chapters"
+        },
+        {
+          "sourceId": "billie-plosives",
+          "label": "舌位讲解",
+          "purpose": "placement-explanation",
+          "startSeconds": 0,
+          "endSeconds": 92,
+          "targets": [
+            "p",
+            "b"
+          ],
+          "placementSummary": "讲解双唇闭合后释放，并示范清浊区别。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "consonant-b",
       "ipa": "b",
-      "sourceId": "seeing-speech",
-      "word": "",
-      "speaker": "Janet Beck",
-      "label": "Janet Beck · 国际音标示范",
-      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
-      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_bilabial_plosive.mp4",
-      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_bilabial_plosive.png",
-      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=98",
-      "path": "articulation/ss-mri2-2.mp4",
-      "poster": "articulation/ss-mri2-2.png",
-      "institution": "University of Strathclyde (MRI 2, 2022)",
-      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "ab49cf0f84e99ff82d640f9d5a33c59a9ff0d8fc9a81b1457528ac1754af8192",
-      "bytes": 365419,
-      "posterSha256": "461d7c1cdfd2d619d84cae9de4069d0e9b7538b638734a08f69aec535067643c",
-      "posterBytes": 67965,
-      "durationSeconds": 7.6,
-      "width": 320,
-      "height": 320,
-      "frameRate": "10/1",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "bbc-sounds",
+          "label": "口形示范",
+          "purpose": "mouth-demonstration",
+          "startSeconds": 1860,
+          "endSeconds": 1994,
+          "targets": [
+            "b"
+          ],
+          "placementSummary": "BBC 英式英语教师的口形与发音示范。",
+          "rangeBasis": "creator-chapters"
+        },
+        {
+          "sourceId": "billie-plosives",
+          "label": "舌位讲解",
+          "purpose": "placement-explanation",
+          "startSeconds": 0,
+          "endSeconds": 92,
+          "targets": [
+            "p",
+            "b"
+          ],
+          "placementSummary": "讲解双唇闭合后释放，并示范清浊区别。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "consonant-t",
       "ipa": "t",
-      "sourceId": "seeing-speech",
-      "word": "",
-      "speaker": "Janet Beck",
-      "label": "Janet Beck · 国际音标示范",
-      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
-      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_alveolar_plosive_overdubbed.mp4",
-      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_alveolar_plosive_overdubbed.png",
-      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=116",
-      "path": "articulation/ss-mri2-3.mp4",
-      "poster": "articulation/ss-mri2-3.png",
-      "institution": "University of Strathclyde (MRI 2, 2022)",
-      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "1c3f14066a29995f19fe245ab67bd677ab08df229d43df44e54208d8efb33a21",
-      "bytes": 242965,
-      "posterSha256": "b998b5729e7f0ee64d10efb755aea47ed175b5f06689f32270b7706b5576b295",
-      "posterBytes": 74906,
-      "durationSeconds": 7.850667,
-      "width": 320,
-      "height": 320,
-      "frameRate": "10/1",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "bbc-sounds",
+          "label": "口形示范",
+          "purpose": "mouth-demonstration",
+          "startSeconds": 1994,
+          "endSeconds": 2124,
+          "targets": [
+            "t"
+          ],
+          "placementSummary": "BBC 英式英语教师的口形与发音示范。",
+          "rangeBasis": "creator-chapters"
+        },
+        {
+          "sourceId": "billie-plosives",
+          "label": "舌位讲解",
+          "purpose": "placement-explanation",
+          "startSeconds": 92,
+          "endSeconds": 154,
+          "targets": [
+            "t",
+            "d"
+          ],
+          "placementSummary": "讲解舌尖接触上齿后方齿龈的位置，并示范清浊区别。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "consonant-d",
       "ipa": "d",
-      "sourceId": "seeing-speech",
-      "word": "",
-      "speaker": "Janet Beck",
-      "label": "Janet Beck · 国际音标示范",
-      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
-      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_alveolar_plosive.mp4",
-      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_alveolar_plosive.png",
-      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=100",
-      "path": "articulation/ss-mri2-4.mp4",
-      "poster": "articulation/ss-mri2-4.png",
-      "institution": "University of Strathclyde (MRI 2, 2022)",
-      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "b302dbd909a97f9a799ef774c469ac4ef2408e9c4beca3eaa09a80a8543dfd66",
-      "bytes": 319419,
-      "posterSha256": "497e508e675c0edaf79dc7cd06a818ef1b03ef55338140874c248ce5c8f92a23",
-      "posterBytes": 68232,
-      "durationSeconds": 6.6,
-      "width": 320,
-      "height": 320,
-      "frameRate": "10/1",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "bbc-sounds",
+          "label": "口形示范",
+          "purpose": "mouth-demonstration",
+          "startSeconds": 2124,
+          "endSeconds": 2249,
+          "targets": [
+            "d"
+          ],
+          "placementSummary": "BBC 英式英语教师的口形与发音示范。",
+          "rangeBasis": "creator-chapters"
+        },
+        {
+          "sourceId": "billie-plosives",
+          "label": "舌位讲解",
+          "purpose": "placement-explanation",
+          "startSeconds": 92,
+          "endSeconds": 154,
+          "targets": [
+            "t",
+            "d"
+          ],
+          "placementSummary": "讲解舌尖接触上齿后方齿龈的位置，并示范清浊区别。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "consonant-k",
       "ipa": "k",
-      "sourceId": "seeing-speech",
-      "word": "",
-      "speaker": "Janet Beck",
-      "label": "Janet Beck · 国际音标示范",
-      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
-      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_velar_plosive_overdubbed_short.mp4",
-      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_velar_plosive_overdubbed_short.png",
-      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=107",
-      "path": "articulation/ss-mri2-5.mp4",
-      "poster": "articulation/ss-mri2-5.png",
-      "institution": "University of Strathclyde (MRI 2, 2022)",
-      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "3e829efb8a6f0e1bb0773057a9dfb4f014daaa781f6b7c236516ec1c540c1ac9",
-      "bytes": 161769,
-      "posterSha256": "729be5509087f03af41df64fe47ebe71c08011dc2a7991fd3c7d12f3d082b4d4",
-      "posterBytes": 75669,
-      "durationSeconds": 4.949333,
-      "width": 320,
-      "height": 320,
-      "frameRate": "10/1",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "bbc-sounds",
+          "label": "口形示范",
+          "purpose": "mouth-demonstration",
+          "startSeconds": 2459,
+          "endSeconds": 2579,
+          "targets": [
+            "k"
+          ],
+          "placementSummary": "BBC 英式英语教师的口形与发音示范。",
+          "rangeBasis": "creator-chapters"
+        },
+        {
+          "sourceId": "billie-plosives",
+          "label": "舌位讲解",
+          "purpose": "placement-explanation",
+          "startSeconds": 154,
+          "endSeconds": 205,
+          "targets": [
+            "k",
+            "ɡ"
+          ],
+          "placementSummary": "讲解舌后部与软腭接近、闭合和释放的位置。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "consonant-g",
       "ipa": "ɡ",
-      "sourceId": "seeing-speech",
-      "word": "",
-      "speaker": "Janet Beck",
-      "label": "Janet Beck · 国际音标示范",
-      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
-      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_velar_plosive.mp4",
-      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_velar_plosive.png",
-      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=609",
-      "path": "articulation/ss-mri2-6.mp4",
-      "poster": "articulation/ss-mri2-6.png",
-      "institution": "University of Strathclyde (MRI 2, 2022)",
-      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "f17ae65ded2044dae5f359eed612d43121fba150780143f0b5c7097bc983c25e",
-      "bytes": 305343,
-      "posterSha256": "4721036be992c133ddcb0092ddc4a5f7319bb25e5869cbe1e40d068da8b679cb",
-      "posterBytes": 68308,
-      "durationSeconds": 6.3,
-      "width": 320,
-      "height": 320,
-      "frameRate": "10/1",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "bbc-sounds",
+          "label": "口形示范",
+          "purpose": "mouth-demonstration",
+          "startSeconds": 2579,
+          "endSeconds": 2684,
+          "targets": [
+            "ɡ"
+          ],
+          "placementSummary": "BBC 英式英语教师的口形与发音示范。",
+          "rangeBasis": "creator-chapters"
+        },
+        {
+          "sourceId": "billie-plosives",
+          "label": "舌位讲解",
+          "purpose": "placement-explanation",
+          "startSeconds": 154,
+          "endSeconds": 205,
+          "targets": [
+            "k",
+            "ɡ"
+          ],
+          "placementSummary": "讲解舌后部与软腭接近、闭合和释放的位置。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "consonant-f",
       "ipa": "f",
-      "sourceId": "seeing-speech",
-      "word": "",
-      "speaker": "Janet Beck",
-      "label": "Janet Beck · 国际音标示范",
-      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
-      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_labiodental_fricative.mp4",
-      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_labiodental_fricative.png",
-      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=102",
-      "path": "articulation/ss-mri2-10.mp4",
-      "poster": "articulation/ss-mri2-10.png",
-      "institution": "University of Strathclyde (MRI 2, 2022)",
-      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "51f39fe594ae4e7606039f8bcd7a01dc205319d0f3b418d8e36d96a002199faf",
-      "bytes": 363663,
-      "posterSha256": "3d5631d21717ec7a305ddc25695adf580d3dd131d298a2dae2d502032f4df2d4",
-      "posterBytes": 73086,
-      "durationSeconds": 7.6,
-      "width": 320,
-      "height": 320,
-      "frameRate": "10/1",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "bbc-sounds",
+          "label": "口形示范",
+          "purpose": "mouth-demonstration",
+          "startSeconds": 2684,
+          "endSeconds": 2780,
+          "targets": [
+            "f"
+          ],
+          "placementSummary": "BBC 英式英语教师的口形与发音示范。",
+          "rangeBasis": "creator-chapters"
+        },
+        {
+          "sourceId": "billie-fricatives",
+          "label": "舌位讲解",
+          "purpose": "placement-explanation",
+          "startSeconds": 78,
+          "endSeconds": 225,
+          "targets": [
+            "f",
+            "v"
+          ],
+          "placementSummary": "讲解上齿与下唇的位置并示范摩擦气流。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "consonant-v",
       "ipa": "v",
-      "sourceId": "seeing-speech",
-      "word": "",
-      "speaker": "Janet Beck",
-      "label": "Janet Beck · 国际音标示范",
-      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
-      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_labiodental_fricative.mp4",
-      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_labiodental_fricative.png",
-      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=118",
-      "path": "articulation/ss-mri2-11.mp4",
-      "poster": "articulation/ss-mri2-11.png",
-      "institution": "University of Strathclyde (MRI 2, 2022)",
-      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "e2a605836872e3e8acb402b4470d1f3ef5ec38b13f97647ac1c61ab6126260e9",
-      "bytes": 323243,
-      "posterSha256": "57982c824dc9a845f8fbe801578c29294d5c7ee55e4b8b56b7cef1bd4e401503",
-      "posterBytes": 68427,
-      "durationSeconds": 6.8,
-      "width": 320,
-      "height": 320,
-      "frameRate": "10/1",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "bbc-sounds",
+          "label": "口形示范",
+          "purpose": "mouth-demonstration",
+          "startSeconds": 2780,
+          "endSeconds": 2970,
+          "targets": [
+            "v"
+          ],
+          "placementSummary": "BBC 英式英语教师的口形与发音示范。",
+          "rangeBasis": "creator-chapters"
+        },
+        {
+          "sourceId": "billie-fricatives",
+          "label": "舌位讲解",
+          "purpose": "placement-explanation",
+          "startSeconds": 78,
+          "endSeconds": 225,
+          "targets": [
+            "f",
+            "v"
+          ],
+          "placementSummary": "讲解上齿与下唇的位置并示范摩擦气流。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "consonant-theta",
       "ipa": "θ",
-      "sourceId": "seeing-speech",
-      "word": "",
-      "speaker": "Janet Beck",
-      "label": "Janet Beck · 国际音标示范",
-      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
-      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_dental_fricative.mp4",
-      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_dental_fricative.png",
-      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=952",
-      "path": "articulation/ss-mri2-12.mp4",
-      "poster": "articulation/ss-mri2-12.png",
-      "institution": "University of Strathclyde (MRI 2, 2022)",
-      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "31a5c766abe91c5f704acc4aada0b65dab098195183c6d80cc7874bc0d63d6df",
-      "bytes": 351862,
-      "posterSha256": "fd7b60e83458b6f292b8ddd13f0f0f902d7b49eadd821cd85ebc1af1116a7786",
-      "posterBytes": 72702,
-      "durationSeconds": 7.3,
-      "width": 320,
-      "height": 320,
-      "frameRate": "10/1",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "bbc-sounds",
+          "label": "口形示范",
+          "purpose": "mouth-demonstration",
+          "startSeconds": 2970,
+          "endSeconds": 3041,
+          "targets": [
+            "θ"
+          ],
+          "placementSummary": "BBC 英式英语教师的口形与发音示范。",
+          "rangeBasis": "creator-chapters"
+        },
+        {
+          "sourceId": "billie-fricatives",
+          "label": "舌位讲解",
+          "purpose": "placement-explanation",
+          "startSeconds": 225,
+          "endSeconds": 338,
+          "targets": [
+            "θ",
+            "ð"
+          ],
+          "placementSummary": "讲解舌尖轻放上下齿之间的位置。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "consonant-eth",
       "ipa": "ð",
-      "sourceId": "seeing-speech",
-      "word": "",
-      "speaker": "Janet Beck",
-      "label": "Janet Beck · 国际音标示范",
-      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
-      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_dental_fricative.mp4",
-      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_dental_fricative.png",
-      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=240",
-      "path": "articulation/ss-mri2-13.mp4",
-      "poster": "articulation/ss-mri2-13.png",
-      "institution": "University of Strathclyde (MRI 2, 2022)",
-      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "2c58acc8ceb30d0daae66c822d812a5e8fe5ceb84e920afdff0d74a9ffb16dc2",
-      "bytes": 326351,
-      "posterSha256": "f9f03321fdfa6fd22474549a98047f34b4a2b5596eec29c6ec42e1f91367af78",
-      "posterBytes": 68163,
-      "durationSeconds": 6.8,
-      "width": 320,
-      "height": 320,
-      "frameRate": "10/1",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "bbc-sounds",
+          "label": "口形示范",
+          "purpose": "mouth-demonstration",
+          "startSeconds": 3041,
+          "endSeconds": 3113,
+          "targets": [
+            "ð"
+          ],
+          "placementSummary": "BBC 英式英语教师的口形与发音示范。",
+          "rangeBasis": "creator-chapters"
+        },
+        {
+          "sourceId": "billie-fricatives",
+          "label": "舌位讲解",
+          "purpose": "placement-explanation",
+          "startSeconds": 225,
+          "endSeconds": 338,
+          "targets": [
+            "θ",
+            "ð"
+          ],
+          "placementSummary": "讲解舌尖轻放上下齿之间的位置。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "consonant-s",
       "ipa": "s",
-      "sourceId": "seeing-speech",
-      "word": "",
-      "speaker": "Janet Beck",
-      "label": "Janet Beck · 国际音标示范",
-      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
-      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_alveolar_fricative_overdubbed.mp4",
-      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_alveolar_fricative_overdubbed.png",
-      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=115",
-      "path": "articulation/ss-mri2-14.mp4",
-      "poster": "articulation/ss-mri2-14.png",
-      "institution": "University of Strathclyde (MRI 2, 2022)",
-      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "f7bd6d954e5e1677a55dbe1808d724eced458b8abb260588c5b047775d567fb0",
-      "bytes": 250808,
-      "posterSha256": "0f8e918efa2f575ae09061d839effe88e5a04b2dfcb59f14b22c7f51c696a4c7",
-      "posterBytes": 75078,
-      "durationSeconds": 8.277333,
-      "width": 320,
-      "height": 320,
-      "frameRate": "10/1",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "bbc-sounds",
+          "label": "口形示范",
+          "purpose": "mouth-demonstration",
+          "startSeconds": 3113,
+          "endSeconds": 3209,
+          "targets": [
+            "s"
+          ],
+          "placementSummary": "BBC 英式英语教师的口形与发音示范。",
+          "rangeBasis": "creator-chapters"
+        },
+        {
+          "sourceId": "billie-fricatives",
+          "label": "舌位讲解",
+          "purpose": "placement-explanation",
+          "startSeconds": 338,
+          "endSeconds": 444,
+          "targets": [
+            "s",
+            "z"
+          ],
+          "placementSummary": "讲解舌与齿龈之间留窄缝的位置。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "consonant-z",
       "ipa": "z",
-      "sourceId": "seeing-speech",
-      "word": "",
-      "speaker": "Janet Beck",
-      "label": "Janet Beck · 国际音标示范",
-      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
-      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_alveolar_fricative.mp4",
-      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_alveolar_fricative.png",
-      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=122",
-      "path": "articulation/ss-mri2-15.mp4",
-      "poster": "articulation/ss-mri2-15.png",
-      "institution": "University of Strathclyde (MRI 2, 2022)",
-      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "5b605673289df3f86d4f84c2b96378adaeb55d96cfe2f77a8b63a6e28ba0acc8",
-      "bytes": 312207,
-      "posterSha256": "fbd2e7782c3536c2af425e7195e0a80983d56b4413da9ade005c82096aa7e96f",
-      "posterBytes": 68177,
-      "durationSeconds": 6.5,
-      "width": 320,
-      "height": 320,
-      "frameRate": "10/1",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "bbc-sounds",
+          "label": "口形示范",
+          "purpose": "mouth-demonstration",
+          "startSeconds": 3209,
+          "endSeconds": 3305,
+          "targets": [
+            "z"
+          ],
+          "placementSummary": "BBC 英式英语教师的口形与发音示范。",
+          "rangeBasis": "creator-chapters"
+        },
+        {
+          "sourceId": "billie-fricatives",
+          "label": "舌位讲解",
+          "purpose": "placement-explanation",
+          "startSeconds": 338,
+          "endSeconds": 444,
+          "targets": [
+            "s",
+            "z"
+          ],
+          "placementSummary": "讲解舌与齿龈之间留窄缝的位置。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "consonant-sh",
       "ipa": "ʃ",
-      "sourceId": "seeing-speech",
-      "word": "",
-      "speaker": "Janet Beck",
-      "label": "Janet Beck · 国际音标示范",
-      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
-      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_postalveolar_fricative.mp4",
-      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_postalveolar_fricative.png",
-      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=643",
-      "path": "articulation/ss-mri2-16.mp4",
-      "poster": "articulation/ss-mri2-16.png",
-      "institution": "University of Strathclyde (MRI 2, 2022)",
-      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "66605e8511f53557b73138ed77677ead45873c668e1ae8313f2f529abd6c59cb",
-      "bytes": 332372,
-      "posterSha256": "8a1a3e74ba146d292f6701bbb0dd6def68d2aaa83b38eea7ac065908334920d5",
-      "posterBytes": 75493,
-      "durationSeconds": 7.0,
-      "width": 320,
-      "height": 320,
-      "frameRate": "10/1",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "bbc-sounds",
+          "label": "口形示范",
+          "purpose": "mouth-demonstration",
+          "startSeconds": 3305,
+          "endSeconds": 3462,
+          "targets": [
+            "ʃ"
+          ],
+          "placementSummary": "BBC 英式英语教师的口形与发音示范。",
+          "rangeBasis": "creator-chapters"
+        },
+        {
+          "sourceId": "billie-fricatives",
+          "label": "舌位讲解",
+          "purpose": "placement-explanation",
+          "startSeconds": 444,
+          "endSeconds": 538,
+          "targets": [
+            "ʃ",
+            "ʒ"
+          ],
+          "placementSummary": "讲解舌位比 /s z/ 稍靠后并示范口形。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "consonant-zh",
       "ipa": "ʒ",
-      "sourceId": "seeing-speech",
-      "word": "",
-      "speaker": "Janet Beck",
-      "label": "Janet Beck · 国际音标示范",
-      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
-      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_postalveolar_fricative.mp4",
-      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_postalveolar_fricative.png",
-      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=658",
-      "path": "articulation/ss-mri2-17.mp4",
-      "poster": "articulation/ss-mri2-17.png",
-      "institution": "University of Strathclyde (MRI 2, 2022)",
-      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "26e59b2de832aa8b76bf691debdf95fabd1a82f6997a120e7d3d00ec9dbdc06e",
-      "bytes": 300389,
-      "posterSha256": "af21d1834a74e74fadf1c435813940137b5e54941f1a59dd896b77a063bb37f7",
-      "posterBytes": 71114,
-      "durationSeconds": 6.3,
-      "width": 320,
-      "height": 320,
-      "frameRate": "10/1",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "bbc-sounds",
+          "label": "口形示范",
+          "purpose": "mouth-demonstration",
+          "startSeconds": 3462,
+          "endSeconds": 3506,
+          "targets": [
+            "ʒ"
+          ],
+          "placementSummary": "BBC 英式英语教师的口形与发音示范。",
+          "rangeBasis": "creator-chapters"
+        },
+        {
+          "sourceId": "billie-fricatives",
+          "label": "舌位讲解",
+          "purpose": "placement-explanation",
+          "startSeconds": 444,
+          "endSeconds": 538,
+          "targets": [
+            "ʃ",
+            "ʒ"
+          ],
+          "placementSummary": "讲解舌位比 /s z/ 稍靠后并示范口形。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "consonant-h",
       "ipa": "h",
-      "sourceId": "seeing-speech",
-      "word": "",
-      "speaker": "Janet Beck",
-      "label": "Janet Beck · 国际音标示范",
-      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
-      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_glottal_fricative.mp4",
-      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_glottal_fricative.png",
-      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=104",
-      "path": "articulation/ss-mri2-18.mp4",
-      "poster": "articulation/ss-mri2-18.png",
-      "institution": "University of Strathclyde (MRI 2, 2022)",
-      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "39f064a946a707972bd251d679ec5d215bfe1dc3a981bc2fb298fedb76d5151e",
-      "bytes": 362926,
-      "posterSha256": "43652b9192aadc4b0fc992d65bd3a29eceba3ffb80578c5fcaeb6b4717ad7763",
-      "posterBytes": 72395,
-      "durationSeconds": 7.6,
-      "width": 320,
-      "height": 320,
-      "frameRate": "10/1",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "bbc-sounds",
+          "label": "口形示范",
+          "purpose": "mouth-demonstration",
+          "startSeconds": 3879,
+          "endSeconds": 3945,
+          "targets": [
+            "h"
+          ],
+          "placementSummary": "BBC 英式英语教师的口形与发音示范。",
+          "rangeBasis": "creator-chapters"
+        },
+        {
+          "sourceId": "billie-fricatives",
+          "label": "舌位讲解",
+          "purpose": "placement-explanation",
+          "startSeconds": 631,
+          "endSeconds": 718,
+          "targets": [
+            "h"
+          ],
+          "placementSummary": "讲解 /h/ 的声门位置，避免虚构固定口腔阻塞。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "consonant-ch",
       "ipa": "tʃ",
-      "sourceId": "star",
-      "word": "cheap",
-      "speaker": "English: London; SS speaker 25, male, age 25",
-      "label": "cheap · 英格兰伦敦",
-      "context": "观察 cheap 词首的 /tʃ/。",
-      "sourceUrl": "https://www.seeingspeech.ac.uk/speechstar/video/London_YM_cheap.mp4",
-      "posterUrl": "https://www.seeingspeech.ac.uk/speechstar/poster/London_YM_cheap.jpeg",
-      "sourcePageUrl": "https://seeingspeech.ac.uk/speechstar/speech-database/#location=528",
-      "path": "articulation/star-london-cheap.mp4",
-      "poster": "articulation/star-london-cheap.jpeg",
-      "institution": "University of Glasgow",
-      "modality": "超声实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "f445097fba2022e2ed390cde7cf2196c5e53631431d3cfad6bbf67107f2bd2d9",
-      "bytes": 557039,
-      "posterSha256": "7fd396eeed8f85dd387b9b75a84a21039b751823b039e2da9baed0c6041ced95",
-      "posterBytes": 18944,
-      "durationSeconds": 2.899989,
-      "width": 720,
-      "height": 540,
-      "frameRate": "30/1",
-      "videoCodec": "h264",
-      "audioCodec": "mp3"
+      "lessons": [
+        {
+          "sourceId": "bbc-sounds",
+          "label": "口形示范",
+          "purpose": "mouth-demonstration",
+          "startSeconds": 2249,
+          "endSeconds": 2354,
+          "targets": [
+            "tʃ"
+          ],
+          "placementSummary": "BBC 英式英语教师的口形与发音示范。",
+          "rangeBasis": "creator-chapters"
+        },
+        {
+          "sourceId": "billie-affricates",
+          "label": "舌位讲解",
+          "purpose": "placement-explanation",
+          "startSeconds": 113,
+          "endSeconds": 199,
+          "targets": [
+            "tʃ"
+          ],
+          "placementSummary": "讲解从阻塞释放到摩擦的舌位变化。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "consonant-jh",
       "ipa": "dʒ",
-      "sourceId": "star",
-      "word": "hedged",
-      "speaker": "English: London; SS speaker 25, male, age 25",
-      "label": "hedged · 英格兰伦敦",
-      "context": "观察 hedged 中词尾位置的 /dʒ/，后面还有 /d/；不是孤立音。",
-      "sourceUrl": "https://www.seeingspeech.ac.uk/speechstar/video/London_YM_hedged.mp4",
-      "posterUrl": "https://www.seeingspeech.ac.uk/speechstar/poster/London_YM_hedged.jpeg",
-      "sourcePageUrl": "https://seeingspeech.ac.uk/speechstar/speech-database/#location=539",
-      "path": "articulation/star-london-hedged.mp4",
-      "poster": "articulation/star-london-hedged.jpeg",
-      "institution": "University of Glasgow",
-      "modality": "超声实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "fd839c48de2c13a7d5e074ba654ef1fb4e82e5bbac2241555d4d1cfecc83f6b5",
-      "bytes": 541882,
-      "posterSha256": "f5b117412fd548b39acdeb54e1f5c61829c6b3583cfaf31e3fc6875fbcba37a5",
-      "posterBytes": 18614,
-      "durationSeconds": 2.699989,
-      "width": 720,
-      "height": 540,
-      "frameRate": "30/1",
-      "videoCodec": "h264",
-      "audioCodec": "mp3"
+      "lessons": [
+        {
+          "sourceId": "bbc-sounds",
+          "label": "口形示范",
+          "purpose": "mouth-demonstration",
+          "startSeconds": 2354,
+          "endSeconds": 2459,
+          "targets": [
+            "dʒ"
+          ],
+          "placementSummary": "BBC 英式英语教师的口形与发音示范。",
+          "rangeBasis": "creator-chapters"
+        },
+        {
+          "sourceId": "billie-affricates",
+          "label": "舌位讲解",
+          "purpose": "placement-explanation",
+          "startSeconds": 265,
+          "endSeconds": 363,
+          "targets": [
+            "dʒ"
+          ],
+          "placementSummary": "讲解塞擦音的舌位及发声，与 /tʃ/ 作对照。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "consonant-m",
       "ipa": "m",
-      "sourceId": "seeing-speech",
-      "word": "",
-      "speaker": "Janet Beck",
-      "label": "Janet Beck · 国际音标示范",
-      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
-      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_bilabial_nasal_overdubbed.mp4",
-      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_bilabial_nasal_overdubbed.png",
-      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=109",
-      "path": "articulation/ss-mri2-7.mp4",
-      "poster": "articulation/ss-mri2-7.png",
-      "institution": "University of Strathclyde (MRI 2, 2022)",
-      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "35458267c16ee3cfbcfa4e0d95c90d88a639bdf9d5bc7dba0b4c2a05f2cf57c6",
-      "bytes": 233457,
-      "posterSha256": "bce716065b4d94eb9c630fe729bdee0db340616dd764d7d4c3d3458264826c84",
-      "posterBytes": 74943,
-      "durationSeconds": 7.466667,
-      "width": 320,
-      "height": 320,
-      "frameRate": "10/1",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "bbc-sounds",
+          "label": "口形示范",
+          "purpose": "mouth-demonstration",
+          "startSeconds": 3506,
+          "endSeconds": 3625,
+          "targets": [
+            "m"
+          ],
+          "placementSummary": "BBC 英式英语教师的口形与发音示范。",
+          "rangeBasis": "creator-chapters"
+        },
+        {
+          "sourceId": "billie-nasals",
+          "label": "舌位讲解",
+          "purpose": "placement-explanation",
+          "startSeconds": 120,
+          "endSeconds": 201,
+          "targets": [
+            "m"
+          ],
+          "placementSummary": "讲解双唇闭合及鼻腔气流，并给出词语示范。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "consonant-n",
       "ipa": "n",
-      "sourceId": "seeing-speech",
-      "word": "",
-      "speaker": "Janet Beck",
-      "label": "Janet Beck · 国际音标示范",
-      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
-      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_alveolar_nasal.mp4",
-      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_alveolar_nasal.png",
-      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=110",
-      "path": "articulation/ss-mri2-8.mp4",
-      "poster": "articulation/ss-mri2-8.png",
-      "institution": "University of Strathclyde (MRI 2, 2022)",
-      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "d2283c6d22ea8bba69e08f8132570e6649471bb836a9f7a56d04dbe7dd4f925e",
-      "bytes": 355957,
-      "posterSha256": "e21dc773433231f14807806e580f53c9cf62890a8f36311e04902a6624e48cab",
-      "posterBytes": 72701,
-      "durationSeconds": 7.6,
-      "width": 320,
-      "height": 320,
-      "frameRate": "10/1",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "bbc-sounds",
+          "label": "口形示范",
+          "purpose": "mouth-demonstration",
+          "startSeconds": 3625,
+          "endSeconds": 3750,
+          "targets": [
+            "n"
+          ],
+          "placementSummary": "BBC 英式英语教师的口形与发音示范。",
+          "rangeBasis": "creator-chapters"
+        },
+        {
+          "sourceId": "billie-nasals",
+          "label": "舌位讲解",
+          "purpose": "placement-explanation",
+          "startSeconds": 201,
+          "endSeconds": 269,
+          "targets": [
+            "n"
+          ],
+          "placementSummary": "讲解舌尖接触齿龈的鼻音位置。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "consonant-ng",
       "ipa": "ŋ",
-      "sourceId": "seeing-speech",
-      "word": "",
-      "speaker": "Janet Beck",
-      "label": "Janet Beck · 国际音标示范",
-      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
-      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_velar_nasal.mp4",
-      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_velar_nasal.png",
-      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=331",
-      "path": "articulation/ss-mri2-9.mp4",
-      "poster": "articulation/ss-mri2-9.png",
-      "institution": "University of Strathclyde (MRI 2, 2022)",
-      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "6360ff3f2fb43f6f054330e5ea2870b36b06f78c50031b7959e90aab5b17ccc9",
-      "bytes": 239281,
-      "posterSha256": "837c2e609b81d085aa59d3a77ad1f4282f773a512dcfbc694554bfb4e9ff5b21",
-      "posterBytes": 74979,
-      "durationSeconds": 5.0,
-      "width": 320,
-      "height": 320,
-      "frameRate": "10/1",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "bbc-sounds",
+          "label": "口形示范",
+          "purpose": "mouth-demonstration",
+          "startSeconds": 3750,
+          "endSeconds": 3879,
+          "targets": [
+            "ŋ"
+          ],
+          "placementSummary": "BBC 英式英语教师的口形与发音示范。",
+          "rangeBasis": "creator-chapters"
+        },
+        {
+          "sourceId": "billie-nasals",
+          "label": "舌位讲解",
+          "purpose": "placement-explanation",
+          "startSeconds": 269,
+          "endSeconds": 365,
+          "targets": [
+            "ŋ"
+          ],
+          "placementSummary": "讲解舌后部接近软腭的鼻音位置。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "consonant-l",
       "ipa": "l",
-      "sourceId": "seeing-speech",
-      "word": "",
-      "speaker": "Janet Beck",
-      "label": "Janet Beck · 国际音标示范",
-      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
-      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_alveolar-lateral_approximant.mp4",
-      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_alveolar-lateral_approximant.png",
-      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=108",
-      "path": "articulation/ss-mri2-19.mp4",
-      "poster": "articulation/ss-mri2-19.png",
-      "institution": "University of Strathclyde (MRI 2, 2022)",
-      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "ce28e813253c9c92b2b903136fa4b40ed7c088a168fff731087ffca77ebfcf33",
-      "bytes": 294944,
-      "posterSha256": "6a6fc97c0a2920e5da28b2bc51a906760b7187eee28e4c40b7197175cfeb0299",
-      "posterBytes": 70743,
-      "durationSeconds": 6.2,
-      "width": 320,
-      "height": 320,
-      "frameRate": "10/1",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "bbc-sounds",
+          "label": "口形示范",
+          "purpose": "mouth-demonstration",
+          "startSeconds": 3945,
+          "endSeconds": 4160,
+          "targets": [
+            "l"
+          ],
+          "placementSummary": "BBC 英式英语教师的口形与发音示范。",
+          "rangeBasis": "creator-chapters"
+        },
+        {
+          "sourceId": "billie-approximants",
+          "label": "舌位讲解",
+          "purpose": "placement-explanation",
+          "startSeconds": 670,
+          "endSeconds": 935,
+          "targets": [
+            "l"
+          ],
+          "placementSummary": "讲解 /l/ 与 /r/ 的接触差别及舌侧气流。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "consonant-r",
       "ipa": "r",
-      "sourceId": "seeing-speech",
-      "word": "",
-      "speaker": "Janet Beck",
-      "label": "Janet Beck · 国际音标示范",
-      "context": "英语 /r/ 对应近音 [ɹ]，这里展示 [ɹ]，不是颤音 [r]。",
-      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_alveolar_approximant_overdubbed.mp4",
-      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_alveolar_approximant_overdubbed.png",
-      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=633",
-      "path": "articulation/ss-mri2-20.mp4",
-      "poster": "articulation/ss-mri2-20.png",
-      "institution": "University of Strathclyde (MRI 2, 2022)",
-      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "b85e90d63759ab631158631c154a09da690cabd0ccc6ceed811a83285959c2f0",
-      "bytes": 213476,
-      "posterSha256": "8e67d091963071aafe1ad5c453f40769d246664e1e60a9f10c48e2adc3242945",
-      "posterBytes": 77247,
-      "durationSeconds": 6.570667,
-      "width": 320,
-      "height": 320,
-      "frameRate": "10/1",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "bbc-sounds",
+          "label": "口形示范",
+          "purpose": "mouth-demonstration",
+          "startSeconds": 4160,
+          "endSeconds": 4367,
+          "targets": [
+            "r"
+          ],
+          "placementSummary": "BBC 英式英语教师的口形与发音示范。",
+          "rangeBasis": "creator-chapters"
+        },
+        {
+          "sourceId": "billie-approximants",
+          "label": "舌位讲解",
+          "purpose": "placement-explanation",
+          "startSeconds": 497,
+          "endSeconds": 670,
+          "targets": [
+            "r"
+          ],
+          "placementSummary": "讲解近音 [ɹ] 的舌位，不与齿龈接触。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "consonant-y",
       "ipa": "j",
-      "sourceId": "seeing-speech",
-      "word": "",
-      "speaker": "Janet Beck",
-      "label": "Janet Beck · 国际音标示范",
-      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
-      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_palatal_approximant_overdubbed.mp4",
-      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_palatal_approximant_overdubbed.png",
-      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=106",
-      "path": "articulation/ss-mri2-21.mp4",
-      "poster": "articulation/ss-mri2-21.png",
-      "institution": "University of Strathclyde (MRI 2, 2022)",
-      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "826cf8626d467377438e8b2a850cbf05cfe46c369714cebffa7a6314941e9e03",
-      "bytes": 219905,
-      "posterSha256": "8682a7a4de7eaf98ffb2280e72837e6cd02b9145f4a62cf909c02ee532390f5f",
-      "posterBytes": 74843,
-      "durationSeconds": 7.082667,
-      "width": 320,
-      "height": 320,
-      "frameRate": "10/1",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "bbc-sounds",
+          "label": "口形示范",
+          "purpose": "mouth-demonstration",
+          "startSeconds": 4490,
+          "endSeconds": 4543,
+          "targets": [
+            "j"
+          ],
+          "placementSummary": "BBC 英式英语教师的口形与发音示范。",
+          "rangeBasis": "creator-chapters"
+        },
+        {
+          "sourceId": "billie-approximants",
+          "label": "舌位讲解",
+          "purpose": "placement-explanation",
+          "startSeconds": 353,
+          "endSeconds": 497,
+          "targets": [
+            "j"
+          ],
+          "placementSummary": "讲解舌中部抬起但不接触上腭的近音位置。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     },
     {
       "symbolId": "consonant-w",
       "ipa": "w",
-      "sourceId": "seeing-speech",
-      "word": "",
-      "speaker": "Janet Beck",
-      "label": "Janet Beck · 国际音标示范",
-      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
-      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_labial-velar_approximant.mp4",
-      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_labial-velar_approximant.png",
-      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=3&datatype=4&speaker=1#location=119",
-      "path": "articulation/ss-mri2-22.mp4",
-      "poster": "articulation/ss-mri2-22.png",
-      "institution": "University of Strathclyde (MRI 2, 2022)",
-      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "modifications": "none",
-      "accessed": "2026-10-18",
-      "sha256": "d0a5882e8df01c5d403e1fbf5204d0902749b700ff6927f4ed4d5dafa19ba068",
-      "bytes": 334732,
-      "posterSha256": "2502dff5c3445fdfcade34a8e8487e12ccd333454a3b3003ff0704a05d9ef827",
-      "posterBytes": 68255,
-      "durationSeconds": 7.0,
-      "width": 320,
-      "height": 320,
-      "frameRate": "10/1",
-      "videoCodec": "h264",
-      "audioCodec": "aac"
+      "lessons": [
+        {
+          "sourceId": "bbc-sounds",
+          "label": "口形示范",
+          "purpose": "mouth-demonstration",
+          "startSeconds": 4367,
+          "endSeconds": 4490,
+          "targets": [
+            "w"
+          ],
+          "placementSummary": "BBC 英式英语教师的口形与发音示范。",
+          "rangeBasis": "creator-chapters"
+        },
+        {
+          "sourceId": "billie-approximants",
+          "label": "舌位讲解",
+          "purpose": "placement-explanation",
+          "startSeconds": 213,
+          "endSeconds": 353,
+          "targets": [
+            "w"
+          ],
+          "placementSummary": "讲解圆唇及舌后部抬起的近音位置。",
+          "rangeBasis": "creator-chapters"
+        }
+      ]
     }
   ]
 }

@@ -1,40 +1,43 @@
-import { test } from 'node:test';
+import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import { symbols } from '../src/library.ts';
-import { articulations, getArticulation, articulationView } from '../src/articulation.ts';
-import data from '../content/articulation.json' with { type: 'json' };
+import {symbols} from '../src/library.ts';
+import {articulations,getArticulation,articulationView,lessonBody} from '../src/articulation.ts';
+import data from '../content/articulation.json' with {type:'json'};
 
-test('all 44 symbols resolve to distinct published MRI/ultrasound recordings and original posters', () => {
-  assert.equal(articulations.length,44);
-  assert.equal(new Set(articulations.map(a=>a.path)).size,44);
+test('all 44 British targets have real teacher demonstrations and placement teaching',()=>{
+  assert.equal(data.schemaVersion,3); assert.equal(articulations.length,44);
   assert.deepEqual(new Set(articulations.map(a=>a.symbolId)),new Set(symbols.map(s=>s.id)));
-  for (const symbol of symbols) {
-    const a=getArticulation(symbol.id); assert.equal(a.ipa,symbol.ipa);
-    const source=data.sources[a.sourceId as keyof typeof data.sources];
-    assert.equal(source.licenseId,'CC-BY-NC-ND-4.0'); assert.equal(a.modifications,'none');
-    assert.match(a.sha256,/^[a-f0-9]{64}$/); assert.match(a.posterSha256,/^[a-f0-9]{64}$/);
-    assert.ok(a.sourcePageUrl && a.sourceUrl && a.posterUrl && a.context && a.speaker);
-    if(a.sourceId==='seeing-speech'){assert.equal(a.modality,'MRI 2 实拍');assert.match(a.sourcePageUrl,/datatype=4/);}else assert.equal(a.modality,'超声实拍');
+  let lessons=0;
+  for(const symbol of symbols){
+    const a=getArticulation(symbol.id);assert.equal(a.ipa,symbol.ipa);
+    if(symbol.group==='consonant'){
+      assert.equal(a.lessons.length,2);assert.equal(a.lessons[0].sourceId,'bbc-sounds');assert.equal(a.lessons[1].purpose,'placement-explanation');
+    }else{assert.equal(a.lessons.length,1);assert.equal(a.lessons[0].sourceId,'emma-vowels');assert.equal(a.lessons[0].purpose,'demonstration-and-placement');}
+    for(const l of a.lessons){
+      const source=data.sources[l.sourceId as keyof typeof data.sources];
+      assert.ok(l.targets.includes(a.ipa));assert.ok(l.startSeconds>=0&&l.endSeconds>l.startSeconds&&l.endSeconds<=source.durationSeconds);
+      assert.equal(source.use,'official-youtube-embed');assert.equal(source.embedAllowed,true);assert.equal(source.permissionUrl,'https://www.youtube.com/t/terms');assert.ok(l.placementSummary);lessons++;
+    }
   }
-  assert.throws(()=>getArticulation('unknown'),/Missing articulation/);
+  assert.equal(lessons,68);assert.throws(()=>getArticulation('unknown'),/Missing articulation/);assert.ok(!('poses'in data));
 });
-test('British vowel examples use the matching lexical sets, with regional/variant labels', () => {
-  const words:Record<string,string>={'iː':'fleece','ɪ':'kit','e':'dress','æ':'trap','ɑː':'palm','ɒ':'lot','ɔː':'thought','ʊ':'foot','uː':'goose','ʌ':'strut','ɜː':'nurse','ə':'later','eɪ':'face','aɪ':'price','ɔɪ':'choice','əʊ':'goat','aʊ':'mouth','ɪə':'near','eə':'square','ʊə':'cure'};
-  for(const [ipa,word] of Object.entries(words)){
-    const a=articulations.find(a=>a.ipa===ipa)!; assert.equal(a.word,word); assert.equal(a.sourceId,'dynamic-dialects'); assert.match(a.label,/南安普敦/);
+test('critical places and traditional vowel variants resolve to the correct published chapters',()=>{
+  const find=(ipa:string)=>articulations.find(a=>a.ipa===ipa)!;
+  for(const [ipa,start,end]of [['t',92,154],['d',92,154],['k',154,205],['ɡ',154,205],['θ',225,338],['ð',225,338],['s',338,444],['ʃ',444,538],['tʃ',113,199],['dʒ',265,363],['ŋ',269,365]] as const){
+    const l=find(ipa).lessons[1];assert.equal(l.startSeconds,start,ipa);assert.equal(l.endSeconds,end,ipa);
   }
-  for(const ipa of ['ɪə','eə','ʊə']) assert.match(articulations.find(a=>a.ipa===ipa)!.variantNote,/传统.*变体/);
-  assert.match(articulations.find(a=>a.ipa==='r')!.context,/ɹ/);
-  assert.equal(articulations.find(a=>a.ipa==='tʃ')!.word,'cheap');
-  assert.equal(articulations.find(a=>a.ipa==='dʒ')!.word,'hedged');
+  assert.match(find('r').lessons[1].placementSummary,/ɹ/);
+  for(const ipa of ['ɪə','eə','ʊə'])assert.match(find(ipa).variantNote,/传统.*变体/);
+  assert.equal(find('ʊə').lessons[0].startSeconds,1190);assert.equal(find('ʊə').lessons[0].endSeconds,1268);
 });
-test('view exposes actual video, original still, attribution and accessible manual controls without generated anatomy', () => {
+test('views load no remote player before activation and expose the correct creator/range/replay links',()=>{
   for(const a of articulations){
-    const html=articulationView(a.symbolId,'test');
-    assert.match(html,/<video controls playsinline preload="none"/); assert.match(html,/<source src="articulation\//);
-    assert.ok(html.includes(a.poster)); assert.ok(html.includes(a.sourcePageUrl.replaceAll('&','&amp;')));
-    assert.match(html,/CC-BY-NC-ND-4.0/); assert.match(html,/未剪辑或改绘/);
-    assert.doesNotMatch(html,/<svg|autoplay|articulation-steps|NaN|undefined/);
+    const html=articulationView(a.symbolId,'test');assert.match(html,/真人发音讲解/);assert.match(html,/data-load/);assert.match(html,/YouTube · 需联网/);
+    assert.doesNotMatch(html,/<iframe|<video|<img|<script|MRI|超声|NaN|undefined/);
+    assert.equal((html.match(/data-lesson-mode=/g)??[]).length,a.lessons.length>1?2:0);
+    for(let i=0;i<a.lessons.length;i++){
+      const body=lessonBody(a,i,'test'),l=a.lessons[i],s=data.sources[l.sourceId as keyof typeof data.sources];
+      assert.ok(body.includes(s.videoId));assert.ok(body.includes(`t=${l.startSeconds}s`));assert.ok(body.includes(s.creator));assert.match(body,/data-replay hidden/);assert.doesNotMatch(body,/CC-BY|原始预览图/);
+    }
   }
-  assert.ok(!('poses' in data));
 });

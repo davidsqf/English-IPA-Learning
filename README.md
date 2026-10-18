@@ -10,7 +10,7 @@ Explore a symbol, listen to its example, and compare similar sounds. All recordi
 
 - 44 traditional British English reference symbols: 12 monophthongs, 8 diphthongs and 24 consonants.
 - Source-linked Chinese pronunciation guidance and six example words per symbol, each with a voice button and highlighted target sounds. Tiles keep a single preview word.
-- Authentic university MRI and ultrasound/lip-camera videos for all 44 symbols, with original published preview images, playback controls and attribution.
+- Clear real-teacher videos for all 44 symbols, with British mouth demonstrations, explicit tongue/lip-placement teaching and source credits.
 - 37 bundled human recordings covering all 44 entries; examples shared by several symbols are intentional.
 - Eleven directly visible recommended comparison choices, including the three-symbol `/e æ aɪ/` group, plus manual comparison of any two distinct symbols. Individual and sequential playback use normal speed.
 - Light and dark themes, system preference detection and a remembered theme choice.
@@ -27,7 +27,7 @@ npm ci
 npm run dev
 ```
 
-Open the address printed in the terminal, normally `http://127.0.0.1:5173/`. On macOS, you can also double-click **Start IPA.command**. Keep its terminal open while using the website. Once dependencies are installed, the site and bundled recordings work offline. Device word speech needs an available British English voice; some voices and all reference links require a connection.
+Open the address printed in the terminal, normally `http://127.0.0.1:5173/`. On macOS, you can also double-click **Start IPA.command**. Keep its terminal open while using the website. Once dependencies are installed, the local interface and bundled word recordings work offline; teaching videos require internet/YouTube access. Device word speech needs an available British English voice; some voices and all reference links require a connection.
 
 ## Check and build
 
@@ -37,7 +37,7 @@ npm run build
 npm run preview
 ```
 
-The build verifies every audio file against its recorded SHA-256 and requires complete recordings and sourced mouth/tongue visuals for all 44 symbols. Preview normally runs at `http://127.0.0.1:4173/`. The generated `dist/` directory is a complete static website, including audio. Serve it over HTTP. Relative URLs support GitHub project Pages and other subdirectories.
+The build verifies every audio file against its recorded SHA-256 and requires complete recordings and teacher demonstration/placement coverage for all 44 symbols. Preview normally runs at `http://127.0.0.1:4173/`. The generated `dist/` directory is a complete static website, including audio. Serve it over HTTP. Relative URLs support GitHub project Pages and other subdirectories.
 
 `npm run samples` verifies the already bundled recordings; it does not download anything.
 
@@ -53,8 +53,8 @@ The [Test and publish workflow](.github/workflows/pages.yml) tests and builds ch
 | `content/symbol-library.json` | Symbols, Chinese cues, examples and sound mappings |
 | `content/comparisons.json` | Two- and three-symbol presets with source-linked tips |
 | `content/pronunciation-sources.json` | Named references for the Chinese pronunciation guidance |
-| `content/articulation.json` | Published video/poster mappings, speaker/accent, rights and integrity metadata |
-| `src/articulation.ts` | Inline SVG diagrams and finite/reduced-motion interaction |
+| `content/articulation.json` | Creator teaching videos, British targets, chapter ranges and embedding provenance |
+| `src/articulation.ts`, `src/teaching-player.ts` | Click-to-load teacher modes, bounded replay, playback coordination and official player API |
 | `content/audio.json` | Per-file sources, authors, licences, transformations and checksums |
 | `public/audio/` | All 37 shipped MP3 recordings |
 | `tests/` | Inventory, search, comparison and audio integrity checks |
@@ -75,10 +75,10 @@ Every one of the six examples has a speaker button. Existing human recordings re
 
 All eleven recommended comparisons appear directly as buttons, including on phones. The footer **手机打开** shows the website QR and a PNG download. Printable assets: `public/website-qr.svg` and `public/website-qr.png`. To regenerate after changing the public address, run `scripts/generate-qr.py` using Python with ReportLab and Pillow, then independently decode the result to verify its exact URL.
 
-## Mouth and tongue videos
+## Mouth and tongue teaching
 
-Each symbol has a **舌位与口形** video in both the explorer and comparisons. MRI shows the tongue, lips and vocal tract from the side; ultrasound shows the tongue surface with a lip-camera inset. The source's original poster appears first; use the video controls to play, pause, seek or open fullscreen. Starting a clip stops other video and word playback, and starting a word pauses video.
+Each symbol has **真人发音讲解**. Vowels use Pronunciation with Emma's British vowel lesson. Consonants provide **口形示范** (BBC Learning English) and **舌位讲解** (Billie English), so learners can see a real mouth and learn where the tongue/lips go. Chinese pronunciation hints remain above the videos. Click to play the selected chapter, use **重播本节** to replay that range, or open the original on YouTube. Player captions/fullscreen are available as provided by the creator.
 
-20 vowel-word clips come from Southampton, England in [Dynamic Dialects](https://www.dynamicdialects.ac.uk/); 22 consonant demonstrations are by Janet Beck in [Seeing Speech](https://www.seeingspeech.ac.uk/); two affricate clips are adult London whole-word examples from [STAR](https://www.seeingspeech.ac.uk/speechstar/). These are complete original videos with original posters, not generated animations or isolated phoneme recordings. Traditional centring-diphthong variants and regional context are labelled. The [44-symbol source matrix](docs/research/articulation-visuals.md) records the exact mappings and inspection limits.
+Teaching videos stream through the original creator-enabled player and require internet/YouTube access. No external player is loaded before a click; videos, thumbnails and subtitles are not copied or rehosted. Starting word audio pauses the lesson, and starting a lesson stops other playback. Navigation, mode/selection changes and backgrounding cancel/pause it. If loading fails, retry or use the original creator link. Existing word recordings remain local and independent of video availability.
 
-All 88 media assets are bundled locally (about 29 MiB), work after the site loads without contacting a third-party player, and retain **CC BY-NC-ND 4.0** terms. They are unchanged and for non-commercial use with attribution; the publishers prohibit AI training, machine learning and automated transformation without permission. See [THIRD_PARTY.md](THIRD_PARTY.md). No project-wide code licence is selected.
+The [source audit and all-44 mapping](docs/research/articulation-visuals.md) records 68 creator chapter ranges across seven original videos, including traditional British vowel variants. The old MRI/ultrasound assets and invented animations are removed from the current runtime. [THIRD_PARTY.md](THIRD_PARTY.md) records provider permissions and attribution; no project-wide code licence is selected.
