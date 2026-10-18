@@ -67,97 +67,20 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 @media(max-width:1400px){.example-words{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:480px){.example-words{grid-template-columns:1fr;gap:0}.example-word>.example-content{display:grid;grid-template-columns:auto 1fr;align-items:baseline;gap:0 10px}.example-word .word-ipa{grid-column:1/-1}.example-word{padding:8px 0}.example-word .example-gloss{display:inline}.comparison-presets{gap:8px}.comparison-presets button{font-size:19px;padding:10px 12px}.comparison-presets .comparison-arrow{font-size:13px}.qr-panel{right:-76px}.footer-actions{gap:18px}}
 
-/* Original, source-linked articulation diagrams. */
-.articulation-figure {
-  margin:20px 0 24px; padding:18px 0;
-  border-top:1px solid var(--line); border-bottom:1px solid var(--line);
-  container-type:inline-size; container-name:articulator;
-  --art-bone:var(--paper); --art-tissue:var(--inset); --art-cavity:#29332f;
-  --art-tongue:var(--blue); --art-tongue-fill:#ccd5ff; --art-air:#50614c;
-}
-:root[data-theme=dark] .articulation-figure { --art-tongue-fill:#344a8c; --art-cavity:#111b16; --art-air:#b8c9ad; }
-.articulation-heading { display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:6px; }
-.articulation-heading h2 { font-size:14px; font-weight:550; margin:0; }
-.articulation-heading>span { font-size:10px; color:var(--muted); }
-.articulation-drawing { width:100%; max-width:640px; margin:auto; }
-.articulation-drawing svg { display:block; width:100%; height:auto; overflow:visible; }
-.articulation-drawing text { font-family:system-ui,-apple-system,"PingFang SC",sans-serif; fill:var(--muted); }
-.articulation-drawing .art-label { font-size:12px; }
-.articulation-drawing .art-tongue-label { font-size:13px; fill:var(--target); }
-.articulation-views { display:grid; grid-template-columns:135px minmax(0,1fr); align-items:center; gap:10px; }
-.articulation-front-view>span,.articulation-side-view>span { display:block; text-align:center; font-size:11px; color:var(--muted); margin-bottom:6px; }
-.articulation-front-view svg { height:160px; width:100%; }
-.articulation-side-view svg { width:100%; height:240px; }
-.art-head { fill:none; stroke:var(--muted); stroke-width:1.6; stroke-linecap:round; stroke-linejoin:round; }
-.art-anatomy { fill:none; stroke:var(--control-border); stroke-width:1.7; }
-.art-palate,.art-velum { fill:none; stroke:var(--guidance); stroke-width:3; stroke-linecap:round; }
-.art-teeth { fill:var(--art-bone); stroke:var(--guidance); stroke-width:1.5; }
-.art-tongue { fill:var(--art-tongue-fill); stroke:var(--art-tongue); stroke-width:2.2; stroke-linejoin:round; }
-.art-lips { fill:var(--art-tissue); stroke:var(--guidance); stroke-width:2; }
-.art-mouth { fill:var(--art-cavity); }
-.art-outline,.art-lip-section { fill:none; stroke:var(--guidance); stroke-width:3; stroke-linecap:round; }
-.art-focus { stroke:var(--blue); stroke-width:3; fill:none; }
-.art-contact { fill:var(--blue); }
-.art-gap { stroke:var(--blue); stroke-width:1.6; stroke-dasharray:2 2; fill:none; }
-.art-leader { stroke:var(--control-border); stroke-width:1; fill:none; }
-.art-air { stroke:var(--art-air); stroke-width:2.1; fill:none; stroke-linecap:round; stroke-dasharray:5 5; }
-.art-arrowhead { fill:var(--art-air); }
-.art-glottis { fill:none; stroke:var(--muted); stroke-width:2; }
-.art-glottis.art-voiced,.art-vibration { stroke:var(--blue); stroke-width:2; fill:none; }
-.art-trajectory { stroke:var(--blue); stroke-width:1.8; stroke-dasharray:3 3; fill:none; }
-.art-tongue-arrowhead { fill:var(--blue); }
-.articulation-controls { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px; margin:8px 0 13px; }
-.articulation-controls button { min-height:44px; border:1px solid var(--control-border); border-radius:4px; background:transparent; font-size:12px; padding:9px 12px; }
-.articulation-play { color:var(--blue); white-space:nowrap; }
-.articulation-steps { display:flex; gap:4px; flex-wrap:wrap; }
-.articulation-steps button { display:inline-flex; align-items:center; gap:5px; border-color:transparent; padding:8px; }
-.articulation-steps button>span { font-size:10px; color:var(--muted); font-variant-numeric:tabular-nums; }
-.articulation-steps button[aria-pressed=true] { color:var(--blue); background:var(--active); }
-.articulation-steps button[aria-pressed=true]>span { color:inherit; }
-.articulation-play[aria-pressed=true] { color:var(--blue); border-color:var(--blue); background:var(--active); }
-.articulation-movement { font-size:13px; line-height:1.8; margin:0 0 7px; color:var(--guidance); }
-.articulation-cues { margin:0; font-size:12px; line-height:1.8; color:var(--muted); }
-.articulation-cues>div { display:flex; gap:10px; }
-.articulation-cues dt { color:var(--blue); flex:0 0 14px; }
-.articulation-cues dd { margin:0; }
-.articulation-variant { font-size:11px; line-height:1.8; color:var(--muted); margin:8px 0 0; }
-.articulation-sources { font-size:11px; color:var(--muted); margin-top:6px; }
-.articulation-sources summary { display:inline-flex; align-items:center; cursor:pointer; min-height:44px; color:var(--blue); }
-.articulation-sources summary:before { content:'＋'; margin-right:6px; }
-.articulation-sources[open] summary:before { content:'−'; }
-.articulation-sources ul { margin:0; padding-left:18px; }
-.articulation-sources a { display:inline-flex; align-items:center; min-height:44px; line-height:1.7; }
-.articulation-sources p { font-size:11px; line-height:1.8; margin:7px 0; overflow-wrap:anywhere; }
-.articulation-figure[data-animating=true] .art-air { animation:art-flow .65s linear infinite; }
-.articulation-figure[data-animating=true] .art-vibration { animation:art-voice .16s ease-in-out infinite alternate; }
-@keyframes art-flow { to { stroke-dashoffset:-20; } }
-@keyframes art-voice { to { opacity:.45; } }
-.sound-panel .articulation-figure { margin:22px 0 0; }
-.sound-panel .articulation-controls { align-items:stretch; flex-direction:column; }
-.sound-panel .articulation-steps { gap:2px; }
-.sound-panel .articulation-steps button { padding:8px 5px; }
-.sound-panel .articulation-drawing { min-width:0; }
-@container articulator (max-width:430px) {
-  .articulation-views { grid-template-columns:1fr; gap:0; }
-  .articulation-front-view { display:flex; align-items:center; justify-content:space-between; }
-  .articulation-front-view>span { margin:0; }
-  .articulation-front-view svg { width:130px; height:100px; }
-  .articulation-side-view svg { height:245px; }
-}
-@media(max-width:1100px) { .selected-sound { grid-template-columns:150px minmax(0,1fr); } }
-@media(min-width:761px) { .selected-symbol { justify-content:flex-start; align-items:flex-start; } }
-@media(min-width:761px) and (max-width:1100px) { .selected-symbol .big-ipa { font-size:60px; } }
-@media(max-width:760px) {
-  .selected-sound { grid-template-columns:1fr; }
-  .articulation-figure { padding:15px 0; }
-  .articulation-drawing { max-width:520px; }
-  .articulation-controls { gap:7px; }
-  .articulation-steps button { padding:8px 6px; }
-}
-@media(max-width:480px) {
-  .articulation-controls { align-items:stretch; flex-direction:column; }
-  .articulation-play { align-self:start; }
-  .articulation-steps { justify-content:space-between; }
-  .articulation-steps button { flex:1; justify-content:center; }
-  .articulation-variant,.articulation-sources { font-size:12px; }
-}
+@media(max-width:1100px){.selected-sound{grid-template-columns:150px minmax(0,1fr)}}
+@media(min-width:761px){.selected-symbol{justify-content:flex-start;align-items:flex-start}}
+@media(min-width:761px) and (max-width:1100px){.selected-symbol .big-ipa{font-size:60px}}
+@media(max-width:760px){.selected-sound{grid-template-columns:1fr}}
+/* Published, unmodified MRI and ultrasound/lip-camera recordings. */
+.articulation-figure{margin:18px 0 24px;padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);min-width:0}
+.articulation-heading{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:10px}
+.articulation-heading h2{font-size:14px;font-weight:550;margin:0}.articulation-heading>span{font-size:12px;color:var(--muted)}
+.articulation-figure video{display:block;width:100%;max-width:560px;max-height:420px;margin:auto;background:#000;object-fit:contain;border-radius:3px}
+.articulation-figure figcaption{font-size:13px;color:var(--guidance);margin:12px 0 5px;line-height:1.6}
+.articulation-context,.articulation-error{font-size:12px;line-height:1.8;color:var(--muted);margin:0}
+.articulation-error a{display:inline-flex;align-items:center;min-height:44px}.articulation-error{color:var(--guidance);margin-top:8px}.articulation-sources{font-size:12px;color:var(--muted);margin-top:4px}
+.articulation-sources summary{display:inline-flex;align-items:center;min-height:44px;cursor:pointer;color:var(--blue)}
+.articulation-sources summary:before{content:'＋';margin-right:6px}.articulation-sources[open] summary:before{content:'−'}
+.articulation-sources p{font-size:12px;line-height:1.9;margin:0 0 8px;overflow-wrap:anywhere}.articulation-sources a{display:inline-flex;align-items:center;min-height:44px}
+.sound-panel .articulation-figure{margin-top:22px}.sound-panel .articulation-figure video{max-height:300px}
+@media(max-width:760px){.articulation-figure video{max-height:none}.sound-panel .articulation-figure video{max-height:none}.articulation-context{font-size:13px}}

@@ -2,12 +2,13 @@ import './style.css';
 import { syncTheme, toggleTheme } from './theme.ts';
 import audio from '../content/audio.json';
 import { LocalPlayer } from './audio.ts';
-import { articulationView, bindArticulations } from './articulation.ts';
+import { articulationView, bindArticulations, pauseArticulations } from './articulation.ts';
 import { symbols, groups, samples, comparisons, filterSymbols, getSymbol, getComparison, comparisonSymbols, validCustomPair, pronunciationSources } from './library.ts';
 import type { SymbolEntry, SourceId } from './library.ts';
 
 const app = document.querySelector<HTMLDivElement>('#app')!;
 const player = new LocalPlayer();
+player.onStart = () => pauseArticulations(app);
 const soundIcon = '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m11 5-5 4H3v6h3l5 4V5Zm4 3c2 2 2 6 0 8m3-11c4 4 4 10 0 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 let page: 'symbols' | 'compare' | 'sources' = 'symbols';
 let selected = 'vowel-kit';
@@ -78,7 +79,7 @@ function comparison() {
     ${sourceLinks(ids)}`;
 }
 function sources() {
-  return `<h1 id="view-title" class="compact-title" tabindex="-1">来源与说明</h1><section class="prose"><h2>口形与舌位图</h2><p>44 个音标均配有原创发音示意和可逐步查看的动作。图示依据 Cambridge 语音学资料、Glasgow Seeing Speech 等来源整理，显示相对舌位与气流，不是医学影像或唯一的英国口音实现。每幅图下可查看对应依据。</p><h2>发音提示</h2><p>中文提示依据下列资料整理，采用英式学习词典注音；口音及词典写法可能有变体。每个音标下可查看对应依据。</p><ul>${Object.values(pronunciationSources).map(source => `<li><a href="${esc(source.url)}" target="_blank" rel="noreferrer">${esc(source.title)} ↗</a></li>`).join('')}</ul><h2>例词与录音</h2><p>每个例词旁均可播放发音。主示例使用真人录音；其余词语使用设备的英式合成语音，音色取决于设备。合成语音是词语朗读参考，可能与传统词典注音有变体；设备需提供英语（英国）语音，部分语音可能需联网。点击词语可听词典发音。</p><details><summary>录音来源与署名（${audio.assets.length} 项）</summary><ul>${audio.assets.map(a => `<li><a href="${esc(a.sourcePageUrl)}" target="_blank" rel="noreferrer"><span lang="en">${esc(a.transcript)}</span> ↗</a> · ${esc(a.creator)} · <a href="${esc(a.licenseUrl)}" target="_blank" rel="noreferrer">${esc(a.licenseId)}</a></li>`).join('')}</ul><p>保留原 MP3，或由 Ogg 转为 MP3；未裁剪、合成或调整音高。录音作者不为本站背书。</p></details></section>`;
+  return `<h1 id="view-title" class="compact-title" tabindex="-1">来源与说明</h1><section class="prose"><h2>舌位与口形视频</h2><p>44 个音标配有大学发布的真实 MRI 或超声舌位与口形录像。元音来自 Dynamic Dialects 的英格兰南安普敦说话人；22 个辅音使用 Seeing Speech 的 MRI 2 录像，两个塞擦音来自 STAR 的伦敦说话人。每段均保留完整原片，视频内的声音属于原片，与例词录音分开播放。MRI 显示口腔侧面；超声显示舌面，并附嘴唇小窗。不同人的口音与舌形会有差异。</p><p>© Lawson、Stuart-Smith、Scobbie、Nakai（Seeing Speech / Dynamic Dialects，2018；MRI 2 录像 © University of Strathclyde，2022）；Lawson、Cleland、Stuart-Smith（STAR，2023），University of Glasgow。视频与原始预览图均按 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noreferrer">CC BY-NC-ND 4.0</a> 使用，未剪辑、改绘或合成。具体来源及说话人见各视频下方。仅限非商业使用；不用于 AI 训练、机器学习或自动转换。</p><h2>发音提示</h2><p>中文提示依据下列资料整理，采用英式学习词典注音；口音及词典写法可能有变体。每个音标下可查看对应依据。</p><ul>${Object.values(pronunciationSources).map(source => `<li><a href="${esc(source.url)}" target="_blank" rel="noreferrer">${esc(source.title)} ↗</a></li>`).join('')}</ul><h2>例词与录音</h2><p>每个例词旁均可播放发音。主示例使用真人录音；其余词语使用设备的英式合成语音，音色取决于设备。合成语音是词语朗读参考，可能与传统词典注音有变体；设备需提供英语（英国）语音，部分语音可能需联网。点击词语可听词典发音。</p><details><summary>录音来源与署名（${audio.assets.length} 项）</summary><ul>${audio.assets.map(a => `<li><a href="${esc(a.sourcePageUrl)}" target="_blank" rel="noreferrer"><span lang="en">${esc(a.transcript)}</span> ↗</a> · ${esc(a.creator)} · <a href="${esc(a.licenseUrl)}" target="_blank" rel="noreferrer">${esc(a.licenseId)}</a></li>`).join('')}</ul><p>保留原 MP3，或由 Ogg 转为 MP3；未裁剪、合成或调整音高。录音作者不为本站背书。</p></details></section>`;
 }
 function render(focus = false) {
   const focused = (document.activeElement as HTMLElement)?.id;
@@ -87,7 +88,9 @@ function render(focus = false) {
   disposeArticulations?.();
   app.innerHTML = shell(page === 'symbols' ? explorer() : page === 'compare' ? comparison() : sources());
   bind();
-  disposeArticulations = bindArticulations(app);
+  disposeArticulations = bindArticulations(app, () => {
+    player.stop(); clearTimeout(statusTimer); document.getElementById('audio-status')?.classList.remove('visible');
+  });
   if (focus) { document.querySelector<HTMLElement>('#view-title')?.focus(); window.scrollTo({ top: 0, behavior: 'instant' }); }
   else if (focused) {
     const element = document.getElementById(focused); element?.focus();

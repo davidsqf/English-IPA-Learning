@@ -1,3 +1,26 @@
+# v1.4 published articulation media verification
+
+Date: 2026-10-18, Asia/Singapore. Task branch: `work/published-articulation-media`. Earlier reports below are historical and describe the previous original SVG implementation and earlier features.
+
+The owner's request is to replace fabricated mouth movement with proper published pictures/videos while preserving all 44 symbols. Runtime geometry, poses and interpolated SVG motion are removed. There are 44 distinct original MP4s and 44 original published PNG/JPEG posters. Exact source-player links, original asset URLs, speaker/accent, target context, licence, SHA-256, bytes, duration, resolution and codecs are recorded in `content/articulation.json`. The source review and all-44 matrix are in `docs/research/articulation-visuals.md`.
+
+## Local evidence
+
+- `npm test`: **16 tests pass**. Coverage includes complete/distinct authentic media mapping, exact vowel lexical-set contexts, /r/ → [ɹ], affricate whole-word contexts, accessible native controls/no autoplay, attribution and absence of invented anatomy, plus existing corpus/comparison/search/British speech lifecycle tests.
+- `npm run build`: original recording integrity (37 assets / all 44 symbols), published media integrity (44 video/poster pairs), TypeScript and Vite production build pass. Manifest records `modifications: none` and the explicit non-commercial/no-adaptation reuse basis.
+- **All 44 complete MP4s decoded by FFmpeg without errors**, video + audio, 263.47 seconds total. 42 clips have H.264/AAC, two STAR clips have H.264/MP3; both browser engines successfully decoded those two clips too. No transcoding/edits were made.
+- Installed Chrome with Pixel 7 profile and WebKit with iPhone 15 profile: **all 44** selections loaded their mapped media, displayed decodable frames with nonzero video dimensions, advanced native playback, sought near the end and emitted native `ended`. All 44 original posters loaded and all source disclosures matched the manifest per engine. This tests playback/seeking, not uninterrupted full-length human listening or expert phonetic certification.
+- Both engines preserve six example words per symbol and all eleven flat preset groups with the correct two/three media entries. Starting the second video pauses the first; starting a word pauses video; starting video clears the word player's active state. Eight comparison width/theme combinations per engine (320/390/844/1440 × light/dark) have no horizontal overflow.
+- No uncaught page errors or failed application/media requests in either all-44 run. WebKit emits native media-control icon/placard diagnostics from its browser-internal blob UI; these are distinguished from application exceptions/network errors. Real video frames, audio/video codecs and native playback nevertheless pass. Desktop-hosted mobile profiles are not physical iPhone/Android tests.
+
+Both engines also pass selection disposal, simulated background pause, deliberate media-request failure with a visible original-source link, recovery after reselecting, no external internet dependency for the local HTTP-server media, and source-credit navigation. Three representative clips (vowel + both affricates) play **unmuted at volume 1 from start through natural `ended`** per engine; the all-44 tests cover decoded-frame advancement and seeking. Final MRI 2 footage has 320×320 native dimensions for all 22 consonants; no old 90-pixel MRI 1 files or tongue-only ultrasound clips are shipped. A sampled /r/ MRI 2 frame and original affricate/poster views were visually inspected.
+
+Existing-feature regression in both engines: all **264 word controls** resolve to the correct human recording (70 occurrences) or strict `en-GB` word speech (194); three real synthesized words (*cake, rain, name*) each emit native start/end with British Daniel and no error, a human recording and the triple sequence complete, all eleven flat presets/custom selectors work, and the QR disclosure fits the viewport. Ten comparison width/theme cases per engine (320/390/412/768/1440 × light/dark) pass. Chinese IME composition, exact IPA/extra-word search, keyboard custom mode and persisted theme also pass. The final explorer checks additionally cover MRI, ultrasound and affricate views across 320/390/844/1024/1440 in both themes, preserving the desktop symbol-column alignment.
+
+Publication is pending; the live deployment/asset audit will be recorded after it runs.
+
+---
+
 # v1.3 articulation visual verification
 
 Date: 2026-10-18, Asia/Singapore. Task branch: `work/articulation-visuals`. Earlier reports below are historical; their feature counts and limitations describe their respective versions.

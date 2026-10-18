@@ -1,2306 +1,1310 @@
 {
-  "schemaVersion": 1,
-  "accentModel": "en-GB-dictionary-nonrhotic-v1",
-  "authorship": "Original SVG teaching schematics based on cited articulation facts; no source illustrations or measurement coordinates copied.",
-  "review": "Source-based editorial and technical checks; no independent clinical/phonetics expert review claimed.",
-  "poses": {
-    "neutral": {
-      "tongue": [
-        123,
-        161,
-        170,
-        146,
-        241,
-        155
-      ],
-      "lips": [
-        39,
-        17
-      ],
-      "lipShape": "neutral"
+  "schemaVersion": 2,
+  "sources": {
+    "dynamic-dialects": {
+      "title": "Dynamic Dialects",
+      "creators": "Lawson, E.; Stuart-Smith, J.; Scobbie, J. M.; Nakai, S. (2018)",
+      "institution": "University of Glasgow",
+      "licenseId": "CC-BY-NC-ND-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "licensePageUrl": "https://www.dynamicdialects.ac.uk/",
+      "restrictions": "Unchanged, non-commercial redistribution with attribution. No AI training, machine learning or automated transformation without written consent."
     },
-    "fleece": {
-      "tongue": [
-        124,
-        155,
-        198,
-        104,
-        241,
-        148
-      ],
-      "lips": [
-        51,
-        9
-      ],
-      "lipShape": "spread"
+    "seeing-speech": {
+      "title": "Seeing Speech",
+      "creators": "Lawson, E.; Stuart-Smith, J.; Scobbie, J. M.; Nakai, S. (2018)",
+      "institution": "University of Glasgow",
+      "licenseId": "CC-BY-NC-ND-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "licensePageUrl": "https://www.seeingspeech.ac.uk/",
+      "restrictions": "Unchanged, non-commercial redistribution with attribution. No AI training, machine learning or automated transformation without written consent."
     },
-    "kit": {
-      "tongue": [
-        125,
-        155,
-        185,
-        119,
-        241,
-        151
-      ],
-      "lips": [
-        46,
-        13
-      ],
-      "lipShape": "spread"
-    },
-    "dress": {
-      "tongue": [
-        125,
-        164,
-        195,
-        138,
-        241,
-        159
-      ],
-      "lips": [
-        47,
-        20
-      ],
-      "lipShape": "spread"
-    },
-    "trap": {
-      "tongue": [
-        125,
-        178,
-        192,
-        163,
-        241,
-        174
-      ],
-      "lips": [
-        47,
-        29
-      ],
-      "lipShape": "spread"
-    },
-    "palm": {
-      "tongue": [
-        120,
-        174,
-        144,
-        168,
-        241,
-        177
-      ],
-      "lips": [
-        42,
-        31
-      ],
-      "lipShape": "neutral"
-    },
-    "lot": {
-      "tongue": [
-        121,
-        170,
-        144,
-        155,
-        241,
-        173
-      ],
-      "lips": [
-        31,
-        28
-      ],
-      "lipShape": "rounded"
-    },
-    "thought": {
-      "tongue": [
-        121,
-        146,
-        145,
-        129,
-        241,
-        162
-      ],
-      "lips": [
-        27,
-        22
-      ],
-      "lipShape": "rounded"
-    },
-    "foot": {
-      "tongue": [
-        120,
-        139,
-        150,
-        119,
-        241,
-        153
-      ],
-      "lips": [
-        25,
-        17
-      ],
-      "lipShape": "rounded"
-    },
-    "goose": {
-      "tongue": [
-        123,
-        131,
-        163,
-        104,
-        241,
-        149
-      ],
-      "lips": [
-        20,
-        15
-      ],
-      "lipShape": "rounded"
-    },
-    "strut": {
-      "tongue": [
-        123,
-        173,
-        168,
-        161,
-        241,
-        173
-      ],
-      "lips": [
-        42,
-        26
-      ],
-      "lipShape": "neutral"
-    },
-    "nurse": {
-      "tongue": [
-        123,
-        159,
-        170,
-        144,
-        241,
-        158
-      ],
-      "lips": [
-        39,
-        17
-      ],
-      "lipShape": "neutral"
-    },
-    "schwa": {
-      "tongue": [
-        123,
-        162,
-        172,
-        148,
-        241,
-        158
-      ],
-      "lips": [
-        38,
-        17
-      ],
-      "lipShape": "neutral"
-    },
-    "open-a": {
-      "tongue": [
-        123,
-        179,
-        176,
-        170,
-        241,
-        178
-      ],
-      "lips": [
-        46,
-        30
-      ],
-      "lipShape": "neutral"
-    },
-    "bilabial-closed": {
-      "tongue": [
-        123,
-        161,
-        170,
-        146,
-        241,
-        155
-      ],
-      "lips": [
-        43,
-        0
-      ],
-      "lipShape": "closed"
-    },
-    "labiodental": {
-      "tongue": [
-        123,
-        161,
-        170,
-        146,
-        241,
-        155
-      ],
-      "lips": [
-        43,
-        5
-      ],
-      "lipShape": "labiodental"
-    },
-    "dental": {
-      "tongue": [
-        123,
-        157,
-        194,
-        141,
-        252,
-        131
-      ],
-      "lips": [
-        41,
-        14
-      ],
-      "lipShape": "dental"
-    },
-    "alveolar-closed": {
-      "tongue": [
-        123,
-        161,
-        188,
-        141,
-        231,
-        103
-      ],
-      "lips": [
-        41,
-        16
-      ],
-      "lipShape": "neutral"
-    },
-    "alveolar-friction": {
-      "tongue": [
-        123,
-        157,
-        206,
-        114,
-        240,
-        135
-      ],
-      "lips": [
-        45,
-        11
-      ],
-      "lipShape": "spread"
-    },
-    "postalveolar-closed": {
-      "tongue": [
-        123,
-        157,
-        199,
-        115,
-        219,
-        98
-      ],
-      "lips": [
-        33,
-        17
-      ],
-      "lipShape": "rounded"
-    },
-    "postalveolar-friction": {
-      "tongue": [
-        123,
-        154,
-        204,
-        111,
-        233,
-        139
-      ],
-      "lips": [
-        32,
-        17
-      ],
-      "lipShape": "rounded"
-    },
-    "velar-closed": {
-      "tongue": [
-        120,
-        102,
-        159,
-        139,
-        241,
-        158
-      ],
-      "lips": [
-        39,
-        19
-      ],
-      "lipShape": "neutral"
-    },
-    "velar-nasal": {
-      "tongue": [
-        133,
-        99,
-        165,
-        142,
-        241,
-        158
-      ],
-      "lips": [
-        39,
-        19
-      ],
-      "lipShape": "neutral"
-    },
-    "lateral": {
-      "tongue": [
-        123,
-        164,
-        185,
-        150,
-        231,
-        103
-      ],
-      "lips": [
-        43,
-        18
-      ],
-      "lipShape": "neutral"
-    },
-    "approximant-r": {
-      "tongue": [
-        123,
-        157,
-        188,
-        139,
-        220,
-        120
-      ],
-      "lips": [
-        34,
-        15
-      ],
-      "lipShape": "rounded"
-    },
-    "palatal-glide": {
-      "tongue": [
-        124,
-        144,
-        199,
-        102,
-        241,
-        149
-      ],
-      "lips": [
-        46,
-        10
-      ],
-      "lipShape": "spread"
-    },
-    "labial-velar-glide": {
-      "tongue": [
-        120,
-        129,
-        145,
-        103,
-        241,
-        149
-      ],
-      "lips": [
-        20,
-        14
-      ],
-      "lipShape": "rounded"
-    },
-    "mid-vowel-face": {
-      "tongue": [
-        125.0,
-        159.5,
-        190.0,
-        128.5,
-        241.0,
-        155.0
-      ],
-      "lips": [
-        46.5,
-        16.5
-      ],
-      "lipShape": "spread"
-    },
-    "mid-vowel-price": {
-      "tongue": [
-        124.0,
-        167.0,
-        180.5,
-        144.5,
-        241.0,
-        164.5
-      ],
-      "lips": [
-        46.0,
-        21.5
-      ],
-      "lipShape": "neutral"
-    },
-    "mid-vowel-choice": {
-      "tongue": [
-        123.0,
-        150.5,
-        165.0,
-        124.0,
-        241.0,
-        156.5
-      ],
-      "lips": [
-        36.5,
-        17.5
-      ],
-      "lipShape": "spread"
-    },
-    "mid-vowel-goat": {
-      "tongue": [
-        121.5,
-        150.5,
-        161.0,
-        133.5,
-        241.0,
-        155.5
-      ],
-      "lips": [
-        31.5,
-        17.0
-      ],
-      "lipShape": "neutral"
-    },
-    "mid-vowel-mouth": {
-      "tongue": [
-        121.5,
-        159.0,
-        163.0,
-        144.5,
-        241.0,
-        165.5
-      ],
-      "lips": [
-        35.5,
-        23.5
-      ],
-      "lipShape": "neutral"
-    },
-    "mid-vowel-near": {
-      "tongue": [
-        124.0,
-        158.5,
-        178.5,
-        133.5,
-        241.0,
-        154.5
-      ],
-      "lips": [
-        42.0,
-        15.0
-      ],
-      "lipShape": "spread"
-    },
-    "mid-vowel-square": {
-      "tongue": [
-        124.0,
-        163.0,
-        183.5,
-        143.0,
-        241.0,
-        158.5
-      ],
-      "lips": [
-        42.5,
-        18.5
-      ],
-      "lipShape": "spread"
-    },
-    "mid-vowel-cure": {
-      "tongue": [
-        121.5,
-        150.5,
-        161.0,
-        133.5,
-        241.0,
-        155.5
-      ],
-      "lips": [
-        31.5,
-        17.0
-      ],
-      "lipShape": "rounded"
+    "star": {
+      "title": "STAR — Non-disordered Speech Database",
+      "creators": "Lawson, E.; Cleland, J.; Stuart-Smith, J. (2023)",
+      "institution": "University of Glasgow",
+      "licenseId": "CC-BY-NC-ND-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "licensePageUrl": "https://www.seeingspeech.ac.uk/speechstar/",
+      "restrictions": "Unchanged, non-commercial redistribution with attribution. No AI training, machine learning or automated transformation without written consent."
     }
   },
   "entries": [
     {
       "symbolId": "vowel-fleece",
       "ipa": "iː",
-      "kind": "vowel",
-      "place": "前高",
-      "lipCue": "嘴角稍展开，开口较小。",
-      "tongueCue": "舌前部抬高，靠近上腭但不接触。",
-      "movementCue": "摆好位置后保持音色；不是持续来回移动舌头。",
+      "sourceId": "dynamic-dialects",
+      "word": "fleece",
+      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
+      "label": "fleece · 英格兰南安普敦",
+      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
+      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_FLEECE.mp4",
+      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_FLEECE.png",
+      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_FLEECE&name=fleece",
+      "path": "articulation/dd-southampton-fleece.mp4",
+      "poster": "articulation/dd-southampton-fleece.png",
+      "institution": "University of Glasgow",
+      "modality": "超声实拍",
       "variantNote": "",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english"
-      ],
-      "sourceNotes": "Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels.",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "准备",
-          "poseId": "neutral",
-          "airflow": "none",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "保持",
-          "poseId": "fleece",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "584331f7393cfb37986be7121f50d754c5c6a55b5919fbb32e451916d685c79a",
+      "bytes": 742072,
+      "posterSha256": "6aef8d84a4dd5945bbc6e32b17edf26adbd83c3b67790e67243df5a1c48f308e",
+      "posterBytes": 30726,
+      "durationSeconds": 3.482993,
+      "width": 512,
+      "height": 276,
+      "frameRate": "132300/4159",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "vowel-kit",
       "ipa": "ɪ",
-      "kind": "vowel",
-      "place": "近前、近高",
-      "lipCue": "双唇较放松，稍展开。",
-      "tongueCue": "舌位比 /iː/ 略低、略靠中央。",
-      "movementCue": "摆好位置后保持音色；不是持续来回移动舌头。",
+      "sourceId": "dynamic-dialects",
+      "word": "kit",
+      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
+      "label": "kit · 英格兰南安普敦",
+      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
+      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_KIT.mp4",
+      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_KIT.png",
+      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_KIT&name=kit",
+      "path": "articulation/dd-southampton-kit.mp4",
+      "poster": "articulation/dd-southampton-kit.png",
+      "institution": "University of Glasgow",
+      "modality": "超声实拍",
       "variantNote": "",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english"
-      ],
-      "sourceNotes": "Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels.",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "准备",
-          "poseId": "neutral",
-          "airflow": "none",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "保持",
-          "poseId": "kit",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "cd16f4abadf9f57643f553fc319fa39b33cb4f40e41134952e111e92adc761b0",
+      "bytes": 1064588,
+      "posterSha256": "b93bcb00cf191164a18ca5c9410adfb34647d0669082840eb3c37b049dfcb547",
+      "posterBytes": 30402,
+      "durationSeconds": 5.665669,
+      "width": 512,
+      "height": 276,
+      "frameRate": "1242150/41137",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "vowel-dress",
       "ipa": "e",
-      "kind": "vowel",
-      "place": "前中",
-      "lipCue": "双唇稍展开，开口适中。",
-      "tongueCue": "舌前部抬到中等高度。",
-      "movementCue": "摆好位置后保持音色；不是持续来回移动舌头。",
+      "sourceId": "dynamic-dialects",
+      "word": "dress",
+      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
+      "label": "dress · 英格兰南安普敦",
+      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
+      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_DRESS.mp4",
+      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_DRESS.png",
+      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_DRESS&name=dress",
+      "path": "articulation/dd-southampton-dress.mp4",
+      "poster": "articulation/dd-southampton-dress.png",
+      "institution": "University of Glasgow",
+      "modality": "超声实拍",
       "variantNote": "",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english"
-      ],
-      "sourceNotes": "Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels.",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "准备",
-          "poseId": "neutral",
-          "airflow": "none",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "保持",
-          "poseId": "dress",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "858ac9472d11b4d81667cf3e9c3af6755bf1a9785342afaed1a99451a6df1eae",
+      "bytes": 1069797,
+      "posterSha256": "a0b53c88b8fe617baa198e570d3e83d42c9ae56d2969a3e859a2907e6b7d4bc1",
+      "posterBytes": 29808,
+      "durationSeconds": 5.665669,
+      "width": 512,
+      "height": 276,
+      "frameRate": "12110/391",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "vowel-trap",
       "ipa": "æ",
-      "kind": "vowel",
-      "place": "前低",
-      "lipCue": "嘴张得比 /e/ 更开。",
-      "tongueCue": "舌前部降低；不要读成 /e/。",
-      "movementCue": "摆好位置后保持音色；不是持续来回移动舌头。",
+      "sourceId": "dynamic-dialects",
+      "word": "trap",
+      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
+      "label": "trap · 英格兰南安普敦",
+      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
+      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_TRAP.mp4",
+      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_TRAP.png",
+      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_TRAP&name=trap",
+      "path": "articulation/dd-southampton-trap.mp4",
+      "poster": "articulation/dd-southampton-trap.png",
+      "institution": "University of Glasgow",
+      "modality": "超声实拍",
       "variantNote": "",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english"
-      ],
-      "sourceNotes": "Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels.",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "准备",
-          "poseId": "neutral",
-          "airflow": "none",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "保持",
-          "poseId": "trap",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "0d3fd3200853b084cb3259d0d640c8a9b1942755cfb0b99ffceeac9337c0c438",
+      "bytes": 847298,
+      "posterSha256": "3df0cdd82d2557cbe648cc85d9eb8a42d8594acea7abb768f964ca6687157d2e",
+      "posterBytes": 29724,
+      "durationSeconds": 4.318912,
+      "width": 512,
+      "height": 276,
+      "frameRate": "970200/31111",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "vowel-palm",
       "ipa": "ɑː",
-      "kind": "vowel",
-      "place": "后低",
-      "lipCue": "嘴张开，双唇不收圆。",
-      "tongueCue": "舌位较低、较靠后。",
-      "movementCue": "摆好位置后保持音色；不是持续来回移动舌头。",
+      "sourceId": "dynamic-dialects",
+      "word": "palm",
+      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
+      "label": "palm · 英格兰南安普敦",
+      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
+      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_PALM.mp4",
+      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_PALM.png",
+      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_PALM&name=palm",
+      "path": "articulation/dd-southampton-palm.mp4",
+      "poster": "articulation/dd-southampton-palm.png",
+      "institution": "University of Glasgow",
+      "modality": "超声实拍",
       "variantNote": "",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english"
-      ],
-      "sourceNotes": "Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels.",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "准备",
-          "poseId": "neutral",
-          "airflow": "none",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "保持",
-          "poseId": "palm",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "55659f753888dfaf789dbc6f00f7ee50e6fadf4c76ad5a88a32b2fbe243dd60d",
+      "bytes": 804115,
+      "posterSha256": "0c0d9a710e676aa89309536f100248677ba47108062e8705c8342c049dcb6b26",
+      "posterBytes": 30361,
+      "durationSeconds": 3.622313,
+      "width": 512,
+      "height": 276,
+      "frameRate": "279300/8653",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "vowel-lot",
       "ipa": "ɒ",
-      "kind": "vowel",
-      "place": "后低",
-      "lipCue": "嘴张开，双唇略圆。",
-      "tongueCue": "舌位偏后、偏低。",
-      "movementCue": "摆好位置后保持音色；不是持续来回移动舌头。",
+      "sourceId": "dynamic-dialects",
+      "word": "lot",
+      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
+      "label": "lot · 英格兰南安普敦",
+      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
+      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_LOT.mp4",
+      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_LOT.png",
+      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_LOT&name=lot",
+      "path": "articulation/dd-southampton-lot.mp4",
+      "poster": "articulation/dd-southampton-lot.png",
+      "institution": "University of Glasgow",
+      "modality": "超声实拍",
       "variantNote": "",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english"
-      ],
-      "sourceNotes": "Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels.",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "准备",
-          "poseId": "neutral",
-          "airflow": "none",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "保持",
-          "poseId": "lot",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "06f447e3eee077c45c4482778a8ee02064195a61265d737332cee764d616394d",
+      "bytes": 1187934,
+      "posterSha256": "cd6238c54029daaf3050f605c6855d43150d8abbc1ae4f75b5c7c30c74cf2000",
+      "posterBytes": 30762,
+      "durationSeconds": 5.712109,
+      "width": 512,
+      "height": 276,
+      "frameRate": "93975/2953",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "vowel-thought",
       "ipa": "ɔː",
-      "kind": "vowel",
-      "place": "后中",
-      "lipCue": "双唇收圆，开口小于 /ɒ/。",
-      "tongueCue": "舌后部抬高一些。",
-      "movementCue": "摆好位置后保持音色；不是持续来回移动舌头。",
+      "sourceId": "dynamic-dialects",
+      "word": "thought",
+      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
+      "label": "thought · 英格兰南安普敦",
+      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
+      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_THOUGHT.mp4",
+      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_THOUGHT.png",
+      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_THOUGHT&name=thought",
+      "path": "articulation/dd-southampton-thought.mp4",
+      "poster": "articulation/dd-southampton-thought.png",
+      "institution": "University of Glasgow",
+      "modality": "超声实拍",
       "variantNote": "",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english"
-      ],
-      "sourceNotes": "Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels.",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "准备",
-          "poseId": "neutral",
-          "airflow": "none",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "保持",
-          "poseId": "thought",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "a6b9f048a4144919a2f6e03db9e8b4a2bdd8bb14f84aeba85bd14da74c1ea14e",
+      "bytes": 1372097,
+      "posterSha256": "6803b7d22184c7a1d5b0a460915b662e61c38959fa5b634b7e495e08c0655165",
+      "posterBytes": 29992,
+      "durationSeconds": 7.105306,
+      "width": 512,
+      "height": 276,
+      "frameRate": "223650/7409",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "vowel-foot",
       "ipa": "ʊ",
-      "kind": "vowel",
-      "place": "近后、近高",
-      "lipCue": "双唇轻轻收圆，较放松。",
-      "tongueCue": "舌位近后、近高；不要只把 /uː/ 缩短。",
-      "movementCue": "摆好位置后保持音色；不是持续来回移动舌头。",
+      "sourceId": "dynamic-dialects",
+      "word": "foot",
+      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
+      "label": "foot · 英格兰南安普敦",
+      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
+      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_FOOT.mp4",
+      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_FOOT.png",
+      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_FOOT&name=foot",
+      "path": "articulation/dd-southampton-foot.mp4",
+      "poster": "articulation/dd-southampton-foot.png",
+      "institution": "University of Glasgow",
+      "modality": "超声实拍",
       "variantNote": "",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english"
-      ],
-      "sourceNotes": "Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels.",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "准备",
-          "poseId": "neutral",
-          "airflow": "none",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "保持",
-          "poseId": "foot",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "a55e0f8ec702c8fa4f8a02c3f8975c28ec96c7e9a8e3a1cb496e209b951d6529",
+      "bytes": 1139182,
+      "posterSha256": "eb27a3755ca0ce029ae8db1e99880708b6d3a1c19164e95564404d0974031bad",
+      "posterBytes": 29818,
+      "durationSeconds": 5.665669,
+      "width": 512,
+      "height": 276,
+      "frameRate": "428750/13767",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "vowel-goose",
       "ipa": "uː",
-      "kind": "vowel",
-      "place": "高",
-      "lipCue": "双唇收圆，开口较小。",
-      "tongueCue": "舌位高；现代英音常比传统后元音更靠前。",
-      "movementCue": "摆好位置后保持音色；不是持续来回移动舌头。",
-      "variantNote": "图示为相对舌位；/uː/ 的前后位置随英国口音变化。",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english",
-        "ps-monophthongs"
-      ],
-      "sourceNotes": "Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels.",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "准备",
-          "poseId": "neutral",
-          "airflow": "none",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "保持",
-          "poseId": "goose",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "sourceId": "dynamic-dialects",
+      "word": "goose",
+      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
+      "label": "goose · 英格兰南安普敦",
+      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
+      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_GOOSE.mp4",
+      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_GOOSE.png",
+      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_GOOSE&name=goose",
+      "path": "articulation/dd-southampton-goose.mp4",
+      "poster": "articulation/dd-southampton-goose.png",
+      "institution": "University of Glasgow",
+      "modality": "超声实拍",
+      "variantNote": "现代英式 /uː/ 常有舌位前移，实拍保留说话人的实际发音。",
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "97b991b0f3f23e972ea5cf84fb6036907a3995780609e613ae7f7a1433dc24f9",
+      "bytes": 1084259,
+      "posterSha256": "911e20f5f8b3549a1f75b7d87f05a3b0ce4ac3e5e83090768c51b3fa3c216b65",
+      "posterBytes": 26853,
+      "durationSeconds": 5.619229,
+      "width": 512,
+      "height": 276,
+      "frameRate": "211925/6822",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "vowel-strut",
       "ipa": "ʌ",
-      "kind": "vowel",
-      "place": "中央偏低",
-      "lipCue": "双唇自然，嘴张开。",
-      "tongueCue": "舌位居中、偏低。",
-      "movementCue": "摆好位置后保持音色；不是持续来回移动舌头。",
+      "sourceId": "dynamic-dialects",
+      "word": "strut",
+      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
+      "label": "strut · 英格兰南安普敦",
+      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
+      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_STRUT.mp4",
+      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_STRUT.png",
+      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_STRUT&name=strut",
+      "path": "articulation/dd-southampton-strut.mp4",
+      "poster": "articulation/dd-southampton-strut.png",
+      "institution": "University of Glasgow",
+      "modality": "超声实拍",
       "variantNote": "",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english"
-      ],
-      "sourceNotes": "Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels.",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "准备",
-          "poseId": "neutral",
-          "airflow": "none",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "保持",
-          "poseId": "strut",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "e6c9957ef7ec35f331213d87ccaf2785a74be6d125668ed807c3133c742c12ad",
+      "bytes": 1175891,
+      "posterSha256": "6363564153cf7ed6c8c3d299f8c6a1c2dc6608034952fb8a2c03ec67614db582",
+      "posterBytes": 30068,
+      "durationSeconds": 5.851429,
+      "width": 512,
+      "height": 276,
+      "frameRate": "1315650/42407",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "vowel-nurse",
       "ipa": "ɜː",
-      "kind": "vowel",
-      "place": "中央中",
-      "lipCue": "双唇自然，不收圆。",
-      "tongueCue": "舌位在中央，保持较稳定。",
-      "movementCue": "保持中央舌位，通常较长；不要额外卷舌。",
+      "sourceId": "dynamic-dialects",
+      "word": "nurse",
+      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
+      "label": "nurse · 英格兰南安普敦",
+      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
+      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_NURSE.mp4",
+      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_NURSE.png",
+      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_NURSE&name=nurse",
+      "path": "articulation/dd-southampton-nurse.mp4",
+      "poster": "articulation/dd-southampton-nurse.png",
+      "institution": "University of Glasgow",
+      "modality": "超声实拍",
       "variantNote": "",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english"
-      ],
-      "sourceNotes": "Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels.",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "准备",
-          "poseId": "neutral",
-          "airflow": "none",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "保持",
-          "poseId": "nurse",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "09a7d74a1fd620e2d992dd6f892c6ad20809e2d6a44bd1a5036a1307e5d6300c",
+      "bytes": 1144875,
+      "posterSha256": "3f346efb3d0a20b255c87a7abcd63f491ebc9f80ff616e1caa1c2629a762fca5",
+      "posterBytes": 31516,
+      "durationSeconds": 5.712109,
+      "width": 512,
+      "height": 276,
+      "frameRate": "414050/13781",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "vowel-schwa",
       "ipa": "ə",
-      "kind": "vowel",
-      "place": "中央中",
-      "lipCue": "嘴部放松，开口自然。",
-      "tongueCue": "舌位居中、放松，常在非重读音节。",
-      "movementCue": "短促、放松地轻读，不必刻意扩大口形。",
+      "sourceId": "dynamic-dialects",
+      "word": "later",
+      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
+      "label": "later · 英格兰南安普敦",
+      "context": "观察 later 词尾的弱读元音；右侧小窗显示嘴唇。",
+      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_LATER.mp4",
+      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_LATER.png",
+      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_LATER&name=later",
+      "path": "articulation/dd-southampton-later.mp4",
+      "poster": "articulation/dd-southampton-later.png",
+      "institution": "University of Glasgow",
+      "modality": "超声实拍",
       "variantNote": "",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english"
-      ],
-      "sourceNotes": "Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels.",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "准备",
-          "poseId": "neutral",
-          "airflow": "none",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "保持",
-          "poseId": "schwa",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "63a9e7464ddf919d813429917796dc1720efe64115db6119b586d466832a9457",
+      "bytes": 1409865,
+      "posterSha256": "ba0bcc05dbba59a22811e8b921807a4c90b16f855abbbda9df2eb0084949294d",
+      "posterBytes": 30079,
+      "durationSeconds": 7.058866,
+      "width": 512,
+      "height": 276,
+      "frameRate": "36925/1226",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "vowel-face",
       "ipa": "eɪ",
-      "kind": "diphthong",
-      "place": "滑动",
-      "lipCue": "双唇由稍展开变为较小开口。",
-      "tongueCue": "舌前部从中位向较高的位置移动。",
-      "movementCue": "/e/ 附近起音，滑向 /ɪ/。",
+      "sourceId": "dynamic-dialects",
+      "word": "face",
+      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
+      "label": "face · 英格兰南安普敦",
+      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
+      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_FACE.mp4",
+      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_FACE.png",
+      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_FACE&name=face",
+      "path": "articulation/dd-southampton-face.mp4",
+      "poster": "articulation/dd-southampton-face.png",
+      "institution": "University of Glasgow",
+      "modality": "超声实拍",
       "variantNote": "",
-      "sourceIds": [
-        "cambridge-english",
-        "ps-diphthongs"
-      ],
-      "sourceNotes": "Barber et al., diphthong movement/one syllable and RP glide figure, pp. 5–6, 9; Hudson, corresponding diphthong section and centring-vowel variants.",
-      "initialPhase": 0,
-      "phases": [
-        {
-          "label": "起音",
-          "poseId": "dress",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "滑动",
-          "poseId": "mid-vowel-face",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "滑向",
-          "poseId": "kit",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "27c861605d4a7f6e6b45fc2d642876cd667c4fd1d3e71a6373e0b1ec8ff5d315",
+      "bytes": 1089052,
+      "posterSha256": "6ad627ec8405bc0cd3e25d8725f1a9ff47e824d7d5f65e29a749cd4fc13c0775",
+      "posterBytes": 30473,
+      "durationSeconds": 5.479909,
+      "width": 512,
+      "height": 276,
+      "frameRate": "137200/4421",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "vowel-price",
       "ipa": "aɪ",
-      "kind": "diphthong",
-      "place": "滑动",
-      "lipCue": "开口由大变小，双唇不收圆。",
-      "tongueCue": "舌位从较低的位置向前上方移动。",
-      "movementCue": "较开的位置起音，滑向 /ɪ/。",
+      "sourceId": "dynamic-dialects",
+      "word": "price",
+      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
+      "label": "price · 英格兰南安普敦",
+      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
+      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_PRICE.mp4",
+      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_PRICE.png",
+      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_PRICE&name=price",
+      "path": "articulation/dd-southampton-price.mp4",
+      "poster": "articulation/dd-southampton-price.png",
+      "institution": "University of Glasgow",
+      "modality": "超声实拍",
       "variantNote": "",
-      "sourceIds": [
-        "cambridge-english",
-        "ps-diphthongs"
-      ],
-      "sourceNotes": "Barber et al., diphthong movement/one syllable and RP glide figure, pp. 5–6, 9; Hudson, corresponding diphthong section and centring-vowel variants.",
-      "initialPhase": 0,
-      "phases": [
-        {
-          "label": "起音",
-          "poseId": "open-a",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "滑动",
-          "poseId": "mid-vowel-price",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "滑向",
-          "poseId": "kit",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "414e72f0973f8ffd39ae89e4a1fad3d24982f7f3138d7208f563f4510e2c6cf1",
+      "bytes": 1062002,
+      "posterSha256": "d5e3530c7c7314cccf4bda1424f4ca4cec8e36756de2623f5b450562d9c4aeca",
+      "posterBytes": 31154,
+      "durationSeconds": 5.29415,
+      "width": 512,
+      "height": 276,
+      "frameRate": "4725/152",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "vowel-choice",
       "ipa": "ɔɪ",
-      "kind": "diphthong",
-      "place": "滑动",
-      "lipCue": "从圆唇逐渐转为较展开。",
-      "tongueCue": "舌位由后部向前上方移动。",
-      "movementCue": "/ɔ/ 附近起音，滑向 /ɪ/。",
+      "sourceId": "dynamic-dialects",
+      "word": "choice",
+      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
+      "label": "choice · 英格兰南安普敦",
+      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
+      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_CHOICE.mp4",
+      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_CHOICE.png",
+      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_CHOICE&name=choice",
+      "path": "articulation/dd-southampton-choice.mp4",
+      "poster": "articulation/dd-southampton-choice.png",
+      "institution": "University of Glasgow",
+      "modality": "超声实拍",
       "variantNote": "",
-      "sourceIds": [
-        "cambridge-english",
-        "ps-diphthongs"
-      ],
-      "sourceNotes": "Barber et al., diphthong movement/one syllable and RP glide figure, pp. 5–6, 9; Hudson, corresponding diphthong section and centring-vowel variants.",
-      "initialPhase": 0,
-      "phases": [
-        {
-          "label": "起音",
-          "poseId": "thought",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "滑动",
-          "poseId": "mid-vowel-choice",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "滑向",
-          "poseId": "kit",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "8f99a5abf65c74d54acfa0802fcc2bf885eeb031291bce56785547f00257e38f",
+      "bytes": 813350,
+      "posterSha256": "bad8ff06ee6e5ed3cd7e9d6fd3d01bb9072968317b26036a0ca92ce6bfef6dd3",
+      "posterBytes": 29402,
+      "durationSeconds": 3.947392,
+      "width": 512,
+      "height": 276,
+      "frameRate": "21875/676",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "vowel-goat",
       "ipa": "əʊ",
-      "kind": "diphthong",
-      "place": "滑动",
-      "lipCue": "双唇由自然逐渐收圆。",
-      "tongueCue": "舌位由中央向较后、较高的位置移动。",
-      "movementCue": "中央位置起音，滑向 /ʊ/。",
+      "sourceId": "dynamic-dialects",
+      "word": "goat",
+      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
+      "label": "goat · 英格兰南安普敦",
+      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
+      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_GOAT.mp4",
+      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_GOAT.png",
+      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_GOAT&name=goat",
+      "path": "articulation/dd-southampton-goat.mp4",
+      "poster": "articulation/dd-southampton-goat.png",
+      "institution": "University of Glasgow",
+      "modality": "超声实拍",
       "variantNote": "",
-      "sourceIds": [
-        "cambridge-english",
-        "ps-diphthongs"
-      ],
-      "sourceNotes": "Barber et al., diphthong movement/one syllable and RP glide figure, pp. 5–6, 9; Hudson, corresponding diphthong section and centring-vowel variants.",
-      "initialPhase": 0,
-      "phases": [
-        {
-          "label": "起音",
-          "poseId": "schwa",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "滑动",
-          "poseId": "mid-vowel-goat",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "滑向",
-          "poseId": "foot",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "e32192de6f011d1765a4727e669671bc6b3e130736ba389468fd5860cf178a91",
+      "bytes": 1075070,
+      "posterSha256": "1509e186ea361c36ead68d4a6a51b7d649beedc560bdf7d30e577bf3d42dd708",
+      "posterBytes": 29922,
+      "durationSeconds": 5.20127,
+      "width": 512,
+      "height": 276,
+      "frameRate": "396900/12563",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "vowel-mouth",
       "ipa": "aʊ",
-      "kind": "diphthong",
-      "place": "滑动",
-      "lipCue": "嘴从张开逐渐收小、收圆。",
-      "tongueCue": "舌位由低处向较后、较高的位置移动。",
-      "movementCue": "较开的位置起音，滑向 /ʊ/。",
+      "sourceId": "dynamic-dialects",
+      "word": "mouth",
+      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
+      "label": "mouth · 英格兰南安普敦",
+      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
+      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_MOUTH.mp4",
+      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_MOUTH.png",
+      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_MOUTH&name=mouth",
+      "path": "articulation/dd-southampton-mouth.mp4",
+      "poster": "articulation/dd-southampton-mouth.png",
+      "institution": "University of Glasgow",
+      "modality": "超声实拍",
       "variantNote": "",
-      "sourceIds": [
-        "cambridge-english",
-        "ps-diphthongs"
-      ],
-      "sourceNotes": "Barber et al., diphthong movement/one syllable and RP glide figure, pp. 5–6, 9; Hudson, corresponding diphthong section and centring-vowel variants.",
-      "initialPhase": 0,
-      "phases": [
-        {
-          "label": "起音",
-          "poseId": "open-a",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "滑动",
-          "poseId": "mid-vowel-mouth",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "滑向",
-          "poseId": "foot",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "4eb82d95d5653d44f88d535e58da14518aac0563edc49638868630f3f53aac93",
+      "bytes": 975541,
+      "posterSha256": "1a6f87b34bdd19ac56bc2ae5d5325c5612cba1e28e012af5d4bcd9b1f19972f8",
+      "posterBytes": 32182,
+      "durationSeconds": 4.365351,
+      "width": 512,
+      "height": 276,
+      "frameRate": "488775/15817",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "vowel-near",
       "ipa": "ɪə",
-      "kind": "diphthong",
-      "place": "滑动",
-      "lipCue": "双唇由稍展开转为自然。",
-      "tongueCue": "舌位由前部向中央放松。",
-      "movementCue": "传统写法：/ɪ/ 附近滑向 /ə/。",
-      "variantNote": "展示传统双元音；现代英国口音可用单元音或其他读法。",
-      "sourceIds": [
-        "cambridge-english",
-        "ps-diphthongs"
-      ],
-      "sourceNotes": "Barber et al., diphthong movement/one syllable and RP glide figure, pp. 5–6, 9; Hudson, corresponding diphthong section and centring-vowel variants.",
-      "initialPhase": 0,
-      "phases": [
-        {
-          "label": "起音",
-          "poseId": "kit",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "滑动",
-          "poseId": "mid-vowel-near",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "滑向",
-          "poseId": "schwa",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "sourceId": "dynamic-dialects",
+      "word": "near",
+      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
+      "label": "near · 英格兰南安普敦",
+      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
+      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_NEAR.mp4",
+      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_NEAR.png",
+      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_NEAR&name=near",
+      "path": "articulation/dd-southampton-near.mp4",
+      "poster": "articulation/dd-southampton-near.png",
+      "institution": "University of Glasgow",
+      "modality": "超声实拍",
+      "variantNote": "本站使用传统词典符号；此实拍是该词的当地口音，可能出现单元音化等现代变体。",
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "6ad908aca4905ec021782b0e171fe1b4a1884eb953f8e44bb2b498241b1cb73a",
+      "bytes": 1288178,
+      "posterSha256": "07c11e83fa6749d8e2c33e108debed377fd8980c8b85047fb83d4b3efb25d4a7",
+      "posterBytes": 31723,
+      "durationSeconds": 6.315828,
+      "width": 512,
+      "height": 276,
+      "frameRate": "245/8",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "vowel-square",
       "ipa": "eə",
-      "kind": "diphthong",
-      "place": "滑动",
-      "lipCue": "开口适中，双唇逐渐放松。",
-      "tongueCue": "舌位从前中部向中央移动。",
-      "movementCue": "传统写法：/e/ 附近滑向 /ə/。",
-      "variantNote": "展示传统双元音；现代英国口音可用单元音或其他读法。",
-      "sourceIds": [
-        "cambridge-english",
-        "ps-diphthongs"
-      ],
-      "sourceNotes": "Barber et al., diphthong movement/one syllable and RP glide figure, pp. 5–6, 9; Hudson, corresponding diphthong section and centring-vowel variants.",
-      "initialPhase": 0,
-      "phases": [
-        {
-          "label": "起音",
-          "poseId": "dress",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "滑动",
-          "poseId": "mid-vowel-square",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "滑向",
-          "poseId": "schwa",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "sourceId": "dynamic-dialects",
+      "word": "square",
+      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
+      "label": "square · 英格兰南安普敦",
+      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
+      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_SQUARE.mp4",
+      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_SQUARE.png",
+      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_SQUARE&name=square",
+      "path": "articulation/dd-southampton-square.mp4",
+      "poster": "articulation/dd-southampton-square.png",
+      "institution": "University of Glasgow",
+      "modality": "超声实拍",
+      "variantNote": "本站使用传统词典符号；此实拍是该词的当地口音，可能出现单元音化等现代变体。",
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "a204aad35e7074649fc237a0547a07e10f471efe430de7c3fdd7ed849c412784",
+      "bytes": 1002283,
+      "posterSha256": "fa94fcb747d94b72cb3fe9311954081b9ac42c550d05b774a2431095baf73026",
+      "posterBytes": 30353,
+      "durationSeconds": 5.06195,
+      "width": 512,
+      "height": 276,
+      "frameRate": "377300/12189",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "vowel-cure",
       "ipa": "ʊə",
-      "kind": "diphthong",
-      "place": "滑动",
-      "lipCue": "双唇从收圆逐渐放松。",
-      "tongueCue": "舌位从近后部向中央移动。",
-      "movementCue": "传统写法：/ʊ/ 附近滑向 /ə/。",
-      "variantNote": "展示传统双元音；现代英国口音可用单元音或其他读法。",
-      "sourceIds": [
-        "cambridge-english",
-        "ps-diphthongs"
-      ],
-      "sourceNotes": "Barber et al., diphthong movement/one syllable and RP glide figure, pp. 5–6, 9; Hudson, corresponding diphthong section and centring-vowel variants.",
-      "initialPhase": 0,
-      "phases": [
-        {
-          "label": "起音",
-          "poseId": "foot",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "滑动",
-          "poseId": "mid-vowel-cure",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "滑向",
-          "poseId": "schwa",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "sourceId": "dynamic-dialects",
+      "word": "cure",
+      "speaker": "Southampton, England; male, age 18–24 (speaker 5)",
+      "label": "cure · 英格兰南安普敦",
+      "context": "观察词中的元音；超声显示舌面，右侧小窗显示嘴唇。",
+      "sourceUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_CURE.mp4",
+      "posterUrl": "https://www.dynamicdialects.ac.uk/accentrecording/Southampton_YM_CURE.png",
+      "sourcePageUrl": "https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_CURE&name=cure",
+      "path": "articulation/dd-southampton-cure.mp4",
+      "poster": "articulation/dd-southampton-cure.png",
+      "institution": "University of Glasgow",
+      "modality": "超声实拍",
+      "variantNote": "本站使用传统词典符号；此实拍是该词的当地口音，可能出现单元音化等现代变体。",
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "551426e6347071ea8fd2cf282b010f513bd15e2d9e3d6e6c7f1ea628db292533",
+      "bytes": 773800,
+      "posterSha256": "30bd180c75d8a0da5cd1be84b8f235647f34835dfddcda8953ee96ba2f41fd3d",
+      "posterBytes": 31076,
+      "durationSeconds": 3.668753,
+      "width": 512,
+      "height": 276,
+      "frameRate": "845250/26329",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "consonant-p",
       "ipa": "p",
-      "kind": "stop",
-      "place": "双唇",
-      "lipCue": "双唇先闭合，再打开。",
-      "tongueCue": "舌头不负责闭塞，位置随相邻元音变化。",
-      "movementCue": "先阻住，再释放；不要在后面加一个元音。",
+      "sourceId": "seeing-speech",
+      "word": "",
+      "speaker": "Janet Beck",
+      "label": "Janet Beck · 国际音标示范",
+      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
+      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_bilabial_plosive_overdubbed.mp4",
+      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_bilabial_plosive_overdubbed.png",
+      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=112",
+      "path": "articulation/ss-mri2-1.mp4",
+      "poster": "articulation/ss-mri2-1.png",
+      "institution": "University of Strathclyde (MRI 2, 2022)",
+      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english",
-        "seeing-speech"
-      ],
-      "sourceNotes": "Roach §2.1 articulators, pp. 8–10; Barber et al., stops and voicing, pp. 2, 6–7; Seeing Speech plosive row at matching place. Voicing here is schematic; actual voicing/aspiration depends on context.",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "准备",
-          "poseId": "neutral",
-          "airflow": "none",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "闭塞",
-          "poseId": "bilabial-closed",
-          "airflow": "none",
-          "contact": "bilabial",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "释放",
-          "poseId": "neutral",
-          "airflow": "burst",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "557e92c929c4e9980f4bb51ad021cf974a7ea1eaeccc9bcd519aa0dce971389d",
+      "bytes": 266107,
+      "posterSha256": "3b67843c486ec637ae2a94560534e2e245141013dbf30e2e16f5d230b36a638f",
+      "posterBytes": 74596,
+      "durationSeconds": 8.661333,
+      "width": 320,
+      "height": 320,
+      "frameRate": "10/1",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "consonant-b",
       "ipa": "b",
-      "kind": "stop",
-      "place": "双唇",
-      "lipCue": "双唇先闭合，再打开。",
-      "tongueCue": "舌头不负责闭塞，位置随相邻元音变化。",
-      "movementCue": "先阻住，再释放；不要在后面加一个元音。",
+      "sourceId": "seeing-speech",
+      "word": "",
+      "speaker": "Janet Beck",
+      "label": "Janet Beck · 国际音标示范",
+      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
+      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_bilabial_plosive.mp4",
+      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_bilabial_plosive.png",
+      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=98",
+      "path": "articulation/ss-mri2-2.mp4",
+      "poster": "articulation/ss-mri2-2.png",
+      "institution": "University of Strathclyde (MRI 2, 2022)",
+      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english",
-        "seeing-speech"
-      ],
-      "sourceNotes": "Roach §2.1 articulators, pp. 8–10; Barber et al., stops and voicing, pp. 2, 6–7; Seeing Speech plosive row at matching place. Voicing here is schematic; actual voicing/aspiration depends on context.",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "准备",
-          "poseId": "neutral",
-          "airflow": "none",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "闭塞",
-          "poseId": "bilabial-closed",
-          "airflow": "none",
-          "contact": "bilabial",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "释放",
-          "poseId": "neutral",
-          "airflow": "burst",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "ab49cf0f84e99ff82d640f9d5a33c59a9ff0d8fc9a81b1457528ac1754af8192",
+      "bytes": 365419,
+      "posterSha256": "461d7c1cdfd2d619d84cae9de4069d0e9b7538b638734a08f69aec535067643c",
+      "posterBytes": 67965,
+      "durationSeconds": 7.6,
+      "width": 320,
+      "height": 320,
+      "frameRate": "10/1",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "consonant-t",
       "ipa": "t",
-      "kind": "stop",
-      "place": "齿龈",
-      "lipCue": "双唇自然分开。",
-      "tongueCue": "舌尖接触上齿龈，短暂堵住气流。",
-      "movementCue": "先阻住，再释放；不要在后面加一个元音。",
+      "sourceId": "seeing-speech",
+      "word": "",
+      "speaker": "Janet Beck",
+      "label": "Janet Beck · 国际音标示范",
+      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
+      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_alveolar_plosive_overdubbed.mp4",
+      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_alveolar_plosive_overdubbed.png",
+      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=116",
+      "path": "articulation/ss-mri2-3.mp4",
+      "poster": "articulation/ss-mri2-3.png",
+      "institution": "University of Strathclyde (MRI 2, 2022)",
+      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english",
-        "seeing-speech"
-      ],
-      "sourceNotes": "Roach §2.1 articulators, pp. 8–10; Barber et al., stops and voicing, pp. 2, 6–7; Seeing Speech plosive row at matching place. Voicing here is schematic; actual voicing/aspiration depends on context.",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "准备",
-          "poseId": "neutral",
-          "airflow": "none",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "闭塞",
-          "poseId": "alveolar-closed",
-          "airflow": "none",
-          "contact": "alveolar",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "释放",
-          "poseId": "neutral",
-          "airflow": "burst",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "1c3f14066a29995f19fe245ab67bd677ab08df229d43df44e54208d8efb33a21",
+      "bytes": 242965,
+      "posterSha256": "b998b5729e7f0ee64d10efb755aea47ed175b5f06689f32270b7706b5576b295",
+      "posterBytes": 74906,
+      "durationSeconds": 7.850667,
+      "width": 320,
+      "height": 320,
+      "frameRate": "10/1",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "consonant-d",
       "ipa": "d",
-      "kind": "stop",
-      "place": "齿龈",
-      "lipCue": "双唇自然分开。",
-      "tongueCue": "舌尖接触上齿龈，短暂堵住气流。",
-      "movementCue": "先阻住，再释放；不要在后面加一个元音。",
+      "sourceId": "seeing-speech",
+      "word": "",
+      "speaker": "Janet Beck",
+      "label": "Janet Beck · 国际音标示范",
+      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
+      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_alveolar_plosive.mp4",
+      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_alveolar_plosive.png",
+      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=100",
+      "path": "articulation/ss-mri2-4.mp4",
+      "poster": "articulation/ss-mri2-4.png",
+      "institution": "University of Strathclyde (MRI 2, 2022)",
+      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english",
-        "seeing-speech"
-      ],
-      "sourceNotes": "Roach §2.1 articulators, pp. 8–10; Barber et al., stops and voicing, pp. 2, 6–7; Seeing Speech plosive row at matching place. Voicing here is schematic; actual voicing/aspiration depends on context.",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "准备",
-          "poseId": "neutral",
-          "airflow": "none",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "闭塞",
-          "poseId": "alveolar-closed",
-          "airflow": "none",
-          "contact": "alveolar",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "释放",
-          "poseId": "neutral",
-          "airflow": "burst",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "b302dbd909a97f9a799ef774c469ac4ef2408e9c4beca3eaa09a80a8543dfd66",
+      "bytes": 319419,
+      "posterSha256": "497e508e675c0edaf79dc7cd06a818ef1b03ef55338140874c248ce5c8f92a23",
+      "posterBytes": 68232,
+      "durationSeconds": 6.6,
+      "width": 320,
+      "height": 320,
+      "frameRate": "10/1",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "consonant-k",
       "ipa": "k",
-      "kind": "stop",
-      "place": "软腭",
-      "lipCue": "双唇自然分开。",
-      "tongueCue": "舌后部抬起，接触软腭形成闭塞。",
-      "movementCue": "先阻住，再释放；不要在后面加一个元音。",
+      "sourceId": "seeing-speech",
+      "word": "",
+      "speaker": "Janet Beck",
+      "label": "Janet Beck · 国际音标示范",
+      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
+      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_velar_plosive_overdubbed_short.mp4",
+      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_velar_plosive_overdubbed_short.png",
+      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=107",
+      "path": "articulation/ss-mri2-5.mp4",
+      "poster": "articulation/ss-mri2-5.png",
+      "institution": "University of Strathclyde (MRI 2, 2022)",
+      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english",
-        "seeing-speech"
-      ],
-      "sourceNotes": "Roach §2.1 articulators, pp. 8–10; Barber et al., stops and voicing, pp. 2, 6–7; Seeing Speech plosive row at matching place. Voicing here is schematic; actual voicing/aspiration depends on context.",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "准备",
-          "poseId": "neutral",
-          "airflow": "none",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "闭塞",
-          "poseId": "velar-closed",
-          "airflow": "none",
-          "contact": "velar",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "释放",
-          "poseId": "neutral",
-          "airflow": "burst",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "3e829efb8a6f0e1bb0773057a9dfb4f014daaa781f6b7c236516ec1c540c1ac9",
+      "bytes": 161769,
+      "posterSha256": "729be5509087f03af41df64fe47ebe71c08011dc2a7991fd3c7d12f3d082b4d4",
+      "posterBytes": 75669,
+      "durationSeconds": 4.949333,
+      "width": 320,
+      "height": 320,
+      "frameRate": "10/1",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "consonant-g",
       "ipa": "ɡ",
-      "kind": "stop",
-      "place": "软腭",
-      "lipCue": "双唇自然分开。",
-      "tongueCue": "舌后部抬起，接触软腭形成闭塞。",
-      "movementCue": "先阻住，再释放；不要在后面加一个元音。",
+      "sourceId": "seeing-speech",
+      "word": "",
+      "speaker": "Janet Beck",
+      "label": "Janet Beck · 国际音标示范",
+      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
+      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_velar_plosive.mp4",
+      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_velar_plosive.png",
+      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=609",
+      "path": "articulation/ss-mri2-6.mp4",
+      "poster": "articulation/ss-mri2-6.png",
+      "institution": "University of Strathclyde (MRI 2, 2022)",
+      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english",
-        "seeing-speech"
-      ],
-      "sourceNotes": "Roach §2.1 articulators, pp. 8–10; Barber et al., stops and voicing, pp. 2, 6–7; Seeing Speech plosive row at matching place. Voicing here is schematic; actual voicing/aspiration depends on context.",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "准备",
-          "poseId": "neutral",
-          "airflow": "none",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "闭塞",
-          "poseId": "velar-closed",
-          "airflow": "none",
-          "contact": "velar",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "释放",
-          "poseId": "neutral",
-          "airflow": "burst",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "f17ae65ded2044dae5f359eed612d43121fba150780143f0b5c7097bc983c25e",
+      "bytes": 305343,
+      "posterSha256": "4721036be992c133ddcb0092ddc4a5f7319bb25e5869cbe1e40d068da8b679cb",
+      "posterBytes": 68308,
+      "durationSeconds": 6.3,
+      "width": 320,
+      "height": 320,
+      "frameRate": "10/1",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "consonant-f",
       "ipa": "f",
-      "kind": "fricative",
-      "place": "唇齿",
-      "lipCue": "上齿轻靠下唇，留出窄缝。",
-      "tongueCue": "舌头不负责此处摩擦，位置随元音变化。",
-      "movementCue": "留缝并持续送气；口腔不完全堵住。",
+      "sourceId": "seeing-speech",
+      "word": "",
+      "speaker": "Janet Beck",
+      "label": "Janet Beck · 国际音标示范",
+      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
+      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_labiodental_fricative.mp4",
+      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_labiodental_fricative.png",
+      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=102",
+      "path": "articulation/ss-mri2-10.mp4",
+      "poster": "articulation/ss-mri2-10.png",
+      "institution": "University of Strathclyde (MRI 2, 2022)",
+      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english",
-        "seeing-speech"
-      ],
-      "sourceNotes": "Roach §2.1 dental/labiodental/alveolar anatomy, pp. 9–10; Barber et al., English fricatives, pp. 6–7; Seeing Speech corresponding place and fricative row.",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "准备",
-          "poseId": "neutral",
-          "airflow": "none",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "留缝",
-          "poseId": "labiodental",
-          "airflow": "friction",
-          "contact": "labiodental",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "送气",
-          "poseId": "labiodental",
-          "airflow": "friction",
-          "contact": "labiodental",
-          "voiced": false,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "51f39fe594ae4e7606039f8bcd7a01dc205319d0f3b418d8e36d96a002199faf",
+      "bytes": 363663,
+      "posterSha256": "3d5631d21717ec7a305ddc25695adf580d3dd131d298a2dae2d502032f4df2d4",
+      "posterBytes": 73086,
+      "durationSeconds": 7.6,
+      "width": 320,
+      "height": 320,
+      "frameRate": "10/1",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "consonant-v",
       "ipa": "v",
-      "kind": "fricative",
-      "place": "唇齿",
-      "lipCue": "上齿轻靠下唇，留出窄缝。",
-      "tongueCue": "舌头不负责此处摩擦，位置随元音变化。",
-      "movementCue": "留缝并持续送气；口腔不完全堵住。",
+      "sourceId": "seeing-speech",
+      "word": "",
+      "speaker": "Janet Beck",
+      "label": "Janet Beck · 国际音标示范",
+      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
+      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_labiodental_fricative.mp4",
+      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_labiodental_fricative.png",
+      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=118",
+      "path": "articulation/ss-mri2-11.mp4",
+      "poster": "articulation/ss-mri2-11.png",
+      "institution": "University of Strathclyde (MRI 2, 2022)",
+      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english",
-        "seeing-speech"
-      ],
-      "sourceNotes": "Roach §2.1 dental/labiodental/alveolar anatomy, pp. 9–10; Barber et al., English fricatives, pp. 6–7; Seeing Speech corresponding place and fricative row.",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "准备",
-          "poseId": "neutral",
-          "airflow": "none",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "留缝",
-          "poseId": "labiodental",
-          "airflow": "friction",
-          "contact": "labiodental",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "送气",
-          "poseId": "labiodental",
-          "airflow": "friction",
-          "contact": "labiodental",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "e2a605836872e3e8acb402b4470d1f3ef5ec38b13f97647ac1c61ab6126260e9",
+      "bytes": 323243,
+      "posterSha256": "57982c824dc9a845f8fbe801578c29294d5c7ee55e4b8b56b7cef1bd4e401503",
+      "posterBytes": 68427,
+      "durationSeconds": 6.8,
+      "width": 320,
+      "height": 320,
+      "frameRate": "10/1",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "consonant-theta",
       "ipa": "θ",
-      "kind": "fricative",
-      "place": "齿间／上齿",
-      "lipCue": "双唇放松，舌尖可在齿间略露。",
-      "tongueCue": "舌尖轻靠上齿，让气流从缝隙通过。",
-      "movementCue": "留缝并持续送气；口腔不完全堵住。",
+      "sourceId": "seeing-speech",
+      "word": "",
+      "speaker": "Janet Beck",
+      "label": "Janet Beck · 国际音标示范",
+      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
+      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_dental_fricative.mp4",
+      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_dental_fricative.png",
+      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=952",
+      "path": "articulation/ss-mri2-12.mp4",
+      "poster": "articulation/ss-mri2-12.png",
+      "institution": "University of Strathclyde (MRI 2, 2022)",
+      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english",
-        "seeing-speech"
-      ],
-      "sourceNotes": "Roach §2.1 dental/labiodental/alveolar anatomy, pp. 9–10; Barber et al., English fricatives, pp. 6–7; Seeing Speech corresponding place and fricative row.",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "准备",
-          "poseId": "neutral",
-          "airflow": "none",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "留缝",
-          "poseId": "dental",
-          "airflow": "friction",
-          "contact": "dental",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "送气",
-          "poseId": "dental",
-          "airflow": "friction",
-          "contact": "dental",
-          "voiced": false,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "31a5c766abe91c5f704acc4aada0b65dab098195183c6d80cc7874bc0d63d6df",
+      "bytes": 351862,
+      "posterSha256": "fd7b60e83458b6f292b8ddd13f0f0f902d7b49eadd821cd85ebc1af1116a7786",
+      "posterBytes": 72702,
+      "durationSeconds": 7.3,
+      "width": 320,
+      "height": 320,
+      "frameRate": "10/1",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "consonant-eth",
       "ipa": "ð",
-      "kind": "fricative",
-      "place": "齿间／上齿",
-      "lipCue": "双唇放松，舌尖可在齿间略露。",
-      "tongueCue": "舌尖轻靠上齿，让气流从缝隙通过。",
-      "movementCue": "留缝并持续送气；口腔不完全堵住。",
+      "sourceId": "seeing-speech",
+      "word": "",
+      "speaker": "Janet Beck",
+      "label": "Janet Beck · 国际音标示范",
+      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
+      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_dental_fricative.mp4",
+      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_dental_fricative.png",
+      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=240",
+      "path": "articulation/ss-mri2-13.mp4",
+      "poster": "articulation/ss-mri2-13.png",
+      "institution": "University of Strathclyde (MRI 2, 2022)",
+      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english",
-        "seeing-speech"
-      ],
-      "sourceNotes": "Roach §2.1 dental/labiodental/alveolar anatomy, pp. 9–10; Barber et al., English fricatives, pp. 6–7; Seeing Speech corresponding place and fricative row.",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "准备",
-          "poseId": "neutral",
-          "airflow": "none",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "留缝",
-          "poseId": "dental",
-          "airflow": "friction",
-          "contact": "dental",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "送气",
-          "poseId": "dental",
-          "airflow": "friction",
-          "contact": "dental",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "2c58acc8ceb30d0daae66c822d812a5e8fe5ceb84e920afdff0d74a9ffb16dc2",
+      "bytes": 326351,
+      "posterSha256": "f9f03321fdfa6fd22474549a98047f34b4a2b5596eec29c6ec42e1f91367af78",
+      "posterBytes": 68163,
+      "durationSeconds": 6.8,
+      "width": 320,
+      "height": 320,
+      "frameRate": "10/1",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "consonant-s",
       "ipa": "s",
-      "kind": "fricative",
-      "place": "齿龈",
-      "lipCue": "双唇自然或稍展开。",
-      "tongueCue": "舌前部靠近齿龈，中间留窄通道。",
-      "movementCue": "留缝并持续送气；口腔不完全堵住。",
+      "sourceId": "seeing-speech",
+      "word": "",
+      "speaker": "Janet Beck",
+      "label": "Janet Beck · 国际音标示范",
+      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
+      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_alveolar_fricative_overdubbed.mp4",
+      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_alveolar_fricative_overdubbed.png",
+      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=115",
+      "path": "articulation/ss-mri2-14.mp4",
+      "poster": "articulation/ss-mri2-14.png",
+      "institution": "University of Strathclyde (MRI 2, 2022)",
+      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english",
-        "seeing-speech"
-      ],
-      "sourceNotes": "Roach §2.1 dental/labiodental/alveolar anatomy, pp. 9–10; Barber et al., English fricatives, pp. 6–7; Seeing Speech corresponding place and fricative row.",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "准备",
-          "poseId": "neutral",
-          "airflow": "none",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "留缝",
-          "poseId": "alveolar-friction",
-          "airflow": "friction",
-          "contact": "alveolar",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "送气",
-          "poseId": "alveolar-friction",
-          "airflow": "friction",
-          "contact": "alveolar",
-          "voiced": false,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "f7bd6d954e5e1677a55dbe1808d724eced458b8abb260588c5b047775d567fb0",
+      "bytes": 250808,
+      "posterSha256": "0f8e918efa2f575ae09061d839effe88e5a04b2dfcb59f14b22c7f51c696a4c7",
+      "posterBytes": 75078,
+      "durationSeconds": 8.277333,
+      "width": 320,
+      "height": 320,
+      "frameRate": "10/1",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "consonant-z",
       "ipa": "z",
-      "kind": "fricative",
-      "place": "齿龈",
-      "lipCue": "双唇自然或稍展开。",
-      "tongueCue": "舌前部靠近齿龈，中间留窄通道。",
-      "movementCue": "留缝并持续送气；口腔不完全堵住。",
+      "sourceId": "seeing-speech",
+      "word": "",
+      "speaker": "Janet Beck",
+      "label": "Janet Beck · 国际音标示范",
+      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
+      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_alveolar_fricative.mp4",
+      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_alveolar_fricative.png",
+      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=122",
+      "path": "articulation/ss-mri2-15.mp4",
+      "poster": "articulation/ss-mri2-15.png",
+      "institution": "University of Strathclyde (MRI 2, 2022)",
+      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english",
-        "seeing-speech"
-      ],
-      "sourceNotes": "Roach §2.1 dental/labiodental/alveolar anatomy, pp. 9–10; Barber et al., English fricatives, pp. 6–7; Seeing Speech corresponding place and fricative row.",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "准备",
-          "poseId": "neutral",
-          "airflow": "none",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "留缝",
-          "poseId": "alveolar-friction",
-          "airflow": "friction",
-          "contact": "alveolar",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "送气",
-          "poseId": "alveolar-friction",
-          "airflow": "friction",
-          "contact": "alveolar",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "5b605673289df3f86d4f84c2b96378adaeb55d96cfe2f77a8b63a6e28ba0acc8",
+      "bytes": 312207,
+      "posterSha256": "fbd2e7782c3536c2af425e7195e0a80983d56b4413da9ade005c82096aa7e96f",
+      "posterBytes": 68177,
+      "durationSeconds": 6.5,
+      "width": 320,
+      "height": 320,
+      "frameRate": "10/1",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "consonant-sh",
       "ipa": "ʃ",
-      "kind": "fricative",
-      "place": "齿龈后",
-      "lipCue": "双唇可轻微收圆。",
-      "tongueCue": "舌前部靠近齿龈后方，留缝让气流通过。",
-      "movementCue": "留缝并持续送气；口腔不完全堵住。",
+      "sourceId": "seeing-speech",
+      "word": "",
+      "speaker": "Janet Beck",
+      "label": "Janet Beck · 国际音标示范",
+      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
+      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_postalveolar_fricative.mp4",
+      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_postalveolar_fricative.png",
+      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=643",
+      "path": "articulation/ss-mri2-16.mp4",
+      "poster": "articulation/ss-mri2-16.png",
+      "institution": "University of Strathclyde (MRI 2, 2022)",
+      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english",
-        "seeing-speech"
-      ],
-      "sourceNotes": "Roach §2.1 dental/labiodental/alveolar anatomy, pp. 9–10; Barber et al., English fricatives, pp. 6–7; Seeing Speech corresponding place and fricative row.",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "准备",
-          "poseId": "neutral",
-          "airflow": "none",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "留缝",
-          "poseId": "postalveolar-friction",
-          "airflow": "friction",
-          "contact": "postalveolar",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "送气",
-          "poseId": "postalveolar-friction",
-          "airflow": "friction",
-          "contact": "postalveolar",
-          "voiced": false,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "66605e8511f53557b73138ed77677ead45873c668e1ae8313f2f529abd6c59cb",
+      "bytes": 332372,
+      "posterSha256": "8a1a3e74ba146d292f6701bbb0dd6def68d2aaa83b38eea7ac065908334920d5",
+      "posterBytes": 75493,
+      "durationSeconds": 7.0,
+      "width": 320,
+      "height": 320,
+      "frameRate": "10/1",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "consonant-zh",
       "ipa": "ʒ",
-      "kind": "fricative",
-      "place": "齿龈后",
-      "lipCue": "双唇可轻微收圆。",
-      "tongueCue": "舌前部靠近齿龈后方，留缝让气流通过。",
-      "movementCue": "留缝并持续送气；口腔不完全堵住。",
+      "sourceId": "seeing-speech",
+      "word": "",
+      "speaker": "Janet Beck",
+      "label": "Janet Beck · 国际音标示范",
+      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
+      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_postalveolar_fricative.mp4",
+      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_postalveolar_fricative.png",
+      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=658",
+      "path": "articulation/ss-mri2-17.mp4",
+      "poster": "articulation/ss-mri2-17.png",
+      "institution": "University of Strathclyde (MRI 2, 2022)",
+      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english",
-        "seeing-speech"
-      ],
-      "sourceNotes": "Roach §2.1 dental/labiodental/alveolar anatomy, pp. 9–10; Barber et al., English fricatives, pp. 6–7; Seeing Speech corresponding place and fricative row.",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "准备",
-          "poseId": "neutral",
-          "airflow": "none",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "留缝",
-          "poseId": "postalveolar-friction",
-          "airflow": "friction",
-          "contact": "postalveolar",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "送气",
-          "poseId": "postalveolar-friction",
-          "airflow": "friction",
-          "contact": "postalveolar",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "26e59b2de832aa8b76bf691debdf95fabd1a82f6997a120e7d3d00ec9dbdc06e",
+      "bytes": 300389,
+      "posterSha256": "af21d1834a74e74fadf1c435813940137b5e54941f1a59dd896b77a063bb37f7",
+      "posterBytes": 71114,
+      "durationSeconds": 6.3,
+      "width": 320,
+      "height": 320,
+      "frameRate": "10/1",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "consonant-h",
       "ipa": "h",
-      "kind": "fricative",
-      "place": "声门",
-      "lipCue": "口形随下一个元音变化；图示 hat 中的开口。",
-      "tongueCue": "不在口腔内制造额外闭塞或舌后摩擦。",
-      "movementCue": "气流经过声门；舌、唇配合后面的元音。",
-      "variantNote": "口形随元音改变；这不是所有 /h/ 的固定口形。",
-      "sourceIds": [
-        "cambridge-english",
-        "seeing-speech"
-      ],
-      "sourceNotes": "Barber et al., /h/ friction at the glottis and unobstructed oral passage, p. 7; Seeing Speech glottal fricative [h].",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "准备",
-          "poseId": "neutral",
-          "airflow": "none",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "送气",
-          "poseId": "trap",
-          "airflow": "oral",
-          "contact": "glottal",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "保持",
-          "poseId": "trap",
-          "airflow": "oral",
-          "contact": "glottal",
-          "voiced": false,
-          "velum": "raised"
-        }
-      ]
+      "sourceId": "seeing-speech",
+      "word": "",
+      "speaker": "Janet Beck",
+      "label": "Janet Beck · 国际音标示范",
+      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
+      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_glottal_fricative.mp4",
+      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vl_glottal_fricative.png",
+      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=104",
+      "path": "articulation/ss-mri2-18.mp4",
+      "poster": "articulation/ss-mri2-18.png",
+      "institution": "University of Strathclyde (MRI 2, 2022)",
+      "modality": "MRI 2 实拍",
+      "variantNote": "",
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "39f064a946a707972bd251d679ec5d215bfe1dc3a981bc2fb298fedb76d5151e",
+      "bytes": 362926,
+      "posterSha256": "43652b9192aadc4b0fc992d65bd3a29eceba3ffb80578c5fcaeb6b4717ad7763",
+      "posterBytes": 72395,
+      "durationSeconds": 7.6,
+      "width": 320,
+      "height": 320,
+      "frameRate": "10/1",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "consonant-ch",
       "ipa": "tʃ",
-      "kind": "affricate",
-      "place": "齿龈后",
-      "lipCue": "双唇可稍收圆。",
-      "tongueCue": "舌前部先接触齿龈后方，再稍离开留缝。",
-      "movementCue": "一次连贯动作：闭塞 → 摩擦释放。",
+      "sourceId": "star",
+      "word": "cheap",
+      "speaker": "English: London; SS speaker 25, male, age 25",
+      "label": "cheap · 英格兰伦敦",
+      "context": "观察 cheap 词首的 /tʃ/。",
+      "sourceUrl": "https://www.seeingspeech.ac.uk/speechstar/video/London_YM_cheap.mp4",
+      "posterUrl": "https://www.seeingspeech.ac.uk/speechstar/poster/London_YM_cheap.jpeg",
+      "sourcePageUrl": "https://seeingspeech.ac.uk/speechstar/speech-database/#location=528",
+      "path": "articulation/star-london-cheap.mp4",
+      "poster": "articulation/star-london-cheap.jpeg",
+      "institution": "University of Glasgow",
+      "modality": "超声实拍",
       "variantNote": "",
-      "sourceIds": [
-        "cambridge-english",
-        "phonetics-overview"
-      ],
-      "sourceNotes": "Barber et al., affricated stop release, p. 7; Cambridge Phonetics Overview §2.2 affricates, pp. 10–11.",
-      "initialPhase": 0,
-      "phases": [
-        {
-          "label": "闭塞",
-          "poseId": "postalveolar-closed",
-          "airflow": "none",
-          "contact": "postalveolar",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "留缝",
-          "poseId": "postalveolar-friction",
-          "airflow": "friction",
-          "contact": "postalveolar",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "摩擦释放",
-          "poseId": "neutral",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "f445097fba2022e2ed390cde7cf2196c5e53631431d3cfad6bbf67107f2bd2d9",
+      "bytes": 557039,
+      "posterSha256": "7fd396eeed8f85dd387b9b75a84a21039b751823b039e2da9baed0c6041ced95",
+      "posterBytes": 18944,
+      "durationSeconds": 2.899989,
+      "width": 720,
+      "height": 540,
+      "frameRate": "30/1",
+      "videoCodec": "h264",
+      "audioCodec": "mp3"
     },
     {
       "symbolId": "consonant-jh",
       "ipa": "dʒ",
-      "kind": "affricate",
-      "place": "齿龈后",
-      "lipCue": "双唇可稍收圆。",
-      "tongueCue": "舌前部先接触齿龈后方，再稍离开留缝。",
-      "movementCue": "一次连贯动作：闭塞 → 摩擦释放。",
+      "sourceId": "star",
+      "word": "hedged",
+      "speaker": "English: London; SS speaker 25, male, age 25",
+      "label": "hedged · 英格兰伦敦",
+      "context": "观察 hedged 中词尾位置的 /dʒ/，后面还有 /d/；不是孤立音。",
+      "sourceUrl": "https://www.seeingspeech.ac.uk/speechstar/video/London_YM_hedged.mp4",
+      "posterUrl": "https://www.seeingspeech.ac.uk/speechstar/poster/London_YM_hedged.jpeg",
+      "sourcePageUrl": "https://seeingspeech.ac.uk/speechstar/speech-database/#location=539",
+      "path": "articulation/star-london-hedged.mp4",
+      "poster": "articulation/star-london-hedged.jpeg",
+      "institution": "University of Glasgow",
+      "modality": "超声实拍",
       "variantNote": "",
-      "sourceIds": [
-        "cambridge-english",
-        "phonetics-overview"
-      ],
-      "sourceNotes": "Barber et al., affricated stop release, p. 7; Cambridge Phonetics Overview §2.2 affricates, pp. 10–11.",
-      "initialPhase": 0,
-      "phases": [
-        {
-          "label": "闭塞",
-          "poseId": "postalveolar-closed",
-          "airflow": "none",
-          "contact": "postalveolar",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "留缝",
-          "poseId": "postalveolar-friction",
-          "airflow": "friction",
-          "contact": "postalveolar",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "摩擦释放",
-          "poseId": "neutral",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "fd839c48de2c13a7d5e074ba654ef1fb4e82e5bbac2241555d4d1cfecc83f6b5",
+      "bytes": 541882,
+      "posterSha256": "f5b117412fd548b39acdeb54e1f5c61829c6b3583cfaf31e3fc6875fbcba37a5",
+      "posterBytes": 18614,
+      "durationSeconds": 2.699989,
+      "width": 720,
+      "height": 540,
+      "frameRate": "30/1",
+      "videoCodec": "h264",
+      "audioCodec": "mp3"
     },
     {
       "symbolId": "consonant-m",
       "ipa": "m",
-      "kind": "nasal",
-      "place": "双唇",
-      "lipCue": "双唇闭合，嘴部不放气。",
-      "tongueCue": "舌位随相邻元音变化，双唇负责堵住口腔。",
-      "movementCue": "保持口腔闭塞，软腭下降，让气流走鼻腔。",
+      "sourceId": "seeing-speech",
+      "word": "",
+      "speaker": "Janet Beck",
+      "label": "Janet Beck · 国际音标示范",
+      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
+      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_bilabial_nasal_overdubbed.mp4",
+      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_bilabial_nasal_overdubbed.png",
+      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=109",
+      "path": "articulation/ss-mri2-7.mp4",
+      "poster": "articulation/ss-mri2-7.png",
+      "institution": "University of Strathclyde (MRI 2, 2022)",
+      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english",
-        "seeing-speech"
-      ],
-      "sourceNotes": "Roach §2.1 velum and nasal passage, pp. 9–10; Barber et al., nasal oral closures matching /b d ɡ/ and open nasal passage, p. 7; Seeing Speech nasal row.",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "口腔闭塞",
-          "poseId": "bilabial-closed",
-          "airflow": "none",
-          "contact": "bilabial",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "鼻腔送气",
-          "poseId": "bilabial-closed",
-          "airflow": "nasal",
-          "contact": "bilabial",
-          "voiced": true,
-          "velum": "lowered"
-        },
-        {
-          "label": "保持鼻音",
-          "poseId": "bilabial-closed",
-          "airflow": "nasal",
-          "contact": "bilabial",
-          "voiced": true,
-          "velum": "lowered"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "35458267c16ee3cfbcfa4e0d95c90d88a639bdf9d5bc7dba0b4c2a05f2cf57c6",
+      "bytes": 233457,
+      "posterSha256": "bce716065b4d94eb9c630fe729bdee0db340616dd764d7d4c3d3458264826c84",
+      "posterBytes": 74943,
+      "durationSeconds": 7.466667,
+      "width": 320,
+      "height": 320,
+      "frameRate": "10/1",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "consonant-n",
       "ipa": "n",
-      "kind": "nasal",
-      "place": "齿龈",
-      "lipCue": "双唇可以自然分开。",
-      "tongueCue": "舌尖接触上齿龈，堵住口腔通道。",
-      "movementCue": "保持口腔闭塞，软腭下降，让气流走鼻腔。",
+      "sourceId": "seeing-speech",
+      "word": "",
+      "speaker": "Janet Beck",
+      "label": "Janet Beck · 国际音标示范",
+      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
+      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_alveolar_nasal.mp4",
+      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_alveolar_nasal.png",
+      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=110",
+      "path": "articulation/ss-mri2-8.mp4",
+      "poster": "articulation/ss-mri2-8.png",
+      "institution": "University of Strathclyde (MRI 2, 2022)",
+      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english",
-        "seeing-speech"
-      ],
-      "sourceNotes": "Roach §2.1 velum and nasal passage, pp. 9–10; Barber et al., nasal oral closures matching /b d ɡ/ and open nasal passage, p. 7; Seeing Speech nasal row.",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "口腔闭塞",
-          "poseId": "alveolar-closed",
-          "airflow": "none",
-          "contact": "alveolar",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "鼻腔送气",
-          "poseId": "alveolar-closed",
-          "airflow": "nasal",
-          "contact": "alveolar",
-          "voiced": true,
-          "velum": "lowered"
-        },
-        {
-          "label": "保持鼻音",
-          "poseId": "alveolar-closed",
-          "airflow": "nasal",
-          "contact": "alveolar",
-          "voiced": true,
-          "velum": "lowered"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "d2283c6d22ea8bba69e08f8132570e6649471bb836a9f7a56d04dbe7dd4f925e",
+      "bytes": 355957,
+      "posterSha256": "e21dc773433231f14807806e580f53c9cf62890a8f36311e04902a6624e48cab",
+      "posterBytes": 72701,
+      "durationSeconds": 7.6,
+      "width": 320,
+      "height": 320,
+      "frameRate": "10/1",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "consonant-ng",
       "ipa": "ŋ",
-      "kind": "nasal",
-      "place": "软腭",
-      "lipCue": "双唇自然分开。",
-      "tongueCue": "舌后部接触软腭，堵住口腔通道。",
-      "movementCue": "保持口腔闭塞，软腭下降，让气流走鼻腔。",
+      "sourceId": "seeing-speech",
+      "word": "",
+      "speaker": "Janet Beck",
+      "label": "Janet Beck · 国际音标示范",
+      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
+      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_velar_nasal.mp4",
+      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_velar_nasal.png",
+      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=331",
+      "path": "articulation/ss-mri2-9.mp4",
+      "poster": "articulation/ss-mri2-9.png",
+      "institution": "University of Strathclyde (MRI 2, 2022)",
+      "modality": "MRI 2 实拍",
       "variantNote": "",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english",
-        "seeing-speech"
-      ],
-      "sourceNotes": "Roach §2.1 velum and nasal passage, pp. 9–10; Barber et al., nasal oral closures matching /b d ɡ/ and open nasal passage, p. 7; Seeing Speech nasal row.",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "口腔闭塞",
-          "poseId": "velar-closed",
-          "airflow": "none",
-          "contact": "velar",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "鼻腔送气",
-          "poseId": "velar-nasal",
-          "airflow": "nasal",
-          "contact": "velar",
-          "voiced": true,
-          "velum": "lowered"
-        },
-        {
-          "label": "保持鼻音",
-          "poseId": "velar-nasal",
-          "airflow": "nasal",
-          "contact": "velar",
-          "voiced": true,
-          "velum": "lowered"
-        }
-      ]
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "6360ff3f2fb43f6f054330e5ea2870b36b06f78c50031b7959e90aab5b17ccc9",
+      "bytes": 239281,
+      "posterSha256": "837c2e609b81d085aa59d3a77ad1f4282f773a512dcfbc694554bfb4e9ff5b21",
+      "posterBytes": 74979,
+      "durationSeconds": 5.0,
+      "width": 320,
+      "height": 320,
+      "frameRate": "10/1",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "consonant-l",
       "ipa": "l",
-      "kind": "lateral",
-      "place": "齿龈",
-      "lipCue": "双唇自然分开。",
-      "tongueCue": "舌尖接触上齿龈，舌头两侧留出通道。",
-      "movementCue": "中间接触，气流从舌的一侧或两侧通过。",
-      "variantNote": "展示词首清晰 [l]；词尾的暗 [ɫ] 舌后部可更高。",
-      "sourceIds": [
-        "cambridge-english",
-        "phonetics-overview",
-        "seeing-speech"
-      ],
-      "sourceNotes": "Barber et al., lateral airflow on one/both sides, p. 7; Cambridge Phonetics Overview, laterals, p. 11; Seeing Speech lateral approximant [l].",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "准备",
-          "poseId": "neutral",
-          "airflow": "none",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "舌尖接触",
-          "poseId": "lateral",
-          "airflow": "none",
-          "contact": "alveolar",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "两侧送气",
-          "poseId": "lateral",
-          "airflow": "lateral",
-          "contact": "alveolar",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "sourceId": "seeing-speech",
+      "word": "",
+      "speaker": "Janet Beck",
+      "label": "Janet Beck · 国际音标示范",
+      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
+      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_alveolar-lateral_approximant.mp4",
+      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_alveolar-lateral_approximant.png",
+      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=108",
+      "path": "articulation/ss-mri2-19.mp4",
+      "poster": "articulation/ss-mri2-19.png",
+      "institution": "University of Strathclyde (MRI 2, 2022)",
+      "modality": "MRI 2 实拍",
+      "variantNote": "",
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "ce28e813253c9c92b2b903136fa4b40ed7c088a168fff731087ffca77ebfcf33",
+      "bytes": 294944,
+      "posterSha256": "6a6fc97c0a2920e5da28b2bc51a906760b7187eee28e4c40b7197175cfeb0299",
+      "posterBytes": 70743,
+      "durationSeconds": 6.2,
+      "width": 320,
+      "height": 320,
+      "frameRate": "10/1",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "consonant-r",
       "ipa": "r",
-      "kind": "approximant",
-      "place": "齿龈后附近",
-      "lipCue": "双唇可以略圆，不必用力噘嘴。",
-      "tongueCue": "舌尖或舌前部抬起，但不接触上腭。",
-      "movementCue": "靠近而不堵住；不要弹舌或做颤音。",
-      "variantNote": "词典 /r/ 这里指近音 [ɹ]；舌形有不同实现，图示只示一种。",
-      "sourceIds": [
-        "cambridge-english",
-        "seeing-speech"
-      ],
-      "sourceNotes": "Barber et al., RP approximant r without contact, p. 7; Seeing Speech approximant [ɹ], not trill [r].",
-      "initialPhase": 1,
-      "phases": [
-        {
-          "label": "准备",
-          "poseId": "neutral",
-          "airflow": "none",
-          "contact": "none",
-          "voiced": false,
-          "velum": "raised"
-        },
-        {
-          "label": "靠近上腭",
-          "poseId": "approximant-r",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "保持空隙",
-          "poseId": "approximant-r",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "sourceId": "seeing-speech",
+      "word": "",
+      "speaker": "Janet Beck",
+      "label": "Janet Beck · 国际音标示范",
+      "context": "英语 /r/ 对应近音 [ɹ]，这里展示 [ɹ]，不是颤音 [r]。",
+      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_alveolar_approximant_overdubbed.mp4",
+      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_alveolar_approximant_overdubbed.png",
+      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=633",
+      "path": "articulation/ss-mri2-20.mp4",
+      "poster": "articulation/ss-mri2-20.png",
+      "institution": "University of Strathclyde (MRI 2, 2022)",
+      "modality": "MRI 2 实拍",
+      "variantNote": "",
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "b85e90d63759ab631158631c154a09da690cabd0ccc6ceed811a83285959c2f0",
+      "bytes": 213476,
+      "posterSha256": "8e67d091963071aafe1ad5c453f40769d246664e1e60a9f10c48e2adc3242945",
+      "posterBytes": 77247,
+      "durationSeconds": 6.570667,
+      "width": 320,
+      "height": 320,
+      "frameRate": "10/1",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "consonant-y",
       "ipa": "j",
-      "kind": "glide",
-      "place": "硬腭",
-      "lipCue": "嘴角稍展开，不收圆。",
-      "tongueCue": "舌前部抬高、靠近硬腭，但不接触。",
-      "movementCue": "从高舌位平滑进入下一个元音。",
-      "variantNote": "末帧借用 yes 中的 /e/ 示意；实际终点随下个元音变化。",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english"
-      ],
-      "sourceNotes": "Roach §2.1 palatal /j/, p. 9; Barber et al., semivowels/glides, pp. 5–6, 8.",
-      "initialPhase": 0,
-      "phases": [
-        {
-          "label": "起音",
-          "poseId": "palatal-glide",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "滑动",
-          "poseId": "palatal-glide",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "进入元音",
-          "poseId": "dress",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "sourceId": "seeing-speech",
+      "word": "",
+      "speaker": "Janet Beck",
+      "label": "Janet Beck · 国际音标示范",
+      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
+      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_palatal_approximant_overdubbed.mp4",
+      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_palatal_approximant_overdubbed.png",
+      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=106",
+      "path": "articulation/ss-mri2-21.mp4",
+      "poster": "articulation/ss-mri2-21.png",
+      "institution": "University of Strathclyde (MRI 2, 2022)",
+      "modality": "MRI 2 实拍",
+      "variantNote": "",
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "826cf8626d467377438e8b2a850cbf05cfe46c369714cebffa7a6314941e9e03",
+      "bytes": 219905,
+      "posterSha256": "8682a7a4de7eaf98ffb2280e72837e6cd02b9145f4a62cf909c02ee532390f5f",
+      "posterBytes": 74843,
+      "durationSeconds": 7.082667,
+      "width": 320,
+      "height": 320,
+      "frameRate": "10/1",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     },
     {
       "symbolId": "consonant-w",
       "ipa": "w",
-      "kind": "glide",
-      "place": "双唇＋软腭附近",
-      "lipCue": "先收圆双唇，再逐渐放松。",
-      "tongueCue": "舌后部抬高，随后滑向下一个元音。",
-      "movementCue": "圆唇、高舌位起音，再平滑进入元音。",
-      "variantNote": "末帧借用 window 中的 /ɪ/ 示意；实际终点随下个元音变化。",
-      "sourceIds": [
-        "roach-articulators",
-        "cambridge-english"
-      ],
-      "sourceNotes": "Roach §2.1 palatal /j/, p. 9; Barber et al., semivowels/glides, pp. 5–6, 8.",
-      "initialPhase": 0,
-      "phases": [
-        {
-          "label": "起音",
-          "poseId": "labial-velar-glide",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "滑动",
-          "poseId": "labial-velar-glide",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        },
-        {
-          "label": "进入元音",
-          "poseId": "kit",
-          "airflow": "oral",
-          "contact": "none",
-          "voiced": true,
-          "velum": "raised"
-        }
-      ]
+      "sourceId": "seeing-speech",
+      "word": "",
+      "speaker": "Janet Beck",
+      "label": "Janet Beck · 国际音标示范",
+      "context": "MRI 侧面实拍显示嘴唇和舌头；观察辅音在原片音节中的发音。",
+      "sourceUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_labial-velar_approximant.mp4",
+      "posterUrl": "https://www.seeingspeech.ac.uk/recording/MRI2_vd_labial-velar_approximant.png",
+      "sourcePageUrl": "https://seeingspeech.ac.uk/ipa-charts/?chart=3&datatype=4&speaker=1#location=119",
+      "path": "articulation/ss-mri2-22.mp4",
+      "poster": "articulation/ss-mri2-22.png",
+      "institution": "University of Strathclyde (MRI 2, 2022)",
+      "modality": "MRI 2 实拍",
+      "variantNote": "",
+      "modifications": "none",
+      "accessed": "2026-10-18",
+      "sha256": "d0a5882e8df01c5d403e1fbf5204d0902749b700ff6927f4ed4d5dafa19ba068",
+      "bytes": 334732,
+      "posterSha256": "2502dff5c3445fdfcade34a8e8487e12ccd333454a3b3003ff0704a05d9ef827",
+      "posterBytes": 68255,
+      "durationSeconds": 7.0,
+      "width": 320,
+      "height": 320,
+      "frameRate": "10/1",
+      "videoCodec": "h264",
+      "audioCodec": "aac"
     }
   ]
 }

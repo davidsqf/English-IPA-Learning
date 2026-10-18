@@ -1,91 +1,78 @@
-# Mouth and tongue visual design
+# Published articulation media — v1.4
 
-Task: give every one of the 44 existing British English symbols a mouth/tongue picture and a demonstrable movement sequence, with credible sources. Preserve the concise explorer, per-word playback and comparison features.
+Updated 2026-10-18. The owner's request to replace the custom mouth animation with actual published pictures/videos supersedes the v1.3 original SVG approach (retained in Git history). No invented anatomy, interpolated poses, drawn airflow, generated pictures or synthetic movement remains in the runtime.
 
-## Visual and interaction plan
+## Selected resources and actual inspection
 
-- **Visual thesis:** original, uncluttered anatomical schematics on the existing warm surface; blue identifies the tongue, explicit arrows identify airflow and movement.
-- **Content plan:** place front-view lips beside a side-section of the mouth in the selected-symbol workspace; show the same visual inside comparison panels. Short phase labels and a source disclosure supply the secondary detail. No marketing hero, new lesson/quiz flow or decorative cards.
-- **Interaction thesis:** a finite, user-triggered articulation replay; manual previous/next phase controls for close inspection and reduced motion; smoothly interpolate the tongue and lip positions only when motion is permitted. Stop animations on navigation and replacement. A meaningful still remains without animation.
+- [Dynamic Dialects](https://www.dynamicdialects.ac.uk/): University of Glasgow-led accent resource, Lawson, Stuart-Smith, Scobbie and Nakai (2018). Its [accent chart](https://www.dynamicdialects.ac.uk/accent-chart/) supplies 20 **whole-word** videos from the Southampton, England speaker (male, 18–24; speaker 5). The original recordings combine synchronized ultrasound tongue imaging, lip-camera video and audio. Each vowel is mapped by the publisher's lexical-set word, rather than substituting generic cardinal vowels for English targets.
+- [Seeing Speech IPA charts](https://www.seeingspeech.ac.uk/ipa-charts/): Lawson, Stuart-Smith, Scobbie and Nakai (2018), University of Glasgow. 22 original **MRI 2** demonstrations by phonetician Janet Beck, selected using the publisher's actual sound controls. These are international phonetic demonstrations in vowel contexts, not a claim that all British speakers have exactly this anatomy or accent. English dictionary /r/ maps specifically to approximant [ɹ], never trill [r].
+- [STAR Non-disordered Speech Database](https://www.seeingspeech.ac.uk/speechstar/speech-database/): Lawson, Cleland and Stuart-Smith (2023), University of Glasgow. Two adult London videos (SS speaker 25, male, 25): *cheap* for onset /tʃ/ and *hedged* for /dʒ/ in coda position, followed by /d/. The source records the targets as the single-character ligatures ʧ/ʤ. These are actual whole-word examples, not isolated affricates or edited fragments. No speech-disorder or child recordings are used.
 
-## Scope and fidelity
+The newer MRI 2 material was recorded in 2022–2023 at 6.25 fps according to the chart page and has higher image resolution than MRI 1. The selected original players credit **University of Strathclyde, 2022**, with speaker Janet Beck. That recording credit is retained visibly in each player, alongside the Seeing Speech website citation. Audio (including any publisher-provided overdubbing) is the exact supplied original; no soundtrack change is made here. The source resolution/frame rate are preserved without enhancement or interpolation.
 
-These are original teaching schematics, not MRI measurements, traced publisher illustrations or anatomically calibrated reconstructions. Positions encode relative place, height, lip opening/rounding and constriction. Do not imply that every British speaker has an identical tongue contour. Preserve the existing traditional learner-dictionary vowel inventory and label the modern variants of centring diphthongs. English dictionary `/r/` depicts the approximant [ɹ], not a trill. Frontal lip shape alone cannot explain tongue gestures; a lateral-airflow inset is needed for /l/. Nasals require an oral closure and an open nasal route. /h/ requires a glottal indication, not an invented oral constriction.
+All three sites and original player metadata were inspected in a normal browser on 2026-10-18. Each media URL and poster URL was obtained from the **opened original player**, not inferred from filenames. Files were copied byte-for-byte through the browser's ordinary published download path. No access controls were bypassed. Direct command-line requests returned 403; the normal public browser and its published players worked. Provider citation links and exact asset URLs are preserved in `content/articulation.json`.
 
-## Reference review
+## Rights and selection boundaries
 
-Sources were inspected on 2026-10-18. No third-party videos, diagrams or other media are copied into the site.
+Each publisher's homepage explicitly licenses the work under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/): unchanged non-commercial redistribution with credit. Each also prohibits AI training, machine learning and automated transformation without written permission. This personal educational website uses **complete unmodified MP4s and the original published posters**. No trimming, transcoding, lip/tongue alteration, image tracing, generated animation, source-image extraction, speed change, or synthesized video is performed. Attribution and the licence appear under every player and in `THIRD_PARTY.md`; hashes and original URLs are recorded for every file. Commercial use or adapted material would require a separate rights basis. No source-code licence or publisher endorsement is implied.
 
-- [Peter Roach, English Phonetics and Phonology, 4th edition, Cambridge excerpt](https://assets.cambridge.org/97805217/17403/excerpt/9780521717403_excerpt.pdf), §§2.1–2.3, printed pp. 8–14. Inspected the anatomy figure, the /iː æ/ tongue profiles, the short-vowel positions and descriptions. Supports speech organs, velum position, lip posture and relative tongue dimensions. Our silhouettes, control points and layout are original and are not traced from these figures.
-- [Barber, Beal and Shaw, The English Language, Cambridge excerpt](https://assets.cambridge.org/97810092/28626/excerpt/9781009228626_excerpt.pdf), printed pp. 2–10. Inspected RP vowel and diphthong figures (not the adjacent General American figures), consonant manner descriptions, nasal/lateral airflow and RP approximant /r/. Main source for the traditional British dictionary model and gestures. The numeric SVG positions are our schematic design, not coordinates extracted from the charts.
-- [University of Glasgow, Seeing Speech IPA chart](https://www.seeingspeech.ac.uk/ipa-charts/), Lawson, Stuart-Smith, Scobbie and Nakai (2018). A university resource showing articulation through MRI, ultrasound and animation; classification/real-imaging reference and link for further inspection. Generic IPA demonstrations do not define an exact English allophone. The English /r/ reference is **[ɹ] in the approximant row**, never [r] in the trill row. No university media is downloaded or embedded.
-- [Cambridge, Phonetics Overview](https://www.cambridge.org/gb/files/1413/8018/5069/PhoneticsOverview.pdf), §2. General consonant place/manner, affricates and laterals. Its American-English vowel examples are deliberately not used as the British vowel model.
-- [Pronunciation Studio, Monophthongs](https://pronunciationstudio.com/lessons/monophthongs-1-13/), centre-vowel discussion, supports modern British /uː/ fronting; our high /uː/ pose allows a more central location and explicitly notes variation.
-- [Joseph Hudson, Diphthongs](https://pronunciationstudio.com/pronunciation-guide-diphthong-vowel-sounds/), supports one-syllable glides and modern /ɪə eə ʊə/ variants. The UI retains the existing traditional Oxford-style symbols and labels their scope.
+Pronunciation with Emma's [British phonemic chart](https://pronunciationwithemma.com/phonemic-chart/) was investigated as a potential full-inventory face-video resource. It exposes per-symbol MP4 links, but no redistribution licence was established, so none of those clips, images, word lists or explanation text is copied. BBC pronunciation material was considered, but was unnecessary once explicitly licensed real tongue/lip recordings covered all 44 targets. Availability of an MP4 alone was not treated as permission.
 
-These are original Chinese summaries of articulatory facts, not reproduced publisher definitions or drawings. Sources support the principles; they do not endorse our website or certify our animation accuracy. This is editorial source checking, not independent expert or clinical review.
+## Pedagogical limits
 
-## Drawing and movement conventions
+For the 20 Dynamic Dialects vowels and two STAR affricates, ultrasound shows the tongue surface in a midsagittal slice and the camera inset shows the lips. For the other 22 consonants, Seeing Speech MRI 2 shows the vocal tract, lips and tongue profile together. MRI was selected after visual inspection established that the chart’s ultrasound-only clips did not include a lip camera. Neither modality directly shows airflow or vocal-fold vibration. The publisher's palate guide, where present, is retained in the original footage. Learners should use the Chinese guidance and primary word reference alongside the video.
 
-- The side view faces **right**: tongue front = right, tongue back = left. The frontal inset displays lip posture. All views remain meaningful as stills; playback is user-triggered and finite.
-- A filled blue target marks closure. Fricative targets use an open ring for the narrow gap. Stops close and release; affricates close and release into friction. The tongue is not incorrectly treated as the active closing organ for /p b m f v/.
-- For /m n ŋ/, the mouth route stays blocked while the lowered velum opens the nasal route. No oral airflow arrow is drawn through that closure.
-- For /l/, the frontal inset depicts a central contact with channels at the sides; the sagittal midline does not carry a false through-tongue airflow arrow. A clear word-initial [l] is shown; dark [ɫ] is noted.
-- /h/ has a glottal focus and an unobstructed oral passage. Its pictured oral shape follows the existing example **hat**; the text explains that this changes with the next vowel.
-- /r/ shows one approximant configuration without contact/trilling. /j/ and /w/ show high onset configurations sliding into the next vowel in **yes** and **window** respectively; those endpoints are examples, not universal fixed endpoints.
-- Vowels show relative tongue/lip posture; their initial preparation and subsequent steady phase must not imply repetitive tongue flapping. /ɜː ə/ are both central: stress/duration/relaxation matter, not a fictitious large place change. /uː/ is explicitly variable/fronted in modern British speech.
-- Diphthongs display a continuous direction toward the second position within **one syllable**; endpoint shapes are pedagogical directions, not a requirement to utter two full vowels. Traditional centring diphthongs carry a modern-variation note.
-- No timing, anatomy dimensions, articulator coordinates or animation-to-audio alignment is claimed to be measured. Geometry is original schematic code. Source files are inline SVG and local JSON, so the visuals need no network, external embedding or additional runtime dependency.
-- Both explorer and preset/custom comparison panels show the symbol's visual. Reduced-motion mode uses manual phase changes with no animated transition; pause, navigation, replacement and backgrounding cancel motion.
+These videos preserve the actual speaker and full context. They are not time-aligned with the site's separate primary example recordings; starting either kind of playback stops the other. Native controls permit normal-speed play/pause/seeking and fullscreen. Original posters remain visible without autoplay. Files are shipped locally, so no external iframe, provider analytics, third-party player dependency is used. The local HTTP-server version needs no internet connection for media; the public site still needs to fetch its own hosted video/poster assets.
 
-## Symbol-by-symbol mapping
+The traditional 44-symbol dictionary inventory is preserved. Southampton vowels are a specific southern English accent, not a universal RP standard. Traditional /ɪə eə ʊə/ entries are mapped to NEAR/SQUARE/CURE words; the visible note explicitly says the recording may exhibit contemporary monophthongal or other regional variants. They are **not** presented as measured canonical endpoint movements. /uː/ fronting and the final weak vowel of *later* are also labelled. The recorded target mapping is based on publisher lexical-set/phone labels and technical inspection; no independent expert phonetic audit is claimed.
 
-The runtime manifest is `content/articulation.json`; every symbol has lip, tongue, movement, phase and specific source-reference notes.
+## Complete source matrix
 
-| Symbol | Kind / place | Movement phases | Source notes |
-| --- | --- | --- | --- |
+Every row below resolves to one distinct original video and original poster. Exact URLs, SHA-256, byte counts, duration, resolution, codecs, speaker, context and licence are in the schema-2 manifest. `scripts/verify-articulation.mjs` checks coverage, rights/provenance and file integrity before every build.
 
-| /iː/ | vowel / 前高 | 准备 → 保持 | Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels. |
-| /ɪ/ | vowel / 近前、近高 | 准备 → 保持 | Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels. |
-| /e/ | vowel / 前中 | 准备 → 保持 | Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels. |
-| /æ/ | vowel / 前低 | 准备 → 保持 | Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels. |
-| /ɑː/ | vowel / 后低 | 准备 → 保持 | Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels. |
-| /ɒ/ | vowel / 后低 | 准备 → 保持 | Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels. |
-| /ɔː/ | vowel / 后中 | 准备 → 保持 | Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels. |
-| /ʊ/ | vowel / 近后、近高 | 准备 → 保持 | Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels. |
-| /uː/ | vowel / 高 | 准备 → 保持 | Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels. |
-| /ʌ/ | vowel / 中央偏低 | 准备 → 保持 | Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels. |
-| /ɜː/ | vowel / 中央中 | 准备 → 保持 | Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels. |
-| /ə/ | vowel / 中央中 | 准备 → 保持 | Roach §§2.1–2.3, pp. 8–14; Barber et al., Fig. 1.4a and RP vowel description, pp. 3–5, 10. Modern /uː/ fronting: Pronunciation Studio, Monophthongs, centre vowels. |
-| /eɪ/ | diphthong / 滑动 | 起音 → 滑动 → 滑向 | Barber et al., diphthong movement/one syllable and RP glide figure, pp. 5–6, 9; Hudson, corresponding diphthong section and centring-vowel variants. |
-| /aɪ/ | diphthong / 滑动 | 起音 → 滑动 → 滑向 | Barber et al., diphthong movement/one syllable and RP glide figure, pp. 5–6, 9; Hudson, corresponding diphthong section and centring-vowel variants. |
-| /ɔɪ/ | diphthong / 滑动 | 起音 → 滑动 → 滑向 | Barber et al., diphthong movement/one syllable and RP glide figure, pp. 5–6, 9; Hudson, corresponding diphthong section and centring-vowel variants. |
-| /əʊ/ | diphthong / 滑动 | 起音 → 滑动 → 滑向 | Barber et al., diphthong movement/one syllable and RP glide figure, pp. 5–6, 9; Hudson, corresponding diphthong section and centring-vowel variants. |
-| /aʊ/ | diphthong / 滑动 | 起音 → 滑动 → 滑向 | Barber et al., diphthong movement/one syllable and RP glide figure, pp. 5–6, 9; Hudson, corresponding diphthong section and centring-vowel variants. |
-| /ɪə/ | diphthong / 滑动 | 起音 → 滑动 → 滑向 | Barber et al., diphthong movement/one syllable and RP glide figure, pp. 5–6, 9; Hudson, corresponding diphthong section and centring-vowel variants. |
-| /eə/ | diphthong / 滑动 | 起音 → 滑动 → 滑向 | Barber et al., diphthong movement/one syllable and RP glide figure, pp. 5–6, 9; Hudson, corresponding diphthong section and centring-vowel variants. |
-| /ʊə/ | diphthong / 滑动 | 起音 → 滑动 → 滑向 | Barber et al., diphthong movement/one syllable and RP glide figure, pp. 5–6, 9; Hudson, corresponding diphthong section and centring-vowel variants. |
-| /p/ | stop / 双唇 | 准备 → 闭塞 → 释放 | Roach §2.1 articulators, pp. 8–10; Barber et al., stops and voicing, pp. 2, 6–7; Seeing Speech plosive row at matching place. Voicing here is schematic; actual voicing/aspiration depends on context. |
-| /b/ | stop / 双唇 | 准备 → 闭塞 → 释放 | Roach §2.1 articulators, pp. 8–10; Barber et al., stops and voicing, pp. 2, 6–7; Seeing Speech plosive row at matching place. Voicing here is schematic; actual voicing/aspiration depends on context. |
-| /t/ | stop / 齿龈 | 准备 → 闭塞 → 释放 | Roach §2.1 articulators, pp. 8–10; Barber et al., stops and voicing, pp. 2, 6–7; Seeing Speech plosive row at matching place. Voicing here is schematic; actual voicing/aspiration depends on context. |
-| /d/ | stop / 齿龈 | 准备 → 闭塞 → 释放 | Roach §2.1 articulators, pp. 8–10; Barber et al., stops and voicing, pp. 2, 6–7; Seeing Speech plosive row at matching place. Voicing here is schematic; actual voicing/aspiration depends on context. |
-| /k/ | stop / 软腭 | 准备 → 闭塞 → 释放 | Roach §2.1 articulators, pp. 8–10; Barber et al., stops and voicing, pp. 2, 6–7; Seeing Speech plosive row at matching place. Voicing here is schematic; actual voicing/aspiration depends on context. |
-| /ɡ/ | stop / 软腭 | 准备 → 闭塞 → 释放 | Roach §2.1 articulators, pp. 8–10; Barber et al., stops and voicing, pp. 2, 6–7; Seeing Speech plosive row at matching place. Voicing here is schematic; actual voicing/aspiration depends on context. |
-| /f/ | fricative / 唇齿 | 准备 → 留缝 → 送气 | Roach §2.1 dental/labiodental/alveolar anatomy, pp. 9–10; Barber et al., English fricatives, pp. 6–7; Seeing Speech corresponding place and fricative row. |
-| /v/ | fricative / 唇齿 | 准备 → 留缝 → 送气 | Roach §2.1 dental/labiodental/alveolar anatomy, pp. 9–10; Barber et al., English fricatives, pp. 6–7; Seeing Speech corresponding place and fricative row. |
-| /θ/ | fricative / 齿间／上齿 | 准备 → 留缝 → 送气 | Roach §2.1 dental/labiodental/alveolar anatomy, pp. 9–10; Barber et al., English fricatives, pp. 6–7; Seeing Speech corresponding place and fricative row. |
-| /ð/ | fricative / 齿间／上齿 | 准备 → 留缝 → 送气 | Roach §2.1 dental/labiodental/alveolar anatomy, pp. 9–10; Barber et al., English fricatives, pp. 6–7; Seeing Speech corresponding place and fricative row. |
-| /s/ | fricative / 齿龈 | 准备 → 留缝 → 送气 | Roach §2.1 dental/labiodental/alveolar anatomy, pp. 9–10; Barber et al., English fricatives, pp. 6–7; Seeing Speech corresponding place and fricative row. |
-| /z/ | fricative / 齿龈 | 准备 → 留缝 → 送气 | Roach §2.1 dental/labiodental/alveolar anatomy, pp. 9–10; Barber et al., English fricatives, pp. 6–7; Seeing Speech corresponding place and fricative row. |
-| /ʃ/ | fricative / 齿龈后 | 准备 → 留缝 → 送气 | Roach §2.1 dental/labiodental/alveolar anatomy, pp. 9–10; Barber et al., English fricatives, pp. 6–7; Seeing Speech corresponding place and fricative row. |
-| /ʒ/ | fricative / 齿龈后 | 准备 → 留缝 → 送气 | Roach §2.1 dental/labiodental/alveolar anatomy, pp. 9–10; Barber et al., English fricatives, pp. 6–7; Seeing Speech corresponding place and fricative row. |
-| /h/ | fricative / 声门 | 准备 → 送气 → 保持 | Barber et al., /h/ friction at the glottis and unobstructed oral passage, p. 7; Seeing Speech glottal fricative [h]. |
-| /tʃ/ | affricate / 齿龈后 | 闭塞 → 留缝 → 摩擦释放 | Barber et al., affricated stop release, p. 7; Cambridge Phonetics Overview §2.2 affricates, pp. 10–11. |
-| /dʒ/ | affricate / 齿龈后 | 闭塞 → 留缝 → 摩擦释放 | Barber et al., affricated stop release, p. 7; Cambridge Phonetics Overview §2.2 affricates, pp. 10–11. |
-| /m/ | nasal / 双唇 | 口腔闭塞 → 鼻腔送气 → 保持鼻音 | Roach §2.1 velum and nasal passage, pp. 9–10; Barber et al., nasal oral closures matching /b d ɡ/ and open nasal passage, p. 7; Seeing Speech nasal row. |
-| /n/ | nasal / 齿龈 | 口腔闭塞 → 鼻腔送气 → 保持鼻音 | Roach §2.1 velum and nasal passage, pp. 9–10; Barber et al., nasal oral closures matching /b d ɡ/ and open nasal passage, p. 7; Seeing Speech nasal row. |
-| /ŋ/ | nasal / 软腭 | 口腔闭塞 → 鼻腔送气 → 保持鼻音 | Roach §2.1 velum and nasal passage, pp. 9–10; Barber et al., nasal oral closures matching /b d ɡ/ and open nasal passage, p. 7; Seeing Speech nasal row. |
-| /l/ | lateral / 齿龈 | 准备 → 舌尖接触 → 两侧送气 | Barber et al., lateral airflow on one/both sides, p. 7; Cambridge Phonetics Overview, laterals, p. 11; Seeing Speech lateral approximant [l]. |
-| /r/ | approximant / 齿龈后附近 | 准备 → 靠近上腭 → 保持空隙 | Barber et al., RP approximant r without contact, p. 7; Seeing Speech approximant [ɹ], not trill [r]. |
-| /j/ | glide / 硬腭 | 起音 → 滑动 → 进入元音 | Roach §2.1 palatal /j/, p. 9; Barber et al., semivowels/glides, pp. 5–6, 8. |
-| /w/ | glide / 双唇＋软腭附近 | 起音 → 滑动 → 进入元音 | Roach §2.1 palatal /j/, p. 9; Barber et al., semivowels/glides, pp. 5–6, 8. |
+| Symbol | Recording/context | Source | Duration | Original player |
+| --- | --- | --- | --- | --- |
+| /iː/ | fleece | Dynamic Dialects | 3.48s | [Source](https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_FLEECE&name=fleece) |
+| /ɪ/ | kit | Dynamic Dialects | 5.67s | [Source](https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_KIT&name=kit) |
+| /e/ | dress | Dynamic Dialects | 5.67s | [Source](https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_DRESS&name=dress) |
+| /æ/ | trap | Dynamic Dialects | 4.32s | [Source](https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_TRAP&name=trap) |
+| /ɑː/ | palm | Dynamic Dialects | 3.62s | [Source](https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_PALM&name=palm) |
+| /ɒ/ | lot | Dynamic Dialects | 5.71s | [Source](https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_LOT&name=lot) |
+| /ɔː/ | thought | Dynamic Dialects | 7.11s | [Source](https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_THOUGHT&name=thought) |
+| /ʊ/ | foot | Dynamic Dialects | 5.67s | [Source](https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_FOOT&name=foot) |
+| /uː/ | goose | Dynamic Dialects | 5.62s | [Source](https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_GOOSE&name=goose) |
+| /ʌ/ | strut | Dynamic Dialects | 5.85s | [Source](https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_STRUT&name=strut) |
+| /ɜː/ | nurse | Dynamic Dialects | 5.71s | [Source](https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_NURSE&name=nurse) |
+| /ə/ | later | Dynamic Dialects | 7.06s | [Source](https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_LATER&name=later) |
+| /eɪ/ | face | Dynamic Dialects | 5.48s | [Source](https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_FACE&name=face) |
+| /aɪ/ | price | Dynamic Dialects | 5.29s | [Source](https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_PRICE&name=price) |
+| /ɔɪ/ | choice | Dynamic Dialects | 3.95s | [Source](https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_CHOICE&name=choice) |
+| /əʊ/ | goat | Dynamic Dialects | 5.20s | [Source](https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_GOAT&name=goat) |
+| /aʊ/ | mouth | Dynamic Dialects | 4.37s | [Source](https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_MOUTH&name=mouth) |
+| /ɪə/ | near | Dynamic Dialects | 6.32s | [Source](https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_NEAR&name=near) |
+| /eə/ | square | Dynamic Dialects | 5.06s | [Source](https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_SQUARE&name=square) |
+| /ʊə/ | cure | Dynamic Dialects | 3.67s | [Source](https://dynamicdialects.ac.uk/accent-chart/#speaker=5&id=Southampton_YM_CURE&name=cure) |
+| /p/ | Janet Beck, MRI 2 | Seeing Speech | 8.66s | [Source](https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=112) |
+| /b/ | Janet Beck, MRI 2 | Seeing Speech | 7.60s | [Source](https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=98) |
+| /t/ | Janet Beck, MRI 2 | Seeing Speech | 7.85s | [Source](https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=116) |
+| /d/ | Janet Beck, MRI 2 | Seeing Speech | 6.60s | [Source](https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=100) |
+| /k/ | Janet Beck, MRI 2 | Seeing Speech | 4.95s | [Source](https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=107) |
+| /ɡ/ | Janet Beck, MRI 2 | Seeing Speech | 6.30s | [Source](https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=609) |
+| /f/ | Janet Beck, MRI 2 | Seeing Speech | 7.60s | [Source](https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=102) |
+| /v/ | Janet Beck, MRI 2 | Seeing Speech | 6.80s | [Source](https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=118) |
+| /θ/ | Janet Beck, MRI 2 | Seeing Speech | 7.30s | [Source](https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=952) |
+| /ð/ | Janet Beck, MRI 2 | Seeing Speech | 6.80s | [Source](https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=240) |
+| /s/ | Janet Beck, MRI 2 | Seeing Speech | 8.28s | [Source](https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=115) |
+| /z/ | Janet Beck, MRI 2 | Seeing Speech | 6.50s | [Source](https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=122) |
+| /ʃ/ | Janet Beck, MRI 2 | Seeing Speech | 7.00s | [Source](https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=643) |
+| /ʒ/ | Janet Beck, MRI 2 | Seeing Speech | 6.30s | [Source](https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=658) |
+| /h/ | Janet Beck, MRI 2 | Seeing Speech | 7.60s | [Source](https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=104) |
+| /tʃ/ | cheap | STAR — Non-disordered Speech Database | 2.90s | [Source](https://seeingspeech.ac.uk/speechstar/speech-database/#location=528) |
+| /dʒ/ | hedged | STAR — Non-disordered Speech Database | 2.70s | [Source](https://seeingspeech.ac.uk/speechstar/speech-database/#location=539) |
+| /m/ | Janet Beck, MRI 2 | Seeing Speech | 7.47s | [Source](https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=109) |
+| /n/ | Janet Beck, MRI 2 | Seeing Speech | 7.60s | [Source](https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=110) |
+| /ŋ/ | Janet Beck, MRI 2 | Seeing Speech | 5.00s | [Source](https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=331) |
+| /l/ | Janet Beck, MRI 2 | Seeing Speech | 6.20s | [Source](https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=108) |
+| /r/ | Janet Beck, MRI 2 [ɹ] | Seeing Speech | 6.57s | [Source](https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=633) |
+| /j/ | Janet Beck, MRI 2 | Seeing Speech | 7.08s | [Source](https://seeingspeech.ac.uk/ipa-charts/?chart=1&datatype=4&speaker=1#location=106) |
+| /w/ | Janet Beck, MRI 2 | Seeing Speech | 7.00s | [Source](https://seeingspeech.ac.uk/ipa-charts/?chart=3&datatype=4&speaker=1#location=119) |

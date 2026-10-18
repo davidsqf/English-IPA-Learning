@@ -10,7 +10,7 @@ Explore a symbol, listen to its example, and compare similar sounds. All recordi
 
 - 44 traditional British English reference symbols: 12 monophthongs, 8 diphthongs and 24 consonants.
 - Source-linked Chinese pronunciation guidance and six example words per symbol, each with a voice button and highlighted target sounds. Tiles keep a single preview word.
-- Original lip/front-view and tongue/side-view diagrams for every symbol, with sourced movement phases, replay/pause and manual steps. Reduced motion uses static steps.
+- Authentic university MRI and ultrasound/lip-camera videos for all 44 symbols, with original published preview images, playback controls and attribution.
 - 37 bundled human recordings covering all 44 entries; examples shared by several symbols are intentional.
 - Eleven directly visible recommended comparison choices, including the three-symbol `/e æ aɪ/` group, plus manual comparison of any two distinct symbols. Individual and sequential playback use normal speed.
 - Light and dark themes, system preference detection and a remembered theme choice.
@@ -53,7 +53,7 @@ The [Test and publish workflow](.github/workflows/pages.yml) tests and builds ch
 | `content/symbol-library.json` | Symbols, Chinese cues, examples and sound mappings |
 | `content/comparisons.json` | Two- and three-symbol presets with source-linked tips |
 | `content/pronunciation-sources.json` | Named references for the Chinese pronunciation guidance |
-| `content/articulation.json` | Original mouth/tongue poses, phases, cues and per-symbol source notes |
+| `content/articulation.json` | Published video/poster mappings, speaker/accent, rights and integrity metadata |
 | `src/articulation.ts` | Inline SVG diagrams and finite/reduced-motion interaction |
 | `content/audio.json` | Per-file sources, authors, licences, transformations and checksums |
 | `public/audio/` | All 37 shipped MP3 recordings |
@@ -75,8 +75,10 @@ Every one of the six examples has a speaker button. Existing human recordings re
 
 All eleven recommended comparisons appear directly as buttons, including on phones. The footer **手机打开** shows the website QR and a PNG download. Printable assets: `public/website-qr.svg` and `public/website-qr.png`. To regenerate after changing the public address, run `scripts/generate-qr.py` using Python with ReportLab and Pillow, then independently decode the result to verify its exact URL.
 
-## Mouth and tongue visuals
+## Mouth and tongue videos
 
-Each symbol has a **口形与舌位** figure in the explorer and in comparisons. It shows the lips from the front and the tongue from the side, with airflow and voicing cues. Use **播放动作** to replay, **暂停** to stop, or the numbered steps to inspect a phase. With reduced motion enabled, **下一步** changes the still without animating. Blue dotted arrows show diphthong tongue movement; the other dashed arrows show airflow.
+Each symbol has a **舌位与口形** video in both the explorer and comparisons. MRI shows the tongue, lips and vocal tract from the side; ultrasound shows the tongue surface with a lip-camera inset. The source's original poster appears first; use the video controls to play, pause, seek or open fullscreen. Starting a clip stops other video and word playback, and starting a word pauses video.
 
-Every figure has a **图示依据** disclosure with references including Cambridge phonetics publications and the University of Glasgow's Seeing Speech. These are original teaching schematics of relative articulation, not copied diagrams or MRI measurements; real British speakers vary. The source review and all 44 symbol mappings are in [articulation research](docs/research/articulation-visuals.md). All visuals are local inline SVG; they work without network access or additional media downloads.
+20 vowel-word clips come from Southampton, England in [Dynamic Dialects](https://www.dynamicdialects.ac.uk/); 22 consonant demonstrations are by Janet Beck in [Seeing Speech](https://www.seeingspeech.ac.uk/); two affricate clips are adult London whole-word examples from [STAR](https://www.seeingspeech.ac.uk/speechstar/). These are complete original videos with original posters, not generated animations or isolated phoneme recordings. Traditional centring-diphthong variants and regional context are labelled. The [44-symbol source matrix](docs/research/articulation-visuals.md) records the exact mappings and inspection limits.
+
+All 88 media assets are bundled locally (about 29 MiB), work after the site loads without contacting a third-party player, and retain **CC BY-NC-ND 4.0** terms. They are unchanged and for non-commercial use with attribution; the publishers prohibit AI training, machine learning and automated transformation without permission. See [THIRD_PARTY.md](THIRD_PARTY.md). No project-wide code licence is selected.

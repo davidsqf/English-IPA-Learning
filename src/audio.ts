@@ -12,6 +12,7 @@ export class LocalPlayer {
     // Some browsers load their voice list asynchronously on first access.
     window.speechSynthesis?.getVoices();
   }
+  onStart: () => void = () => {};
   onStatus: (message: string) => void = () => {};
   stop() {
     this.serial++;
@@ -34,6 +35,7 @@ export class LocalPlayer {
   }
   speakWord(word: string, button: HTMLButtonElement) {
     this.stop();
+    this.onStart();
     if (!('speechSynthesis' in window) || typeof SpeechSynthesisUtterance === 'undefined') {
       this.onStatus('此浏览器不支持语音，请点击词语听词典发音。'); return;
     }
@@ -80,6 +82,7 @@ export class LocalPlayer {
   }
   async play(id: string, button: HTMLButtonElement, ended: () => void = () => {}) {
     this.stop();
+    this.onStart();
     const source = samples.get(id);
     if (!source) { this.onStatus('录音未能载入，请刷新页面重试。'); return; }
     const serial = this.serial;
